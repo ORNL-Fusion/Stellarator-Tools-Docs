@@ -3130,6 +3130,7 @@ var namespaces_dup =
       [ "vn_wb", "namespacerestart__mod.html#afd2ed069cf8731eb379df78b1b085548", null ],
       [ "vn_wout", "namespacerestart__mod.html#af98cc2e59f0dfde95f34cbd6fcee7f13", null ],
       [ "vn_wp", "namespacerestart__mod.html#a1ba6dace1c8d1a2cd318917bcdea24d5", null ],
+      [ "vn_wtotal0", "namespacerestart__mod.html#a3a447a25644f2615c98e3ebc253807a3", null ],
       [ "vn_zmnc", "namespacerestart__mod.html#abf2e51d7dee49cef6fcca1c779449add", null ],
       [ "vn_zmns", "namespacerestart__mod.html#a6e4b6e126838dde0fb014793d1a04a08", null ]
     ] ],
