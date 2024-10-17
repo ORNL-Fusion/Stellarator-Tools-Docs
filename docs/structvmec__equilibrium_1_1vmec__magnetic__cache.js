@@ -1,0 +1,26 @@
+var structvmec__equilibrium_1_1vmec__magnetic__cache =
+[
+    [ "ds", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a31c84b5e57eb1c38e1a696431b496b71", null ],
+    [ "du", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a47dd7ceadc944929a68dfdaabc1cca17", null ],
+    [ "du_a", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#aaf025c38ca4592158b5e6e8d2f39dd48", null ],
+    [ "du_full", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#ac34d68388d67b9f11d03e3b01cde52fe", null ],
+    [ "dv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a1d4c558512f1f25b936ac2dfcbf20506", null ],
+    [ "dv_a", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a9dcb43ceee77239e47c13cdaba052f2e", null ],
+    [ "dv_full", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a309349ce33bf6d76d1ef6705eba6f7f6", null ],
+    [ "jphisuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a875b09d28436549885eead1c411939a8", null ],
+    [ "jrsuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#afeb0e0b1c633d3048526ff286015dc4d", null ],
+    [ "jzsuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a73e56d050a437f1ed24100f3b2adae6b", null ],
+    [ "kphiuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#aab1a8c68541bc4947df3987e044f60c6", null ],
+    [ "kruv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#aed6cd734ef41ac313c5b6ddff49ad20b", null ],
+    [ "kxuv_axi", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a24f683173ff5a7c7f2c66d55c654da32", null ],
+    [ "kxuv_full", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a4e38239db359ef0a3c83bff68f5cbe7e", null ],
+    [ "kyuv_axi", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a2663ab2421d956fca056211384df0312", null ],
+    [ "kyuv_full", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a74351048944ae09c304bd1a2bf5a9df5", null ],
+    [ "kzuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a6b75eb0ff2c26368f853ae65ce240e3f", null ],
+    [ "kzuv_axi", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#ab5c772d01b6984ebc52deb91e0d67a16", null ],
+    [ "kzuv_full", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a93611c47f5170cec3061a31a1b3986c6", null ],
+    [ "rsuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a8f3b85605560b72198dd347454d7c930", null ],
+    [ "x_axi", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#a32596b29b642a451707b7b30d34c0359", null ],
+    [ "x_prime", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#aa43c7e0e49e5236813ddc6ce542f654b", null ],
+    [ "zsuv", "structvmec__equilibrium_1_1vmec__magnetic__cache.html#afbc741281b01cf9e4b56b7e9851b1607", null ]
+];

@@ -1,0 +1,13 @@
+var namespacesiesta__run =
+[
+    [ "siesta_run_class", "structsiesta__run_1_1siesta__run__class.html", "structsiesta__run_1_1siesta__run__class" ],
+    [ "siesta_run_construct", "namespacesiesta__run.html#a3de6a89dbe0332b6e36726df6446586a", null ],
+    [ "siesta_run_converge", "namespacesiesta__run.html#a34192c15f6cda422bdf260056fee9ddb", null ],
+    [ "siesta_run_destruct", "namespacesiesta__run.html#a1c33afffa76a39261bbb967b49e31ffb", null ],
+    [ "siesta_run_get_1d", "namespacesiesta__run.html#a39f2be7bdf0394de83c9d366dbd3edac", null ],
+    [ "siesta_run_sync", "namespacesiesta__run.html#aa7d064142ea9b752edc46db8bf587326", null ],
+    [ "siesta_run_control_clear", "namespacesiesta__run.html#aa2d2bc4e99ec0e6793849e2bcbb30d4b", null ],
+    [ "siesta_run_control_mpi", "namespacesiesta__run.html#a3edbdc3a80b2a5c1e24606fc25eab448", null ],
+    [ "siesta_run_control_wout", "namespacesiesta__run.html#aa3050a3f5a2791a245c899b101605239", null ],
+    [ "siesta_run_sync_namelist", "namespacesiesta__run.html#aed7a512f2da2451105ece9eb19f43c7e", null ]
+];
