@@ -1,8 +1,7 @@
 var reconstruction_8f =
 [
     [ "reconstruction_class", "structreconstruction_1_1reconstruction__class.html", "structreconstruction_1_1reconstruction__class" ],
-    [ "reconstruction_write_step", "interfacereconstruction_1_1reconstruction__write__step.html", "interfacereconstruction_1_1reconstruction__write__step" ],
-    [ "reconstruction_construct", "reconstruction_8f.html#a83008030c2512b04eb98f02af3ee7f73", null ],
+    [ "reconstruction_construct", "reconstruction_8f.html#a4cb9d18c339aaa6e7b886f399548ae8c", null ],
     [ "reconstruction_destruct", "reconstruction_8f.html#aa851e7448de9605070f9c6f86bc917e8", null ],
     [ "reconstruction_eval_e", "reconstruction_8f.html#aebe0eed2575d30465603e1a65babbeaa", null ],
     [ "reconstruction_eval_f", "reconstruction_8f.html#a05b135cafa07fb268af718143b1045ca", null ],

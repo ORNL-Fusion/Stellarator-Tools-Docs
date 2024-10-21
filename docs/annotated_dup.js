@@ -544,8 +544,7 @@ var annotated_dup =
       [ "prfun", "structread__response__nompi_1_1prfun.html", "structread__response__nompi_1_1prfun" ]
     ] ],
     [ "reconstruction", "namespacereconstruction.html", [
-      [ "reconstruction_class", "structreconstruction_1_1reconstruction__class.html", "structreconstruction_1_1reconstruction__class" ],
-      [ "reconstruction_write_step", "interfacereconstruction_1_1reconstruction__write__step.html", "interfacereconstruction_1_1reconstruction__write__step" ]
+      [ "reconstruction_class", "structreconstruction_1_1reconstruction__class.html", "structreconstruction_1_1reconstruction__class" ]
     ] ],
     [ "siesta_context", "namespacesiesta__context.html", [
       [ "siesta_context_class", "structsiesta__context_1_1siesta__context__class.html", "structsiesta__context_1_1siesta__context__class" ]

@@ -131,6 +131,18 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:afc956ea722061536cdc2ecd478308f4d"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__context.html#afc956ea722061536cdc2ecd478308f4d">v3fit_context_restart</a> (this, current_step)</td></tr>
 <tr class="memdesc:afc956ea722061536cdc2ecd478308f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the reconstruction.  <a href="namespacev3fit__context.html#afc956ea722061536cdc2ecd478308f4d">More...</a><br /></td></tr>
 <tr class="separator:afc956ea722061536cdc2ecd478308f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a318ab4ec5c9af7080dfa63124efd1"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__context.html#ac7a318ab4ec5c9af7080dfa63124efd1">v3fit_context_get_eq_comm</a> (this)</td></tr>
+<tr class="memdesc:ac7a318ab4ec5c9af7080dfa63124efd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mpi comm for the equilibrium.  <a href="namespacev3fit__context.html#ac7a318ab4ec5c9af7080dfa63124efd1">More...</a><br /></td></tr>
+<tr class="separator:ac7a318ab4ec5c9af7080dfa63124efd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a374ddfdbe047ecdac7eb03cc76654b3e"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__context.html#a374ddfdbe047ecdac7eb03cc76654b3e">v3fit_context_get_eq_rank</a> (this)</td></tr>
+<tr class="memdesc:a374ddfdbe047ecdac7eb03cc76654b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mpi rank for the equilibrium.  <a href="namespacev3fit__context.html#a374ddfdbe047ecdac7eb03cc76654b3e">More...</a><br /></td></tr>
+<tr class="separator:a374ddfdbe047ecdac7eb03cc76654b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75166fa29e5cec9badcfc4bd262755a6"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__context.html#a75166fa29e5cec9badcfc4bd262755a6">v3fit_context_get_recon_comm</a> (this)</td></tr>
+<tr class="memdesc:a75166fa29e5cec9badcfc4bd262755a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mpi comm for the reconstruction.  <a href="namespacev3fit__context.html#a75166fa29e5cec9badcfc4bd262755a6">More...</a><br /></td></tr>
+<tr class="separator:a75166fa29e5cec9badcfc4bd262755a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8afae719658e4777911acc6042f86d33"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__context.html#a8afae719658e4777911acc6042f86d33">v3fit_context_get_recon_rank</a> (this)</td></tr>
+<tr class="memdesc:a8afae719658e4777911acc6042f86d33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mpi rank for the reconstruction.  <a href="namespacev3fit__context.html#a8afae719658e4777911acc6042f86d33">More...</a><br /></td></tr>
+<tr class="separator:a8afae719658e4777911acc6042f86d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines a <a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a> object to contain all the memory for running v3fit. Contains methods to write memory to disk. </p>
@@ -144,7 +156,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_close_files </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -199,7 +211,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_create_files </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -226,7 +238,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_destruct </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), pointer&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -244,6 +256,114 @@ Functions/Subroutines</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7a318ab4ec5c9af7080dfa63124efd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a318ab4ec5c9af7080dfa63124efd1">&#9670;&nbsp;</a></span>v3fit_context_get_eq_comm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer function v3fit_context::v3fit_context_get_eq_comm </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the mpi comm for the equilibrium. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The equilibrium comm. </dd></dl>
+
+</div>
+</div>
+<a id="a374ddfdbe047ecdac7eb03cc76654b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a374ddfdbe047ecdac7eb03cc76654b3e">&#9670;&nbsp;</a></span>v3fit_context_get_eq_rank()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer function v3fit_context::v3fit_context_get_eq_rank </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the mpi rank for the equilibrium. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The rank of the equilibrium comm. </dd></dl>
+
+</div>
+</div>
+<a id="a75166fa29e5cec9badcfc4bd262755a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75166fa29e5cec9badcfc4bd262755a6">&#9670;&nbsp;</a></span>v3fit_context_get_recon_comm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer function v3fit_context::v3fit_context_get_recon_comm </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the mpi comm for the reconstruction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The equilibrium comm. </dd></dl>
+
+</div>
+</div>
+<a id="a8afae719658e4777911acc6042f86d33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8afae719658e4777911acc6042f86d33">&#9670;&nbsp;</a></span>v3fit_context_get_recon_rank()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer function v3fit_context::v3fit_context_get_recon_rank </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the mpi rank for the reconstruction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The rank of the equilibrium comm. </dd></dl>
+
+</div>
+</div>
 <a id="a397be0527ba6e7d56eacdfd2b9a04b4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a397be0527ba6e7d56eacdfd2b9a04b4c">&#9670;&nbsp;</a></span>v3fit_context_init_data()</h2>
 
@@ -253,7 +373,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_init_data </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -291,7 +411,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_resize </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -318,7 +438,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">integer function v3fit_context::v3fit_context_restart </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -357,7 +477,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_write </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -385,7 +505,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_write_param_header </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -438,7 +558,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine v3fit_context::v3fit_context_write_step_data </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__context_1_1v3fit__context__class.html">v3fit_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>

@@ -88,7 +88,7 @@ var structvmec__equilibrium_1_1vmec__class =
     [ "sxrem", "structvmec__equilibrium_1_1vmec__class.html#acd7269daba9cffc01dde250c00b24b34", null ],
     [ "te", "structvmec__equilibrium_1_1vmec__class.html#a0dfd08d4f237fae503c7b27513cfee02", null ],
     [ "ti", "structvmec__equilibrium_1_1vmec__class.html#a82d2d9bfc3da51b9af56dec9d6019eac", null ],
-    [ "vmec_context_save", "structvmec__equilibrium_1_1vmec__class.html#a0317c9ff99c7700394dc03a47d709797", null ],
+    [ "vmec_context_save", "structvmec__equilibrium_1_1vmec__class.html#a10ab06fbf98924a317ca950940aecfd3", null ],
     [ "vmec_file_name", "structvmec__equilibrium_1_1vmec__class.html#ad7acdbbcea1727c6d76e99b70aeb0b04", null ],
     [ "wout_file_name", "structvmec__equilibrium_1_1vmec__class.html#a31929fb764bd503d781f77983a407797", null ],
     [ "z_offset", "structvmec__equilibrium_1_1vmec__class.html#a5d271bc12f77cee3d936c67e06679bc0", null ]

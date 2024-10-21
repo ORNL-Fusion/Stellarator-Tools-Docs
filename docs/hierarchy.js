@@ -427,7 +427,6 @@ var hierarchy =
       [ "half_grid", "classhalf__grid.html", null ]
     ] ],
     [ "reconstruction::reconstruction_class", "structreconstruction_1_1reconstruction__class.html", null ],
-    [ "reconstruction::reconstruction_write_step", "interfacereconstruction_1_1reconstruction__write__step.html", null ],
     [ "vmec_equilibrium::runvmec", "interfacevmec__equilibrium_1_1runvmec.html", null ],
     [ "integration_path_context::search_function", "interfaceintegration__path__context_1_1search__function.html", null ],
     [ "integration_path_context::search_path_context_class", "structintegration__path__context_1_1search__path__context__class.html", [

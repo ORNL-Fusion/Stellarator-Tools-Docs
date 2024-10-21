@@ -1,5 +1,7 @@
 var structsiesta__context_1_1siesta__context__class =
 [
+    [ "read", "structsiesta__context_1_1siesta__context__class.html#afd818c39708ebbbd3a49ef4f942094eb", null ],
+    [ "siesta_context_destruct", "structsiesta__context_1_1siesta__context__class.html#a2ba484bb05c62810243f0cadbe9529e4", null ],
     [ "b_factor", "structsiesta__context_1_1siesta__context__class.html#a00f20e9b7f484ada0bfe0e23b7bc7344", null ],
     [ "bsubsmnch", "structsiesta__context_1_1siesta__context__class.html#a95488ca8cd9626acb9cebe23a296a4a5", null ],
     [ "bsubsmnsh", "structsiesta__context_1_1siesta__context__class.html#ac8bd9355afda55a7e2e6b8ae75ede821", null ],
@@ -27,5 +29,6 @@ var structsiesta__context_1_1siesta__context__class =
     [ "p_max", "structsiesta__context_1_1siesta__context__class.html#abaead99df4cdf6b9b27a2cdebefd92ba", null ],
     [ "p_min", "structsiesta__context_1_1siesta__context__class.html#ac97854b90762f138fb024b3806984444", null ],
     [ "pmnch", "structsiesta__context_1_1siesta__context__class.html#a0345c39edcb29f412cd57b380de82d9b", null ],
-    [ "pmnsh", "structsiesta__context_1_1siesta__context__class.html#a0c8bd2ef01f9dc9879011d17eb537d7b", null ]
+    [ "pmnsh", "structsiesta__context_1_1siesta__context__class.html#a0c8bd2ef01f9dc9879011d17eb537d7b", null ],
+    [ "tor_modes", "structsiesta__context_1_1siesta__context__class.html#a01b27f02cbaba1e45c1e09b6d598ed57", null ]
 ];

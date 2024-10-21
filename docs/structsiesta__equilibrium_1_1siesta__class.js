@@ -45,7 +45,8 @@ var structsiesta__equilibrium_1_1siesta__class =
     [ "sync_state", "structsiesta__equilibrium_1_1siesta__class.html#a738721bc3359421c2dcf2feaf0b9f822", null ],
     [ "write", "structsiesta__equilibrium_1_1siesta__class.html#a5cf25969e5e9f0abd88e9af067527a80", null ],
     [ "write_input", "structsiesta__equilibrium_1_1siesta__class.html#aeeeccdabdc1b6f46363307f05928872e", null ],
-    [ "context", "structsiesta__equilibrium_1_1siesta__class.html#abf5e5a1f4af7f63754e9f1092aedf6c1", null ],
+    [ "context", "structsiesta__equilibrium_1_1siesta__class.html#adc6f068ee84fb1bd6bb0a76ca3e5fed2", null ],
     [ "restart_file_name", "structsiesta__equilibrium_1_1siesta__class.html#a13072e00583bf4a02054abb0ffd4136f", null ],
+    [ "run_context", "structsiesta__equilibrium_1_1siesta__class.html#a486ef380a3eb099b8e1af66726cba2f7", null ],
     [ "siesta_file_name", "structsiesta__equilibrium_1_1siesta__class.html#ae19c1b20b25402d8bc6ccee2a71cc487", null ]
 ];

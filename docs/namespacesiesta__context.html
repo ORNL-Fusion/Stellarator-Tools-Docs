@@ -101,9 +101,9 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a7f8ee4d2a3fcdb11f20f6566ec8ad602"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__context.html#a7f8ee4d2a3fcdb11f20f6566ec8ad602">siesta_context_construct</a> (restart_file_name)</td></tr>
-<tr class="memdesc:a7f8ee4d2a3fcdb11f20f6566ec8ad602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a> object.  <a href="namespacesiesta__context.html#a7f8ee4d2a3fcdb11f20f6566ec8ad602">More...</a><br /></td></tr>
-<tr class="separator:a7f8ee4d2a3fcdb11f20f6566ec8ad602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e985bdf0864c65ef644db6f3cdba7ae"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__context.html#a9e985bdf0864c65ef644db6f3cdba7ae">siesta_context_construct</a> (restart_file_name)</td></tr>
+<tr class="memdesc:a9e985bdf0864c65ef644db6f3cdba7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a> object.  <a href="namespacesiesta__context.html#a9e985bdf0864c65ef644db6f3cdba7ae">More...</a><br /></td></tr>
+<tr class="separator:a9e985bdf0864c65ef644db6f3cdba7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a231ef8939c57cb53895ccde8612f84a7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__context.html#a231ef8939c57cb53895ccde8612f84a7">siesta_context_destruct</a> (this)</td></tr>
 <tr class="memdesc:a231ef8939c57cb53895ccde8612f84a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a> object.  <a href="namespacesiesta__context.html#a231ef8939c57cb53895ccde8612f84a7">More...</a><br /></td></tr>
 <tr class="separator:a231ef8939c57cb53895ccde8612f84a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,14 +114,14 @@ Functions/Subroutines</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the base class of the type <a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>. This contains the state variables needed by SIESTA. </p>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a id="a7f8ee4d2a3fcdb11f20f6566ec8ad602"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f8ee4d2a3fcdb11f20f6566ec8ad602">&#9670;&nbsp;</a></span>siesta_context_construct()</h2>
+<a id="a9e985bdf0864c65ef644db6f3cdba7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e985bdf0864c65ef644db6f3cdba7ae">&#9670;&nbsp;</a></span>siesta_context_construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type (<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>) function, pointer siesta_context::siesta_context_construct </td>
+          <td class="memname">class (<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>) function, pointer siesta_context::siesta_context_construct </td>
           <td>(</td>
           <td class="paramtype">character (len=*), intent(in)&#160;</td>
           <td class="paramname"><em>restart_file_name</em></td><td>)</td>
@@ -151,7 +151,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine siesta_context::siesta_context_destruct </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>), pointer&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -178,7 +178,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine siesta_context::siesta_context_read </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>), pointer&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structsiesta__context_1_1siesta__context__class.html">siesta_context_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
