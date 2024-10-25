@@ -288,8 +288,17 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memdesc:ab34978d83d0ca311e835f259912979e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a parameter id is a reconstruction parameter.  <a href="namespaceequilibrium.html#ab34978d83d0ca311e835f259912979e0">More...</a><br /></td></tr>
 <tr class="separator:ab34978d83d0ca311e835f259912979e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7549affbf460dbc78e762e99b6ce58de"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceequilibrium.html#a7549affbf460dbc78e762e99b6ce58de">equilibrium_is_using_point</a> (this)</td></tr>
-<tr class="memdesc:a7549affbf460dbc78e762e99b6ce58de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a the point magnetics are being used.  <a href="namespaceequilibrium.html#a7549affbf460dbc78e762e99b6ce58de">More...</a><br /></td></tr>
+<tr class="memdesc:a7549affbf460dbc78e762e99b6ce58de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the point magnetics are being used.  <a href="namespaceequilibrium.html#a7549affbf460dbc78e762e99b6ce58de">More...</a><br /></td></tr>
 <tr class="separator:a7549affbf460dbc78e762e99b6ce58de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3419b4208885329286594d94e7cd5f"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceequilibrium.html#a1a3419b4208885329286594d94e7cd5f">equilibrium_has_vacuum_field</a> (this)</td></tr>
+<tr class="memdesc:a1a3419b4208885329286594d94e7cd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if vacuum field information is available.  <a href="namespaceequilibrium.html#a1a3419b4208885329286594d94e7cd5f">More...</a><br /></td></tr>
+<tr class="separator:a1a3419b4208885329286594d94e7cd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9622169d5ececd9e9dd564e1b9c106df"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceequilibrium.html#a9622169d5ececd9e9dd564e1b9c106df">equilibrium_is_in_plasma</a> (this, x_cart)</td></tr>
+<tr class="memdesc:a9622169d5ececd9e9dd564e1b9c106df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if a point is inside the plasma or outside.  <a href="namespaceequilibrium.html#a9622169d5ececd9e9dd564e1b9c106df">More...</a><br /></td></tr>
+<tr class="separator:a9622169d5ececd9e9dd564e1b9c106df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f6d4d2f52f7a91bf777194718e0472"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structintegration__path_1_1vertex.html">vertex</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceequilibrium.html#a21f6d4d2f52f7a91bf777194718e0472">equilibrium_limit_path_to_boundary</a> (this, path)</td></tr>
+<tr class="memdesc:a21f6d4d2f52f7a91bf777194718e0472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit an integration path to the boundary.  <a href="namespaceequilibrium.html#a21f6d4d2f52f7a91bf777194718e0472">More...</a><br /></td></tr>
+<tr class="separator:a21f6d4d2f52f7a91bf777194718e0472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae303206d825ca2ea689dcda3fa889a80"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceequilibrium.html#ae303206d825ca2ea689dcda3fa889a80">equilibrium_converge</a> (this, num_iter, iou, eq_comm, state_flags)</td></tr>
 <tr class="memdesc:ae303206d825ca2ea689dcda3fa889a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the equilibrium.  <a href="namespaceequilibrium.html#ae303206d825ca2ea689dcda3fa889a80">More...</a><br /></td></tr>
 <tr class="separator:ae303206d825ca2ea689dcda3fa889a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2673,6 +2682,34 @@ siesta_equilibrium::siesta_get_volume_int_element</dd></dl>
 
 </div>
 </div>
+<a id="a1a3419b4208885329286594d94e7cd5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3419b4208885329286594d94e7cd5f">&#9670;&nbsp;</a></span>equilibrium_has_vacuum_field()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function equilibrium::equilibrium_has_vacuum_field </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines if vacuum field information is available. </p>
+<p>This method is virtual. The actual check should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#ae58f672179f6d1d52da04725f3d21c4d" title="Determines if vacuum field information is available.">vmec_equilibrium::vmec_has_vacuum_field</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True of vacuum fields are available. </dd></dl>
+
+</div>
+</div>
 <a id="a3d5e4a4eb04a0a8d93c090ebfdd8ce89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d5e4a4eb04a0a8d93c090ebfdd8ce89">&#9670;&nbsp;</a></span>equilibrium_is_2d_array()</h2>
 
@@ -2711,6 +2748,45 @@ siesta_equilibrium::siesta_is_2d_array</dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the parameter is a 2d array and false if otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a9622169d5ececd9e9dd564e1b9c106df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9622169d5ececd9e9dd564e1b9c106df">&#9670;&nbsp;</a></span>equilibrium_is_in_plasma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function equilibrium::equilibrium_is_in_plasma </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (rprec), dimension(3), intent(in)&#160;</td>
+          <td class="paramname"><em>x_cart</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines if a point is inside the plasma or outside. </p>
+<p>This method is virtual. The actual check should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#a494308d4187c6db111d2c9ebe0f1d7fe" title="Determines if a point is inside the plasma or outside.">vmec_equilibrium::vmec_is_in_plasma</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A model_class instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x_cart</td><td>Cartesian position to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the point is inside the plasma. </dd></dl>
 
 </div>
 </div>
@@ -2814,10 +2890,8 @@ siesta_equilibrium::siesta_is_scaler_value</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Checks if a the point magnetics are being used. </p>
-<p>This method is virtual. The actual check should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#aed15211e86e828d27bd6fe2fb2b74ae2" title="Checks if a the point magnetics are being used.">vmec_equilibrium::vmec_is_using_point</a> </dd>
-<dd>
-siesta_equilibrium::siesta_is_using_point</dd></dl>
+<p>Checks if the point magnetics are being used. </p>
+<p>This method is virtual. The actual check should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#aed15211e86e828d27bd6fe2fb2b74ae2" title="Checks if the point magnetics are being used.">vmec_equilibrium::vmec_is_using_point</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a> instance. </td></tr>
@@ -2825,6 +2899,45 @@ siesta_equilibrium::siesta_is_using_point</dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the point magnetic are being used. </dd></dl>
+
+</div>
+</div>
+<a id="a21f6d4d2f52f7a91bf777194718e0472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f6d4d2f52f7a91bf777194718e0472">&#9670;&nbsp;</a></span>equilibrium_limit_path_to_boundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type (<a class="el" href="structintegration__path_1_1vertex.html">vertex</a>) function, pointer equilibrium::equilibrium_limit_path_to_boundary </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type (<a class="el" href="structintegration__path_1_1vertex.html">vertex</a>), pointer&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Limit an integration path to the boundary. </p>
+<p>This method is virtual. The actual check should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#a7fc492f175fa76c03823b544bdf388f8" title="Limit an integration path to the boundary.">vmec_equilibrium::vmec_limit_path_to_boundary</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A model_class instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>A chord path. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The chord path limited to the boundary. </dd></dl>
 
 </div>
 </div>

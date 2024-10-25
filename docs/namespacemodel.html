@@ -234,6 +234,15 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ae92f9c0950727e71610455ca8498fca1"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodel.html#ae92f9c0950727e71610455ca8498fca1">model_is_recon_param</a> (this, id)</td></tr>
 <tr class="memdesc:ae92f9c0950727e71610455ca8498fca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if a parameter id is a reconstruction parameter.  <a href="namespacemodel.html#ae92f9c0950727e71610455ca8498fca1">More...</a><br /></td></tr>
 <tr class="separator:ae92f9c0950727e71610455ca8498fca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada35c7587d472fa0c40f1d015a96fd29"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodel.html#ada35c7587d472fa0c40f1d015a96fd29">model_has_vacuum_field</a> (this)</td></tr>
+<tr class="memdesc:ada35c7587d472fa0c40f1d015a96fd29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if vacuum field information is available.  <a href="namespacemodel.html#ada35c7587d472fa0c40f1d015a96fd29">More...</a><br /></td></tr>
+<tr class="separator:ada35c7587d472fa0c40f1d015a96fd29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8189aea0d7f6ed28feebe94053c20b8"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodel.html#ae8189aea0d7f6ed28feebe94053c20b8">model_is_in_plasma</a> (this, x_cart)</td></tr>
+<tr class="memdesc:ae8189aea0d7f6ed28feebe94053c20b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if a point is inside the plasma or outside.  <a href="namespacemodel.html#ae8189aea0d7f6ed28feebe94053c20b8">More...</a><br /></td></tr>
+<tr class="separator:ae8189aea0d7f6ed28feebe94053c20b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c1cd1859a6a61ea6416d6954b93d4e"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structintegration__path_1_1vertex.html">vertex</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodel.html#ac5c1cd1859a6a61ea6416d6954b93d4e">model_limit_path_to_boundary</a> (this, path)</td></tr>
+<tr class="memdesc:ac5c1cd1859a6a61ea6416d6954b93d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit an integration path to the boundary.  <a href="namespacemodel.html#ac5c1cd1859a6a61ea6416d6954b93d4e">More...</a><br /></td></tr>
+<tr class="separator:ac5c1cd1859a6a61ea6416d6954b93d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a039d5b9b4b15952e126981a5793751af"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodel.html#a039d5b9b4b15952e126981a5793751af">model_reset_state</a> (this)</td></tr>
 <tr class="memdesc:a039d5b9b4b15952e126981a5793751af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the internal state of the model.  <a href="namespacemodel.html#a039d5b9b4b15952e126981a5793751af">More...</a><br /></td></tr>
 <tr class="separator:a039d5b9b4b15952e126981a5793751af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2145,6 +2154,71 @@ real(rprec), parameter&#160;</td><td class="memItemRight" valign="bottom"><a cla
 
 </div>
 </div>
+<a id="ada35c7587d472fa0c40f1d015a96fd29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada35c7587d472fa0c40f1d015a96fd29">&#9670;&nbsp;</a></span>model_has_vacuum_field()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function model::model_has_vacuum_field </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines if vacuum field information is available. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structmodel_1_1model__class.html">model_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True of vacuum fields are available. </dd></dl>
+
+</div>
+</div>
+<a id="ae8189aea0d7f6ed28feebe94053c20b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8189aea0d7f6ed28feebe94053c20b8">&#9670;&nbsp;</a></span>model_is_in_plasma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function model::model_is_in_plasma </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (rprec), dimension(3), intent(in)&#160;</td>
+          <td class="paramname"><em>x_cart</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines if a point is inside the plasma or outside. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structmodel_1_1model__class.html">model_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x_cart</td><td>Cartesian position to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the point is inside the plasma. </dd></dl>
+
+</div>
+</div>
 <a id="ae92f9c0950727e71610455ca8498fca1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae92f9c0950727e71610455ca8498fca1">&#9670;&nbsp;</a></span>model_is_recon_param()</h2>
 
@@ -2181,6 +2255,44 @@ real(rprec), parameter&#160;</td><td class="memItemRight" valign="bottom"><a cla
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the id is a reconstruction parameter and false if not. </dd></dl>
+
+</div>
+</div>
+<a id="ac5c1cd1859a6a61ea6416d6954b93d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c1cd1859a6a61ea6416d6954b93d4e">&#9670;&nbsp;</a></span>model_limit_path_to_boundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type (<a class="el" href="structintegration__path_1_1vertex.html">vertex</a>) function, pointer model::model_limit_path_to_boundary </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type (<a class="el" href="structintegration__path_1_1vertex.html">vertex</a>), pointer&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Limit an integration path to the boundary. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structmodel_1_1model__class.html">model_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>A chord path. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The chord path limited to the boundary. </dd></dl>
 
 </div>
 </div>

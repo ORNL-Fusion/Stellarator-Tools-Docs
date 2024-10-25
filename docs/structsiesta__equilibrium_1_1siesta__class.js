@@ -32,7 +32,7 @@ var structsiesta__equilibrium_1_1siesta__class =
     [ "get_ti_radial", "structsiesta__equilibrium_1_1siesta__class.html#a22cd9e614d922c70c492e1cce3b16966", null ],
     [ "get_type", "structsiesta__equilibrium_1_1siesta__class.html#ad9bf6059252cf3a9abfd991847aaf4e0", null ],
     [ "is_1d_array", "structsiesta__equilibrium_1_1siesta__class.html#ab897f25b635db0720a9914bdae2fae09", null ],
-    [ "is_recon_param", "structsiesta__equilibrium_1_1siesta__class.html#a60cf7ec5ca53cd21c20195bb7546cc7c", null ],
+    [ "is_recon_param", "structsiesta__equilibrium_1_1siesta__class.html#a7d771c76c09a699cf74d7669ef24852b", null ],
     [ "reset_state", "structsiesta__equilibrium_1_1siesta__class.html#a6aaa84e86585a16b906dca76794509b3", null ],
     [ "save_state", "structsiesta__equilibrium_1_1siesta__class.html#aedd4f5d222bc9c5e00bde6ddb485aca4", null ],
     [ "set_magnetic_cache_calc", "structsiesta__equilibrium_1_1siesta__class.html#a14726aa1d56e0b13f391408804dcd332", null ],
