@@ -1382,6 +1382,7 @@ var namespaces_dup =
       [ "lscreen0", "gmres__mod_8f.html#a6042753fbcf01d158ebbd347cda031be", null ],
       [ "nfcn", "gmres__mod_8f.html#a0df29bc0aaf6b5fb88fc65c4fe568395", null ]
     ] ],
+    [ "gradient_descent", "namespacegradient__descent.html", "namespacegradient__descent" ],
     [ "guassian_process", "namespaceguassian__process.html", "namespaceguassian__process" ],
     [ "hessian", null, [
       [ "gather_array", "interfacehessian_1_1gather__array.html", "interfacehessian_1_1gather__array" ],

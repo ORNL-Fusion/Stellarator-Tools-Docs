@@ -54,6 +54,7 @@ var hierarchy =
     [ "fftpack::cftrig", "interfacefftpack_1_1cftrig.html", null ],
     [ "system_mod::chdir", "interfacesystem__mod_1_1chdir.html", null ],
     [ "fourier::check", "interfacefourier_1_1check.html", null ],
+    [ "gradient_descent::check", "interfacegradient__descent_1_1check.html", null ],
     [ "integration_path::check", "interfaceintegration__path_1_1check.html", null ],
     [ "read_response::clresfun", "structread__response_1_1clresfun.html", null ],
     [ "read_response_nompi::clresfun", "structread__response__nompi_1_1clresfun.html", null ],
@@ -141,6 +142,9 @@ var hierarchy =
     [ "vmec_utils::getjcyl", "interfacevmec__utils_1_1getjcyl.html", null ],
     [ "system_mod::getpid", "interfacesystem__mod_1_1getpid.html", null ],
     [ "gmres_lib::gmres_info", "structgmres__lib_1_1gmres__info.html", null ],
+    [ "gradient_descent::gradient_descent_class", "structgradient__descent_1_1gradient__descent__class.html", [
+      [ "gradient_descent::gradient_descent_test_class", "structgradient__descent_1_1gradient__descent__test__class.html", null ]
+    ] ],
     [ "utilities::gradienthalf", "interfaceutilities_1_1gradienthalf.html", null ],
     [ "pspline_calls::gridbicub", "interfacepspline__calls_1_1gridbicub.html", null ],
     [ "pspline_calls::gridherm1", "interfacepspline__calls_1_1gridherm1.html", null ],

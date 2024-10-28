@@ -156,6 +156,11 @@ var annotated_dup =
     [ "gmres_lib", null, [
       [ "gmres_info", "structgmres__lib_1_1gmres__info.html", "structgmres__lib_1_1gmres__info" ]
     ] ],
+    [ "gradient_descent", "namespacegradient__descent.html", [
+      [ "gradient_descent_class", "structgradient__descent_1_1gradient__descent__class.html", "structgradient__descent_1_1gradient__descent__class" ],
+      [ "gradient_descent_test_class", "structgradient__descent_1_1gradient__descent__test__class.html", "structgradient__descent_1_1gradient__descent__test__class" ],
+      [ "check", "interfacegradient__descent_1_1check.html", "interfacegradient__descent_1_1check" ]
+    ] ],
     [ "guassian_process", "namespaceguassian__process.html", [
       [ "gaussp_class", "structguassian__process_1_1gaussp__class.html", "structguassian__process_1_1gaussp__class" ],
       [ "gaussp_class_pointer", "structguassian__process_1_1gaussp__class__pointer.html", "structguassian__process_1_1gaussp__class__pointer" ]
