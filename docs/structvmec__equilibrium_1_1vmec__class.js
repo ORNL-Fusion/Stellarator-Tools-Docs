@@ -66,7 +66,6 @@ var structvmec__equilibrium_1_1vmec__class =
     [ "is_recon_param", "structvmec__equilibrium_1_1vmec__class.html#a2a12e6b18c7401fd8951ed33735bfb82", null ],
     [ "is_scaler_value", "structvmec__equilibrium_1_1vmec__class.html#ae3825a1723159e84e3bd5080584398e5", null ],
     [ "is_using_point", "structvmec__equilibrium_1_1vmec__class.html#a0621eddad5da65815b8edfd5c6f3e911", null ],
-    [ "limit_chi", "structvmec__equilibrium_1_1vmec__class.html#a31aa333a28c87e464886b8be2036681f", null ],
     [ "limit_path_to_boundary", "structvmec__equilibrium_1_1vmec__class.html#aff88d81fcf005f925bcc3cec3d025c5b", null ],
     [ "read_vac_file", "structvmec__equilibrium_1_1vmec__class.html#a9df20944178392ac286723b244a66c09", null ],
     [ "reset_state", "structvmec__equilibrium_1_1vmec__class.html#a195ccf27ae278dbd226f949011d8f960", null ],

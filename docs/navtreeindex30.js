@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"structbsc__t_1_1bsc__coil.html#a6cd22f8e2fad31df4d8bef2f73e9e5ac":[53,0,8,0,5],
 "structbsc__t_1_1bsc__coil.html#a7c06924e8585ac579a54e496e9a58563":[53,0,8,0,2],
 "structbsc__t_1_1bsc__coil.html#a8a985bfa97d7fbd332dae1872a0c01b0":[53,0,8,0,8],
 "structbsc__t_1_1bsc__coil.html#a93ecee3e56fa42dfd6759767219c8a9e":[53,0,8,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "structezspline__type_1_1ezspline2__r4.html#a92ae7a9e22529463881feeb79cc36bb9":[53,0,26,4,4],
 "structezspline__type_1_1ezspline2__r4.html#a9b1fc50a57e6f3940e06ceb081861dbb":[53,0,26,4,11],
 "structezspline__type_1_1ezspline2__r4.html#a9d7297e7727ce4b3bb43f453cbda899f":[53,0,26,4,18],
-"structezspline__type_1_1ezspline2__r4.html#aa8ad87d46401964a7d6d20be3e6a009c":[53,0,26,4,20],
-"structezspline__type_1_1ezspline2__r4.html#aaeb4ace1800facd2c3f0ead26bcad37d":[53,0,26,4,9]
+"structezspline__type_1_1ezspline2__r4.html#aa8ad87d46401964a7d6d20be3e6a009c":[53,0,26,4,20]
 };

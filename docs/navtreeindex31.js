@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"structezspline__type_1_1ezspline2__r4.html#aaeb4ace1800facd2c3f0ead26bcad37d":[53,0,26,4,9],
 "structezspline__type_1_1ezspline2__r4.html#ad28a2d30ad8b5c4a78416372f7239119":[53,0,26,4,7],
 "structezspline__type_1_1ezspline2__r4.html#ad92007fdca26a99e138c0945270f5458":[53,0,26,4,1],
 "structezspline__type_1_1ezspline2__r4.html#ad970941af5e406f2efb6a0ab7ea455c2":[53,0,26,4,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "structintpol_1_1intpol__gp__pol__context__i.html#ab081c08ef51eb6554b3b0f05ee920f58":[53,0,35,5,0],
 "structintpol_1_1intpol__gp__pol__context__i.html#ac495dbcfaadaa71e8fbae4e1a757fbdf":[53,0,35,5,3],
 "structintpol_1_1intpol__gp__pol__context__s.html":[53,0,35,7],
-"structintpol_1_1intpol__gp__pol__context__s.html#a304d2befa3059d9a1ec9e02dd265e913":[53,0,35,7,2],
-"structintpol_1_1intpol__gp__pol__context__s.html#ae9c01f40653a763a0aaa1c976225b22f":[53,0,35,7,3]
+"structintpol_1_1intpol__gp__pol__context__s.html#a304d2befa3059d9a1ec9e02dd265e913":[53,0,35,7,2]
 };

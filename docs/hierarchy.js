@@ -143,7 +143,8 @@ var hierarchy =
     [ "system_mod::getpid", "interfacesystem__mod_1_1getpid.html", null ],
     [ "gmres_lib::gmres_info", "structgmres__lib_1_1gmres__info.html", null ],
     [ "gradient_descent::gradient_descent_class", "structgradient__descent_1_1gradient__descent__class.html", [
-      [ "gradient_descent::gradient_descent_test_class", "structgradient__descent_1_1gradient__descent__test__class.html", null ]
+      [ "gradient_descent::gradient_descent_test_class", "structgradient__descent_1_1gradient__descent__test__class.html", null ],
+      [ "vmec_equilibrium::vmec_descent_class", "structvmec__equilibrium_1_1vmec__descent__class.html", null ]
     ] ],
     [ "utilities::gradienthalf", "interfaceutilities_1_1gradienthalf.html", null ],
     [ "pspline_calls::gridbicub", "interfacepspline__calls_1_1gridbicub.html", null ],

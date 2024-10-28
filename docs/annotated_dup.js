@@ -665,6 +665,7 @@ var annotated_dup =
     [ "vmec_equilibrium", "namespacevmec__equilibrium.html", [
       [ "vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ],
       [ "vmec_class", "structvmec__equilibrium_1_1vmec__class.html", "structvmec__equilibrium_1_1vmec__class" ],
+      [ "vmec_descent_class", "structvmec__equilibrium_1_1vmec__descent__class.html", "structvmec__equilibrium_1_1vmec__descent__class" ],
       [ "runvmec", "interfacevmec__equilibrium_1_1runvmec.html", "interfacevmec__equilibrium_1_1runvmec" ]
     ] ],
     [ "vmec_file", "namespacevmec__file.html", [
