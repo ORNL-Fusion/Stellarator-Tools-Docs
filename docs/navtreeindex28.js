@@ -235,6 +235,9 @@ var NAVTREEINDEX28 =
 "siesta_namelist_sec.html#siesta_grid_size_out_sec":[22,1,3,0],
 "siesta_namelist_sec.html#siesta_grid_size_sec":[22,1,3],
 "siesta_namelist_sec.html#siesta_island_sec":[22,1,2],
+"siesta_namelist_sec.html#siesta_namelist_exam_free_sec":[22,1,8],
+"siesta_namelist_sec.html#siesta_namelist_exam_sec":[22,1,6],
+"siesta_namelist_sec.html#siesta_namelist_exam_sparse_sec":[22,1,7],
 "siesta_namelist_sec.html#siesta_namelist_intro_sec":[22,0],
 "siesta_namelist_sec.html#siesta_namelist_prog_ref_sec":[22,2],
 "siesta_namelist_sec.html#siesta_namelist_var_sec":[22,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "siesta_restart_sec.html#siesta_restart_grid_arrays_sec":[21,1,4,2],
 "siesta_restart_sec.html#siesta_restart_internal_arrays_asym_sec":[21,1,4,1],
 "siesta_restart_sec.html#siesta_restart_internal_arrays_sec":[21,1,4,0],
-"siesta_restart_sec.html#siesta_restart_intro_sec":[21,0],
-"siesta_restart_sec.html#siesta_restart_mag_arrays_asym_sec":[21,1,4,7],
-"siesta_restart_sec.html#siesta_restart_mag_arrays_sec":[21,1,4,6],
-"siesta_restart_sec.html#siesta_restart_norm_fact_sec":[21,1,2]
+"siesta_restart_sec.html#siesta_restart_intro_sec":[21,0]
 };

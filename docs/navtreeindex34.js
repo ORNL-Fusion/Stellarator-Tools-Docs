@@ -1,5 +1,8 @@
 var NAVTREEINDEX34 =
 {
+"structsiesta__file_1_1siesta__file__class.html#aeeaa75cd24d142369a242ac893458c18":[53,0,60,0,12],
+"structsiesta__file_1_1siesta__file__class.html#aefc2ad23dbc2af3387c5cd3642289a4e":[53,0,60,0,16],
+"structsiesta__file_1_1siesta__file__class.html#afd0efd08eaf07cd8716ff5025fddafc7":[53,0,60,0,7],
 "structsiesta__file_1_1siesta__file__class.html#aff3f1ff8dc50486f6e7309567d548745":[53,0,60,0,4],
 "structsiesta__run_1_1siesta__run__class.html":[53,0,61,0],
 "structsiesta__run_1_1siesta__run__class.html#a10736dcc182478e390404b2773b46c74":[53,0,61,0,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX34 =
 "structvacfield__mod_1_1angles__shifts.html":[53,0,79,0],
 "structvacfield__mod_1_1angles__shifts.html#abf232433a1a47d3bdec1bee722537719":[53,0,79,0,0],
 "structvacuum__equilibrium_1_1vacuum__class.html":[53,0,80,0],
-"structvacuum__equilibrium_1_1vacuum__class.html#a029acb70f7ea59b516cb93d4c721aca8":[53,0,80,0,13],
-"structvacuum__equilibrium_1_1vacuum__class.html#a1ce7a41a9f54e945675e5362a89919cc":[53,0,80,0,9],
-"structvacuum__equilibrium_1_1vacuum__class.html#a21e0272ac3b5dcdf9a58da16f4dedaf0":[53,0,80,0,15],
-"structvacuum__equilibrium_1_1vacuum__class.html#a3f483e95f258a4a26990f4e0e3ba5c0e":[53,0,80,0,1]
+"structvacuum__equilibrium_1_1vacuum__class.html#a029acb70f7ea59b516cb93d4c721aca8":[53,0,80,0,13]
 };

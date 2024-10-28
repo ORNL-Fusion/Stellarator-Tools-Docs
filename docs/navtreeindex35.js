@@ -1,5 +1,8 @@
 var NAVTREEINDEX35 =
 {
+"structvacuum__equilibrium_1_1vacuum__class.html#a1ce7a41a9f54e945675e5362a89919cc":[53,0,80,0,9],
+"structvacuum__equilibrium_1_1vacuum__class.html#a21e0272ac3b5dcdf9a58da16f4dedaf0":[53,0,80,0,15],
+"structvacuum__equilibrium_1_1vacuum__class.html#a3f483e95f258a4a26990f4e0e3ba5c0e":[53,0,80,0,1],
 "structvacuum__equilibrium_1_1vacuum__class.html#a4c9756896d5293dd52196d059c18ec4f":[53,0,80,0,4],
 "structvacuum__equilibrium_1_1vacuum__class.html#a6f4d1d1ca3be0fb900f9f1406529920f":[53,0,80,0,10],
 "structvacuum__equilibrium_1_1vacuum__class.html#a79c66551552a65a693b9d1805ed184ab":[53,0,80,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX35 =
 "sxrem_8f.html#a83c285e77bb9794da47b0a4bace0501a":[54,0,7,0,28,19],
 "sxrem_8f.html#a975b531b2db7f039c05543d060157668":[54,0,7,0,28,21],
 "sxrem_8f.html#a98b972d24c615950906e2069b9c4f8ae":[54,0,7,0,28,27],
-"sxrem_8f.html#aa598fc2540cf0db5055533dacff48fb9":[54,0,7,0,28,22],
-"sxrem_8f.html#ab97ce86dde932894888e6d833c3fee77":[54,0,7,0,28,32],
-"sxrem_8f.html#aba6707e07b7c065e4efc90e3f25cbfd0":[54,0,7,0,28,25],
-"sxrem_8f.html#ad253601dfbbf2e33c9bfe8e9ff7a77d6":[54,0,7,0,28,13]
+"sxrem_8f.html#aa598fc2540cf0db5055533dacff48fb9":[54,0,7,0,28,22]
 };

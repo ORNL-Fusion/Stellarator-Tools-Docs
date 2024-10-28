@@ -96,6 +96,9 @@ $(document).ready(function(){initNavTree('siesta_namelist_sec.html',''); initRes
 </li>
 <li class="level2"><a href="#siesta_file_name_sec">File Names</a></li>
 <li class="level2"><a href="#siesta_test_sec">Test Controls</a></li>
+<li class="level2"><a href="#siesta_namelist_exam_sec">Example Files</a></li>
+<li class="level2"><a href="#siesta_namelist_exam_sparse_sec">Fixed Boundary Sparse modes</a></li>
+<li class="level2"><a href="#siesta_namelist_exam_free_sec">Free Boundary</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#siesta_namelist_prog_ref_sec">Programmers Reference</a></li>
@@ -228,7 +231,74 @@ Test Controls</h2>
 <tr>
 <td width="20%"><code>mupar_test</code></td><td width="50%">UNKNOWN</td><td width="30%"><a class="el" href="namespaceshared__data.html#a0661d0f76647ea92b0d6ea69d1bc32cc">shared_data::mupar_test</a> </td></tr>
 </table>
-<h1><a class="anchor" id="siesta_namelist_prog_ref_sec"></a>
+<h1><a class="anchor" id="siesta_namelist_exam_sec"></a>
+Example Files</h1>
+<h2><a class="anchor" id="siesta_namelist_exam_sec"></a>
+Example Files</h2>
+<p>This example runs a 2 field period stellarator symmetric fixed boundary run where the perturbation is applied to m=2 modes.</p>
+<div class="fragment"><div class="line">&amp;siesta_info</div>
+<div class="line">  lcolscale     = t</div>
+<div class="line">  ladd_pert     = t</div>
+<div class="line">  lrestart      = f</div>
+<div class="line">  niter         = 1000</div>
+<div class="line">  mpolin        = 3</div>
+<div class="line">  ntorin        = 3</div>
+<div class="line">  nfpin         = 2</div>
+<div class="line">  ftol          = 1.0e-20</div>
+<div class="line">  levmarq_param = 1.0e-1</div>
+<div class="line">  wout_file     = <span class="stringliteral">&#39;wout_example.vmec.nc&#39;</span></div>
+<div class="line">  restart_ext   = <span class="stringliteral">&#39;restart_example&#39;</span></div>
+<div class="line">  mres          = 2,</div>
+<div class="line">  helpert       = 5.0e-4</div>
+<div class="line">/</div>
+</div><!-- fragment --><h2><a class="anchor" id="siesta_namelist_exam_sparse_sec"></a>
+Fixed Boundary Sparse modes</h2>
+<p>This example uses sparse modes.</p>
+<div class="fragment"><div class="line">&amp;siesta_info</div>
+<div class="line">  lcolscale      = t</div>
+<div class="line">  ladd_pert      = t</div>
+<div class="line">  lrestart       = f</div>
+<div class="line">  niter          = 1000</div>
+<div class="line">  mpolin         = 3</div>
+<div class="line">  ntorin         = 4</div>
+<div class="line">  nfpin          = 1</div>
+<div class="line">  ntor_type      = <span class="stringliteral">&#39;sparse&#39;</span></div>
+<div class="line">  ntor_modes(0)  = 0</div>
+<div class="line">  ntor_modes(-1) = -1</div>
+<div class="line">  ntor_modes(1)  = 1</div>
+<div class="line">  ntor_modes(-2) = -2</div>
+<div class="line">  ntor_modes(2)  = 2</div>
+<div class="line">  ntor_modes(-3) = -4</div>
+<div class="line">  ntor_modes(3)  = 4</div>
+<div class="line">  ftol           = 1.0e-20</div>
+<div class="line">  levmarq_param  = 1.0e-1</div>
+<div class="line">  wout_file      = <span class="stringliteral">&#39;wout_example.vmec.nc&#39;</span></div>
+<div class="line">  restart_ext    = <span class="stringliteral">&#39;restart_example&#39;</span></div>
+<div class="line">  mres           = 2,</div>
+<div class="line">  helpert        = 5.0e-4</div>
+<div class="line">/</div>
+</div><!-- fragment --><h2><a class="anchor" id="siesta_namelist_exam_free_sec"></a>
+Free Boundary</h2>
+<p>This example for a free boundary equilibrium.</p>
+<div class="fragment"><div class="line">&amp;siesta_info</div>
+<div class="line">  lcolscale      = t</div>
+<div class="line">  ladd_pert      = t</div>
+<div class="line">  lrestart       = f</div>
+<div class="line">  niter          = 1000</div>
+<div class="line">  mpolin         = 3</div>
+<div class="line">  ntorin         = 3</div>
+<div class="line">  nfpin          = 2</div>
+<div class="line">  ftol           = 1.0e-20</div>
+<div class="line">  levmarq_param  = 1.0e-1</div>
+<div class="line">  wout_file      = <span class="stringliteral">&#39;wout_example.vmec.nc&#39;</span></div>
+<div class="line">  restart_ext    = <span class="stringliteral">&#39;restart_example&#39;</span></div>
+<div class="line">  mres           = 2,</div>
+<div class="line">  helpert        = 5.0e-4</div>
+<div class="line">  l_vessel       = t</div>
+<div class="line">  vessel_file    = /path/to/vessel/file</div>
+<div class="line">  mgrid_file     = /path/to/mgrid/file</div>
+<div class="line">/</div>
+</div><!-- fragment --><h1><a class="anchor" id="siesta_namelist_prog_ref_sec"></a>
 Programmers Reference</h1>
 <p>Reference material for the coding to implement this namelist is found in the <a class="el" href="namespacesiesta__namelist.html">siesta_namelist</a> module. </p>
 </div></div><!-- contents -->

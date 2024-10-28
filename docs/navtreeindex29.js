@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"siesta_restart_sec.html#siesta_restart_mag_arrays_asym_sec":[21,1,4,7],
+"siesta_restart_sec.html#siesta_restart_mag_arrays_sec":[21,1,4,6],
+"siesta_restart_sec.html#siesta_restart_norm_fact_sec":[21,1,2],
 "siesta_restart_sec.html#siesta_restart_pres_arrays_sec":[21,1,4,8],
 "siesta_restart_sec.html#siesta_restart_prog_ref_sec":[21,2],
 "siesta_restart_sec.html#siesta_restart_scalar_sec":[21,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "structbsc__t_1_1bsc__coil.html":[53,0,8,0],
 "structbsc__t_1_1bsc__coil.html#a03e596375924b858758d7466802b3c58":[53,0,8,0,0],
 "structbsc__t_1_1bsc__coil.html#a228ec828a0c57c07e1cc9a56714bcc6f":[53,0,8,0,15],
-"structbsc__t_1_1bsc__coil.html#a293fdcb4680c0d798e93e02bb9f9a951":[53,0,8,0,7],
-"structbsc__t_1_1bsc__coil.html#a53afc58c51be35eee4f427b101bfc3eb":[53,0,8,0,12],
-"structbsc__t_1_1bsc__coil.html#a58195caba2bd97b880945df71b7b7277":[53,0,8,0,3],
-"structbsc__t_1_1bsc__coil.html#a5f79aa9c626fa003043de8c452c90bdb":[53,0,8,0,6]
+"structbsc__t_1_1bsc__coil.html#a293fdcb4680c0d798e93e02bb9f9a951":[53,0,8,0,7]
 };

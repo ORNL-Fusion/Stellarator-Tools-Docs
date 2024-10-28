@@ -210,7 +210,10 @@ var NAVTREE =
           [ "Output Grid Sizes", "siesta_namelist_sec.html#siesta_grid_size_out_sec", null ]
         ] ],
         [ "File Names", "siesta_namelist_sec.html#siesta_file_name_sec", null ],
-        [ "Test Controls", "siesta_namelist_sec.html#siesta_test_sec", null ]
+        [ "Test Controls", "siesta_namelist_sec.html#siesta_test_sec", null ],
+        [ "Example Files", "siesta_namelist_sec.html#siesta_namelist_exam_sec", null ],
+        [ "Fixed Boundary Sparse modes", "siesta_namelist_sec.html#siesta_namelist_exam_sparse_sec", null ],
+        [ "Free Boundary", "siesta_namelist_sec.html#siesta_namelist_exam_free_sec", null ]
       ] ],
       [ "Programmers Reference", "siesta_namelist_sec.html#siesta_namelist_prog_ref_sec", null ]
     ] ],
@@ -489,21 +492,21 @@ var NAVTREEINDEX =
 "precon2d_8f.html#af6c5f5816190af783d8278d63fd22343",
 "realspace_8f.html#aabaee5dff4c36ba7c41fcc8814aa12ff",
 "saddle__surface_8f.html#af14139ab7e64abffadad8a9f05b68542",
-"siesta_restart_sec.html#siesta_restart_pres_arrays_sec",
-"structbsc__t_1_1bsc__coil.html#a6cd22f8e2fad31df4d8bef2f73e9e5ac",
-"structezspline__type_1_1ezspline2__r4.html#aaeb4ace1800facd2c3f0ead26bcad37d",
-"structintpol_1_1intpol__gp__pol__context__s.html#ae9c01f40653a763a0aaa1c976225b22f",
-"structpprofile__t_1_1pprofile__class.html#a34b948d7db933bc3ac36796a75702ff8",
-"structsiesta__file_1_1siesta__file__class.html#aff3f1ff8dc50486f6e7309567d548745",
-"structvacuum__equilibrium_1_1vacuum__class.html#a4c9756896d5293dd52196d059c18ec4f",
-"sxrem_8f.html#ad4687afe3ffd0f5ea549c7e3fe5e4169",
-"todo.html",
-"v3fit__input_8f.html#af745a2d519ffade882e38c64e7b136da",
-"vacfield__mod_8f.html#a6bb473b6f6a7f64e6b83004a4c413382",
-"vforces_8f.html#aa89529dea41c192348a7e5797fd30094",
-"vmec__input_8f.html#a42671c5ed934ebdd4a176d9528e991a9",
-"vmec__main_8f.html#adefbda63cdd4db13c8cca1be3728ed2d",
-"wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_arg_sec"
+"siesta_restart_sec.html#siesta_restart_mag_arrays_asym_sec",
+"structbsc__t_1_1bsc__coil.html#a53afc58c51be35eee4f427b101bfc3eb",
+"structezspline__type_1_1ezspline2__r4.html#a9b1fc50a57e6f3940e06ceb081861dbb",
+"structintpol_1_1intpol__gp__pol__context__i.html#ac495dbcfaadaa71e8fbae4e1a757fbdf",
+"structpprofile__t_1_1pprofile__class.html#a1f043520851b656c494842e2a9a7bd15",
+"structsiesta__file_1_1siesta__file__class.html#aeeaa75cd24d142369a242ac893458c18",
+"structvacuum__equilibrium_1_1vacuum__class.html#a1ce7a41a9f54e945675e5362a89919cc",
+"sxrem_8f.html#ab97ce86dde932894888e6d833c3fee77",
+"timer__sub_8f.html#afb516305b7a0962f3833c6f37d368da7",
+"v3fit__input_8f.html#aeedb001946f7995fdb6e7549e4fc1729",
+"vacfield__mod_8f.html#a68e3079e375636a1037d0fbd42433d43",
+"vforces_8f.html#a927b721ac0dc4bcd9cdc4b9248b94fd5",
+"vmec__input_8f.html#a3d4625578c22721dfba96f82caa600f4",
+"vmec__main_8f.html#ad744eac329363d2aa386f9431cd80e00",
+"wout__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
