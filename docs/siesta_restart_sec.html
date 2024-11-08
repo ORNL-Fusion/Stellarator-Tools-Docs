@@ -99,8 +99,10 @@ $(document).ready(function(){initNavTree('siesta_restart_sec.html',''); initResi
 <li class="level3"><a href="#siesta_restart_vmec_arrays_sec">VMEC arrays.</a></li>
 <li class="level3"><a href="#siesta_restart_vmec_arrays_asym_sec">VMEC arrays asym.</a></li>
 <li class="level3"><a href="#siesta_restart_mag_arrays_sec">Magnetic fields.</a></li>
-<li class="level3"><a href="#siesta_restart_mag_arrays_asym_sec">Magnetic fields.</a></li>
+<li class="level3"><a href="#siesta_restart_mag_arrays_asym_sec">Magnetic fields asymmetric.</a></li>
 <li class="level3"><a href="#siesta_restart_pres_arrays_sec">Pressure.</a></li>
+<li class="level3"><a href="#siesta_restart_freeboundary_arrays_sec">Vector potential arrays</a></li>
+<li class="level3"><a href="#siesta_restart_freeboundary_arrays_asym_sec">Vector potential asymmetric arrays</a></li>
 </ul>
 </li>
 </ul>
@@ -243,7 +245,7 @@ Magnetic fields.</h3>
 <td width="20%"><code>bsupvmnch_m_n_r_</code></td><td width="50%">B^v component cosine parity.</td><td width="30%"></td></tr>
 </table>
 <h3><a class="anchor" id="siesta_restart_mag_arrays_asym_sec"></a>
-Magnetic fields.</h3>
+Magnetic fields asymmetric.</h3>
 <table border="1px" width="80%">
 <tr>
 <td width="20%"><code>bsubsmnch_m_n_r_</code></td><td width="50%">B_s component cosine parity.</td><td width="30%"></td></tr>
@@ -265,7 +267,7 @@ Pressure.</h3>
 <td width="20%"><code>pmnch_m_n_r_</code></td><td width="50%">Pressure cosine parity.</td><td width="30%"></td></tr>
 </table>
 <h3><a class="anchor" id="siesta_restart_mag_arrays_asym_sec"></a>
-Magnetic fields.</h3>
+Magnetic fields asymmetric.</h3>
 <table border="1px" width="80%">
 <tr>
 <td width="20%"><code>pmnsh_m_n_r_</code></td><td width="50%">Pressure sine parity.</td><td width="30%"></td></tr>
@@ -287,20 +289,40 @@ Magnetic fields.</h3>
 <td width="20%"><code>fsupvmnch_m_n_r_</code></td><td width="50%">F^v component cosine parity.</td><td width="30%">quantities::fsupvmnsf </td></tr>
 </table>
 <h3><a class="anchor" id="siesta_restart_mag_arrays_asym_sec"></a>
-Magnetic fields.</h3>
+Magnetic fields asymmetric.</h3>
 <table border="1px" width="80%">
 <tr>
-<td width="20%"><code>fsubsmnch_m_n_r_</code></td><td width="50%">F_s component cosine parity.</td><td width="30%">quantities::fsubsmncf </td></tr>
+<td width="20%"><code>fsubsmnsh_m_n_r_</code></td><td width="50%">F_s component sine parity.</td><td width="30%">quantities::fsubsmnsf </td></tr>
 <tr>
-<td width="20%"><code>fsubumnsh_m_n_r_</code></td><td width="50%">F_u component sine parity.</td><td width="30%">quantities::fsubumnsf </td></tr>
+<td width="20%"><code>fsubumnch_m_n_r_</code></td><td width="50%">F_u component cosine parity.</td><td width="30%">quantities::fsubumncf </td></tr>
 <tr>
-<td width="20%"><code>fsubvmnsh_m_n_r_</code></td><td width="50%">F_v component sine parity.</td><td width="30%">quantities::fsubvmnsf </td></tr>
+<td width="20%"><code>fsubvmnch_m_n_r_</code></td><td width="50%">F_v component cosine parity.</td><td width="30%">quantities::fsubvmncf </td></tr>
 <tr>
 <td width="20%"><code>fsupsmnch_m_n_r_</code></td><td width="50%">F^s component cosine parity.</td><td width="30%">quantities::fsupsmncf </td></tr>
 <tr>
 <td width="20%"><code>bsupumnsh_m_n_r_</code></td><td width="50%">F^u component sine parity.</td><td width="30%">quantities::fsupumnsf </td></tr>
 <tr>
 <td width="20%"><code>bsupvmnsh_m_n_r_</code></td><td width="50%">F^v component sine parity.</td><td width="30%">quantities::fsupvmnsf </td></tr>
+</table>
+<h3><a class="anchor" id="siesta_restart_freeboundary_arrays_sec"></a>
+Vector potential arrays</h3>
+<table border="1px" width="80%">
+<tr>
+<td width="20%"><code>asubsmnsf_m_n_r_</code></td><td width="50%">A_s component sine parity.</td><td width="30%"><a class="el" href="namespaceshared__data.html#a87573fa1ab016ed2588da37ccca86835">shared_data::asubsmnsf</a> </td></tr>
+<tr>
+<td width="20%"><code>asubumncf_m_n_r_</code></td><td width="50%">A_u component cosine parity.</td><td width="30%"><a class="el" href="namespaceshared__data.html#ac0f10bb1709996044a49dbcc782bebde">shared_data::asubumncf</a> </td></tr>
+<tr>
+<td width="20%"><code>asubvmncf_m_n_r_</code></td><td width="50%">A_v component cosine parity.</td><td width="30%"><a class="el" href="namespaceshared__data.html#a0a3336731ffa506840e6cc8d78f89f68">shared_data::asubvmncf</a> </td></tr>
+</table>
+<h3><a class="anchor" id="siesta_restart_freeboundary_arrays_asym_sec"></a>
+Vector potential asymmetric arrays</h3>
+<table border="1px" width="80%">
+<tr>
+<td width="20%"><code>asubsmncf_m_n_r_</code></td><td width="50%">A_s component cosine parity.</td><td width="30%"><a class="el" href="namespaceshared__data.html#a33becb95782782d593d234c2e6a086e6">shared_data::asubsmncf</a> </td></tr>
+<tr>
+<td width="20%"><code>asubumnsf_m_n_r_</code></td><td width="50%">A_u component sine parity.</td><td width="30%"><a class="el" href="namespaceshared__data.html#a8204cbbc6aecc2985b44ef64e2de4806">shared_data::asubumnsf</a> </td></tr>
+<tr>
+<td width="20%"><code>asubvmnsf_m_n_r_</code></td><td width="50%">A_v component sine parity.</td><td width="30%"><a class="el" href="namespaceshared__data.html#aca9fad6a7edf01ae301be04653e258a7">shared_data::asubvmnsf</a> </td></tr>
 </table>
 <h1><a class="anchor" id="siesta_restart_prog_ref_sec"></a>
 Programmers Reference</h1>
