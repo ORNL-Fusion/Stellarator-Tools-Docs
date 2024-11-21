@@ -123,6 +123,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a6d8473eb19b6303db674c9feb3e7dc91"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebmw__commandline__parser.html#a6d8473eb19b6303db674c9feb3e7dc91">bmw_commandline_parser_flag_requires_value</a> (this, index)</td></tr>
 <tr class="memdesc:a6d8473eb19b6303db674c9feb3e7dc91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a command line argument requires a value.  <a href="namespacebmw__commandline__parser.html#a6d8473eb19b6303db674c9feb3e7dc91">More...</a><br /></td></tr>
 <tr class="separator:a6d8473eb19b6303db674c9feb3e7dc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33fabff0f7f64b7011206ac3cfb2f504"><td class="memItemLeft" align="right" valign="top">character(len=path_length) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebmw__commandline__parser.html#a33fabff0f7f64b7011206ac3cfb2f504">bmw_commandline_parser_check_arg</a> (this, arg)</td></tr>
+<tr class="memdesc:a33fabff0f7f64b7011206ac3cfb2f504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a command line argument is valid.  <a href="namespacebmw__commandline__parser.html#a33fabff0f7f64b7011206ac3cfb2f504">More...</a><br /></td></tr>
+<tr class="separator:a33fabff0f7f64b7011206ac3cfb2f504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20f83d807faa76fb1702c909adf762d8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebmw__commandline__parser.html#a20f83d807faa76fb1702c909adf762d8">bmw_commandline_parser_print_help</a></td></tr>
 <tr class="memdesc:a20f83d807faa76fb1702c909adf762d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out help text.  <a href="namespacebmw__commandline__parser.html#a20f83d807faa76fb1702c909adf762d8">More...</a><br /></td></tr>
 <tr class="separator:a20f83d807faa76fb1702c909adf762d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +144,67 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the base class of the type <a class="el" href="structbmw__commandline__parser_1_1bmw__commandline__parser__class.html">bmw_commandline_parser_class</a>. </p>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a id="a33fabff0f7f64b7011206ac3cfb2f504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33fabff0f7f64b7011206ac3cfb2f504">&#9670;&nbsp;</a></span>bmw_commandline_parser_check_arg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">character (len=path_length) function bmw_commandline_parser::bmw_commandline_parser_check_arg </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structbmw__commandline__parser_1_1bmw__commandline__parser__class.html">bmw_commandline_parser_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character (len=*), intent(in)&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if a command line argument is valid. </p>
+<p>Valid commands are</p>
+<ul>
+<li>-h</li>
+<li>-mgridf</li>
+<li>-woutf</li>
+<li>-wvacf</li>
+<li>-siestaf</li>
+<li>-outf</li>
+<li>-logf</li>
+<li>-jv</li>
+<li>-ju</li>
+<li>-p_start</li>
+<li>-p_end</li>
+<li>-para</li>
+<li>-force</li>
+<li>-num_r</li>
+<li>-num_p</li>
+<li>-num_z</li>
+<li>-rmax</li>
+<li>-rmin</li>
+<li>-zmax</li>
+<li>-zmin</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structbmw__commandline__parser_1_1bmw__commandline__parser__class.html">bmw_commandline_parser_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">arg</td><td>A command line argument to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The argument if it's valid. </dd></dl>
+
+</div>
+</div>
 <a id="a7325863209617c1c08513e1edb9fec0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7325863209617c1c08513e1edb9fec0f">&#9670;&nbsp;</a></span>bmw_commandline_parser_construct()</h2>
 

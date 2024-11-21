@@ -2,6 +2,7 @@ var structbmw__commandline__parser_1_1bmw__commandline__parser__class =
 [
     [ "bmw_commandline_parser_construct", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#a2b300a914ebb6fdce77cf7ec1978e8bc", null ],
     [ "bmw_commandline_parser_destruct", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#aaa8ec82ff4ba5157cf74e9ed9bd38f96", null ],
+    [ "check_arg", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#ad48cdb5f351ca78a3f5390301fece5cd", null ],
     [ "flag_requires_value", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#a1815fd3c59ba11d0c29b07bce7f713c5", null ],
     [ "get", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#ade6f91bc6c418c2475b49941ef83a97f", null ],
     [ "get_integer", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#a2d20ae952d43c2e5ca97dad899fe3a60", null ],

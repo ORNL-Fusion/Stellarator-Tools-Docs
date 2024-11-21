@@ -1,6 +1,7 @@
 var bmw__commandline__parser_8f =
 [
     [ "bmw_commandline_parser_class", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html", "structbmw__commandline__parser_1_1bmw__commandline__parser__class" ],
+    [ "bmw_commandline_parser_check_arg", "bmw__commandline__parser_8f.html#a33fabff0f7f64b7011206ac3cfb2f504", null ],
     [ "bmw_commandline_parser_construct", "bmw__commandline__parser_8f.html#a7325863209617c1c08513e1edb9fec0f", null ],
     [ "bmw_commandline_parser_destruct", "bmw__commandline__parser_8f.html#acd4277b174db8cc4f89ef2a8572a1edb", null ],
     [ "bmw_commandline_parser_flag_requires_value", "bmw__commandline__parser_8f.html#a6d8473eb19b6303db674c9feb3e7dc91", null ],
