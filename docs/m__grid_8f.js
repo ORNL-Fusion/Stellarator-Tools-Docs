@@ -1,6 +1,6 @@
 var m__grid_8f =
 [
-    [ "m_grid_class", "structm__grid_1_1m__grid__class.html", "structm__grid_1_1m__grid__class" ],
+    [ "m_grid::m_grid_class", "structm__grid_1_1m__grid__class.html", "structm__grid_1_1m__grid__class" ],
     [ "m_grid_construct", "m__grid_8f.html#a82a5959daa406881e3eda3500490e5c0", null ],
     [ "m_grid_construct_plasma", "m__grid_8f.html#a3504fc5f26eb34ffa5887255c4b453bb", null ],
     [ "m_grid_destruct", "m__grid_8f.html#afc2241a933a92830d606b50ca1d5e5c8", null ],

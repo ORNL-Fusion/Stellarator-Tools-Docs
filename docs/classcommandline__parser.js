@@ -1,6 +1,5 @@
 var classcommandline__parser =
 [
-    [ "commandline_parser_class", "structcommandline__parser_1_1commandline__parser__class.html", "structcommandline__parser_1_1commandline__parser__class" ],
     [ "commandline_parser", "classcommandline__parser.html#a61800ad900adb33e907e758118809e4b", null ],
     [ "get", "classcommandline__parser.html#aa10ce792d0a39f95b2cefc29f7cb24da", null ],
     [ "is_set", "classcommandline__parser.html#a3c7a8fb1895341ca1932108756066aaf", null ],

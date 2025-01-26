@@ -1,6 +1,6 @@
 var bmw__commandline__parser_8f =
 [
-    [ "bmw_commandline_parser_class", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html", "structbmw__commandline__parser_1_1bmw__commandline__parser__class" ],
+    [ "bmw_commandline_parser::bmw_commandline_parser_class", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html", "structbmw__commandline__parser_1_1bmw__commandline__parser__class" ],
     [ "bmw_commandline_parser_check_arg", "bmw__commandline__parser_8f.html#a33fabff0f7f64b7011206ac3cfb2f504", null ],
     [ "bmw_commandline_parser_construct", "bmw__commandline__parser_8f.html#a7325863209617c1c08513e1edb9fec0f", null ],
     [ "bmw_commandline_parser_destruct", "bmw__commandline__parser_8f.html#acd4277b174db8cc4f89ef2a8572a1edb", null ],
@@ -11,7 +11,5 @@ var bmw__commandline__parser_8f =
     [ "bmw_commandline_parser_is_flag_set", "bmw__commandline__parser_8f.html#a722146ae07d9b51c77d8ed47be850431", null ],
     [ "bmw_commandline_parser_print_help", "bmw__commandline__parser_8f.html#a20f83d807faa76fb1702c909adf762d8", null ],
     [ "bmw_commandline_parser_arg_not_found", "bmw__commandline__parser_8f.html#ac4d1f02dfd69ad804dcb3ceecdf75efe", null ],
-    [ "bmw_commandline_parser_no_error", "bmw__commandline__parser_8f.html#a90b7ea1b9f129c5146a7732a5f0b98e4", null ],
-    [ "max_arg_length", "bmw__commandline__parser_8f.html#acca17c4316f79e516f90e044933d34f5", null ],
-    [ "max_length", "bmw__commandline__parser_8f.html#ae68144662f2305878865b0854399aa29", null ]
+    [ "bmw_commandline_parser_no_error", "bmw__commandline__parser_8f.html#a90b7ea1b9f129c5146a7732a5f0b98e4", null ]
 ];

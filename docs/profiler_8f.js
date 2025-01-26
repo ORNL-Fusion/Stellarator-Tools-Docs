@@ -1,6 +1,6 @@
 var profiler_8f =
 [
-    [ "profiler_bucket", "structprofiler_1_1profiler__bucket.html", "structprofiler_1_1profiler__bucket" ],
+    [ "profiler::profiler_bucket", "structprofiler_1_1profiler__bucket.html", "structprofiler_1_1profiler__bucket" ],
     [ "profiler_construct", "profiler_8f.html#ab266b6acb4f5255931690b43d31780e5", null ],
     [ "profiler_destruct", "profiler_8f.html#a641db19a17afa3c6f3084c859aa86aa1", null ],
     [ "profiler_get_start_time", "profiler_8f.html#a36371403894ef9b960bac1e58aef5033", null ],

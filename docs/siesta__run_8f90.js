@@ -1,6 +1,6 @@
 var siesta__run_8f90 =
 [
-    [ "siesta_run_class", "structsiesta__run_1_1siesta__run__class.html", "structsiesta__run_1_1siesta__run__class" ],
+    [ "siesta_run::siesta_run_class", "structsiesta__run_1_1siesta__run__class.html", "structsiesta__run_1_1siesta__run__class" ],
     [ "siesta_run_construct", "siesta__run_8f90.html#a3de6a89dbe0332b6e36726df6446586a", null ],
     [ "siesta_run_converge", "siesta__run_8f90.html#a34192c15f6cda422bdf260056fee9ddb", null ],
     [ "siesta_run_destruct", "siesta__run_8f90.html#a1c33afffa76a39261bbb967b49e31ffb", null ],

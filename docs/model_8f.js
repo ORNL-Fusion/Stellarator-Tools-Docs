@@ -1,6 +1,6 @@
 var model_8f =
 [
-    [ "model_class", "structmodel_1_1model__class.html", "structmodel_1_1model__class" ],
+    [ "model::model_class", "structmodel_1_1model__class.html", "structmodel_1_1model__class" ],
     [ "model_construct", "model_8f.html#aba4858fbaa5f5546819d80132d41c204", null ],
     [ "model_converge", "model_8f.html#ae40d3eb6e7863b5ca97a108a8b6eec45", null ],
     [ "model_def_result", "model_8f.html#aaf5b18436f431c1bd3243d7e12fba98b", null ],
@@ -62,22 +62,14 @@ var model_8f =
     [ "model_coosig_wgts_id", "model_8f.html#a25437a3fa32d82cbbd30726d8e8a03d7", null ],
     [ "model_ne_grid_id", "model_8f.html#a8ec59b67723de5350e1243bd13d57308", null ],
     [ "model_ne_min_id", "model_8f.html#a5b31b2e1320a15347fcd70fefc4b4594", null ],
-    [ "model_ne_te_p_type", "model_8f.html#a0554a6f80076a572d32fac24113ceb0c", null ],
-    [ "model_ne_type", "model_8f.html#af1b05d06382c4c39de168f4d52126f7f", null ],
     [ "model_ne_unit_id", "model_8f.html#a27009da4938ee0706157b3bad05bbf9d", null ],
-    [ "model_none_type", "model_8f.html#a965a5f9f1fb814d9bd3f814fc8c535ce", null ],
     [ "model_pressure_fraction_id", "model_8f.html#ad2b6317fad31953186ed8f7a7fad9303", null ],
     [ "model_signal_factor_id", "model_8f.html#a0fac5822f775417cfde63cc60ba7fc95", null ],
     [ "model_signal_offset_id", "model_8f.html#a5859376b779689c5e2bd30c6defea193", null ],
     [ "model_sxrem_grid_id", "model_8f.html#acd7336c016d4b58107cc3c8cf899fea9", null ],
     [ "model_sxrem_min_id", "model_8f.html#a36e70a1922b00ed72f14ca70727782ce", null ],
-    [ "model_sxrem_te_ne_type", "model_8f.html#a927bf2daabce19f3f7f2c1378f480267", null ],
-    [ "model_sxrem_type", "model_8f.html#a6d87c8e0fb511a7fe1dd8333203b4fc8", null ],
     [ "model_te_grid_id", "model_8f.html#a252cedeee618d79814de7327ef8838d1", null ],
     [ "model_te_min_id", "model_8f.html#a219879b1157e2b3db06187739c411fc1", null ],
-    [ "model_te_ne_p_type", "model_8f.html#a7ace565642dcec6c9d8751ca55ee889b", null ],
-    [ "model_te_type", "model_8f.html#a8aaa26eede4b79b3145c5c604d5c9798", null ],
     [ "model_ti_grid_id", "model_8f.html#a7a6ad268d4278577494f334adebb6896", null ],
-    [ "model_ti_min_id", "model_8f.html#aae6c33103f73eddc33eb7ed63798d608", null ],
-    [ "model_ti_type", "model_8f.html#a37031ef751d19565c98b3f3383b522df", null ]
+    [ "model_ti_min_id", "model_8f.html#aae6c33103f73eddc33eb7ed63798d608", null ]
 ];

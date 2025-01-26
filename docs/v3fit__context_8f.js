@@ -1,6 +1,6 @@
 var v3fit__context_8f =
 [
-    [ "v3fit_context_class", "structv3fit__context_1_1v3fit__context__class.html", "structv3fit__context_1_1v3fit__context__class" ],
+    [ "v3fit_context::v3fit_context_class", "structv3fit__context_1_1v3fit__context__class.html", "structv3fit__context_1_1v3fit__context__class" ],
     [ "v3fit_context_close_files", "v3fit__context_8f.html#a0762818fd861b60d914eed8e9c2b5346", null ],
     [ "v3fit_context_construct", "v3fit__context_8f.html#a9bea5a9761b8eef9a1fc4a47c5773734", null ],
     [ "v3fit_context_create_files", "v3fit__context_8f.html#a23986d61a8e51cb493c2a3c8b926a439", null ],

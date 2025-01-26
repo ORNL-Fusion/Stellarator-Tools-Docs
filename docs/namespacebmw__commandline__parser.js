@@ -11,7 +11,5 @@ var namespacebmw__commandline__parser =
     [ "bmw_commandline_parser_is_flag_set", "namespacebmw__commandline__parser.html#a722146ae07d9b51c77d8ed47be850431", null ],
     [ "bmw_commandline_parser_print_help", "namespacebmw__commandline__parser.html#a20f83d807faa76fb1702c909adf762d8", null ],
     [ "bmw_commandline_parser_arg_not_found", "namespacebmw__commandline__parser.html#ac4d1f02dfd69ad804dcb3ceecdf75efe", null ],
-    [ "bmw_commandline_parser_no_error", "namespacebmw__commandline__parser.html#a90b7ea1b9f129c5146a7732a5f0b98e4", null ],
-    [ "max_arg_length", "namespacebmw__commandline__parser.html#acca17c4316f79e516f90e044933d34f5", null ],
-    [ "max_length", "namespacebmw__commandline__parser.html#ae68144662f2305878865b0854399aa29", null ]
+    [ "bmw_commandline_parser_no_error", "namespacebmw__commandline__parser.html#a90b7ea1b9f129c5146a7732a5f0b98e4", null ]
 ];

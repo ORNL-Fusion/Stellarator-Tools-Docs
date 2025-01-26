@@ -1,6 +1,6 @@
 var vacuum__equilibrium_8f =
 [
-    [ "vacuum_class", "structvacuum__equilibrium_1_1vacuum__class.html", "structvacuum__equilibrium_1_1vacuum__class" ],
+    [ "vacuum_equilibrium::vacuum_class", "structvacuum__equilibrium_1_1vacuum__class.html", "structvacuum__equilibrium_1_1vacuum__class" ],
     [ "vacuum_construct", "vacuum__equilibrium_8f.html#a2d815c586d1d0ca800713be1a81a36f6", null ],
     [ "vacuum_destruct", "vacuum__equilibrium_8f.html#a158feaf1eb7f3be723a04e3499e6abeb", null ],
     [ "vacuum_get_b_vec", "vacuum__equilibrium_8f.html#a4df6661459fbdfb21e332948f2b0a81e", null ],

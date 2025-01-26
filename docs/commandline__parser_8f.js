@@ -1,6 +1,6 @@
 var commandline__parser_8f =
 [
-    [ "commandline_parser_class", "structcommandline__parser_1_1commandline__parser__class.html", "structcommandline__parser_1_1commandline__parser__class" ],
+    [ "commandline_parser::commandline_parser_class", "structcommandline__parser_1_1commandline__parser__class.html", "structcommandline__parser_1_1commandline__parser__class" ],
     [ "commandline_parser_construct", "commandline__parser_8f.html#a2edcffc09b8438b5e9a9b8e9834c357f", null ],
     [ "commandline_parser_destruct", "commandline__parser_8f.html#a8ad1d93175eaeb85ac564202ca33c2df", null ],
     [ "commandline_parser_get_integer", "commandline__parser_8f.html#a52486b595e7a6cc39c1dff4facd86361", null ],

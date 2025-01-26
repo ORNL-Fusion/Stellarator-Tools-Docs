@@ -1,6 +1,6 @@
 var bmw__parallel__context_8f =
 [
-    [ "bmw_parallel_context_class", "structbmw__parallel__context_1_1bmw__parallel__context__class.html", "structbmw__parallel__context_1_1bmw__parallel__context__class" ],
+    [ "bmw_parallel_context::bmw_parallel_context_class", "structbmw__parallel__context_1_1bmw__parallel__context__class.html", "structbmw__parallel__context_1_1bmw__parallel__context__class" ],
     [ "bmw_parallel_context_abort", "bmw__parallel__context_8f.html#a749a1ae195871249c5d9927c0ec07fe7", null ],
     [ "bmw_parallel_context_construct", "bmw__parallel__context_8f.html#abb61e77a6092b2a5675be617a44a617a", null ],
     [ "bmw_parallel_context_destruct", "bmw__parallel__context_8f.html#a46fe95711525d902ac2c91671983b10c", null ],

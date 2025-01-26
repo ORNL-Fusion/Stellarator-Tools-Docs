@@ -1,8 +1,8 @@
 var compression_8f =
 [
-    [ "compression_class", "structcompression_1_1compression__class.html", "structcompression_1_1compression__class" ],
-    [ "compression_pointer", "structcompression_1_1compression__pointer.html", "structcompression_1_1compression__pointer" ],
-    [ "compression_construct", "interfacecompression_1_1compression__construct.html", "interfacecompression_1_1compression__construct" ],
+    [ "compression::compression_class", "structcompression_1_1compression__class.html", "structcompression_1_1compression__class" ],
+    [ "compression::compression_pointer", "structcompression_1_1compression__pointer.html", "structcompression_1_1compression__pointer" ],
+    [ "compression::compression_construct", "interfacecompression_1_1compression__construct.html", "interfacecompression_1_1compression__construct" ],
     [ "compression_cleanup", "compression_8f.html#aff0c464eedbab24c1fed7d53a2e45e83", null ],
     [ "compression_construct_netcdf", "compression_8f.html#addd8fd5d4e138309440cb7e8559e330c", null ],
     [ "compression_construct_new", "compression_8f.html#a374ff9c1854bdd9ddf649a9d912e722b", null ],

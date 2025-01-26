@@ -1,6 +1,6 @@
 var siesta__equilibrium_8f =
 [
-    [ "siesta_class", "structsiesta__equilibrium_1_1siesta__class.html", "structsiesta__equilibrium_1_1siesta__class" ],
+    [ "siesta_equilibrium::siesta_class", "structsiesta__equilibrium_1_1siesta__class.html", "structsiesta__equilibrium_1_1siesta__class" ],
     [ "siesta_construct", "siesta__equilibrium_8f.html#aa03917edd53b3948f4e8244f8a7f751e", null ],
     [ "siesta_converge", "siesta__equilibrium_8f.html#aa002c0e73f884fb2a1a3a2e11854b4c2", null ],
     [ "siesta_destruct", "siesta__equilibrium_8f.html#a32d246bc60798c59b64f68e06a74c236", null ],

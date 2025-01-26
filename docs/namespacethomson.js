@@ -1,9 +1,9 @@
 var namespacethomson =
 [
     [ "thomson_class", "structthomson_1_1thomson__class.html", "structthomson_1_1thomson__class" ],
-    [ "thomson_te_class", "structthomson_1_1thomson__te__class.html", "structthomson_1_1thomson__te__class" ],
     [ "thomson_ne_class", "structthomson_1_1thomson__ne__class.html", "structthomson_1_1thomson__ne__class" ],
     [ "thomson_p_class", "structthomson_1_1thomson__p__class.html", "structthomson_1_1thomson__p__class" ],
+    [ "thomson_te_class", "structthomson_1_1thomson__te__class.html", "structthomson_1_1thomson__te__class" ],
     [ "thomson_destruct", "namespacethomson.html#ad46f3991fb572fc3bf469c7b65ab2513", null ],
     [ "thomson_get_gp_s", "namespacethomson.html#ab639ad3d6b0cae850a7226772a513860", null ],
     [ "thomson_get_type", "namespacethomson.html#a1c69b8158aa88dbf4bb5227044c9c4dd", null ],

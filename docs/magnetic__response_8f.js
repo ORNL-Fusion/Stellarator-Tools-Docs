@@ -1,7 +1,7 @@
 var magnetic__response_8f =
 [
-    [ "magnetic_response_class", "structmagnetic__response_1_1magnetic__response__class.html", "structmagnetic__response_1_1magnetic__response__class" ],
-    [ "magnetic_response_construct", "interfacemagnetic__response_1_1magnetic__response__construct.html", "interfacemagnetic__response_1_1magnetic__response__construct" ],
+    [ "magnetic_response::magnetic_response_class", "structmagnetic__response_1_1magnetic__response__class.html", "structmagnetic__response_1_1magnetic__response__class" ],
+    [ "magnetic_response::magnetic_response_construct", "interfacemagnetic__response_1_1magnetic__response__construct.html", "interfacemagnetic__response_1_1magnetic__response__construct" ],
     [ "magnetic_response_clr_use_coil", "magnetic__response_8f.html#a98b69bdb70e180a00540a91de0972dd4", null ],
     [ "magnetic_response_construct_netcdf", "magnetic__response_8f.html#a8a3c69caf524992b84c1c81f875e3d02", null ],
     [ "magnetic_response_construct_new", "magnetic__response_8f.html#a285dfc0eaaf62c559d708dbbf96be7fb", null ],

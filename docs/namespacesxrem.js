@@ -1,23 +1,16 @@
 var namespacesxrem =
 [
     [ "sxrem_class", "structsxrem_1_1sxrem__class.html", "structsxrem_1_1sxrem__class" ],
-    [ "sxrem_emiss_class", "structsxrem_1_1sxrem__emiss__class.html", "structsxrem_1_1sxrem__emiss__class" ],
-    [ "sxrem_ti_class", "structsxrem_1_1sxrem__ti__class.html", "structsxrem_1_1sxrem__ti__class" ],
     [ "sxrem_context", "structsxrem_1_1sxrem__context.html", "structsxrem_1_1sxrem__context" ],
-    [ "sxrem_ti_context", "structsxrem_1_1sxrem__ti__context.html", "structsxrem_1_1sxrem__ti__context" ],
+    [ "sxrem_emiss_class", "structsxrem_1_1sxrem__emiss__class.html", "structsxrem_1_1sxrem__emiss__class" ],
     [ "sxrem_gp_context_i", "structsxrem_1_1sxrem__gp__context__i.html", "structsxrem_1_1sxrem__gp__context__i" ],
-    [ "sxrem_gp_ti_context_i", "structsxrem_1_1sxrem__gp__ti__context__i.html", "structsxrem_1_1sxrem__gp__ti__context__i" ],
     [ "sxrem_gp_context_s", "structsxrem_1_1sxrem__gp__context__s.html", "structsxrem_1_1sxrem__gp__context__s" ],
-    [ "sxrem_gp_ti_context_s", "structsxrem_1_1sxrem__gp__ti__context__s.html", "structsxrem_1_1sxrem__gp__ti__context__s" ],
     [ "sxrem_gp_context_x", "structsxrem_1_1sxrem__gp__context__x.html", "structsxrem_1_1sxrem__gp__context__x" ],
+    [ "sxrem_gp_ti_context_i", "structsxrem_1_1sxrem__gp__ti__context__i.html", "structsxrem_1_1sxrem__gp__ti__context__i" ],
+    [ "sxrem_gp_ti_context_s", "structsxrem_1_1sxrem__gp__ti__context__s.html", "structsxrem_1_1sxrem__gp__ti__context__s" ],
     [ "sxrem_gp_ti_context_x", "structsxrem_1_1sxrem__gp__ti__context__x.html", "structsxrem_1_1sxrem__gp__ti__context__x" ],
-    [ "gp_emiss_function_i", "namespacesxrem.html#a22151d559e4cf1878944c92ca66e57b0", null ],
-    [ "gp_emiss_function_s", "namespacesxrem.html#a155ad6e6d6569f5f36500629476402b8", null ],
-    [ "gp_emiss_function_x", "namespacesxrem.html#ad253601dfbbf2e33c9bfe8e9ff7a77d6", null ],
-    [ "gp_ti_function_i", "namespacesxrem.html#a6adf7536fbcf2c86241750a8ba5e27a0", null ],
-    [ "gp_ti_function_s", "namespacesxrem.html#a1b881832bf38558c63e5c8d1479df7b7", null ],
-    [ "gp_ti_function_x", "namespacesxrem.html#a189da03dafbd60bbbabe7cbde503e405", null ],
-    [ "sxr_function", "namespacesxrem.html#ad4687afe3ffd0f5ea549c7e3fe5e4169", null ],
+    [ "sxrem_ti_class", "structsxrem_1_1sxrem__ti__class.html", "structsxrem_1_1sxrem__ti__class" ],
+    [ "sxrem_ti_context", "structsxrem_1_1sxrem__ti__context.html", "structsxrem_1_1sxrem__ti__context" ],
     [ "sxrem_destruct", "namespacesxrem.html#a7951a757a028449cccdc36353c29715b", null ],
     [ "sxrem_emiss_construct", "namespacesxrem.html#a83c285e77bb9794da47b0a4bace0501a", null ],
     [ "sxrem_emiss_destruct", "namespacesxrem.html#a3504d2727f12e9edcc8589f775e81aac", null ],
@@ -31,6 +24,5 @@ var namespacesxrem =
     [ "sxrem_ti_get_gp_s", "namespacesxrem.html#a2d6df79edd9ff1537a1e94f4e4b0d442", null ],
     [ "sxrem_ti_get_gp_x", "namespacesxrem.html#a011d9eb650506dd013a3d3bc1bca96e5", null ],
     [ "sxrem_ti_get_modeled_signal", "namespacesxrem.html#a06ff81f3a17713d6e579a7ab928f40f4", null ],
-    [ "sxrem_ti_get_type", "namespacesxrem.html#a29a6589470914b44ff66f7131aa75e21", null ],
-    [ "ti_function", "namespacesxrem.html#ab97ce86dde932894888e6d833c3fee77", null ]
+    [ "sxrem_ti_get_type", "namespacesxrem.html#a29a6589470914b44ff66f7131aa75e21", null ]
 ];

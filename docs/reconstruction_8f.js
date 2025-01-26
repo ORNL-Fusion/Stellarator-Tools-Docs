@@ -1,6 +1,6 @@
 var reconstruction_8f =
 [
-    [ "reconstruction_class", "structreconstruction_1_1reconstruction__class.html", "structreconstruction_1_1reconstruction__class" ],
+    [ "reconstruction::reconstruction_class", "structreconstruction_1_1reconstruction__class.html", "structreconstruction_1_1reconstruction__class" ],
     [ "reconstruction_construct", "reconstruction_8f.html#a4cb9d18c339aaa6e7b886f399548ae8c", null ],
     [ "reconstruction_destruct", "reconstruction_8f.html#aa851e7448de9605070f9c6f86bc917e8", null ],
     [ "reconstruction_eval_e", "reconstruction_8f.html#aebe0eed2575d30465603e1a65babbeaa", null ],

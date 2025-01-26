@@ -1,6 +1,6 @@
 var vmec__context_8f =
 [
-    [ "vmec_context_class", "structvmec__context_1_1vmec__context__class.html", "structvmec__context_1_1vmec__context__class" ],
+    [ "vmec_context::vmec_context_class", "structvmec__context_1_1vmec__context__class.html", "structvmec__context_1_1vmec__context__class" ],
     [ "vmec_context_construct", "vmec__context_8f.html#af56356294cab64c01888b7ebdcd707a4", null ],
     [ "vmec_context_destruct", "vmec__context_8f.html#afb80bc5e740637348f0725f5edc5fc6d", null ],
     [ "vmec_context_get_context", "vmec__context_8f.html#a7592273358ba06806ff2db973b9df011", null ],

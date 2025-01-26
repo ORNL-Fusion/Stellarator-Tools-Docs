@@ -1,9 +1,6 @@
 var fourier_8f90 =
 [
-    [ "fourier_class", "structfourier_1_1fourier__class.html", "structfourier_1_1fourier__class" ],
-    [ "check", "interfacefourier_1_1check.html", "interfacefourier_1_1check" ],
-    [ "check_all", "fourier_8f90.html#a0eeb84b2b561ae0263ebd6309b958312", null ],
-    [ "check_mn", "fourier_8f90.html#a7c4418116804bb6c1ce672353dae0320", null ],
+    [ "fourier::fourier_class", "structfourier_1_1fourier__class.html", "structfourier_1_1fourier__class" ],
     [ "fourier_construct", "fourier_8f90.html#ae8eaa592cc2946be1c464738f6d41b59", null ],
     [ "fourier_destruct", "fourier_8f90.html#a35c0f441cadb0006a1d10031283535a8", null ],
     [ "fourier_get_index", "fourier_8f90.html#ab15e4ffa2fcfa91b1b7372684bbfc30a", null ],

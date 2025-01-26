@@ -1,7 +1,7 @@
 var structsiesta__context_1_1siesta__context__class =
 [
-    [ "read", "structsiesta__context_1_1siesta__context__class.html#afd818c39708ebbbd3a49ef4f942094eb", null ],
-    [ "siesta_context_destruct", "structsiesta__context_1_1siesta__context__class.html#a2ba484bb05c62810243f0cadbe9529e4", null ],
+    [ "read", "structsiesta__context_1_1siesta__context__class.html#a83c5f27d5816d1756ef118bf1f493c78", null ],
+    [ "siesta_context_destruct", "structsiesta__context_1_1siesta__context__class.html#a1bee78b416f2e5ea17f96217043dca2a", null ],
     [ "b_factor", "structsiesta__context_1_1siesta__context__class.html#a00f20e9b7f484ada0bfe0e23b7bc7344", null ],
     [ "bsubsmnch", "structsiesta__context_1_1siesta__context__class.html#a95488ca8cd9626acb9cebe23a296a4a5", null ],
     [ "bsubsmnsh", "structsiesta__context_1_1siesta__context__class.html#ac8bd9355afda55a7e2e6b8ae75ede821", null ],

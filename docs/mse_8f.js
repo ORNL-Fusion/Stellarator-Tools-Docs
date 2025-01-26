@@ -1,8 +1,6 @@
 var mse_8f =
 [
-    [ "mse_class", "structmse_1_1mse__class.html", "structmse_1_1mse__class" ],
-    [ "mse_angle_to_bt_proj", "mse_8f.html#a2b4d8f0abb377c2198ae3028eaa96fb0", null ],
-    [ "mse_angle_to_horizontal", "mse_8f.html#ae3a8569826f3c24c75357948a8144728", null ],
+    [ "mse::mse_class", "structmse_1_1mse__class.html", "structmse_1_1mse__class" ],
     [ "mse_construct_rad", "mse_8f.html#ae8e0f3fa5bec0a86a9fade02afa25cb5", null ],
     [ "mse_construct_vec", "mse_8f.html#a8690837673e5dd864259bc5478993a1a", null ],
     [ "mse_destruct", "mse_8f.html#afc15d7634705d68f50d7d5ce8f6f0f8b", null ],

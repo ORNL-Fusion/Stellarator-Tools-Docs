@@ -1,6 +1,6 @@
 var combination_8f =
 [
-    [ "combination_class", "structcombination_1_1combination__class.html", "structcombination_1_1combination__class" ],
+    [ "combination::combination_class", "structcombination_1_1combination__class.html", "structcombination_1_1combination__class" ],
     [ "combination_construct", "combination_8f.html#aa424368e5acf7afd3c46a27bd46830cb", null ],
     [ "combination_destruct", "combination_8f.html#af8f3a41c819d06a3b74ac594265c6e34", null ],
     [ "combination_get_header", "combination_8f.html#a7541ae7f7054fd15f0a3255ef7692c21", null ],

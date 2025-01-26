@@ -1,7 +1,7 @@
 var equilibrium_8f =
 [
-    [ "equilibrium_class", "structequilibrium_1_1equilibrium__class.html", "structequilibrium_1_1equilibrium__class" ],
-    [ "equilibrium_construct", "interfaceequilibrium_1_1equilibrium__construct.html", "interfaceequilibrium_1_1equilibrium__construct" ],
+    [ "equilibrium::equilibrium_class", "structequilibrium_1_1equilibrium__class.html", "structequilibrium_1_1equilibrium__class" ],
+    [ "equilibrium::equilibrium_construct", "interfaceequilibrium_1_1equilibrium__construct.html", "interfaceequilibrium_1_1equilibrium__construct" ],
     [ "equilibrium_construct", "equilibrium_8f.html#a71a4692b96c812902e37409d40c48461", null ],
     [ "equilibrium_construct_sub", "equilibrium_8f.html#a341ac92d65e33cca9831c71c521b5791", null ],
     [ "equilibrium_converge", "equilibrium_8f.html#ae303206d825ca2ea689dcda3fa889a80", null ],

@@ -1,6 +1,6 @@
 var bivariate_8f =
 [
-    [ "bivariate_class", "structbivariate_1_1bivariate__class.html", "structbivariate_1_1bivariate__class" ],
+    [ "bivariate::bivariate_class", "structbivariate_1_1bivariate__class.html", "structbivariate_1_1bivariate__class" ],
     [ "bivariate_construct", "bivariate_8f.html#a5f86038c03b5d3c99b7f2d87a2c709bb", null ],
     [ "bivariate_destruct", "bivariate_8f.html#ac365c981828b3c0a9344226807d341f3", null ],
     [ "bivariate_get_4pt", "bivariate_8f.html#a2eacc53209204cd912a2a898025863b6", null ],

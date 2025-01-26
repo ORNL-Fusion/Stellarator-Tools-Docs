@@ -1,8 +1,8 @@
 var namespacesignal =
 [
     [ "signal_class", "structsignal_1_1signal__class.html", "structsignal_1_1signal__class" ],
-    [ "signal_pointer", "structsignal_1_1signal__pointer.html", "structsignal_1_1signal__pointer" ],
     [ "signal_construct", "interfacesignal_1_1signal__construct.html", "interfacesignal_1_1signal__construct" ],
+    [ "signal_pointer", "structsignal_1_1signal__pointer.html", "structsignal_1_1signal__pointer" ],
     [ "signal_construct_diagnostic_netcdf", "namespacesignal.html#ab47bf869dfd033fb409ac003544e8358", null ],
     [ "signal_construct_new", "namespacesignal.html#ae2cd6f03b302cf8843b0b267fe9d5357", null ],
     [ "signal_destruct", "namespacesignal.html#ae4badcabc7bfbbee8c7d475fee1e7b17", null ],

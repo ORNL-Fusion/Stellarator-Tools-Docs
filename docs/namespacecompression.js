@@ -1,8 +1,8 @@
 var namespacecompression =
 [
     [ "compression_class", "structcompression_1_1compression__class.html", "structcompression_1_1compression__class" ],
-    [ "compression_pointer", "structcompression_1_1compression__pointer.html", "structcompression_1_1compression__pointer" ],
     [ "compression_construct", "interfacecompression_1_1compression__construct.html", "interfacecompression_1_1compression__construct" ],
+    [ "compression_pointer", "structcompression_1_1compression__pointer.html", "structcompression_1_1compression__pointer" ],
     [ "compression_cleanup", "namespacecompression.html#aff0c464eedbab24c1fed7d53a2e45e83", null ],
     [ "compression_construct_netcdf", "namespacecompression.html#addd8fd5d4e138309440cb7e8559e330c", null ],
     [ "compression_construct_new", "namespacecompression.html#a374ff9c1854bdd9ddf649a9d912e722b", null ],

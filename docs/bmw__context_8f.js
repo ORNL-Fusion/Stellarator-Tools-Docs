@@ -1,6 +1,6 @@
 var bmw__context_8f =
 [
-    [ "bmw_context_class", "structbmw__context_1_1bmw__context__class.html", "structbmw__context_1_1bmw__context__class" ],
+    [ "bmw_context::bmw_context_class", "structbmw__context_1_1bmw__context__class.html", "structbmw__context_1_1bmw__context__class" ],
     [ "bmw_context_construct", "bmw__context_8f.html#a1c7620fdb1baa02f56560edf0d647416", null ],
     [ "bmw_context_construct_plasma", "bmw__context_8f.html#a2c9c6c7740f42649991701946c04640b", null ],
     [ "bmw_context_destruct", "bmw__context_8f.html#a8ee1d70848bb1bef3e65cc7da7001805", null ],

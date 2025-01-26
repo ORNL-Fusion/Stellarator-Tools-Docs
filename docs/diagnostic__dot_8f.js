@@ -1,6 +1,6 @@
 var diagnostic__dot_8f =
 [
-    [ "diagnostic_dot_coil", "structdiagnostic__dot_1_1diagnostic__dot__coil.html", "structdiagnostic__dot_1_1diagnostic__dot__coil" ],
+    [ "diagnostic_dot::diagnostic_dot_coil", "structdiagnostic__dot_1_1diagnostic__dot__coil.html", "structdiagnostic__dot_1_1diagnostic__dot__coil" ],
     [ "diagnostic_dot_construct", "diagnostic__dot_8f.html#a1ae5f7b4b92c59153c80fe9ad3adc0c2", null ],
     [ "diagnostic_dot_destruct", "diagnostic__dot_8f.html#a4e04deca58d6e03863560a6cf9480862", null ],
     [ "diagnostic_dot_error", "diagnostic__dot_8f.html#a18ba86d03a4597202659a734ecc44e61", null ],

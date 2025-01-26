@@ -1,7 +1,7 @@
 var magnetic_8f =
 [
-    [ "magnetic_class", "structmagnetic_1_1magnetic__class.html", "structmagnetic_1_1magnetic__class" ],
-    [ "magnetic_construct_netcdf", "magnetic_8f.html#ac4f24290f7a24a5644c866577d92e4e5", null ],
+    [ "magnetic::magnetic_class", "structmagnetic_1_1magnetic__class.html", "structmagnetic_1_1magnetic__class" ],
+    [ "magnetic_construct_netcdf", "magnetic_8f.html#ad12fe20441b3ad46cf1781980bad0721", null ],
     [ "magnetic_destruct", "magnetic_8f.html#a6c8629127f9b0470d1313868c59b6982", null ],
     [ "magnetic_get_header", "magnetic_8f.html#a1f0d1596b2e0e5e2f7b0cf38cd6b8542", null ],
     [ "magnetic_get_modeled_signal", "magnetic_8f.html#aaa11a4bdaae2647f6546a9f9c331057b", null ],

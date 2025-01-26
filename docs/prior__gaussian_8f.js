@@ -1,6 +1,6 @@
 var prior__gaussian_8f =
 [
-    [ "prior_gaussian_class", "structprior__gaussian_1_1prior__gaussian__class.html", "structprior__gaussian_1_1prior__gaussian__class" ],
+    [ "prior_gaussian::prior_gaussian_class", "structprior__gaussian_1_1prior__gaussian__class.html", "structprior__gaussian_1_1prior__gaussian__class" ],
     [ "prior_gaussian_construct", "prior__gaussian_8f.html#a7d034a9e2a3cf1cd7be08e9aac69dd09", null ],
     [ "prior_gaussian_destruct", "prior__gaussian_8f.html#a451bef4ea3caf5746de01d22547b12a0", null ],
     [ "prior_gaussian_get_gp_i", "prior__gaussian_8f.html#a55d2bfaa0b9774334e42644c9b9ea88d", null ],

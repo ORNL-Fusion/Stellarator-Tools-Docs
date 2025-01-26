@@ -1,9 +1,9 @@
 var vmec__equilibrium_8f =
 [
-    [ "vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ],
-    [ "vmec_class", "structvmec__equilibrium_1_1vmec__class.html", "structvmec__equilibrium_1_1vmec__class" ],
-    [ "vmec_descent_class", "structvmec__equilibrium_1_1vmec__descent__class.html", "structvmec__equilibrium_1_1vmec__descent__class" ],
-    [ "runvmec", "interfacevmec__equilibrium_1_1runvmec.html", "interfacevmec__equilibrium_1_1runvmec" ],
+    [ "vmec_equilibrium::vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ],
+    [ "vmec_equilibrium::vmec_class", "structvmec__equilibrium_1_1vmec__class.html", "structvmec__equilibrium_1_1vmec__class" ],
+    [ "vmec_equilibrium::vmec_descent_class", "structvmec__equilibrium_1_1vmec__descent__class.html", "structvmec__equilibrium_1_1vmec__descent__class" ],
+    [ "vmec_equilibrium::runvmec", "interfacevmec__equilibrium_1_1runvmec.html", null ],
     [ "vmec_construct", "vmec__equilibrium_8f.html#a3698795faf0024a046d0c89a2ee84e4d", null ],
     [ "vmec_construct_sub", "vmec__equilibrium_8f.html#ab2aedb4b919e973a902163d8da0a7109", null ],
     [ "vmec_converge", "vmec__equilibrium_8f.html#a8960e1424ec05154a2ab95bc3ea74237", null ],

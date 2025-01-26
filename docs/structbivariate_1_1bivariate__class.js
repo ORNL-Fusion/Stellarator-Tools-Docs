@@ -1,11 +1,10 @@
 var structbivariate_1_1bivariate__class =
 [
     [ "bivariate_construct", "structbivariate_1_1bivariate__class.html#adcf8f8b1dd6131091a5d2ddf1c9a2cdd", null ],
-    [ "bivariate_destruct", "structbivariate_1_1bivariate__class.html#a3b75504023a4b0cade173f38cb8362f0", null ],
-    [ "get_4pt", "structbivariate_1_1bivariate__class.html#ab0d06690671a3a26ec14676cc2db2696", null ],
-    [ "set_grids", "structbivariate_1_1bivariate__class.html#a34c6dc450379fc66735bad65f534798d", null ],
-    [ "set_grids_1d", "structbivariate_1_1bivariate__class.html#a9b43a35753880e7b6c9cb0d1b2cda71e", null ],
-    [ "set_grids_2d", "structbivariate_1_1bivariate__class.html#a9b6717bf3e7608d86145ab081ee9e57f", null ],
+    [ "bivariate_destruct", "structbivariate_1_1bivariate__class.html#ac69f99a812172c2cede1f1b6e22fc933", null ],
+    [ "get_4pt", "structbivariate_1_1bivariate__class.html#a9ceda3378b840a41129dc885566fb248", null ],
+    [ "set_grids_1d", "structbivariate_1_1bivariate__class.html#a8a88caf2e273e912eb98db50b70c229d", null ],
+    [ "set_grids_2d", "structbivariate_1_1bivariate__class.html#a9806bfea9162e668b595d3a7356131ee", null ],
     [ "irz11_bi", "structbivariate_1_1bivariate__class.html#abb665a2441c996f11d7e95f6759c4f7b", null ],
     [ "irz12_bi", "structbivariate_1_1bivariate__class.html#a519cf7a967a0da35cb3482294ccac651", null ],
     [ "irz21_bi", "structbivariate_1_1bivariate__class.html#a6484ef3efe623b548d30fbf73ee66c63", null ],

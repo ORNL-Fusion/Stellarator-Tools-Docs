@@ -39,8 +39,8 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Programmer Manuals", "index.html#programmer", null ],
-    [ "BMW", "md_BMW_README.html", [
-      [ "Building", "md_BMW_README.html#autotoc_md1", null ]
+    [ "BMW", "md_BMW_2README.html", [
+      [ "Building", "md_BMW_2README.html#autotoc_md1", null ]
     ] ],
     [ "Command Line Arguments", "bmw_cl_parsing_sec.html", [
       [ "Introduction", "bmw_cl_parsing_sec.html#bmw_cl_parsing_intro", null ],
@@ -51,7 +51,7 @@ var NAVTREE =
       [ "Introduction", "result_file_bmw.html#result_file_bmw_intro_sec", null ],
       [ "Variables", "result_file_bmw.html#result_file_bmw_var_sec", null ]
     ] ],
-    [ "BOOZ_XFORM", "md_BOOZ_XFORM_README.html", null ],
+    [ "BOOZ_XFORM", "md_BOOZ__XFORM_2README.html", null ],
     [ "V3FIT Architecture", "architecture.html", [
       [ "Introducion", "architecture.html#architecture_intro", null ],
       [ "Class Objects", "architecture.html#architecture_class_objects", [
@@ -132,7 +132,7 @@ var NAVTREE =
         [ "Test Results", "testing.html#testing_cmake_results", null ]
       ] ]
     ] ],
-    [ "LGRID", "md_LGRID_README.html", null ],
+    [ "LGRID", "md_LGRID_2README.html", null ],
     [ "Limiter Gird File", "lgrid_sec.html", [
       [ "Introduction", "lgrid_sec.html#lgrid_intro_sec", null ],
       [ "Input Configuation", "lgrid_sec.html#lgrid_input_sec", [
@@ -141,7 +141,7 @@ var NAVTREE =
       ] ],
       [ "Command Line Arguments", "lgrid_sec.html#lgrid_command_line_sec", null ]
     ] ],
-    [ "LIBSTELL", "md_LIBSTELL_README.html", null ],
+    [ "LIBSTELL", "md_LIBSTELL_2README.html", null ],
     [ "Namelist indata definition", "vmec_namelist_sec.html", [
       [ "Introduction", "vmec_namelist_sec.html#vmec_namelist_intro_sec", null ],
       [ "Namelist Variables", "vmec_namelist_sec.html#vmec_namelist_var_sec", [
@@ -166,8 +166,8 @@ var NAVTREE =
       ] ],
       [ "Example File.", "vmec_namelist_sec.html#vmec_namelist_example_sec", null ]
     ] ],
-    [ "MAKEGRID", "md_MAKEGRID_README.html", null ],
-    [ "VMEC", "md_PARVMEC_README.html", null ],
+    [ "MAKEGRID", "md_MAKEGRID_2README.html", null ],
+    [ "VMEC", "md_PARVMEC_2README.html", null ],
     [ "Command Line Arguments", "wout_diff_cl_parsing_sec.html", [
       [ "Introduction", "wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_intro", null ],
       [ "Command Line Arguments", "wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_arg_sec", null ],
@@ -180,7 +180,7 @@ var NAVTREE =
         [ "Touble Shooting", "md_README.html#autotoc_md11", null ]
       ] ]
     ] ],
-    [ "SIESTA", "md_SIESTA_README.html", null ],
+    [ "SIESTA", "md_SIESTA_2README.html", null ],
     [ "Discription of the SIESTA restart file.", "siesta_restart_sec.html", [
       [ "Introduction", "siesta_restart_sec.html#siesta_restart_intro_sec", null ],
       [ "Namelist Variables", "siesta_restart_sec.html#siesta_restart_var_sec", [
@@ -227,13 +227,13 @@ var NAVTREE =
       [ "Test names.", "siesta_test_cl_parsing_sec.html#siesta_test_cl_test_names_sec", null ],
       [ "Programmers Reference", "siesta_test_cl_parsing_sec.html#siesta_test_cl_pasring_prog_ref_sec", null ]
     ] ],
-    [ "SURFACE", "md_SURFACE_README.html", null ],
+    [ "SURFACE", "md_SURFACE_2README.html", null ],
     [ "Command Line Arguments", "surface_cl_parsing_sec.html", [
       [ "Introduction", "surface_cl_parsing_sec.html#surface_cl_parsing_intro", null ],
       [ "Command Line Arguments", "surface_cl_parsing_sec.html#surface_cl_parsing_arg_sec", null ],
       [ "Programmers Reference", "surface_cl_parsing_sec.html#surface_cl_pasring_prog_ref_sec", null ]
     ] ],
-    [ "V3FIT", "md_V3FIT_README.html", null ],
+    [ "V3FIT", "md_V3FIT_2README.html", null ],
     [ "Command Line Arguments", "cl_parsing_sec.html", [
       [ "Introduction", "cl_parsing_sec.html#cl_parsing_intro", null ],
       [ "Command Line Arguments", "cl_parsing_sec.html#cl_parsing_arg_sec", null ],
@@ -407,7 +407,7 @@ var NAVTREE =
       [ "Dimensions", "result_file_vmec.html#result_file_vmec_dim_sec", null ],
       [ "Variables", "result_file_vmec.html#result_file_vmec_var_sec", null ]
     ] ],
-    [ "V3RFUN", "md_V3RFUN_README.html", null ],
+    [ "V3RFUN", "md_V3RFUN_2README.html", null ],
     [ "Magnetic Diagnostic Dot File", "diagnostic_dot_sec.html", [
       [ "Introduction", "diagnostic_dot_sec.html#diagnostic_dot_intro_sec", null ],
       [ "Diagnostic Coil Specification", "diagnostic_dot_sec.html#diagnostic_dot_coil_spec_sec", null ],
@@ -468,49 +468,34 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "SURFACE_2Sources_2surface_8f.html",
-"blocktridiagonalsolver__bst_8f90.html#aaa629b828eb36e9edd1cc2a193c3dc45",
-"bsc__T_8f.html#adcb363428651d3b1f45bd7ea31b46ba8",
-"classsiesta__quantities.html#a72b431d872c372f0b29d1d19cf3068e3",
-"descriptor__mod_8f90.html#a3f6f65effd374a75b888ee08874702e8",
-"ezcdf__GenGet_8f90.html#a0c5137bbed1a99f6e3e122eefbb71b1d",
-"functions_vars_d.html",
-"interfacebsc__t_1_1bsc__a.html#a28c118953bfe8c2a21ced6661866401d",
-"interfaceezspline_1_1ezspline__isindomain.html#a1a18b9ce8af5e9dded44b04c27b20c65",
-"interfacepspline__calls_1_1bcspevxy.html#ab0e667e8200ad298c2151be975c67dce",
-"interfacepspline__calls_1_1r8gridintrp3d.html#a58f0b7dbef591b49fccdb9f3ae2d641d",
-"interfacesignal_1_1signal__construct.html#a273530affe49200dfa2ea120360189ee",
-"main_8cpp.html#a421ab65ef9b71171d848eed5609f16d4",
-"mgrid__mod_8f.html#ab5a7d8b67c10d5e23479c0194a1b3db4",
-"namelist_sec.html#size_sec",
-"namespaceblocktridiagonalsolver__s.html#a8b9082da27c6b43b9ffd413f34755f7a",
-"namespaceequilibrium.html#a58181cf1609d1dafa8e377746b4aafe3",
-"namespacemagnetic.html#a7e2ec298bb1b6eed9875fc7cb944b429",
-"namespacemodel__state.html#a66e419547cb10eb150f794fb27d6d231",
-"namespacerestart__mod.html#a2091c7af7c4ef368c4294861381a2697",
-"namespacesiesta__force.html#aba2bd1ea1649cf0a2c203ae7d33a5dc2",
-"namespacev3fit__input.html#a38c02cb03f69ba62fffd17714561bee0",
-"namespacevmec__equilibrium.html#a13885bbe9a9ada9d7cb6273e37f45b16",
-"namespacevmec__input.html#acdf327762893b41f2bbe147f5825e396",
-"optim__params_8f.html#a3bc7e2c4a8ef9c558bf67c3ed2801b19",
-"parallel__include__module_8f90.html#af8daa2cad34579b1b6f69e3a15a6d373",
-"precon2d_8f.html#aba1d71cfe8a45451d28736e599f2cc0c",
-"realspace_8f.html#a8b718564a9c4d0f6f74d8608f2a1f3fe",
-"saddle__surface_8f.html#a10d1521a33b15dbd376ce9c1cef3205f",
-"siesta_namelist_sec.html#siesta_grid_size_sec",
-"structbmw__parallel__context_1_1bmw__parallel__context__class.html#a33d121a4d564a8a8180653bf0ff2cb97",
-"structezspline__type_1_1ezspline1__r8.html#ac143aa815360d901827db39d7e2e6a30",
-"structintpol_1_1intpol__class.html#ac4117798ed44385c1725e6581e668542",
-"structmodel_1_1model__class.html#af2d66372bd620befdca63463231557ce",
-"structsiesta__equilibrium_1_1siesta__class.html#aeab8e2817b33bf9cb261f1f556ffdda8",
-"structv3rfun__context_1_1v3rfun__context__class.html#a1f1edc2b2d80b6500dd84d609fb99b98",
-"sxrch__dot_8f.html#a71b4b250f369c685b3d3aaf2bd5c5ba6",
-"timer__sub_8f.html#a9fb569407d0313867f3ad406bff7161f",
-"v3fit__input_8f.html#ad699c5f4f2865dc9f6be9660bebbbf1c",
-"vacfield__mod_8f.html#a2d8d5393781e097d7b68f53e333bc88a",
-"vforces_8f.html#a30249f2f9996b7a9690d6b814d76132a",
-"vmec__input_8f.html#a02b29863a947531e6c4e8d7c66c5a5e0",
-"vmec__main_8f.html#ab3a922d20e89fc3981794e22899067fa",
-"vsvd0_8f.html#a6219c811c2d60a3e8e2de26bc69dcb1e"
+"classvmec__quantities.html#a3adf0cde2f5efc9df84f8460ed945c4d",
+"equilibrium_8f.html#a9622169d5ececd9e9dd564e1b9c106df",
+"interfaceequilibrium_1_1equilibrium__construct.html#a30e8e3cf5bc16168a8acb3e458384840",
+"interfacepspline__calls_1_1fvintrp2d.html",
+"interfaceutilities_1_1gradienthalf.html#adebed6b465981649c360d7a4f6bac562",
+"model_8f.html#a219879b1157e2b3db06187739c411fc1",
+"namespaceblocktridiagonalsolver.html#af60e3498e613809ab7d64be615a5199f",
+"namespacef1dim__mod.html#a64bd9aedca0738ede1633383485f4d01",
+"namespacemembers_vars.html",
+"namespacepchelms.html#a055dc5013104e1119dcfd6c8b99b65c6",
+"namespaceshared__data.html#ac110d052f831d741b4308227cd276b9a",
+"namespacethomson.html#a6c080c16c881b53d106ce8cecd386b37",
+"namespacev3fit__params.html#ad93a7074ca8997d27f6553a177239524",
+"namespacevmec__input.html#a12e6ea94c7c9767b9b080367fbbd7d58",
+"reconstruction_8f.html#a2d7ee6781b0183caa35e8a38c7a29d50",
+"siesta__equilibrium_8f.html#a363671f9a484fec5eaafa6dc4dddc927",
+"structbmw__commandline__parser_1_1bmw__commandline__parser__class.html",
+"structequilibrium_1_1equilibrium__class.html#a27c2a44280e82d35078d684542404238",
+"structintegration__path_1_1integration__path__class.html#a02747a32d6df92806b40573fac0700fa",
+"structmagnetic__response_1_1magnetic__response__class.html",
+"structpprofile__t_1_1pprofile__class.html#a1994b7c61834fb07e70fb481f20a7e47",
+"structsiesta__context_1_1siesta__context__class.html#ac83b8d1ab78cf9abe09e8885a7898a49",
+"structsurface__context_1_1surface__context__class.html#ac22e920c2fca61a0cab44a744176a3cb",
+"structv3fit__params_1_1param__class.html#a49d29b2f4a7d9073065fa6de1fbf4bf3",
+"structvmec__equilibrium_1_1vmec__class.html#a7afdd9567d8677511fa81dc84f2ab055",
+"utilities_8f90.html#a001873e5aa19fce5d04482dde1e081bd",
+"v3fita_8f.html#a5e252bf41cc3afea98fabd298633624a",
+"vmec__equilibrium_8f.html#ac7e6537bc8d3bd12a8ccc32e2a7c1c66"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -62,22 +62,14 @@ var namespacemodel =
     [ "model_coosig_wgts_id", "namespacemodel.html#a25437a3fa32d82cbbd30726d8e8a03d7", null ],
     [ "model_ne_grid_id", "namespacemodel.html#a8ec59b67723de5350e1243bd13d57308", null ],
     [ "model_ne_min_id", "namespacemodel.html#a5b31b2e1320a15347fcd70fefc4b4594", null ],
-    [ "model_ne_te_p_type", "namespacemodel.html#a0554a6f80076a572d32fac24113ceb0c", null ],
-    [ "model_ne_type", "namespacemodel.html#af1b05d06382c4c39de168f4d52126f7f", null ],
     [ "model_ne_unit_id", "namespacemodel.html#a27009da4938ee0706157b3bad05bbf9d", null ],
-    [ "model_none_type", "namespacemodel.html#a965a5f9f1fb814d9bd3f814fc8c535ce", null ],
     [ "model_pressure_fraction_id", "namespacemodel.html#ad2b6317fad31953186ed8f7a7fad9303", null ],
     [ "model_signal_factor_id", "namespacemodel.html#a0fac5822f775417cfde63cc60ba7fc95", null ],
     [ "model_signal_offset_id", "namespacemodel.html#a5859376b779689c5e2bd30c6defea193", null ],
     [ "model_sxrem_grid_id", "namespacemodel.html#acd7336c016d4b58107cc3c8cf899fea9", null ],
     [ "model_sxrem_min_id", "namespacemodel.html#a36e70a1922b00ed72f14ca70727782ce", null ],
-    [ "model_sxrem_te_ne_type", "namespacemodel.html#a927bf2daabce19f3f7f2c1378f480267", null ],
-    [ "model_sxrem_type", "namespacemodel.html#a6d87c8e0fb511a7fe1dd8333203b4fc8", null ],
     [ "model_te_grid_id", "namespacemodel.html#a252cedeee618d79814de7327ef8838d1", null ],
     [ "model_te_min_id", "namespacemodel.html#a219879b1157e2b3db06187739c411fc1", null ],
-    [ "model_te_ne_p_type", "namespacemodel.html#a7ace565642dcec6c9d8751ca55ee889b", null ],
-    [ "model_te_type", "namespacemodel.html#a8aaa26eede4b79b3145c5c604d5c9798", null ],
     [ "model_ti_grid_id", "namespacemodel.html#a7a6ad268d4278577494f334adebb6896", null ],
-    [ "model_ti_min_id", "namespacemodel.html#aae6c33103f73eddc33eb7ed63798d608", null ],
-    [ "model_ti_type", "namespacemodel.html#a37031ef751d19565c98b3f3383b522df", null ]
+    [ "model_ti_min_id", "namespacemodel.html#aae6c33103f73eddc33eb7ed63798d608", null ]
 ];
