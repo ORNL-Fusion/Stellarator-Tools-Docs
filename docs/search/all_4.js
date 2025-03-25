@@ -19,7 +19,7 @@ var searchData=
   ['defined_20aliases_16',['V3FIT Defined Aliases',['../doxygen.html#doxygen_markup_v3fit_aliases',1,'']]],
   ['defined_20variables_17',['Defined Variables',['../build_system.html#build_system_cmake_variables_defined',1,'']]],
   ['defining_20aliases_18',['Defining Aliases',['../doxygen.html#doxygen_config_aliases',1,'']]],
-  ['definition_19',['definition',['../vmec_namelist_sec.html',1,'Namelist indata definition'],['../siesta_namelist_sec.html',1,'Namelist siesta_main_nli definition'],['../namelist_sec.html',1,'Namelist v3fit_main_nli definition'],['../v3rfun_namelist_sec.html',1,'Namelist v3r_coils definition'],['../vacuum_namelist_sec.html',1,'Namelist vacuum_main_nli definition']]],
+  ['definition_19',['definition',['../siesta_namelist_sec.html',1,'Namelist siesta_main_nli definition'],['../namelist_sec.html',1,'Namelist v3fit_main_nli definition'],['../v3rfun_namelist_sec.html',1,'Namelist v3r_coils definition'],['../vacuum_namelist_sec.html',1,'Namelist vacuum_main_nli definition'],['../vmec_namelist_sec.html',1,'VMEC Namelist indata definition']]],
   ['delete_5fdirectory_20',['delete_directory',['../namespacefile__opts.html#ae523a497a9dae8d43c3d652252def711',1,'file_opts']]],
   ['delete_5ffile_21',['delete_file',['../namespacefile__opts.html#aa53312bc8b319948cf70e47974073d4a',1,'file_opts']]],
   ['delt_22',['delt',['../namespacevmec__input.html#acfe484dfe2745965f6ea403fc093211d',1,'vmec_input']]],

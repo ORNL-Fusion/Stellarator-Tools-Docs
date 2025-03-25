@@ -23,7 +23,7 @@ var searchData=
   ['name_20',['name',['../structmagnetic__response_1_1magnetic__response__class.html#a145430f4eaebacb6de65a4cdaa85b30f',1,'magnetic_response::magnetic_response_class']]],
   ['name_5fcoils_5fdot_21',['name_coils_dot',['../namespacev3rfun__input.html#a047193d239d2e559848e8d665e00b641',1,'v3rfun_input']]],
   ['name_5fdiagnostic_5fdot_22',['name_diagnostic_dot',['../namespacev3rfun__input.html#a70e0cfa6efc324b7fc9a75c848e5fb25',1,'v3rfun_input']]],
-  ['namelist_20indata_20definition_23',['Namelist indata definition',['../vmec_namelist_sec.html',1,'']]],
+  ['namelist_20indata_20definition_23',['VMEC Namelist indata definition',['../vmec_namelist_sec.html',1,'']]],
   ['namelist_20siesta_5fmain_5fnli_20definition_24',['Namelist siesta_main_nli definition',['../siesta_namelist_sec.html',1,'']]],
   ['namelist_20v3fit_5fmain_5fnli_20definition_25',['Namelist v3fit_main_nli definition',['../namelist_sec.html',1,'']]],
   ['namelist_20v3r_5fcoils_20definition_26',['Namelist v3r_coils definition',['../v3rfun_namelist_sec.html',1,'']]],

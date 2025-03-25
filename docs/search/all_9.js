@@ -13,7 +13,7 @@ var searchData=
   ['in_5fhess_5fnfunct_10',['in_hess_nfunct',['../namespaceshared__data.html#a361402311d7f8d1d5a71e3788015f4de',1,'shared_data']]],
   ['in_5frange_11',['in_range',['../classvertex.html#aff5a66ce6e401e15c0930f46b3504d9c',1,'vertex']]],
   ['incfields_12',['incfields',['../namespacesiesta__force.html#a1fe9c159a52351787dcfbd135bd6dfd0',1,'siesta_force']]],
-  ['indata_20definition_13',['Namelist indata definition',['../vmec_namelist_sec.html',1,'']]],
+  ['indata_20definition_13',['VMEC Namelist indata definition',['../vmec_namelist_sec.html',1,'']]],
   ['indices_14',['indices',['../structv3fit__params_1_1param__class.html#a49d29b2f4a7d9073065fa6de1fbf4bf3',1,'v3fit_params::param_class::indices'],['../structv3fit__params_1_1param__locking__class.html#a5c3aae6762db6b32c8663414cc101c0f',1,'v3fit_params::param_locking_class::indices'],['../structsxrem__ratio_1_1sxrem__ratio__class.html#aa627980da653db3f9a045b0873c4a630',1,'sxrem_ratio::sxrem_ratio_class::indices'],['../structprior__gaussian_1_1prior__gaussian__class.html#a940991b9e09e9b7a32ceba787bde0e14',1,'prior_gaussian::prior_gaussian_class::indices']]],
   ['inductance_15',['inductance',['../structmagnetic__response_1_1magnetic__response__class.html#a58b640b0e3a5d2d28dfa27da28562a6a',1,'magnetic_response::magnetic_response_class']]],
   ['information_16',['information',['../namelist_sec.html#geometric_sec',1,'Geometric information'],['../namelist_sec.html#prior_sec',1,'Prior information']]],

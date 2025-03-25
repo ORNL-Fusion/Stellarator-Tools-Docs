@@ -9,5 +9,6 @@ var searchData=
   ['vacuum_5fmain_5fnli_20definition_6',['Namelist vacuum_main_nli definition',['../vacuum_namelist_sec.html',1,'']]],
   ['vmec_7',['VMEC',['../md_PARVMEC_2README.html',1,'']]],
   ['vmec_20equilibrium_20manual_8',['VMEC Equilibrium Manual',['../vmec_equilibrium_sec.html',1,'']]],
-  ['vmec_20result_20file_9',['VMEC Result File',['../result_file_vmec.html',1,'']]]
+  ['vmec_20namelist_20indata_20definition_9',['VMEC Namelist indata definition',['../vmec_namelist_sec.html',1,'']]],
+  ['vmec_20result_20file_10',['VMEC Result File',['../result_file_vmec.html',1,'']]]
 ];

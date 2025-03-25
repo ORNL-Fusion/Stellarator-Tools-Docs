@@ -142,7 +142,7 @@ var NAVTREE =
       [ "Command Line Arguments", "lgrid_sec.html#lgrid_command_line_sec", null ]
     ] ],
     [ "LIBSTELL", "md_LIBSTELL_2README.html", null ],
-    [ "Namelist indata definition", "vmec_namelist_sec.html", [
+    [ "VMEC Namelist indata definition", "vmec_namelist_sec.html", [
       [ "Introduction", "vmec_namelist_sec.html#vmec_namelist_intro_sec", null ],
       [ "Namelist Variables", "vmec_namelist_sec.html#vmec_namelist_var_sec", [
         [ "Control Parameters.", "vmec_namelist_sec.html#vmec_control_param_sec", [
