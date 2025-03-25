@@ -164,7 +164,8 @@ var NAVTREE =
         [ "Edge Boundary parameters.", "vmec_namelist_sec.html#vmec_edge_parameters_sec", null ],
         [ "Inital magnetic axis guess.", "vmec_namelist_sec.html#vmec_axis_parameters_sec", null ]
       ] ],
-      [ "Example File.", "vmec_namelist_sec.html#vmec_namelist_example_sec", null ]
+      [ "Example File.", "vmec_namelist_sec.html#vmec_namelist_example_sec", null ],
+      [ "Programmers Reference", "vmec_namelist_sec.html#vmec_namelist_prog_ref_sec", null ]
     ] ],
     [ "MAKEGRID", "md_MAKEGRID_2README.html", null ],
     [ "VMEC", "md_PARVMEC_2README.html", null ],

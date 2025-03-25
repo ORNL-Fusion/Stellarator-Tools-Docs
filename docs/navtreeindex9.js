@@ -1,7 +1,7 @@
 var NAVTREEINDEX9 =
 {
-"namespacemembers_vars.html":[52,1,2,0],
 "namespacemembers_vars.html":[52,1,2],
+"namespacemembers_vars.html":[52,1,2,0],
 "namespacemembers_vars_b.html":[52,1,2,1],
 "namespacemembers_vars_c.html":[52,1,2,2],
 "namespacemembers_vars_d.html":[52,1,2,3],

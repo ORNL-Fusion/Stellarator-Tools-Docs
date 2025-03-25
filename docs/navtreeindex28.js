@@ -148,6 +148,7 @@ var NAVTREEINDEX28 =
 "vmec_namelist_sec.html#vmec_iota_profile_param_sec":[15,1,6,1],
 "vmec_namelist_sec.html#vmec_namelist_example_sec":[15,2],
 "vmec_namelist_sec.html#vmec_namelist_intro_sec":[15,0],
+"vmec_namelist_sec.html#vmec_namelist_prog_ref_sec":[15,3],
 "vmec_namelist_sec.html#vmec_namelist_var_sec":[15,1],
 "vmec_namelist_sec.html#vmec_precon_control_param_sec":[15,1,0,0],
 "vmec_namelist_sec.html#vmec_pres_profile_param_sec":[15,1,6,2],

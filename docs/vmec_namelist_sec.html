@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('vmec_namelist_sec.html',''); initResiz
 </ul>
 </li>
 <li class="level1"><a href="#vmec_namelist_example_sec">Example File.</a></li>
+<li class="level1"><a href="#vmec_namelist_prog_ref_sec">Programmers Reference</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="vmec_namelist_intro_sec"></a>
@@ -137,11 +138,13 @@ Control Parameters.</h2>
 <tr>
 <td width="20%"><code>niter</code></td><td width="50%">Maximum number of iterations to run. <b>DEPRECATED</b> <b>Use</b> <a class="el" href="namespacevmec__input.html#aac08a03ceff82b6d20dc944df04f77e7">vmec_input::niter_array</a> instead.</td><td width="30%"><a class="el" href="namespacevmec__input.html#a7f1091f4e7b72eab0b5515040ffa1517">vmec_input::niter</a> </td></tr>
 <tr>
-<td width="20%"><code>niter_array</code></td><td width="50%">Array of iterations for the multigrid runs.</td><td width="30%"><a class="el" href="namespacevmec__input.html#aac08a03ceff82b6d20dc944df04f77e7">vmec_input::niter_array</a> @item{pre_niter, Number of iterations to run after the preconditioner is activated. There are special control values.<ol type="1">
+<td width="20%"><code>niter_array</code></td><td width="50%">Array of iterations for the multigrid runs.</td><td width="30%"><a class="el" href="namespacevmec__input.html#aac08a03ceff82b6d20dc944df04f77e7">vmec_input::niter_array</a> </td></tr>
+<tr>
+<td width="20%"><code>pre_niter</code></td><td width="50%">Number of iterations to run after the preconditioner is activated. There are special control values.<ol type="1">
 <li>-1 Default behavor.</li>
-<li>-2 Keep niter intact. <a class="el" href="namespacevmec__input.html#a9e884375c83f4df99b09234573dae7e8" title="Number of iterations to run after the preconditoner is activated.">vmec_input::pre_niter</a>} </li>
+<li>-2 Keep niter intact.</li>
 </ol>
-</td></tr>
+</td><td width="30%"><a class="el" href="namespacevmec__input.html#a9e884375c83f4df99b09234573dae7e8">vmec_input::pre_niter</a> </td></tr>
 <tr>
 <td width="20%"><code>time_slice</code></td><td width="50%">Time index value to label the output files.</td><td width="30%"><a class="el" href="namespacevmec__input.html#a6aaf949325c7cad6ef734c73897b1eb5">vmec_input::time_slice</a> </td></tr>
 <tr>
@@ -418,13 +421,10 @@ Example File.</h1>
 <div class="line">  am_aux_s = 0.0, 1.0,</div>
 <div class="line">  am_aux_f = 1.0, 0.0,</div>
 <div class="line">/</div>
-<div class="line">@<span class="keyword">end </span>code</div>
-<div class="line"> </div>
-<div class="line">@section vmec_namelist_prog_ref_sec programmers reference</div>
-<div class="line">reference material for the coding to implement this namelist is found in the</div>
-<div class="line">@ref <a class="code hl_namespace" href="namespacevmec__input.html">vmec_input</a> module.</div>
-<div class="ttc" id="anamespacevmec__input_html"><div class="ttname"><a href="namespacevmec__input.html">vmec_input</a></div><div class="ttdoc">This file contains all the variables for a VMEC namelist input file. The module contained within does...</div><div class="ttdef"><b>Definition</b> vmec_input.f:234</div></div>
-</div><!-- fragment --></div></div><!-- contents -->
+</div><!-- fragment --><h1><a class="anchor" id="vmec_namelist_prog_ref_sec"></a>
+Programmers Reference</h1>
+<p>Reference material for the coding to implement this namelist is found in the <a class="el" href="namespacevmec__input.html">vmec_input</a> module. </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
