@@ -7,7 +7,7 @@ var searchData=
   ['p_5ftype_4',['p_type',['../structpprofile__t_1_1pprofile__class.html#a0b46f577c29bf1d7727d9acdee5be529',1,'pprofile_t::pprofile_class']]],
   ['p_5ftype_5flen_5',['p_type_len',['../namespacepprofile__t.html#ac1db9c02d7aa16478e96acc8c6ee028f',1,'pprofile_t']]],
   ['pages_6',['pages',['../doxygen.html#doxygen_external_pages',1,'External Pages'],['../doxygen.html#doxygen_inline_pages',1,'Inline Pages'],['../doxygen.html#doxygen_pages',1,'Pages']]],
-  ['param_20in_20fsq_5ftotal_7',['@param[in]    fsq_total',['..//home/runner/work/V3FIT/Stellarator-Tools/SIESTA/Sources/diagnostics_mod.f90#autotoc_md13',1,'']]],
+  ['param_20in_20fsq_5ftotal_7',['@param[in]    fsq_total',['..//home/runner/work/SIESTA/Stellarator-Tools/SIESTA/Sources/diagnostics_mod.f90#autotoc_md13',1,'']]],
   ['param_5fclass_8',['param_class',['../structv3fit__params_1_1param__class.html',1,'v3fit_params']]],
   ['param_5fconstruct_9',['param_construct',['../interfacev3fit__params_1_1param__construct.html',1,'v3fit_params']]],
   ['param_5fconstruct_5fbasic_10',['param_construct_basic',['../interfacev3fit__params_1_1param__construct.html#a4cf2357c5f3fcfc18f57dc8f67c5d21a',1,'v3fit_params::param_construct::param_construct_basic()'],['../namespacev3fit__params.html#a34e266194d23bfa72b7a615919920eb6',1,'v3fit_params::param_construct_basic(a_model, param_name, indices, num_params)']]],

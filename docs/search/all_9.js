@@ -7,7 +7,7 @@ var searchData=
   ['idrfun_4',['idrfun',['../namespacev3rfun__input.html#a2b6391cd287060ef0230ca7aeea3c8fc',1,'v3rfun_input']]],
   ['ids_5',['ids',['../structv3fit__params_1_1param__locking__class.html#a182716dd4cf59c3cc39d1c5aad185d42',1,'v3fit_params::param_locking_class']]],
   ['ilb_5fb_6',['ilb_b',['../namespacepprofile__t.html#aef15a80e54ea1ac700a5bf61d19c85ab',1,'pprofile_t']]],
-  ['in_20fsq_5ftotal_7',['@param[in]    fsq_total',['..//home/runner/work/V3FIT/Stellarator-Tools/SIESTA/Sources/diagnostics_mod.f90#autotoc_md13',1,'']]],
+  ['in_20fsq_5ftotal_7',['@param[in]    fsq_total',['..//home/runner/work/SIESTA/Stellarator-Tools/SIESTA/Sources/diagnostics_mod.f90#autotoc_md13',1,'']]],
   ['in_20variables_8',['Built In Variables',['../build_system.html#build_system_cmake_variables_builtin',1,'']]],
   ['in_5fdegrees_9',['in_degrees',['../structintpol_1_1intpol__pol__class.html#a89baf6811c6071518dfba2767dfe6a3e',1,'intpol::intpol_pol_class']]],
   ['in_5fhess_5fnfunct_10',['in_hess_nfunct',['../namespaceshared__data.html#a361402311d7f8d1d5a71e3788015f4de',1,'shared_data']]],
