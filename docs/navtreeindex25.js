@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"structvmec__equilibrium_1_1vmec__class.html#a69ff3a4e590df26864e4ed0927d42221":[53,0,85,1,24],
 "structvmec__equilibrium_1_1vmec__class.html#a6bd98bfe29b775aa540b6143cbe48257":[53,0,85,1,11],
 "structvmec__equilibrium_1_1vmec__class.html#a6bd98bfe29b775aa540b6143cbe48257":[52,0,85,1,11],
 "structvmec__equilibrium_1_1vmec__class.html#a713a315e222accda5ce7ede256a2f557":[52,0,85,1,87],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "thomson_dot_sec.html#thomson_dot_prog_ref_sec":[39,4],
 "thscte__dot_8f.html":[54,0,7,0,32],
 "thscte__dot_8f.html#a7c177423fb3b2ea5d7a06293177280de":[54,0,7,0,32,1],
-"thscte__dot_8f.html#ab7e0fba6bc6e693eea2930045b92124a":[54,0,7,0,32,0],
-"todo.html":[51]
+"thscte__dot_8f.html#ab7e0fba6bc6e693eea2930045b92124a":[54,0,7,0,32,0]
 };
