@@ -1,5 +1,11 @@
 var NAVTREEINDEX13 =
 {
+"namespacev3fit__params.html#ab8812aa6b828e6439b8079a5619d6c55":[52,0,79,29],
+"namespacev3fit__params.html#abecde14d0aadfd2297edbc2419e49a4a":[52,0,79,19],
+"namespacev3fit__params.html#ac18b6e97dbb78fba12fc66b94e001655":[52,0,79,28],
+"namespacev3fit__params.html#aca97eb081da6b2eb398caecac155a492":[52,0,79,27],
+"namespacev3fit__params.html#accfafa5d3c887d5b717c7f6587782ce5":[52,0,79,8],
+"namespacev3fit__params.html#ad934796db46bae3b80895d61c688f9f0":[52,0,79,30],
 "namespacev3fit__params.html#ad93a7074ca8997d27f6553a177239524":[52,0,79,18],
 "namespacev3fit__params.html#ae462e5b528d9d506896ef1c58a429fd9":[52,0,79,38],
 "namespacev3fit__params.html#af5cfe9e4aed01f4358cf7bc6a471cc55":[52,0,79,31],
@@ -243,11 +249,5 @@ var NAVTREEINDEX13 =
 "namespacevmec__equilibrium.html#aff8a8dae3f1900d997af8f18d65c8ebd":[52,0,85,79],
 "namespacevmec__file.html":[52,0,86],
 "namespacevmec__file.html#a2a134b867ea82ff10671fb3d656966f8":[52,0,86,1],
-"namespacevmec__file.html#a80c64481e8fa94dbe54b34b7315f11bc":[52,0,86,2],
-"namespacevmec__input.html":[52,0,87],
-"namespacevmec__input.html#a02b29863a947531e6c4e8d7c66c5a5e0":[52,0,87,0],
-"namespacevmec__input.html#a0543ff7c83bc6ccda2793399ce564847":[52,0,87,43],
-"namespacevmec__input.html#a0ab2f0253f28f30f4f5cfe4d96ac129a":[52,0,87,40],
-"namespacevmec__input.html#a10a6fb946588f8a10c060c4fa118b01a":[52,0,87,37],
-"namespacevmec__input.html#a12d5d94980d7fd31fea3b50026fd13b5":[52,0,87,27]
+"namespacevmec__file.html#a80c64481e8fa94dbe54b34b7315f11bc":[52,0,86,2]
 };

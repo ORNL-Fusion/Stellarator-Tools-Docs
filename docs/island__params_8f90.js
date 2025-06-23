@@ -1,11 +1,13 @@
 var island__params_8f90 =
 [
+    [ "chif_i", "island__params_8f90.html#ad7dea0655c5fb02494314671fc79fb62", null ],
     [ "chipf_i", "island__params_8f90.html#af9f35258172ae434512360c4c9f98a10", null ],
     [ "dnorm_i", "island__params_8f90.html#add7e907a6b7eb11626b1b8f35f0a2586", null ],
     [ "fourier_context", "island__params_8f90.html#a24c8539d3e62a5cf926144ce7722c53e", null ],
     [ "gamma", "island__params_8f90.html#a3bafa2d657ef7c2b012734508d306394", null ],
     [ "hs_i", "island__params_8f90.html#a69181040e5eac725feb169024032b3da", null ],
     [ "ohs_i", "island__params_8f90.html#a2fd5be90ae67b87c92af1c864dc47140", null ],
+    [ "phif_i", "island__params_8f90.html#a31aaada320cd208f340b76305a560ccd", null ],
     [ "phipf_i", "island__params_8f90.html#a3026e5935687f4a23b3260400a2c686b", null ],
     [ "presf_i", "island__params_8f90.html#ab64b6ae4deddf74c1e84ea7ee1c6239c", null ],
     [ "rmajor_i", "island__params_8f90.html#a39f16f6e74455d09fed7c729e4e53fcb", null ],
