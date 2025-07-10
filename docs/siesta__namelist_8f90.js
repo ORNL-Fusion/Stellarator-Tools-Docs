@@ -5,7 +5,7 @@ var siesta__namelist_8f90 =
     [ "eta_factor", "siesta__namelist_8f90.html#a5c34fd50cada7045ae178a8fb1b2d259", null ],
     [ "ftol", "siesta__namelist_8f90.html#ae64f42cf055173d5c482a8cd115f38ab", null ],
     [ "helpert", "siesta__namelist_8f90.html#ab484920d7381a8323343d3c831d5d0c2", null ],
-    [ "helperta", "siesta__namelist_8f90.html#ab97b075d3f746e9d9c4f81bf73eb977a", null ],
+    [ "helphase", "siesta__namelist_8f90.html#a81ee6da21129b06fcec49ddccb8c4a6e", null ],
     [ "l_force_restart", "siesta__namelist_8f90.html#af57a51e3891726ea0935c45f09b55c9a", null ],
     [ "l_lambda", "siesta__namelist_8f90.html#ac64d37e97cd94c6e9eb9643f6405983a", null ],
     [ "l_output_alliter", "siesta__namelist_8f90.html#a862817756335c5f140475c535775ae6b", null ],

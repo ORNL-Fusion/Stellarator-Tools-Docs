@@ -100,7 +100,8 @@ $(document).ready(function(){initNavTree('siesta_restart_sec.html',''); initResi
 <li class="level2"><a href="#siesta_restart_norm_fact_sec">Normalization factors.</a></li>
 <li class="level2"><a href="#siesta_restart_scalar_sec">Scalar quantities.</a></li>
 <li class="level2"><a href="#siesta_restart_1D_arrays_sec">1D profiles.</a></li>
-<li class="level2"><a href="#siesta_restart_2D_arrays_sec">3D arrays.</a><ul><li class="level3"><a href="#siesta_restart_internal_arrays_sec">Internal arrays</a></li>
+<li class="level2"><a href="#siesta_restart_2D_arrays_sec">2D arrays.</a></li>
+<li class="level2"><a href="#siesta_restart_3D_arrays_sec">3D arrays.</a><ul><li class="level3"><a href="#siesta_restart_internal_arrays_sec">Internal arrays</a></li>
 <li class="level3"><a href="#siesta_restart_internal_arrays_asym_sec">Internal arrays asym.</a></li>
 <li class="level3"><a href="#siesta_restart_grid_arrays_sec">Grid arrays</a></li>
 <li class="level3"><a href="#siesta_restart_grid_arrays_asym_sec">Gird arrays asym.</a></li>
@@ -171,9 +172,17 @@ Scalar quantities.</h2>
 <tr>
 <td width="20%"><code>rmajor</code></td><td width="50%">Major radius.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a39f16f6e74455d09fed7c729e4e53fcb">island_params::rmajor_i</a> </td></tr>
 <tr>
+<td width="20%"><code>wb0</code></td><td width="50%">Inital Energy stored in the magnetid field.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a46cb9f1dde4a037fa9964d7ad5a94f11">island_params::wb_i</a> </td></tr>
+<tr>
+<td width="20%"><code>wp0</code></td><td width="50%">Inital Energy stored in the pressure.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a46cb9f1dde4a037fa9964d7ad5a94f11">island_params::wb_i</a> </td></tr>
+<tr>
 <td width="20%"><code>wb</code></td><td width="50%">Energy stored in the magnetid field.</td><td width="30%">quantities::wb </td></tr>
 <tr>
 <td width="20%"><code>wp</code></td><td width="50%">Energy stored in the pressure.</td><td width="30%">quantities::wb </td></tr>
+<tr>
+<td width="20%"><code>wtotal0</code></td><td width="50%">Inital total energy.</td><td width="30%"><a class="el" href="namespaceshared__data.html#aea5a669987a6f60096701138b2c6694e">shared_data::wtotal0</a> </td></tr>
+<tr>
+<td width="20%"><code>wtotal</code></td><td width="50%">Total energy.</td><td width="30%"><a class="el" href="namespaceshared__data.html#ac49c9f28243d9fa2303dd635cdbc4b5e">shared_data::wtotal</a> </td></tr>
 </table>
 <h2><a class="anchor" id="siesta_restart_1D_arrays_sec"></a>
 1D profiles.</h2>
@@ -186,8 +195,16 @@ Scalar quantities.</h2>
 <td width="20%"><code>chif_r_</code></td><td width="50%">Poloidal flux profile.</td><td width="30%"><a class="el" href="namespaceisland__params.html#ad7dea0655c5fb02494314671fc79fb62">island_params::chif_i</a> </td></tr>
 <tr>
 <td width="20%"><code>phif_r_</code></td><td width="50%">Toroidal flux profile.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a31aaada320cd208f340b76305a560ccd">island_params::phif_i</a> </td></tr>
+<tr>
+<td width="20%"><code>tor_modes</code></td><td width="50%">Toroidal mode array.</td><td width="30%">fourier::tor_modes </td></tr>
 </table>
 <h2><a class="anchor" id="siesta_restart_2D_arrays_sec"></a>
+2D arrays.</h2>
+<table border="1px" width="80%">
+<tr>
+<td width="20%"><code>found_modes</code></td><td width="50%">List of found resonances.</td><td width="30%">fourier::found_modes </td></tr>
+</table>
+<h2><a class="anchor" id="siesta_restart_3D_arrays_sec"></a>
 3D arrays.</h2>
 <table border="1px" width="80%">
 </table>
@@ -213,7 +230,7 @@ Internal arrays asym.</h3>
 <tr>
 <td width="20%"><code>JBsupvsh_m_n_r_</code></td><td width="50%">Normalized JB^v component sine parity.</td><td width="30%">quantities::jbsupvmnsh </td></tr>
 <tr>
-<td width="20%"><code>jpressh_m_n_r_</code></td><td width="50%">Normalized JB^v component sine parity.</td><td width="30%">quantities::jpmnsh </td></tr>
+<td width="20%"><code>jpressh_m_n_r_</code></td><td width="50%">Normalized JP component sine parity.</td><td width="30%">quantities::jpmnsh </td></tr>
 </table>
 <h3><a class="anchor" id="siesta_restart_grid_arrays_sec"></a>
 Grid arrays</h3>

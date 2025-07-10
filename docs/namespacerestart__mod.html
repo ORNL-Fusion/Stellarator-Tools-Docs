@@ -138,8 +138,16 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>restart
 character(len= *), dimension(1), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>radial_dim</b> = (/ 'radius' /)</td></tr>
 <tr class="memdesc:a7e458e8ae5a115086ee07111bab513a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial Dimension names. <br /></td></tr>
 <tr class="separator:a7e458e8ae5a115086ee07111bab513a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa550ed740c16faf0d43d368918f66540" id="r_aa550ed740c16faf0d43d368918f66540"><td class="memItemLeft" align="right" valign="top"><a id="aa550ed740c16faf0d43d368918f66540" name="aa550ed740c16faf0d43d368918f66540"></a>
+character(len= *), dimension(1), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>ntor_dim</b> = (/ 'n-mode' /)</td></tr>
+<tr class="memdesc:aa550ed740c16faf0d43d368918f66540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toroidal mode dimension. <br /></td></tr>
+<tr class="separator:aa550ed740c16faf0d43d368918f66540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4351b2504d44c0e9f37886833692e8" id="r_a0a4351b2504d44c0e9f37886833692e8"><td class="memItemLeft" align="right" valign="top"><a id="a0a4351b2504d44c0e9f37886833692e8" name="a0a4351b2504d44c0e9f37886833692e8"></a>
+character(len= *), dimension(2), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>found_dim</b> = (/ 'm-mode', <a class="el" href="namespacerestart__mod.html#aa550ed740c16faf0d43d368918f66540">ntor_dim</a>(1) /)</td></tr>
+<tr class="memdesc:a0a4351b2504d44c0e9f37886833692e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Found mode dimension. <br /></td></tr>
+<tr class="separator:a0a4351b2504d44c0e9f37886833692e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28b2ca053fd487156841d1e4292cc9c5" id="r_a28b2ca053fd487156841d1e4292cc9c5"><td class="memItemLeft" align="right" valign="top"><a id="a28b2ca053fd487156841d1e4292cc9c5" name="a28b2ca053fd487156841d1e4292cc9c5"></a>
-character(len= *), dimension(3), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>restart_dims</b> = (/ 'm-mode', 'n-mode', <a class="el" href="namespacerestart__mod.html#a7e458e8ae5a115086ee07111bab513a3">radial_dim</a>(1) /)</td></tr>
+character(len= *), dimension(3), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>restart_dims</b> = (/ <a class="el" href="namespacerestart__mod.html#a0a4351b2504d44c0e9f37886833692e8">found_dim</a>(1), <a class="el" href="namespacerestart__mod.html#a0a4351b2504d44c0e9f37886833692e8">found_dim</a>(2), <a class="el" href="namespacerestart__mod.html#a7e458e8ae5a115086ee07111bab513a3">radial_dim</a>(1) /)</td></tr>
 <tr class="memdesc:a28b2ca053fd487156841d1e4292cc9c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fourier Dimension names. <br /></td></tr>
 <tr class="separator:a28b2ca053fd487156841d1e4292cc9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1522f71f25dd55499b88dfe7658c974" id="r_af1522f71f25dd55499b88dfe7658c974"><td class="memItemLeft" align="right" valign="top"><a id="af1522f71f25dd55499b88dfe7658c974" name="af1522f71f25dd55499b88dfe7658c974"></a>
@@ -170,6 +178,10 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_tor_modes</b> = 'tor_modes'</td></tr>
 <tr class="memdesc:ac704019af262476e08dea0d90739d2b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file toroidal modes array. <br /></td></tr>
 <tr class="separator:ac704019af262476e08dea0d90739d2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ade99eb86abe81663aea20d257a95b1" id="r_a8ade99eb86abe81663aea20d257a95b1"><td class="memItemLeft" align="right" valign="top"><a id="a8ade99eb86abe81663aea20d257a95b1" name="a8ade99eb86abe81663aea20d257a95b1"></a>
+character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_found_modes</b> = 'found_modes'</td></tr>
+<tr class="memdesc:a8ade99eb86abe81663aea20d257a95b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file found modes array. <br /></td></tr>
+<tr class="separator:a8ade99eb86abe81663aea20d257a95b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dabe58f043ba85ceb69a36b0807182d" id="r_a8dabe58f043ba85ceb69a36b0807182d"><td class="memItemLeft" align="right" valign="top"><a id="a8dabe58f043ba85ceb69a36b0807182d" name="a8dabe58f043ba85ceb69a36b0807182d"></a>
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_jbsupss</b> = 'JBsupssh_m_n_r_'</td></tr>
 <tr class="memdesc:a8dabe58f043ba85ceb69a36b0807182d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file jbsupss. <br /></td></tr>
@@ -402,13 +414,21 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_b_factor</b> = 'b_factor'</td></tr>
 <tr class="memdesc:a0eaefbfb80ac7b45781e6607d0925edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file b_factor. <br /></td></tr>
 <tr class="separator:a0eaefbfb80ac7b45781e6607d0925edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52919fa25206c16d1a513d394e2ecad1" id="r_a52919fa25206c16d1a513d394e2ecad1"><td class="memItemLeft" align="right" valign="top"><a id="a52919fa25206c16d1a513d394e2ecad1" name="a52919fa25206c16d1a513d394e2ecad1"></a>
+character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_wb0</b> = 'wb0'</td></tr>
+<tr class="memdesc:a52919fa25206c16d1a513d394e2ecad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file inital wb. <br /></td></tr>
+<tr class="separator:a52919fa25206c16d1a513d394e2ecad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ec856e0c9f66b52e47dd597c45e13b" id="r_aa9ec856e0c9f66b52e47dd597c45e13b"><td class="memItemLeft" align="right" valign="top"><a id="aa9ec856e0c9f66b52e47dd597c45e13b" name="aa9ec856e0c9f66b52e47dd597c45e13b"></a>
+character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_wp0</b> = 'wp0'</td></tr>
+<tr class="memdesc:aa9ec856e0c9f66b52e47dd597c45e13b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file inital wp. <br /></td></tr>
+<tr class="separator:aa9ec856e0c9f66b52e47dd597c45e13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2ed069cf8731eb379df78b1b085548" id="r_afd2ed069cf8731eb379df78b1b085548"><td class="memItemLeft" align="right" valign="top"><a id="afd2ed069cf8731eb379df78b1b085548" name="afd2ed069cf8731eb379df78b1b085548"></a>
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_wb</b> = 'wb'</td></tr>
-<tr class="memdesc:afd2ed069cf8731eb379df78b1b085548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file wb. <br /></td></tr>
+<tr class="memdesc:afd2ed069cf8731eb379df78b1b085548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file stored wb. <br /></td></tr>
 <tr class="separator:afd2ed069cf8731eb379df78b1b085548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ba6dace1c8d1a2cd318917bcdea24d5" id="r_a1ba6dace1c8d1a2cd318917bcdea24d5"><td class="memItemLeft" align="right" valign="top"><a id="a1ba6dace1c8d1a2cd318917bcdea24d5" name="a1ba6dace1c8d1a2cd318917bcdea24d5"></a>
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_wp</b> = 'wp'</td></tr>
-<tr class="memdesc:a1ba6dace1c8d1a2cd318917bcdea24d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file wb. <br /></td></tr>
+<tr class="memdesc:a1ba6dace1c8d1a2cd318917bcdea24d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name for the restart file stored wp. <br /></td></tr>
 <tr class="separator:a1ba6dace1c8d1a2cd318917bcdea24d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b75642da9bf5f8acb084d7cb10016f3" id="r_a9b75642da9bf5f8acb084d7cb10016f3"><td class="memItemLeft" align="right" valign="top"><a id="a9b75642da9bf5f8acb084d7cb10016f3" name="a9b75642da9bf5f8acb084d7cb10016f3"></a>
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_rmajor</b> = 'rmajor'</td></tr>
@@ -430,6 +450,10 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
 character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_wtotal0</b> = 'wtotal0'</td></tr>
 <tr class="memdesc:a3a447a25644f2615c98e3ebc253807a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inital stored energy. <br /></td></tr>
 <tr class="separator:a3a447a25644f2615c98e3ebc253807a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fbc6626622352285c3c9b7d1e48d4a" id="r_a16fbc6626622352285c3c9b7d1e48d4a"><td class="memItemLeft" align="right" valign="top"><a id="a16fbc6626622352285c3c9b7d1e48d4a" name="a16fbc6626622352285c3c9b7d1e48d4a"></a>
+character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vn_wtotal</b> = 'wtotal'</td></tr>
+<tr class="memdesc:a16fbc6626622352285c3c9b7d1e48d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stored energy. <br /></td></tr>
+<tr class="separator:a16fbc6626622352285c3c9b7d1e48d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains routines for writting the restart file. </p>

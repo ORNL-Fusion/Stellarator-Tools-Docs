@@ -18,6 +18,7 @@ var structfourier_1_1fourier__class =
     [ "cosmum", "structfourier_1_1fourier__class.html#a12b22782cdfe72bb43fd095bbe47f62c", null ],
     [ "cosnv", "structfourier_1_1fourier__class.html#a4ed9dd60ff51dc97658107b8f9bf70d7", null ],
     [ "cosnvn", "structfourier_1_1fourier__class.html#ac02e5b61b1d72f6538b2244217b2745b", null ],
+    [ "found_modes", "structfourier_1_1fourier__class.html#a62dc14884fa41629cd36940b683f66da", null ],
     [ "orthonorm", "structfourier_1_1fourier__class.html#a03b9fc569beac3def7b96b55a2507582", null ],
     [ "sinmu", "structfourier_1_1fourier__class.html#a149797c8d34416ee2b2b382df812d110", null ],
     [ "sinmui", "structfourier_1_1fourier__class.html#a6baec980b314584c0d793e2b8774b3d3", null ],

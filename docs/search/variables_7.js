@@ -2,7 +2,7 @@ var searchData=
 [
   ['help_0',['help',['../classvmec__test_1_1commandline__parser.html#a4f9b7a587ba6bebab46c6a44d5ab870b',1,'vmec_test::commandline_parser']]],
   ['helpert_1',['helpert',['../namespacesiesta__namelist.html#ab484920d7381a8323343d3c831d5d0c2',1,'siesta_namelist']]],
-  ['helperta_2',['helperta',['../namespacesiesta__namelist.html#ab97b075d3f746e9d9c4f81bf73eb977a',1,'siesta_namelist']]],
+  ['helphase_2',['helphase',['../namespacesiesta__namelist.html#a81ee6da21129b06fcec49ddccb8c4a6e',1,'siesta_namelist']]],
   ['hessian_3',['hessian',['../structreconstruction_1_1reconstruction__class.html#a9dc6aca17cd5f33734ce86d2e25b897d',1,'reconstruction::reconstruction_class']]],
   ['hesspass_5ftest_4',['hesspass_test',['../namespaceshared__data.html#abc2e97d9043baaf076efe1e5034b7f84',1,'shared_data']]],
   ['hs_5fi_5',['hs_i',['../namespaceisland__params.html#a69181040e5eac725feb169024032b3da',1,'island_params']]],

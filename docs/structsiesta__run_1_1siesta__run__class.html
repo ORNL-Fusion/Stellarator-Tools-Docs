@@ -121,6 +121,12 @@ procedure&#160;</td><td class="memItemRight" valign="bottom"><b>set_1d</b> siest
 <tr class="memitem:a1291c95dd96036681829134ce4f756ae" id="r_a1291c95dd96036681829134ce4f756ae"><td class="memItemLeft" align="right" valign="top"><a id="a1291c95dd96036681829134ce4f756ae" name="a1291c95dd96036681829134ce4f756ae"></a>
 GENERIC&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> set_1d</td></tr>
 <tr class="separator:a1291c95dd96036681829134ce4f756ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9594c281739e62aa8a34e5670f9a4974" id="r_a9594c281739e62aa8a34e5670f9a4974"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsiesta__run_1_1siesta__run__class.html#a9594c281739e62aa8a34e5670f9a4974">get_1d</a> (this, param_name, index)</td></tr>
+<tr class="memdesc:a9594c281739e62aa8a34e5670f9a4974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get 1D parameter value.  <br /></td></tr>
+<tr class="separator:a9594c281739e62aa8a34e5670f9a4974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f6f4292c4b224d54f1b6bd13db35e2" id="r_a96f6f4292c4b224d54f1b6bd13db35e2"><td class="memItemLeft" align="right" valign="top"><a id="a96f6f4292c4b224d54f1b6bd13db35e2" name="a96f6f4292c4b224d54f1b6bd13db35e2"></a>
+GENERIC&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> <a class="el" href="structsiesta__run_1_1siesta__run__class.html#a9594c281739e62aa8a34e5670f9a4974">get_1d</a></td></tr>
+<tr class="separator:a96f6f4292c4b224d54f1b6bd13db35e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacdfe9f6d77771fd66220c07d77128bd" id="r_aacdfe9f6d77771fd66220c07d77128bd"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsiesta__run_1_1siesta__run__class.html#aacdfe9f6d77771fd66220c07d77128bd">converge</a> (this)</td></tr>
 <tr class="memdesc:aacdfe9f6d77771fd66220c07d77128bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the SIESTA equilibrium.  <br /></td></tr>
 <tr class="separator:aacdfe9f6d77771fd66220c07d77128bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +178,51 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>control_state</b><
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a9594c281739e62aa8a34e5670f9a4974" name="a9594c281739e62aa8a34e5670f9a4974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9594c281739e62aa8a34e5670f9a4974">&#9670;&#160;</a></span>get_1d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure siesta_run::siesta_run_class::get_1d </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character (len=*), intent(in)&#160;</td>
+          <td class="paramname"><em>param_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get 1D parameter value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td><a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">param_name</td><td>Name of the parameter to set. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Array index of to set the value to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Value of the parameter at the index. </dd></dl>
 
 </div>
 </div>
