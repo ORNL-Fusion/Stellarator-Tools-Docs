@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"namespacesxrem__ratio.html#a8bd12c0a8d0c7f290f978e4059f7dd28":[52,0,71,4],
 "namespacesxrem__ratio.html#abdecaf456c565af7a11370e466dc90ae":[52,0,71,3],
 "namespacesxrem__ratio.html#ac58b81566f9518d74dea9bedf069cacf":[52,0,71,6],
 "namespacesxrem__ratio.html#ade9268caf165fd7b6d80bdc3c1862277":[52,0,71,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "namespacev3fit__params.html#a5a3abbc0abdc4fda6169163295adc8a9":[52,0,79,15],
 "namespacev3fit__params.html#a5a9d876598261d7a0abfafb748b70bd4":[52,0,79,7],
 "namespacev3fit__params.html#a6b0bf1537519a547895781151859f3a6":[52,0,79,22],
-"namespacev3fit__params.html#a6bdfb0b942285942e55bc20f958ead56":[52,0,79,17],
-"namespacev3fit__params.html#a70ed70103621610c311a387475fcf7db":[52,0,79,10]
+"namespacev3fit__params.html#a6bdfb0b942285942e55bc20f958ead56":[52,0,79,17]
 };

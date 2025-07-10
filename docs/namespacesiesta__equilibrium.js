@@ -51,5 +51,6 @@ var namespacesiesta__equilibrium =
     [ "siesta_to_w_vmec_low", "namespacesiesta__equilibrium.html#a8486d2a9e57e0bd50fde6cfe47d58574", null ],
     [ "siesta_write", "namespacesiesta__equilibrium.html#aecadf78aa6839a8fa8e066b11cd3f547", null ],
     [ "siesta_write_input", "namespacesiesta__equilibrium.html#a0551767a732b51891984375ed98b08d3", null ],
-    [ "siesta_helpert_id", "namespacesiesta__equilibrium.html#af0ee35a1a4de414752e0d74fac846cf1", null ]
+    [ "siesta_helpert_id", "namespacesiesta__equilibrium.html#af0ee35a1a4de414752e0d74fac846cf1", null ],
+    [ "siesta_helphase_id", "namespacesiesta__equilibrium.html#a787ae6f97c745ce25284e0e0de9c0a92", null ]
 ];
