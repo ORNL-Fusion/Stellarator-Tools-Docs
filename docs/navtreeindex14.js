@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"namespacevmec__equilibrium.html#af0a3f5865980531986dd169bfd423bd0":[52,0,85,112],
+"namespacevmec__equilibrium.html#af19abc6f123b38c9c8ed0897d8194e61":[52,0,85,33],
+"namespacevmec__equilibrium.html#af2834de9b8119aa4a0e70250df21e96a":[52,0,85,89],
+"namespacevmec__equilibrium.html#af32bc9eb29e352de8b798cc60e2e7627":[52,0,85,76],
 "namespacevmec__equilibrium.html#af4f2edd1d01924f02f6f034c98ccacfb":[52,0,85,135],
 "namespacevmec__equilibrium.html#afd8255c2b4d1657391a66f44f3b3245b":[52,0,85,69],
 "namespacevmec__equilibrium.html#afe9599fa5099de28f623c099ce5444c8":[52,0,85,99],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "profile_sec.html#profile_sq_ecp":[34,1,8],
 "profile_sec.html#profile_two_power":[34,1,1],
 "profile_sec.html#profile_two_power_gs":[34,1,2],
-"profile_sec.html#profile_two_power_r":[34,1,3],
-"profile_sec.html#profile_types_sec":[34,1],
-"profiler_8f.html":[54,0,2,0,3,8],
-"profiler_8f.html#a0770360f61f6885a34f3983a4ad9625b":[54,0,2,0,3,8,7],
-"profiler_8f.html#a36371403894ef9b960bac1e58aef5033":[54,0,2,0,3,8,3]
+"profile_sec.html#profile_two_power_r":[34,1,3]
 };

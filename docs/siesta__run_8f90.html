@@ -122,9 +122,18 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a1c33afffa76a39261bbb967b49e31ffb" id="r_a1c33afffa76a39261bbb967b49e31ffb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__run.html#a1c33afffa76a39261bbb967b49e31ffb">siesta_run::siesta_run_destruct</a> (this)</td></tr>
 <tr class="memdesc:a1c33afffa76a39261bbb967b49e31ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a> object.  <br /></td></tr>
 <tr class="separator:a1c33afffa76a39261bbb967b49e31ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cd1f3b85fcf9ea26f1b96df1e9a078" id="r_ad5cd1f3b85fcf9ea26f1b96df1e9a078"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__run.html#ad5cd1f3b85fcf9ea26f1b96df1e9a078">siesta_run::siesta_run_set_control_state</a> (this, state)</td></tr>
+<tr class="memdesc:ad5cd1f3b85fcf9ea26f1b96df1e9a078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a control state.  <br /></td></tr>
+<tr class="separator:ad5cd1f3b85fcf9ea26f1b96df1e9a078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39f2be7bdf0394de83c9d366dbd3edac" id="r_a39f2be7bdf0394de83c9d366dbd3edac"><td class="memItemLeft" align="right" valign="top">real(dp) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__run.html#a39f2be7bdf0394de83c9d366dbd3edac">siesta_run::siesta_run_get_1d</a> (this, param_name, index)</td></tr>
 <tr class="memdesc:a39f2be7bdf0394de83c9d366dbd3edac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get 1D parameter value.  <br /></td></tr>
 <tr class="separator:a39f2be7bdf0394de83c9d366dbd3edac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d1d3d35cddd83e771a78c410fd522c" id="r_a99d1d3d35cddd83e771a78c410fd522c"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__run.html#a99d1d3d35cddd83e771a78c410fd522c">siesta_run::siesta_run_is_state_set</a> (this, state)</td></tr>
+<tr class="memdesc:a99d1d3d35cddd83e771a78c410fd522c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if state is set.  <br /></td></tr>
+<tr class="separator:a99d1d3d35cddd83e771a78c410fd522c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b03ff7f7bf11b54ff96ba0886c16fa" id="r_af2b03ff7f7bf11b54ff96ba0886c16fa"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__run.html#af2b03ff7f7bf11b54ff96ba0886c16fa">siesta_run::siesta_run_clear_state</a> (this, state)</td></tr>
+<tr class="memdesc:af2b03ff7f7bf11b54ff96ba0886c16fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear state bit.  <br /></td></tr>
+<tr class="separator:af2b03ff7f7bf11b54ff96ba0886c16fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34192c15f6cda422bdf260056fee9ddb" id="r_a34192c15f6cda422bdf260056fee9ddb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__run.html#a34192c15f6cda422bdf260056fee9ddb">siesta_run::siesta_run_converge</a> (this)</td></tr>
 <tr class="memdesc:a34192c15f6cda422bdf260056fee9ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the SIESTA equilibrium.  <br /></td></tr>
 <tr class="separator:a34192c15f6cda422bdf260056fee9ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,8 +157,12 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_
 <tr class="separator:aa3050a3f5a2791a245c899b101605239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed7a512f2da2451105ece9eb19f43c7e" id="r_aed7a512f2da2451105ece9eb19f43c7e"><td class="memItemLeft" align="right" valign="top"><a id="aed7a512f2da2451105ece9eb19f43c7e" name="aed7a512f2da2451105ece9eb19f43c7e"></a>
 integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_run::siesta_run_sync_namelist</b> = 3</td></tr>
-<tr class="memdesc:aed7a512f2da2451105ece9eb19f43c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit position to sycn the namelist inputs. <br /></td></tr>
+<tr class="memdesc:aed7a512f2da2451105ece9eb19f43c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit position to sync the namelist inputs. <br /></td></tr>
 <tr class="separator:aed7a512f2da2451105ece9eb19f43c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433c5a2e38f4e98453ec2191206e2b40" id="r_a433c5a2e38f4e98453ec2191206e2b40"><td class="memItemLeft" align="right" valign="top"><a id="a433c5a2e38f4e98453ec2191206e2b40" name="a433c5a2e38f4e98453ec2191206e2b40"></a>
+integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_run::siesta_run_write_profiles</b> = 4</td></tr>
+<tr class="memdesc:a433c5a2e38f4e98453ec2191206e2b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit position to write diagnostics outputs. <br /></td></tr>
+<tr class="separator:a433c5a2e38f4e98453ec2191206e2b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains module <a class="el" href="namespacesiesta__run.html">siesta_run</a>. </p>

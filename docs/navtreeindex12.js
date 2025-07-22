@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"namespacesxrem.html#aba6707e07b7c065e4efc90e3f25cbfd0":[52,0,70,18],
+"namespacesxrem__ratio.html":[52,0,71],
+"namespacesxrem__ratio.html#a3334120e426e0f3524887db26808b269":[52,0,71,5],
+"namespacesxrem__ratio.html#a6a7803b872fb585e2d54e6308e481938":[52,0,71,1],
 "namespacesxrem__ratio.html#a8bd12c0a8d0c7f290f978e4059f7dd28":[52,0,71,4],
 "namespacesxrem__ratio.html#abdecaf456c565af7a11370e466dc90ae":[52,0,71,3],
 "namespacesxrem__ratio.html#ac58b81566f9518d74dea9bedf069cacf":[52,0,71,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "namespacev3fit__params.html#a4837c38992a305cabe9f3859d7b55f1f":[52,0,79,35],
 "namespacev3fit__params.html#a49667f7fd107c9a891fef71f80b19865":[52,0,79,9],
 "namespacev3fit__params.html#a4f0815c66516006aa28a94e06b322d05":[52,0,79,24],
-"namespacev3fit__params.html#a58a43e136623f6eb084ad9672124eeda":[52,0,79,25],
-"namespacev3fit__params.html#a5a3abbc0abdc4fda6169163295adc8a9":[52,0,79,15],
-"namespacev3fit__params.html#a5a9d876598261d7a0abfafb748b70bd4":[52,0,79,7],
-"namespacev3fit__params.html#a6b0bf1537519a547895781151859f3a6":[52,0,79,22],
-"namespacev3fit__params.html#a6bdfb0b942285942e55bc20f958ead56":[52,0,79,17]
+"namespacev3fit__params.html#a58a43e136623f6eb084ad9672124eeda":[52,0,79,25]
 };

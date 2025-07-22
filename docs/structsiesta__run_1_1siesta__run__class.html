@@ -121,6 +121,15 @@ procedure&#160;</td><td class="memItemRight" valign="bottom"><b>set_1d</b> siest
 <tr class="memitem:a1291c95dd96036681829134ce4f756ae" id="r_a1291c95dd96036681829134ce4f756ae"><td class="memItemLeft" align="right" valign="top"><a id="a1291c95dd96036681829134ce4f756ae" name="a1291c95dd96036681829134ce4f756ae"></a>
 GENERIC&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> set_1d</td></tr>
 <tr class="separator:a1291c95dd96036681829134ce4f756ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80f37324ed4377279e10f613d125b52" id="r_af80f37324ed4377279e10f613d125b52"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsiesta__run_1_1siesta__run__class.html#af80f37324ed4377279e10f613d125b52">set_control_state</a> (this, state)</td></tr>
+<tr class="memdesc:af80f37324ed4377279e10f613d125b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a control state.  <br /></td></tr>
+<tr class="separator:af80f37324ed4377279e10f613d125b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486ef5eb33c8225df6d9b7663325f052" id="r_a486ef5eb33c8225df6d9b7663325f052"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsiesta__run_1_1siesta__run__class.html#a486ef5eb33c8225df6d9b7663325f052">is_state_set</a> (this, state)</td></tr>
+<tr class="memdesc:a486ef5eb33c8225df6d9b7663325f052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if state is set.  <br /></td></tr>
+<tr class="separator:a486ef5eb33c8225df6d9b7663325f052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36f72667767d4f18738f76828bc5bc5" id="r_ae36f72667767d4f18738f76828bc5bc5"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsiesta__run_1_1siesta__run__class.html#ae36f72667767d4f18738f76828bc5bc5">clear_state</a> (this, state)</td></tr>
+<tr class="memdesc:ae36f72667767d4f18738f76828bc5bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear state bit.  <br /></td></tr>
+<tr class="separator:ae36f72667767d4f18738f76828bc5bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9594c281739e62aa8a34e5670f9a4974" id="r_a9594c281739e62aa8a34e5670f9a4974"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsiesta__run_1_1siesta__run__class.html#a9594c281739e62aa8a34e5670f9a4974">get_1d</a> (this, param_name, index)</td></tr>
 <tr class="memdesc:a9594c281739e62aa8a34e5670f9a4974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get 1D parameter value.  <br /></td></tr>
 <tr class="separator:a9594c281739e62aa8a34e5670f9a4974"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +163,43 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>control_state</b><
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for the <a class="el" href="namespacesiesta__run.html" title="Defines the base class of the type siesta_run_class. This module contains all the code necessary to i...">siesta_run</a> constructor. </p>
 </div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
+<a id="ae36f72667767d4f18738f76828bc5bc5" name="ae36f72667767d4f18738f76828bc5bc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36f72667767d4f18738f76828bc5bc5">&#9670;&#160;</a></span>clear_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure siesta_run::siesta_run_class::clear_state </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear state bit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td><a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State bit to query. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aacdfe9f6d77771fd66220c07d77128bd" name="aacdfe9f6d77771fd66220c07d77128bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacdfe9f6d77771fd66220c07d77128bd">&#9670;&#160;</a></span>converge()</h2>
 
@@ -223,6 +269,81 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>control_state</b><
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Value of the parameter at the index. </dd></dl>
+
+</div>
+</div>
+<a id="a486ef5eb33c8225df6d9b7663325f052" name="a486ef5eb33c8225df6d9b7663325f052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a486ef5eb33c8225df6d9b7663325f052">&#9670;&#160;</a></span>is_state_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure siesta_run::siesta_run_class::is_state_set </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Query if state is set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td><a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State bit to query. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the state is set. </dd></dl>
+
+</div>
+</div>
+<a id="af80f37324ed4377279e10f613d125b52" name="af80f37324ed4377279e10f613d125b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80f37324ed4377279e10f613d125b52">&#9670;&#160;</a></span>set_control_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure siesta_run::siesta_run_class::set_control_state </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a control state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td><a class="el" href="structsiesta__run_1_1siesta__run__class.html">siesta_run_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>State bit to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
