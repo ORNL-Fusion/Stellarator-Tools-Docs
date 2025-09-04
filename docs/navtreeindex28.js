@@ -1,5 +1,13 @@
 var NAVTREEINDEX28 =
 {
+"vmec__equilibrium_8f.html#a75000b9085ae228243f7e28f6f313fb1":[54,0,7,0,40,107],
+"vmec__equilibrium_8f.html#a7532757e09dfbc0ca78c3d163febc265":[54,0,7,0,40,56],
+"vmec__equilibrium_8f.html#a77d739f769354141eecec5844b37263a":[54,0,7,0,40,13],
+"vmec__equilibrium_8f.html#a794d9382c295bf39fa34873594fe07bd":[54,0,7,0,40,121],
+"vmec__equilibrium_8f.html#a7d6de6e41f3b42cbe5f9c720e9412abe":[54,0,7,0,40,49],
+"vmec__equilibrium_8f.html#a7d9a3804c4ddbfbe11aefe53d7382e1f":[54,0,7,0,40,11],
+"vmec__equilibrium_8f.html#a7e33bef6e48cc1fd769a35b2b4a27699":[54,0,7,0,40,64],
+"vmec__equilibrium_8f.html#a7fc492f175fa76c03823b544bdf388f8":[54,0,7,0,40,75],
 "vmec__equilibrium_8f.html#a81bbaad32c40492fc95cc7e2b4d827b8":[54,0,7,0,40,147],
 "vmec__equilibrium_8f.html#a81c07bed241bb1202b5f23aeb808713b":[54,0,7,0,40,59],
 "vmec__equilibrium_8f.html#a842bf02fcc90038571786b127d36f9fb":[54,0,7,0,40,145],

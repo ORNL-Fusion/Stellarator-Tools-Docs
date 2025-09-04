@@ -78,5 +78,8 @@ var namespaceequilibrium =
     [ "equilibrium_write", "namespaceequilibrium.html#a52fe0a7f6fe457ba1e1397c04bea5d41", null ],
     [ "equilibrium_write_init_data", "namespaceequilibrium.html#acd20e3a5ae2c924b620d654c076dc81e", null ],
     [ "equilibrium_write_input", "namespaceequilibrium.html#a84e1df0703c7493f444fa5dc0a392d34", null ],
-    [ "equilibrium_write_step_data", "namespaceequilibrium.html#a502ea3221e3de780f53e85f8832eca33", null ]
+    [ "equilibrium_write_step_data", "namespaceequilibrium.html#a502ea3221e3de780f53e85f8832eca33", null ],
+    [ "siesta_eq_flag", "namespaceequilibrium.html#aa08ed3dcad1bc04184d27c8da3bb2431", null ],
+    [ "vacuum_eq_flag", "namespaceequilibrium.html#acc6236e88ed39240c7a0135be4b58aa4", null ],
+    [ "vmec_eq_flag", "namespaceequilibrium.html#a4f5e76ea1d3fa553c0ff3accd1bfa6c5", null ]
 ];

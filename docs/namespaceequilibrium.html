@@ -92,7 +92,8 @@ $(document).ready(function(){initNavTree('namespaceequilibrium.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Types</a> &#124;
-<a href="#func-members">Functions/Subroutines</a>  </div>
+<a href="#func-members">Functions/Subroutines</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">equilibrium Module Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -342,6 +343,21 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a2703de0db0bd4621825db0849e8c4521" id="r_a2703de0db0bd4621825db0849e8c4521"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceequilibrium.html#a2703de0db0bd4621825db0849e8c4521">equilibrium_sync_child</a> (this, index, recon_comm)</td></tr>
 <tr class="memdesc:a2703de0db0bd4621825db0849e8c4521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncronize a child equilibrium state to the parent.  <br /></td></tr>
 <tr class="separator:a2703de0db0bd4621825db0849e8c4521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:acc6236e88ed39240c7a0135be4b58aa4" id="r_acc6236e88ed39240c7a0135be4b58aa4"><td class="memItemLeft" align="right" valign="top"><a id="acc6236e88ed39240c7a0135be4b58aa4" name="acc6236e88ed39240c7a0135be4b58aa4"></a>
+integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vacuum_eq_flag</b> = 0</td></tr>
+<tr class="memdesc:acc6236e88ed39240c7a0135be4b58aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vacuum Equilibrium flag bit position. <br /></td></tr>
+<tr class="separator:acc6236e88ed39240c7a0135be4b58aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f5e76ea1d3fa553c0ff3accd1bfa6c5" id="r_a4f5e76ea1d3fa553c0ff3accd1bfa6c5"><td class="memItemLeft" align="right" valign="top"><a id="a4f5e76ea1d3fa553c0ff3accd1bfa6c5" name="a4f5e76ea1d3fa553c0ff3accd1bfa6c5"></a>
+integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>vmec_eq_flag</b> = 1</td></tr>
+<tr class="memdesc:a4f5e76ea1d3fa553c0ff3accd1bfa6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vacuum Equilibrium flag bit position. <br /></td></tr>
+<tr class="separator:a4f5e76ea1d3fa553c0ff3accd1bfa6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08ed3dcad1bc04184d27c8da3bb2431" id="r_aa08ed3dcad1bc04184d27c8da3bb2431"><td class="memItemLeft" align="right" valign="top"><a id="aa08ed3dcad1bc04184d27c8da3bb2431" name="aa08ed3dcad1bc04184d27c8da3bb2431"></a>
+integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_eq_flag</b> = 2</td></tr>
+<tr class="memdesc:aa08ed3dcad1bc04184d27c8da3bb2431"><td class="mdescLeft">&#160;</td><td class="mdescRight">SIESTA Equilibrium flag bit position. <br /></td></tr>
+<tr class="separator:aa08ed3dcad1bc04184d27c8da3bb2431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the base class of the type <a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a>. Equilibrium is an abstract interface to the equilibrium solver. Every method is meant to be overwritten by a subclass method with a few exceptions. For instance a vacuum equilibrium could use the default return values for equilibrium_get_ne, equilibrium_get_te and equilibrium_get_sxrem methods. </p>

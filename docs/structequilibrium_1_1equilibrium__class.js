@@ -75,5 +75,6 @@ var structequilibrium_1_1equilibrium__class =
     [ "write_init_data", "structequilibrium_1_1equilibrium__class.html#a4097cea4853f70c8a22def0df8a5c9ae", null ],
     [ "write_input", "structequilibrium_1_1equilibrium__class.html#a7245935ac5f405c990e170cce1734485", null ],
     [ "write_step_data", "structequilibrium_1_1equilibrium__class.html#af22ae6b6875e0abd8ed6a7b187485ca8", null ],
+    [ "flags", "structequilibrium_1_1equilibrium__class.html#ad5450b17f036ddf1a0e01a148df5c281", null ],
     [ "force_solve", "structequilibrium_1_1equilibrium__class.html#acda058731cbf9b3deeba5058de328519", null ]
 ];
