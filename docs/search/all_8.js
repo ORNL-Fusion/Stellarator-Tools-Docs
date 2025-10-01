@@ -73,7 +73,7 @@ var searchData=
   ['fsq_5fgmres_70',['fsq_gmres',['../namespaceshared__data.html#a3538e0d55f5ff09fc913b9152a5be1ac',1,'shared_data']]],
   ['fsq_5flin_71',['fsq_lin',['../namespaceshared__data.html#ad065d7130cde806a941afb467546c88b',1,'shared_data']]],
   ['fsq_5fres_72',['fsq_res',['../namespaceshared__data.html#ac1c7b01b86fc7c161baaab14613aebfa',1,'shared_data']]],
-  ['fsq_5ftotal_73',['fsq_total',['..//home/runner/work/LIBSTELL/Stellarator-Tools/SIESTA/Sources/diagnostics_mod.f90#autotoc_md13',1,'@param[in]    fsq_total'],['../namespaceshared__data.html#ae87ec7ee4ec725ed2d9c707a1396a2de',1,'shared_data::fsq_total']]],
+  ['fsq_5ftotal_73',['fsq_total',['..//home/runner/work/PARVMEC/Stellarator-Tools/SIESTA/Sources/diagnostics_mod.f90#autotoc_md13',1,'@param[in]    fsq_total'],['../namespaceshared__data.html#ae87ec7ee4ec725ed2d9c707a1396a2de',1,'shared_data::fsq_total']]],
   ['fsq_5ftotal1_74',['fsq_total1',['../namespaceshared__data.html#a64a148b306f5aa1ed22767f78da22e37',1,'shared_data']]],
   ['fsqvs_75',['fsqvs',['../namespaceshared__data.html#ac110d052f831d741b4308227cd276b9a',1,'shared_data']]],
   ['fsqvu_76',['fsqvu',['../namespaceshared__data.html#a8c71aa69c189259760cc60182519e4b3',1,'shared_data']]],
