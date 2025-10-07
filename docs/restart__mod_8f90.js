@@ -37,6 +37,7 @@ var restart__mod_8f90 =
     [ "vn_curtor", "restart__mod_8f90.html#adde30c44ba3ec29835de168ea5c728e3", null ],
     [ "vn_flags", "restart__mod_8f90.html#aaf00308f8ce571403fd618a50532588d", null ],
     [ "vn_found_modes", "restart__mod_8f90.html#a8ade99eb86abe81663aea20d257a95b1", null ],
+    [ "vn_fsq", "restart__mod_8f90.html#acb3da816e5c8337ea28a6b41f3164b91", null ],
     [ "vn_fsubsmnc", "restart__mod_8f90.html#add9c2414633648721622016e57e4efca", null ],
     [ "vn_fsubsmns", "restart__mod_8f90.html#ab3a431e1fc31e61de71147d55aed8743", null ],
     [ "vn_fsubumnc", "restart__mod_8f90.html#ae9b5ba36f1c10b2352882f7edd7bf0fa", null ],

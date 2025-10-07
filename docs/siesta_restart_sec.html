@@ -110,6 +110,9 @@ $(document).ready(function(){initNavTree('siesta_restart_sec.html',''); initResi
 <li class="level3"><a href="#siesta_restart_mag_arrays_sec">Magnetic fields.</a></li>
 <li class="level3"><a href="#siesta_restart_mag_arrays_asym_sec">Magnetic fields asymmetric.</a></li>
 <li class="level3"><a href="#siesta_restart_pres_arrays_sec">Pressure.</a></li>
+<li class="level3"><a href="#siesta_restart_pres_arrays_asym_sec">Pressure fields asymmetric.</a></li>
+<li class="level3"><a href="#siesta_restart_force_arrays_sec">Forces.</a></li>
+<li class="level3"><a href="#siesta_restart_force_arrays_asym_sec">Forces asymmetric.</a></li>
 <li class="level3"><a href="#siesta_restart_freeboundary_arrays_sec">Vector potential arrays</a></li>
 <li class="level3"><a href="#siesta_restart_freeboundary_arrays_asym_sec">Vector potential asymmetric arrays</a></li>
 </ul>
@@ -148,7 +151,7 @@ Dimension sizes.</h2>
 <tr>
 <td width="20%"><code>nfp</code></td><td width="50%">Number of field periods.</td><td width="30%"><a class="el" href="namespacesiesta__namelist.html#afdb40d9a582f32071bc4e4d5b3c932c5">siesta_namelist::nfpin</a> </td></tr>
 <tr>
-<td width="20%"><code>nrad</code></td><td width="50%">Number of radial surfaces.</td><td width="30%">island_params::ns_i </td></tr>
+<td width="20%"><code>nrad</code></td><td width="50%">Number of radial surfaces.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a8f1f90c34c51392328fe954a689b84e0">island_params::ns_i</a> </td></tr>
 <tr>
 <td width="20%"><code>ntor</code></td><td width="50%">Maximum torodal mode.</td><td width="30%"><a class="el" href="namespacesiesta__namelist.html#a8d54dbdd3913d2009948fba9e41a19fb">siesta_namelist::ntorin</a> </td></tr>
 </table>
@@ -174,15 +177,17 @@ Scalar quantities.</h2>
 <tr>
 <td width="20%"><code>wb0</code></td><td width="50%">Inital Energy stored in the magnetid field.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a46cb9f1dde4a037fa9964d7ad5a94f11">island_params::wb_i</a> </td></tr>
 <tr>
-<td width="20%"><code>wp0</code></td><td width="50%">Inital Energy stored in the pressure.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a46cb9f1dde4a037fa9964d7ad5a94f11">island_params::wb_i</a> </td></tr>
+<td width="20%"><code>wp0</code></td><td width="50%">Inital Energy stored in the pressure.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a8acd79f1e8fced0e84a0677c658c3385">island_params::wp_i</a> </td></tr>
 <tr>
 <td width="20%"><code>wb</code></td><td width="50%">Energy stored in the magnetid field.</td><td width="30%">quantities::wb </td></tr>
 <tr>
-<td width="20%"><code>wp</code></td><td width="50%">Energy stored in the pressure.</td><td width="30%">quantities::wb </td></tr>
+<td width="20%"><code>wp</code></td><td width="50%">Energy stored in the pressure.</td><td width="30%">quantities::wp </td></tr>
 <tr>
 <td width="20%"><code>wtotal0</code></td><td width="50%">Inital total energy.</td><td width="30%"><a class="el" href="namespaceshared__data.html#aea5a669987a6f60096701138b2c6694e">shared_data::wtotal0</a> </td></tr>
 <tr>
 <td width="20%"><code>wtotal</code></td><td width="50%">Total energy.</td><td width="30%"><a class="el" href="namespaceshared__data.html#ac49c9f28243d9fa2303dd635cdbc4b5e">shared_data::wtotal</a> </td></tr>
+<tr>
+<td width="20%"><code>fsq</code></td><td width="50%">Volumne averaged force residule fsub.fsup.</td><td width="30%"><a class="el" href="namespaceshared__data.html#a64a148b306f5aa1ed22767f78da22e37">shared_data::fsq_total1</a> </td></tr>
 </table>
 <h2><a class="anchor" id="siesta_restart_1D_arrays_sec"></a>
 1D profiles.</h2>
@@ -196,13 +201,13 @@ Scalar quantities.</h2>
 <tr>
 <td width="20%"><code>phif_r_</code></td><td width="50%">Toroidal flux profile.</td><td width="30%"><a class="el" href="namespaceisland__params.html#a31aaada320cd208f340b76305a560ccd">island_params::phif_i</a> </td></tr>
 <tr>
-<td width="20%"><code>tor_modes</code></td><td width="50%">Toroidal mode array.</td><td width="30%">fourier::tor_modes </td></tr>
+<td width="20%"><code>tor_modes</code></td><td width="50%">Toroidal mode array.</td><td width="30%"><a class="el" href="structfourier_1_1fourier__class.html#a0323b3b4876c3ea2f39ab1a9f87a54e7">fourier::fourier_class::tor_modes</a> </td></tr>
 </table>
 <h2><a class="anchor" id="siesta_restart_2D_arrays_sec"></a>
 2D arrays.</h2>
 <table border="1px" width="80%">
 <tr>
-<td width="20%"><code>found_modes</code></td><td width="50%">List of found resonances.</td><td width="30%">fourier::found_modes </td></tr>
+<td width="20%"><code>found_modes</code></td><td width="50%">List of found resonances.</td><td width="30%"><a class="el" href="structfourier_1_1fourier__class.html#a62dc14884fa41629cd36940b683f66da">fourier::fourier_class::found_modes</a> </td></tr>
 </table>
 <h2><a class="anchor" id="siesta_restart_3D_arrays_sec"></a>
 3D arrays.</h2>
@@ -298,14 +303,14 @@ Pressure.</h3>
 <tr>
 <td width="20%"><code>pmnch_m_n_r_</code></td><td width="50%">Pressure cosine parity.</td><td width="30%"></td></tr>
 </table>
-<h3><a class="anchor" id="siesta_restart_mag_arrays_asym_sec"></a>
-Magnetic fields asymmetric.</h3>
+<h3><a class="anchor" id="siesta_restart_pres_arrays_asym_sec"></a>
+Pressure fields asymmetric.</h3>
 <table border="1px" width="80%">
 <tr>
 <td width="20%"><code>pmnsh_m_n_r_</code></td><td width="50%">Pressure sine parity.</td><td width="30%"></td></tr>
 </table>
-<h3><a class="anchor" id="siesta_restart_mag_arrays_sec"></a>
-Magnetic fields.</h3>
+<h3><a class="anchor" id="siesta_restart_force_arrays_sec"></a>
+Forces.</h3>
 <table border="1px" width="80%">
 <tr>
 <td width="20%"><code>fsubsmnsh_m_n_r_</code></td><td width="50%">F_s component sine parity.</td><td width="30%">quantities::fsubsmnsf </td></tr>
@@ -320,8 +325,8 @@ Magnetic fields.</h3>
 <tr>
 <td width="20%"><code>fsupvmnch_m_n_r_</code></td><td width="50%">F^v component cosine parity.</td><td width="30%">quantities::fsupvmnsf </td></tr>
 </table>
-<h3><a class="anchor" id="siesta_restart_mag_arrays_asym_sec"></a>
-Magnetic fields asymmetric.</h3>
+<h3><a class="anchor" id="siesta_restart_force_arrays_asym_sec"></a>
+Forces asymmetric.</h3>
 <table border="1px" width="80%">
 <tr>
 <td width="20%"><code>fsubsmnsh_m_n_r_</code></td><td width="50%">F_s component sine parity.</td><td width="30%">quantities::fsubsmnsf </td></tr>
