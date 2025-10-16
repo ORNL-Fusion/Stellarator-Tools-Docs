@@ -178,7 +178,8 @@ var NAVTREE =
       [ "Documentation", "md_README.html#autotoc_md8", null ],
       [ "Testing", "md_README.html#autotoc_md9", null ],
       [ "Compiling", "md_README.html#autotoc_md10", [
-        [ "Touble Shooting", "md_README.html#autotoc_md11", null ]
+        [ "Installation", "md_README.html#autotoc_md11", null ],
+        [ "Touble Shooting", "md_README.html#autotoc_md12", null ]
       ] ]
     ] ],
     [ "SIESTA", "md_SIESTA_2README.html", null ],
@@ -481,29 +482,29 @@ var NAVTREEINDEX =
 "interfaceequilibrium_1_1equilibrium__construct.html",
 "interfacepspline__calls_1_1f3test.html",
 "interfaceutilities_1_1gradienthalf.html",
-"metrics_8f90.html#ade655af91de9f50910e13eb3d8b4e6be",
-"namespaceblocktridiagonalsolver.html#ad0a9837a25fbcb5b5a19709bd9df5067",
-"namespaceequilibrium.html#ae1aae7df78c798deb4408bc38acd2b62",
+"metrics_8f90.html#ad2ef862e1c33fad9aa21495706080be9",
+"namespaceblocktridiagonalsolver.html#acd615113f87e4211f234e5f866f7b92a",
+"namespaceequilibrium.html#ae0ddc62a0a73b6923d40e25235dcd608",
 "namespacemembers_func.html",
-"namespacenetcdf__inc.html#a9b1aeff6c90decbbf4224cf18281526a",
-"namespaceshared__data.html#a462ae7b254709bc1082d49d8b1baf0dc",
-"namespacesurface__commandline__parser.html#a0cb64c12a1f73243c9c03df1ecb7d279",
-"namespacev3fit__input.html#ae73b0d72db753653fa16e592cf956876",
-"namespacevmec__equilibrium.html#ac12d8f53d8ca1235ab5bbf33128e04bb",
-"pprofile__T_8f.html#aeff18f2ba94083ded9d51ea20a7e8ee3",
-"shared__data_8f90.html#ab00894e982c488d364e27c139f6c6488",
-"structbivariate_1_1bivariate__class.html",
-"structece_1_1ece__class.html#a377b92d2d16f326012b1d0af096a55aa",
+"namespacenetcdf__inc.html#a952173c55e61f4bd20b1a04537c4620a",
+"namespaceshared__data.html#a4112aeb220070930ade7679d1ed38a47",
+"namespacesurface__commandline__parser.html",
+"namespacev3fit__input.html#ae3952bf12802cac415f42af5b0019fe5",
+"namespacevmec__equilibrium.html#abe673b609b43980702991847b92a8a2d",
+"pprofile__T_8f.html#aef15a80e54ea1ac700a5bf61d19c85ab",
+"shared__data_8f90.html#aab682fd7d88c625f78ccf2c0b6faa0c7",
+"signal__dot_8f.html#af6a352119d390bb53af1ec067116985a",
+"structece_1_1ece__class.html#a170b49a7ff5af17a8de30bca0ffde611",
 "structfourier_1_1fourier__class.html#a8a05597b3f7055375f7615ef68c0be3b",
 "structlimiter__grid_1_1limiter__grid__class.html#aa4cfa5c1c0ce0da99f9ce18636473c6d",
 "structmodel_1_1model__class.html#ab51bbd264336563e4acece72fb009430",
 "structreconstruction_1_1reconstruction__class.html#abe5fef5df7a6acca4deab4b585885db9",
 "structsignal_1_1signal__class.html#aa5950221a08dd382a96b139e4ddafb32",
 "structv3fit__context_1_1v3fit__context__class.html#a0e1f79b55351e20dd41e81c6953f42c1",
-"structvmec__equilibrium_1_1vmec__class.html#a222f92283c02adf13bddbcd0c1dd06e6",
-"sxrch__dot_8f.html#a1d1c61c5ce3570230efbc3dade765cba",
-"v3fit__input_8f.html#ad7a27d4aa3c3a65027b34183f95533a4",
-"vmec__equilibrium_8f.html#a45a1832aeb9f2a2247e0973fd57218ec"
+"structvmec__equilibrium_1_1vmec__class.html#a1ec9daa072478f3229d01085adb5ef13",
+"sxrch__dot_8f.html",
+"v3fit__input_8f.html#ad699c5f4f2865dc9f6be9660bebbbf1c",
+"vmec__equilibrium_8f.html#a454861ad80f655ff10470f3de886e8a4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

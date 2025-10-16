@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"vmec__equilibrium_8f.html#a454861ad80f655ff10470f3de886e8a4":[54,0,7,0,40,38],
 "vmec__equilibrium_8f.html#a45a1832aeb9f2a2247e0973fd57218ec":[54,0,7,0,40,16],
 "vmec__equilibrium_8f.html#a489b23e08c98da132bde52d15c30c6c4":[54,0,7,0,40,131],
 "vmec__equilibrium_8f.html#a490bc87b33d05f0d697d3f9708e23a75":[54,0,7,0,40,72],

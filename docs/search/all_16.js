@@ -119,7 +119,7 @@ var searchData=
   ['totmatsolcount_116',['totmatsolcount',['../namespaceblocktridiagonalsolver.html#a61d16ca0577d7f95474373ab36093a5a',1,'blocktridiagonalsolver']]],
   ['totmatsoltime_117',['totmatsoltime',['../namespaceblocktridiagonalsolver.html#a8581b868ea2c30c634040d674812b9fe',1,'blocktridiagonalsolver']]],
   ['tottime_118',['tottime',['../namespaceblocktridiagonalsolver.html#a9b59087555957c0d0cfcf56c6aa62a43',1,'blocktridiagonalsolver']]],
-  ['touble_20shooting_119',['Touble Shooting',['../md_README.html#autotoc_md11',1,'']]],
+  ['touble_20shooting_119',['Touble Shooting',['../md_README.html#autotoc_md12',1,'']]],
   ['toupper_120',['toupper',['../namespacemetrics.html#a7c83407019da929ce145af9ee88caa98',1,'metrics']]],
   ['tpsplinb_121',['tpsplinb',['../interfacepspline__calls_1_1tpsplinb.html',1,'pspline_calls']]],
   ['tpspline_122',['tpspline',['../interfacepspline__calls_1_1tpspline.html',1,'pspline_calls']]],
