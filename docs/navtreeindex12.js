@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"namespacesignal__dot.html#ace53c655a3df5ef8f8bc9ed7b7c73d9e":[52,0,66,3],
+"namespacesignal__dot.html#af6a352119d390bb53af1ec067116985a":[52,0,66,2],
 "namespacesurface__commandline__parser.html":[52,0,67],
 "namespacesurface__commandline__parser.html#a0cb64c12a1f73243c9c03df1ecb7d279":[52,0,67,6],
 "namespacesurface__commandline__parser.html#a18ba83fe2fcbf9aaa6c8ae44eb0bea90":[52,0,67,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "namespacev3fit__input.html#addec141a80c9f49c9ab6f07c673e1348":[52,0,78,48],
 "namespacev3fit__input.html#adf569e8c30db521a4cbea257752d0c4b":[52,0,78,131],
 "namespacev3fit__input.html#ae012a2d7050755e3fa8f0b4075fa722f":[52,0,78,149],
-"namespacev3fit__input.html#ae1fe6c8994f39bfe0b7a5b2a576fccdb":[52,0,78,38],
-"namespacev3fit__input.html#ae304f641e15cd1885631abf6d2efe1af":[52,0,78,58],
-"namespacev3fit__input.html#ae356013fdf423e4188fbf9e1cddf3599":[52,0,78,85]
+"namespacev3fit__input.html#ae1fe6c8994f39bfe0b7a5b2a576fccdb":[52,0,78,38]
 };

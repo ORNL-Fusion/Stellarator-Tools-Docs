@@ -107,6 +107,8 @@ $(document).ready(function(){initNavTree('siesta_restart_sec.html',''); initResi
 <li class="level3"><a href="#siesta_restart_grid_arrays_asym_sec">Gird arrays asym.</a></li>
 <li class="level3"><a href="#siesta_restart_vmec_arrays_sec">VMEC arrays.</a></li>
 <li class="level3"><a href="#siesta_restart_vmec_arrays_asym_sec">VMEC arrays asym.</a></li>
+<li class="level3"><a href="#siesta_restart_jac_arrays_sec">Jacobian arrays.</a></li>
+<li class="level3"><a href="#siesta_restart_jac_arrays_asym_sec">Jacobian arrays asym.</a></li>
 <li class="level3"><a href="#siesta_restart_mag_arrays_sec">Magnetic fields.</a></li>
 <li class="level3"><a href="#siesta_restart_mag_arrays_asym_sec">Magnetic fields asymmetric.</a></li>
 <li class="level3"><a href="#siesta_restart_pres_arrays_sec">Pressure.</a></li>
@@ -264,6 +266,18 @@ VMEC arrays asym.</h3>
 <table border="1px" width="80%">
 <tr>
 <td width="20%"><code>lmnc_m_n_r_</code></td><td width="50%">Lambda cosine parity.</td><td width="30%">vmec_info::lmnc_i </td></tr>
+</table>
+<h3><a class="anchor" id="siesta_restart_jac_arrays_sec"></a>
+Jacobian arrays.</h3>
+<table border="1px" width="80%">
+<tr>
+<td width="20%"><code>jmnc_m_n_r_</code></td><td width="50%">Lambda cosine parity.</td><td width="30%">quantities::lmns_i </td></tr>
+</table>
+<h3><a class="anchor" id="siesta_restart_jac_arrays_asym_sec"></a>
+Jacobian arrays asym.</h3>
+<table border="1px" width="80%">
+<tr>
+<td width="20%"><code>jmns_m_n_r_</code></td><td width="50%">Lambda sine parity.</td><td width="30%">quantities::lmnc_i </td></tr>
 </table>
 <h3><a class="anchor" id="siesta_restart_mag_arrays_sec"></a>
 Magnetic fields.</h3>

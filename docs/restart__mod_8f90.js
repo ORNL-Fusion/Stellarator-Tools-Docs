@@ -62,6 +62,8 @@ var restart__mod_8f90 =
     [ "vn_jksupumns", "restart__mod_8f90.html#a86acbcf8b9898fe42ac8506c2c57884f", null ],
     [ "vn_jksupvmnc", "restart__mod_8f90.html#a721160ab0fd3dcb7b7004a0100f93270", null ],
     [ "vn_jksupvmns", "restart__mod_8f90.html#a6082e93794f3e143975e24cd1dc03836", null ],
+    [ "vn_jmnc", "restart__mod_8f90.html#a94157227796b981ee51f1910ccf4d507", null ],
+    [ "vn_jmns", "restart__mod_8f90.html#a11421f81b190562c453c925c8f30f5c1", null ],
     [ "vn_jpresc", "restart__mod_8f90.html#a001d7e0137df07e4a922aa6a766ffe7c", null ],
     [ "vn_jpress", "restart__mod_8f90.html#a64102fe7bf802f4509f1f751f9e04df4", null ],
     [ "vn_lmnc", "restart__mod_8f90.html#a287a24746f5eb4bb30894c02eb567e75", null ],

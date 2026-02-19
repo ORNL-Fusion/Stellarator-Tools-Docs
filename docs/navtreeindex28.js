@@ -1,5 +1,11 @@
 var NAVTREEINDEX28 =
 {
+"vmec__equilibrium_8f.html#a383754a3291c20e5769e7cbcae3e79fd":[54,0,7,0,40,73],
+"vmec__equilibrium_8f.html#a38dff7757255c7f94de65a1b177b7111":[54,0,7,0,40,47],
+"vmec__equilibrium_8f.html#a3949073a7d7ce5b9b7365d8806e99f59":[54,0,7,0,40,90],
+"vmec__equilibrium_8f.html#a3ad17ca9d56db446c89d054904b48de1":[54,0,7,0,40,36],
+"vmec__equilibrium_8f.html#a3b025d92cb76b4918552f70f6f3ae557":[54,0,7,0,40,21],
+"vmec__equilibrium_8f.html#a3faf8579d3a52bad762981fca8e2d93c":[54,0,7,0,40,133],
 "vmec__equilibrium_8f.html#a454861ad80f655ff10470f3de886e8a4":[54,0,7,0,40,38],
 "vmec__equilibrium_8f.html#a45a1832aeb9f2a2247e0973fd57218ec":[54,0,7,0,40,16],
 "vmec__equilibrium_8f.html#a489b23e08c98da132bde52d15c30c6c4":[54,0,7,0,40,131],
