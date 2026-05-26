@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['f1dim_5fmod_0',['f1dim_mod',['../namespacef1dim__mod.html',1,'']]],
-  ['file_5fopts_1',['file_opts',['../namespacefile__opts.html',1,'']]],
-  ['fourier_2',['fourier',['../namespacefourier.html',1,'']]],
-  ['functions_3',['functions',['../namespacefunctions.html',1,'']]]
+  ['ece_0',['ece',['../namespaceece.html',1,'']]],
+  ['ece_5fdot_1',['ece_dot',['../namespaceece__dot.html',1,'']]],
+  ['emission_2',['emission',['../namespaceemission.html',1,'']]],
+  ['equilibrium_3',['equilibrium',['../namespaceequilibrium.html',1,'']]],
+  ['extcurz_4',['extcurz',['../namespaceextcurz.html',1,'']]]
 ];

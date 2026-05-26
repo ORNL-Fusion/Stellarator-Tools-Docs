@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['gradient_5fdescent_0',['gradient_descent',['../namespacegradient__descent.html',1,'']]],
-  ['guassian_5fprocess_1',['guassian_process',['../namespaceguassian__process.html',1,'']]]
+  ['f1dim_5fmod_0',['f1dim_mod',['../namespacef1dim__mod.html',1,'']]],
+  ['file_5fopts_1',['file_opts',['../namespacefile__opts.html',1,'']]],
+  ['fourier_2',['fourier',['../namespacefourier.html',1,'']]],
+  ['functions_3',['functions',['../namespacefunctions.html',1,'']]]
 ];

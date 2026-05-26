@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['gmres_2ef90_0',['gmres.f90',['../gmres_8f90.html',1,'']]],
-  ['gradient_5fdescent_2ef_1',['gradient_descent.f',['../gradient__descent_8f.html',1,'']]],
-  ['grid_5fquantity_2ecpp_2',['grid_quantity.cpp',['../grid__quantity_8cpp.html',1,'']]],
-  ['grid_5fquantity_2ehpp_3',['grid_quantity.hpp',['../grid__quantity_8hpp.html',1,'']]],
-  ['guassian_5fprocess_2ef_4',['guassian_process.f',['../guassian__process_8f.html',1,'']]]
+  ['file_5fopts_2ef_0',['file_opts.f',['../file__opts_8f.html',1,'']]],
+  ['file_5fopts_5ftester_2ef_1',['file_opts_tester.f',['../file__opts__tester_8f.html',1,'']]],
+  ['fourier_2ef90_2',['fourier.f90',['../fourier_8f90.html',1,'']]]
 ];

@@ -1,24 +1,5 @@
 var searchData=
 [
-  ['shared_5fdata_0',['shared_data',['../namespaceshared__data.html',1,'']]],
-  ['shared_5ffunctions_1',['shared_functions',['../namespaceshared__functions.html',1,'']]],
-  ['siesta_5fbfield_2',['siesta_bfield',['../namespacesiesta__bfield.html',1,'']]],
-  ['siesta_5fcontext_3',['siesta_context',['../namespacesiesta__context.html',1,'']]],
-  ['siesta_5fcurrents_4',['siesta_currents',['../namespacesiesta__currents.html',1,'']]],
-  ['siesta_5fequilibrium_5',['siesta_equilibrium',['../namespacesiesta__equilibrium.html',1,'']]],
-  ['siesta_5ferror_6',['siesta_error',['../namespacesiesta__error.html',1,'']]],
-  ['siesta_5ffile_7',['siesta_file',['../namespacesiesta__file.html',1,'']]],
-  ['siesta_5fforce_8',['siesta_force',['../namespacesiesta__force.html',1,'']]],
-  ['siesta_5fnamelist_9',['siesta_namelist',['../namespacesiesta__namelist.html',1,'']]],
-  ['siesta_5fpressure_10',['siesta_pressure',['../namespacesiesta__pressure.html',1,'']]],
-  ['siesta_5frun_11',['siesta_run',['../namespacesiesta__run.html',1,'']]],
-  ['siesta_5fstate_12',['siesta_state',['../namespacesiesta__state.html',1,'']]],
-  ['signal_13',['signal',['../namespacesignal.html',1,'']]],
-  ['signal_5fdot_14',['signal_dot',['../namespacesignal__dot.html',1,'']]],
-  ['surface_5fcommandline_5fparser_15',['surface_commandline_parser',['../namespacesurface__commandline__parser.html',1,'']]],
-  ['surface_5fcontext_16',['surface_context',['../namespacesurface__context.html',1,'']]],
-  ['sxrch_5fdot_17',['sxrch_dot',['../namespacesxrch__dot.html',1,'']]],
-  ['sxrem_18',['sxrem',['../namespacesxrem.html',1,'']]],
-  ['sxrem_5fratio_19',['sxrem_ratio',['../namespacesxrem__ratio.html',1,'']]],
-  ['sxrem_5fratio_5fdot_20',['sxrem_ratio_dot',['../namespacesxrem__ratio__dot.html',1,'']]]
+  ['reconstruction_0',['reconstruction',['../namespacereconstruction.html',1,'']]],
+  ['restart_5fmod_1',['restart_mod',['../namespacerestart__mod.html',1,'']]]
 ];

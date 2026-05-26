@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['file_5fopts_2ef_0',['file_opts.f',['../file__opts_8f.html',1,'']]],
-  ['file_5fopts_5ftester_2ef_1',['file_opts_tester.f',['../file__opts__tester_8f.html',1,'']]],
-  ['fourier_2ef90_2',['fourier.f90',['../fourier_8f90.html',1,'']]]
+  ['ece_2ef_0',['ece.f',['../ece_8f.html',1,'']]],
+  ['ece_5fdot_2ef_1',['ece_dot.f',['../ece__dot_8f.html',1,'']]],
+  ['emission_2ef_2',['emission.f',['../emission_8f.html',1,'']]],
+  ['equilibrium_2ef_3',['equilibrium.f',['../equilibrium_8f.html',1,'']]],
+  ['extcurz_2ef_4',['extcurz.f',['../extcurz_8f.html',1,'']]]
 ];
