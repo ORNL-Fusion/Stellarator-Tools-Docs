@@ -43,7 +43,7 @@ var searchData=
   ['init_5fvacuum_5fequilibrium_40',['init_vacuum_equilibrium',['../v3fita_8f.html#a395db315d887759079890318ee6a8773',1,'v3fita.f']]],
   ['init_5fvmec_5fequilibrium_41',['init_vmec_equilibrium',['../v3fita_8f.html#af14dd47ec3266430a23c04a177674b4d',1,'v3fita.f']]],
   ['inital_20magnetic_20axis_20guess_42',['Inital magnetic axis guess.',['../vmec_namelist_sec.html#vmec_axis_parameters_sec',1,'']]],
-  ['initialize_43',['initialize',['../namespaceblocktridiagonalsolver__s.html#ad5343050737add6e6431032ebaa91668',1,'blocktridiagonalsolver_s::initialize()'],['../namespaceanalytic.html#a5ad1ca26765b8c0add5bc07f02dc44eb',1,'analytic::initialize()'],['../namespaceblocktridiagonalsolver.html#a60c9fbd4001a928d1b452eeecd55cf51',1,'blocktridiagonalsolver::initialize()']]],
+  ['initialize_43',['initialize',['../namespaceblocktridiagonalsolver__s.html#ad5343050737add6e6431032ebaa91668',1,'blocktridiagonalsolver_s::initialize()'],['../namespaceanalytic.html#adffd0d3473f938e8f8db7c0021d37fd0',1,'analytic::initialize()'],['../namespaceblocktridiagonalsolver.html#a60c9fbd4001a928d1b452eeecd55cf51',1,'blocktridiagonalsolver::initialize()']]],
   ['initialized_5fmpi_44',['initialized_mpi',['../structbmw__parallel__context_1_1bmw__parallel__context__class.html#a33d121a4d564a8a8180653bf0ff2cb97',1,'bmw_parallel_context::bmw_parallel_context_class']]],
   ['initpardamping_45',['initpardamping',['../namespacesiesta__force.html#ac6a1cb0b71fc5b8575531f003b0d27e0',1,'siesta_force']]],
   ['injectsubmatrix_46',['injectsubmatrix',['../namespaceblocktridiagonalsolver.html#a3d89bc19d576c78016a366d93615f28f',1,'blocktridiagonalsolver']]],

@@ -27,7 +27,7 @@ var searchData=
   ['init_5fthomson_5fsignals_24',['init_thomson_signals',['../v3fita_8f.html#aa4986f9dc6671f6e64dc3ff7ae0638b6',1,'v3fita.f']]],
   ['init_5fvacuum_5fequilibrium_25',['init_vacuum_equilibrium',['../v3fita_8f.html#a395db315d887759079890318ee6a8773',1,'v3fita.f']]],
   ['init_5fvmec_5fequilibrium_26',['init_vmec_equilibrium',['../v3fita_8f.html#af14dd47ec3266430a23c04a177674b4d',1,'v3fita.f']]],
-  ['initialize_27',['initialize',['../namespaceblocktridiagonalsolver.html#a60c9fbd4001a928d1b452eeecd55cf51',1,'blocktridiagonalsolver::initialize()'],['../namespaceanalytic.html#a5ad1ca26765b8c0add5bc07f02dc44eb',1,'analytic::initialize()'],['../namespaceblocktridiagonalsolver__s.html#ad5343050737add6e6431032ebaa91668',1,'blocktridiagonalsolver_s::initialize()']]],
+  ['initialize_27',['initialize',['../namespaceblocktridiagonalsolver.html#a60c9fbd4001a928d1b452eeecd55cf51',1,'blocktridiagonalsolver::initialize()'],['../namespaceanalytic.html#adffd0d3473f938e8f8db7c0021d37fd0',1,'analytic::initialize()'],['../namespaceblocktridiagonalsolver__s.html#ad5343050737add6e6431032ebaa91668',1,'blocktridiagonalsolver_s::initialize()']]],
   ['initpardamping_28',['initpardamping',['../namespacesiesta__force.html#ac6a1cb0b71fc5b8575531f003b0d27e0',1,'siesta_force']]],
   ['injectsubmatrix_29',['injectsubmatrix',['../namespaceblocktridiagonalsolver.html#a3d89bc19d576c78016a366d93615f28f',1,'blocktridiagonalsolver']]],
   ['injectsubvector_30',['injectsubvector',['../namespaceblocktridiagonalsolver.html#a62dc0fa52820a90a428feff85a9f7adb',1,'blocktridiagonalsolver']]],

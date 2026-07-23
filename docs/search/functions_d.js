@@ -34,7 +34,7 @@ var searchData=
   ['reconstruction_5fwrite_5fstep1_31',['reconstruction_write_step1',['../namespacereconstruction.html#a85ec5fed3e79ce85950af391a015303d',1,'reconstruction']]],
   ['reconstruction_5fwrite_5fstep2_32',['reconstruction_write_step2',['../namespacereconstruction.html#a298d4515dba754c1cfa422a67c4a6e50',1,'reconstruction']]],
   ['recurrence_33',['recurrence',['../namespaceanalytic.html#ad502bfed82c8c2db9972577b3b3521f5',1,'analytic']]],
-  ['recurrence_5fsum_34',['recurrence_sum',['../namespaceanalytic.html#a558c477f87d18df1677f68485ef0f6ab',1,'analytic']]],
+  ['recurrence_5fsum_34',['recurrence_sum',['../namespaceanalytic.html#a33fef9507ed918123d289bc7ad5d9cf5',1,'analytic']]],
   ['reduce1_35',['reduce1',['../structbmw__parallel__context_1_1bmw__parallel__context__class.html#a3c16d29f51483e5dff29dd817a8b8605',1,'bmw_parallel_context::bmw_parallel_context_class']]],
   ['reduce2_36',['reduce2',['../structbmw__parallel__context_1_1bmw__parallel__context__class.html#acb5f10cedc0b968d66976743a0c8a0d2',1,'bmw_parallel_context::bmw_parallel_context_class']]],
   ['reduce3_37',['reduce3',['../structbmw__parallel__context_1_1bmw__parallel__context__class.html#a9332106cd903904808427db7c5848c8a',1,'bmw_parallel_context::bmw_parallel_context_class']]],
