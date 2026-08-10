@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('structemission_1_1emission__class.html
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structemission_1_1emission__class-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">emission::emission_class Type Reference</div></div>
@@ -100,6 +101,15 @@ $(document).ready(function(){initNavTree('structemission_1_1emission__class.html
 <p>Base class representing the soft x-ray emission function.  
  <a href="structemission_1_1emission__class.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac4a1b2ffd54133c6fced202f68c80021" id="r_ac4a1b2ffd54133c6fced202f68c80021"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structemission_1_1emission__class.html#ac4a1b2ffd54133c6fced202f68c80021">get_emission</a> (this, te, ne, index)</td></tr>
+<tr class="memdesc:ac4a1b2ffd54133c6fced202f68c80021"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the emission as a function of energy for a fixed temperature.  <br /></td></tr>
+<tr class="separator:ac4a1b2ffd54133c6fced202f68c80021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2327d893d056e2f56b300f8c2863955c" id="r_a2327d893d056e2f56b300f8c2863955c"><td class="memItemLeft" align="right" valign="top">FINAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structemission_1_1emission__class.html#a2327d893d056e2f56b300f8c2863955c">emission_destruct</a> (this)</td></tr>
+<tr class="memdesc:a2327d893d056e2f56b300f8c2863955c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structemission_1_1emission__class.html">emission_class</a> object.  <br /></td></tr>
+<tr class="separator:a2327d893d056e2f56b300f8c2863955c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8c9e94a46561f055181fe240ba242f4a" id="r_a8c9e94a46561f055181fe240ba242f4a"><td class="memItemLeft" align="right" valign="top"><a id="a8c9e94a46561f055181fe240ba242f4a" name="a8c9e94a46561f055181fe240ba242f4a"></a>
@@ -117,7 +127,96 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class representing the soft x-ray emission function. </p>
-</div><hr/>The documentation for this type was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
+<a id="a2327d893d056e2f56b300f8c2863955c" name="a2327d893d056e2f56b300f8c2863955c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2327d893d056e2f56b300f8c2863955c">&#9670;&#160;</a></span>emission_destruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FINAL emission::emission_class::emission_destruct </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deconstruct a <a class="el" href="structemission_1_1emission__class.html">emission_class</a> object. </p>
+<p>Deallocates memory and uninitializes a <a class="el" href="structemission_1_1emission__class.html">emission_class</a> object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structemission_1_1emission__class.html">emission_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac4a1b2ffd54133c6fced202f68c80021" name="ac4a1b2ffd54133c6fced202f68c80021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a1b2ffd54133c6fced202f68c80021">&#9670;&#160;</a></span>get_emission()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure emission::emission_class::get_emission </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (rprec), intent(in)&#160;</td>
+          <td class="paramname"><em>te</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (rprec), intent(in)&#160;</td>
+          <td class="paramname"><em>ne</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the emission as a function of energy for a fixed temperature. </p>
+<p>The emission for a fixed temperature is interpolated from a the temperature grid points. The emission array columns are the temperature and rows are the energy. Transmission and absorption function convert to the signal</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structemission_1_1emission__class.html">emission_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">te</td><td>The electron temperature. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ne</td><td>The electron density. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Filter index of the camera array. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The emissivity function for a fixed temperature. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this type was generated from the following file:<ul>
 <li>V3FIT/Sources/<a class="el" href="emission_8f.html">emission.f</a></li>
 </ul>
 </div><!-- contents -->

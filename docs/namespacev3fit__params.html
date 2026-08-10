@@ -107,10 +107,13 @@ Data Types</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class representing a reconstructed parameter. An upper and lower bound may be set for the parameter value.  <a href="structv3fit__params_1_1param__class.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacev3fit__params_1_1param__construct.html">param_construct</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for the construction of <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> types using <a class="el" href="interfacev3fit__params_1_1param__construct.html#a4cf2357c5f3fcfc18f57dc8f67c5d21a">param_construct_basic</a> or <a class="el" href="interfacev3fit__params_1_1param__construct.html#a5ecc5857245f36ea4582da8024617c94">param_construct_recon</a>.  <a href="interfacev3fit__params_1_1param__construct.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for the construction of <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> types using <a class="el" href="interfacev3fit__params_1_1param__construct.html#ab016e8dea94a647df4441e2cb3c73a0b">param_construct_basic</a> or <a class="el" href="interfacev3fit__params_1_1param__construct.html#ae6b5607c0c1393c1b7461f980b3679af">param_construct_recon</a>.  <a href="interfacev3fit__params_1_1param__construct.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to hold variables needed when a parameter is a locking parameter. The locking parameter coefficents are stored in the correlation array of the parent type.  <a href="structv3fit__params_1_1param__locking__class.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to a parameter object. Used for creating arrays of signal pointers. This is needed because fortran does not allow arrays of pointers directly.  <a href="structv3fit__params_1_1param__locking__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to a parameter object. Used for creating arrays of signal pointers. This is needed because fortran does not allow arrays of pointers directly.  <a href="structv3fit__params_1_1param__pointer.html#details">More...</a><br /></td></tr>
@@ -118,24 +121,30 @@ Data Types</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to hold variables needed when a parameter is a reconstruction parameter.  <a href="structv3fit__params_1_1param__recon__class.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacev3fit__params_1_1param__write__step__data.html">param_write_step_data</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for the writting of <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> data to the result file using <a class="el" href="interfacev3fit__params_1_1param__write__step__data.html#a94c0f0d853dc173a22a337974b97ef4c">param_write_step_data_1</a> or <a class="el" href="interfacev3fit__params_1_1param__write__step__data.html#aaa94ac083b4e6cb83808ad1f6bca5be0">param_write_step_data_2</a>.  <a href="interfacev3fit__params_1_1param__write__step__data.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to a parameter object. Used for creating arrays of signal pointers. This is needed because fortran does not allow arrays of pointers directly.  <a href="structv3fit__params_1_1param__recon__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a34e266194d23bfa72b7a615919920eb6" id="r_a34e266194d23bfa72b7a615919920eb6"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a34e266194d23bfa72b7a615919920eb6">param_construct_basic</a> (a_model, param_name, indices, num_params)</td></tr>
-<tr class="memdesc:a34e266194d23bfa72b7a615919920eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object.  <br /></td></tr>
-<tr class="separator:a34e266194d23bfa72b7a615919920eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accfafa5d3c887d5b717c7f6587782ce5" id="r_accfafa5d3c887d5b717c7f6587782ce5"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#accfafa5d3c887d5b717c7f6587782ce5">param_construct_recon</a> (a_model, param_name, indices, vrnc, range_type, range_indices, range_value, num_signals, num_params)</td></tr>
-<tr class="memdesc:accfafa5d3c887d5b717c7f6587782ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object.  <br /></td></tr>
-<tr class="separator:accfafa5d3c887d5b717c7f6587782ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9d876598261d7a0abfafb748b70bd4" id="r_a5a9d876598261d7a0abfafb748b70bd4"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a5a9d876598261d7a0abfafb748b70bd4">param_construct_locking</a> (a_model, param_name, indices, set, set_indices, set_coeff, eq_comm)</td></tr>
-<tr class="memdesc:a5a9d876598261d7a0abfafb748b70bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object.  <br /></td></tr>
-<tr class="separator:a5a9d876598261d7a0abfafb748b70bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ad19e2b8cec17a3bf676172b580ff6" id="r_a68ad19e2b8cec17a3bf676172b580ff6"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a68ad19e2b8cec17a3bf676172b580ff6">param_construct_basic</a> (a_model, param_name, indices, num_params)</td></tr>
+<tr class="memdesc:a68ad19e2b8cec17a3bf676172b580ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object.  <br /></td></tr>
+<tr class="separator:a68ad19e2b8cec17a3bf676172b580ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cc5a23c447ad1c70a0e5a22e3f75d0" id="r_a62cc5a23c447ad1c70a0e5a22e3f75d0"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a62cc5a23c447ad1c70a0e5a22e3f75d0">param_construct_recon</a> (a_model, param_name, indices, vrnc, range_type, range_indices, range_value, num_signals, num_params)</td></tr>
+<tr class="memdesc:a62cc5a23c447ad1c70a0e5a22e3f75d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object.  <br /></td></tr>
+<tr class="separator:a62cc5a23c447ad1c70a0e5a22e3f75d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a32faae6eff755eebaf548c6332e615" id="r_a8a32faae6eff755eebaf548c6332e615"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a8a32faae6eff755eebaf548c6332e615">param_construct_locking</a> (a_model, param_name, indices, set, set_indices, set_coeff, eq_comm)</td></tr>
+<tr class="memdesc:a8a32faae6eff755eebaf548c6332e615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object.  <br /></td></tr>
+<tr class="separator:a8a32faae6eff755eebaf548c6332e615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70ed70103621610c311a387475fcf7db" id="r_a70ed70103621610c311a387475fcf7db"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a70ed70103621610c311a387475fcf7db">param_destruct</a> (this)</td></tr>
 <tr class="memdesc:a70ed70103621610c311a387475fcf7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object.  <br /></td></tr>
 <tr class="separator:a70ed70103621610c311a387475fcf7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d51ff5122cb7dfc9016b8fe81ff08b8" id="r_a0d51ff5122cb7dfc9016b8fe81ff08b8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a0d51ff5122cb7dfc9016b8fe81ff08b8">param_recon_destruct</a> (this)</td></tr>
+<tr class="memdesc:a0d51ff5122cb7dfc9016b8fe81ff08b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object.  <br /></td></tr>
+<tr class="separator:a0d51ff5122cb7dfc9016b8fe81ff08b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6f2dc5172e11db226abbd729927c9d" id="r_a3c6f2dc5172e11db226abbd729927c9d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a3c6f2dc5172e11db226abbd729927c9d">param_locking_destruct</a> (this)</td></tr>
+<tr class="memdesc:a3c6f2dc5172e11db226abbd729927c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object.  <br /></td></tr>
+<tr class="separator:a3c6f2dc5172e11db226abbd729927c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0815c66516006aa28a94e06b322d05" id="r_a4f0815c66516006aa28a94e06b322d05"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacev3fit__params.html#a4f0815c66516006aa28a94e06b322d05">param_set_value</a> (this, a_model, value, eq_comm, is_central)</td></tr>
 <tr class="memdesc:a4f0815c66516006aa28a94e06b322d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the parameter value.  <br /></td></tr>
 <tr class="separator:a4f0815c66516006aa28a94e06b322d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,14 +251,14 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the base class of the type <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>. </p>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a id="a34e266194d23bfa72b7a615919920eb6" name="a34e266194d23bfa72b7a615919920eb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34e266194d23bfa72b7a615919920eb6">&#9670;&#160;</a></span>param_construct_basic()</h2>
+<a id="a68ad19e2b8cec17a3bf676172b580ff6" name="a68ad19e2b8cec17a3bf676172b580ff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ad19e2b8cec17a3bf676172b580ff6">&#9670;&#160;</a></span>param_construct_basic()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer v3fit_params::param_construct_basic </td>
+          <td class="memname">class (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer v3fit_params::param_construct_basic </td>
           <td>(</td>
           <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>a_model</em>, </td>
@@ -295,14 +304,14 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 
 </div>
 </div>
-<a id="a5a9d876598261d7a0abfafb748b70bd4" name="a5a9d876598261d7a0abfafb748b70bd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9d876598261d7a0abfafb748b70bd4">&#9670;&#160;</a></span>param_construct_locking()</h2>
+<a id="a8a32faae6eff755eebaf548c6332e615" name="a8a32faae6eff755eebaf548c6332e615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a32faae6eff755eebaf548c6332e615">&#9670;&#160;</a></span>param_construct_locking()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer v3fit_params::param_construct_locking </td>
+          <td class="memname">class (<a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a>) function, pointer v3fit_params::param_construct_locking </td>
           <td>(</td>
           <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>a_model</em>, </td>
@@ -351,7 +360,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
       </table>
 </div><div class="memdoc">
 
-<p>Construct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object. </p>
+<p>Construct a <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object. </p>
 <p>Allocates memory and initializes a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object. Parameters are converted from strings to an internal id representation by either the <a class="el" href="namespacemodel.html">model</a> or the <a class="el" href="namespaceequilibrium.html">equilibrium</a>. This version is used to construct locking parameters.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -365,18 +374,18 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to a constructed <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to a constructed <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object. </dd></dl>
 
 </div>
 </div>
-<a id="accfafa5d3c887d5b717c7f6587782ce5" name="accfafa5d3c887d5b717c7f6587782ce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accfafa5d3c887d5b717c7f6587782ce5">&#9670;&#160;</a></span>param_construct_recon()</h2>
+<a id="a62cc5a23c447ad1c70a0e5a22e3f75d0" name="a62cc5a23c447ad1c70a0e5a22e3f75d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cc5a23c447ad1c70a0e5a22e3f75d0">&#9670;&#160;</a></span>param_construct_recon()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>) function, pointer v3fit_params::param_construct_recon </td>
+          <td class="memname">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>) function, pointer v3fit_params::param_construct_recon </td>
           <td>(</td>
           <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>a_model</em>, </td>
@@ -437,7 +446,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
       </table>
 </div><div class="memdoc">
 
-<p>Construct a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object. </p>
+<p>Construct a <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object. </p>
 <p>Allocates memory and initializes a <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object. Parameters are converted from strings to an internal id representation by either the <a class="el" href="namespacemodel.html">model</a> or the <a class="el" href="namespaceequilibrium.html">equilibrium</a>. This version is used to construct reconstruction parameters.</p>
 <p>Parameter boundaries are specified by a range type. This range type may be one of three types. 'infinity' represents an unbounded case. 'value' represents a bounds by a fixed value. By specifying another parameter name, the boundary will be bounded by a fixed or varying parameter. The bounding parameter string is converted into an internal id representation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -454,7 +463,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to a constructed <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> object. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to a constructed <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object. </dd></dl>
 
 </div>
 </div>
@@ -467,7 +476,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_decrement </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -512,7 +521,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_destruct </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), pointer&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -539,7 +548,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">character (len=<a class="el" href="namespacedata__parameters.html#a5af930b6b7d6148f98708d2b522eba76">data_name_length</a>) function v3fit_params::param_get_lower_range_type </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -560,7 +569,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Gets lower boundary type description.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
   </table>
   </dd>
@@ -578,7 +587,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">real (rprec) function v3fit_params::param_get_lower_range_value </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -599,7 +608,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Gets lower boundary value. The results of this function are invalid if the bounding type is <a class="el" href="namespacev3fit__params.html#a065c409760b2feee997a7ff590d476ba">param_range_infinity_type</a> or <a class="el" href="namespacev3fit__params.html#ae462e5b528d9d506896ef1c58a429fd9">param_range_no_type</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
   </table>
   </dd>
@@ -617,7 +626,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">character (len=<a class="el" href="namespacedata__parameters.html#a5af930b6b7d6148f98708d2b522eba76">data_name_length</a>) function v3fit_params::param_get_name </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -656,7 +665,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">character (len=<a class="el" href="namespacedata__parameters.html#a5af930b6b7d6148f98708d2b522eba76">data_name_length</a>) function v3fit_params::param_get_upper_range_type </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -677,7 +686,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Gets upper boundary type description.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
   </table>
   </dd>
@@ -695,7 +704,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">real (rprec) function v3fit_params::param_get_upper_range_value </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -716,7 +725,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Gets upper boundary value. The results of this function are invalid if the bounding type is <a class="el" href="namespacev3fit__params.html#a065c409760b2feee997a7ff590d476ba">param_range_infinity_type</a> or <a class="el" href="namespacev3fit__params.html#ae462e5b528d9d506896ef1c58a429fd9">param_range_no_type</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
   </table>
   </dd>
@@ -734,7 +743,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">real (rprec) function v3fit_params::param_get_value </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -773,7 +782,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_increment </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -807,7 +816,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>If central differencing is used, both the upper and lower bounds must be checked. Starting with half the parameter vrnc, the change in parameter is divided until the change in parameter fits into both the upper and lower bounds.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">eq_comm</td><td>MPI communicator for the child equilibrium processes. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">is_central</td><td>Central differencing is being used. </td></tr>
@@ -826,7 +835,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">logical function v3fit_params::param_is_in_lower_range </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -853,7 +862,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>If the value is less than the bounding value, the parameter value is out of range.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>A parameter value to check. </td></tr>
   </table>
@@ -872,7 +881,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">logical function v3fit_params::param_is_in_upper_range </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -899,13 +908,67 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>If the value is greater than the bounding value, the parameter value is out of range.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>A parameter value to check. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True for in range and false for out of range. </dd></dl>
+
+</div>
+</div>
+<a id="a3c6f2dc5172e11db226abbd729927c9d" name="a3c6f2dc5172e11db226abbd729927c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6f2dc5172e11db226abbd729927c9d">&#9670;&#160;</a></span>param_locking_destruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine v3fit_params::param_locking_destruct </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deconstruct a <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object. </p>
+<p>Deallocates memory and uninitializes a <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> object. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0d51ff5122cb7dfc9016b8fe81ff08b8" name="a0d51ff5122cb7dfc9016b8fe81ff08b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d51ff5122cb7dfc9016b8fe81ff08b8">&#9670;&#160;</a></span>param_recon_destruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine v3fit_params::param_recon_destruct </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deconstruct a <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object. </p>
+<p>Deallocates memory and uninitializes a <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> object. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -918,7 +981,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_recv_delta </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -945,7 +1008,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Receives the value of delta used in the child process. If MPI support is not compiled in this subroutine reduces to a no op.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Index of the reconstruction parameter. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">recon_comm</td><td>A MPI recon_comm handle. </td></tr>
   </table>
@@ -963,7 +1026,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_restart </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1032,7 +1095,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Restarts a parameter from the result file. This reloads and sets the value, sigma and correlation. All other values are set when the namelist input file was read.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>The equilibrium model. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">result_ncid</td><td>Netcdf if for the result file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">current_step</td><td>Step number to restart from. </td></tr>
@@ -1075,7 +1138,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_send_delta </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1102,7 +1165,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Sends the value of delta used in the child process to the parent process. If MPI support is not compiled in this subroutine reduces to a no op.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Index of the reconstruction parameter. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">recon_comm</td><td>A MPI intra_comm handle. </td></tr>
   </table>
@@ -1120,7 +1183,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_set_lock_value </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1147,7 +1210,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Sets the value of a locking parameter. These parameters are locked to a linear combination of other set parameters.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__locking__class.html">param_locking_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">eq_comm</td><td>MPI communicator for the child equilibrium processes. </td></tr>
   </table>
@@ -1165,7 +1228,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_set_value </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1201,11 +1264,11 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 </div><div class="memdoc">
 
 <p>Sets the parameter value. </p>
-<p>Sets the value of a reconstruction parameter. If the parameter is outside one of the bounding parameters, the value is clamped to the bounding value. The resulting bounded parameter value is set by ethier the <a class="el" href="namespacemodel.html">model</a> or the <a class="el" href="namespaceequilibrium.html">equilibrium</a>.</p>
+<p>Sets the value of a reconstruction parameter. If the parameter is outside one of the bounding parameters, the value is clamped to the bounding value. The resulting bounded parameter value is set by ether the <a class="el" href="namespacemodel.html">model</a> or the <a class="el" href="namespaceequilibrium.html">equilibrium</a>.</p>
 <p>If central differencing is used, both the upper and lower bounds must be checked. In this case both the upper and lower bounds need to be with in half the vrnc values. This ensures there is enough room to increment and decrement the values. If the bounds are so narrow such that the set value plus/minus half the vrnc is out of range of both bounds, then split the difference.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to set the parameter to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">eq_comm</td><td>MPI communicator for the child equilibrium processes. </td></tr>
@@ -1225,7 +1288,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_sync_child </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1270,7 +1333,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Syncs the value of delta from a child process to the parent. If MPI support is not compiled in this subroutine reduces to a no op.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Index of the reconstruction parameter. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">recon_comm</td><td>A MPI intra_comm handle. </td></tr>
@@ -1291,7 +1354,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_sync_delta </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1312,7 +1375,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Syncs the value of delta from the parent process to the child. If MPI support is not compiled in this subroutine reduces to a no op.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">recon_comm</td><td>A MPI recon_comm handle. </td></tr>
   </table>
   </dd>
@@ -1329,7 +1392,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_sync_value </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(inout)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1368,7 +1431,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Syncs data between the parent and child processes. If MPI support is not compiled in this subroutine reduces to a no op.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">recon_comm</td><td>A MPI intra_comm handle. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">eq_comm</td><td>MPI communicator for the child equilibrium processes. </td></tr>
@@ -1388,7 +1451,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_write </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1421,7 +1484,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Parameter information is formated as the index, name, index 1, index2, value, sigma, vrnc, upper and lower range types, values, and range indices.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">iou</td><td>Input/output unit representing the file to write to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of a parameter. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
@@ -1441,7 +1504,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_write_correlation </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1540,7 +1603,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_write_short </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1592,7 +1655,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_write_step_data_1 </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1655,7 +1718,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
 <p>Writes out the parameter value, sigma and signal effectiveness matrix to the result file.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__class.html">param_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structv3fit__params_1_1param__recon__class.html">param_recon_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">a_model</td><td>The equilibrium model. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">result_ncid</td><td>A NetCDF id of the result file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">current_step</td><td>The surrent reconstruction step. </td></tr>
@@ -1698,7 +1761,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>param_d
         <tr>
           <td class="memname">subroutine v3fit_params::param_write_step_data_2 </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structv3fit__params_1_1param__class.html">param_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>

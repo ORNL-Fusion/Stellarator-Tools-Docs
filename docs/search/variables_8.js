@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i_0',['i',['../structintpol_1_1intpol__gp__pol__context__i.html#a67f3309b7b12dc4d39a748428b6ebbd2',1,'intpol::intpol_gp_pol_context_i::i'],['../structintpol_1_1intpol__gp__int__context__i.html#a1262176ec766dfa51f741d112c341e7c',1,'intpol::intpol_gp_int_context_i::i'],['../structsxrem_1_1sxrem__gp__context__i.html#adb6a8ec350d9df87bb90fb4bd51e3e38',1,'sxrem::sxrem_gp_context_i::i']]],
+  ['i_0',['i',['../structintpol_1_1intpol__gp__pol__context__i.html#a67f3309b7b12dc4d39a748428b6ebbd2',1,'intpol::intpol_gp_pol_context_i::i'],['../structsxrem_1_1sxrem__gp__context__i.html#adb6a8ec350d9df87bb90fb4bd51e3e38',1,'sxrem::sxrem_gp_context_i::i'],['../structintpol_1_1intpol__gp__int__context__i.html#a1262176ec766dfa51f741d112c341e7c',1,'intpol::intpol_gp_int_context_i::i']]],
   ['i_5fline_1',['i_line',['../structsignal__dot_1_1signal__dot__file.html#ad7696372aa4ffe18149b4a784e461042',1,'signal_dot::signal_dot_file']]],
   ['id_5fname_2',['id_name',['../structdiagnostic__dot_1_1diagnostic__dot__coil.html#ab8cfb1be0c4862cf92f453c8920783a1',1,'diagnostic_dot::diagnostic_dot_coil']]],
   ['idrfun_3',['idrfun',['../namespacev3rfun__input.html#a2b6391cd287060ef0230ca7aeea3c8fc',1,'v3rfun_input']]],
@@ -8,7 +8,7 @@ var searchData=
   ['ilb_5fb_5',['ilb_b',['../namespacepprofile__t.html#aef15a80e54ea1ac700a5bf61d19c85ab',1,'pprofile_t']]],
   ['in_5fdegrees_6',['in_degrees',['../structintpol_1_1intpol__pol__class.html#a89baf6811c6071518dfba2767dfe6a3e',1,'intpol::intpol_pol_class']]],
   ['in_5fhess_5fnfunct_7',['in_hess_nfunct',['../namespaceshared__data.html#a361402311d7f8d1d5a71e3788015f4de',1,'shared_data']]],
-  ['indices_8',['indices',['../structv3fit__params_1_1param__class.html#a49d29b2f4a7d9073065fa6de1fbf4bf3',1,'v3fit_params::param_class::indices'],['../structv3fit__params_1_1param__locking__class.html#a5c3aae6762db6b32c8663414cc101c0f',1,'v3fit_params::param_locking_class::indices'],['../structsxrem__ratio_1_1sxrem__ratio__class.html#aa627980da653db3f9a045b0873c4a630',1,'sxrem_ratio::sxrem_ratio_class::indices'],['../structprior__gaussian_1_1prior__gaussian__class.html#a940991b9e09e9b7a32ceba787bde0e14',1,'prior_gaussian::prior_gaussian_class::indices']]],
+  ['indices_8',['indices',['../structprior__gaussian_1_1prior__gaussian__class.html#a940991b9e09e9b7a32ceba787bde0e14',1,'prior_gaussian::prior_gaussian_class::indices'],['../structsxrem__ratio_1_1sxrem__ratio__class.html#aa627980da653db3f9a045b0873c4a630',1,'sxrem_ratio::sxrem_ratio_class::indices'],['../structv3fit__params_1_1param__class.html#a49d29b2f4a7d9073065fa6de1fbf4bf3',1,'v3fit_params::param_class::indices']]],
   ['inductance_9',['inductance',['../structmagnetic__response_1_1magnetic__response__class.html#a58b640b0e3a5d2d28dfa27da28562a6a',1,'magnetic_response::magnetic_response_class']]],
   ['initialized_5fmpi_10',['initialized_mpi',['../structbmw__parallel__context_1_1bmw__parallel__context__class.html#a33d121a4d564a8a8180653bf0ff2cb97',1,'bmw_parallel_context::bmw_parallel_context_class']]],
   ['input_5fextension_11',['input_extension',['../namespacevmec__input.html#a4be39b31670d06f6ca209ee561123710',1,'vmec_input']]],

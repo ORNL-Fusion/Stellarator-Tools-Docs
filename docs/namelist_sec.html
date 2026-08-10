@@ -198,6 +198,8 @@ Task specification, work variables</h2>
 <li><code>'equilibrium'</code> Solve the equilibrium.</li>
 <li><code>'v3post'</code> Solve the equilibrium and compute modeled signals.</li>
 <li><code>'reconstruct'</code> Reconstruct the equilibirum.</li>
+<li><code>'multi_grid_equilibrium'</code> Solve the equilibrium using multiple grid steps.</li>
+<li><code>'multi_grid_v3post'</code> Solve the equilibrium and compute modeled signals using multiple grid steps.</li>
 <li><code>'units_tests'</code> Run the internal unit tests.</li>
 </ol>
 </td><td width="30%"><a class="el" href="namespacev3fit__input.html#a82ad8af4c6bd0f4070ef0f35b933a1ee">v3fit_input::my_task</a> </td></tr>
@@ -377,6 +379,10 @@ Reconstruction parameter specification</h2>
 <td width="20%"><code>rp_range_value</code></td><td width="50%">2D Array of values used if rp_range_type = <code>'value'</code>. The second index contains the low and high values repectively.</td><td width="30%"><a class="el" href="namespacev3fit__input.html#a1cd8831eb51c75138324c8617f3addaf">v3fit_input::rp_range_value</a> </td></tr>
 <tr>
 <td width="20%"><code>rp_range_index</code></td><td width="50%">3D Array of values of indicies used if, rp_range_type = <code>&lt;other&gt;</code>. The second index specifies the low and high ranges repectively. The third index contains the first and second index of the inequality constraint parameter.</td><td width="30%"><a class="el" href="namespacev3fit__input.html#a325ac78603af52466c911d346ef21b9f">v3fit_input::rp_range_index</a> </td></tr>
+<tr>
+<td width="20%"><code>rp_scan_num</code></td><td width="50%">The number of scan iterations.</td><td width="30%"><a class="el" href="namespacev3fit__input.html#a0bdf78d71e73b2d005852228e5a11bd8">v3fit_input::rp_scan_num</a> </td></tr>
+<tr>
+<td width="20%"><code>rp_scan_array</code></td><td width="50%">2D Array of can values. The first index corresponds to the reconstruction parameters in <code>'rp_type'</code>.</td><td width="30%"><a class="el" href="namespacev3fit__input.html#a05b713619b24abf58fab562950bd24c8">v3fit_input::rp_scan_array</a> </td></tr>
 </table>
 <h2><a class="anchor" id="lock_param_sec"></a>
 Locking parameter specification</h2>

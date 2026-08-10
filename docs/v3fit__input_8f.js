@@ -123,6 +123,8 @@ var v3fit__input_8f =
     [ "rp_range_index", "v3fit__input_8f.html#a325ac78603af52466c911d346ef21b9f", null ],
     [ "rp_range_type", "v3fit__input_8f.html#ad37a237759d4d29d0d8b029a7c3274be", null ],
     [ "rp_range_value", "v3fit__input_8f.html#a1cd8831eb51c75138324c8617f3addaf", null ],
+    [ "rp_scan_array", "v3fit__input_8f.html#a05b713619b24abf58fab562950bd24c8", null ],
+    [ "rp_scan_num", "v3fit__input_8f.html#a0bdf78d71e73b2d005852228e5a11bd8", null ],
     [ "rp_type", "v3fit__input_8f.html#afbcb33671b5363e966f6155d12925e2a", null ],
     [ "rp_vrnc", "v3fit__input_8f.html#a2b70e391fc06040c923c580b881bbd28", null ],
     [ "sdo_data_a", "v3fit__input_8f.html#a5eccf98434b659e7a02f3cfe51b43fed", null ],

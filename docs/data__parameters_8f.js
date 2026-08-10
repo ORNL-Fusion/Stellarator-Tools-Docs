@@ -3,6 +3,7 @@ var data__parameters_8f =
     [ "filename_base", "data__parameters_8f.html#aef2c3fbb620ec73a343d52400c790d6b", null ],
     [ "process_dir", "data__parameters_8f.html#a7cfa8da6dd006501b6c70d05b4961c14", null ],
     [ "data_max_indices", "data__parameters_8f.html#a71ff4854fd6b5cf86c1c4f46a19db20c", null ],
+    [ "data_max_scan", "data__parameters_8f.html#aa62c05a9dbfbd8a7ffe1b6fb2ecdd9d3", null ],
     [ "data_name_length", "data__parameters_8f.html#a5af930b6b7d6148f98708d2b522eba76", null ],
     [ "data_no_id", "data__parameters_8f.html#a491450e0d772225d91151608e1435846", null ],
     [ "data_short_name_length", "data__parameters_8f.html#a824296bcea77226a075b7f645cdce56c", null ],

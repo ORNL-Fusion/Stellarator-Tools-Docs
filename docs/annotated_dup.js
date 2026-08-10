@@ -640,9 +640,10 @@ var annotated_dup =
       [ "param_class", "structv3fit__params_1_1param__class.html", "structv3fit__params_1_1param__class" ],
       [ "param_construct", "interfacev3fit__params_1_1param__construct.html", "interfacev3fit__params_1_1param__construct" ],
       [ "param_locking_class", "structv3fit__params_1_1param__locking__class.html", "structv3fit__params_1_1param__locking__class" ],
+      [ "param_locking_pointer", "structv3fit__params_1_1param__locking__pointer.html", "structv3fit__params_1_1param__locking__pointer" ],
       [ "param_pointer", "structv3fit__params_1_1param__pointer.html", "structv3fit__params_1_1param__pointer" ],
       [ "param_recon_class", "structv3fit__params_1_1param__recon__class.html", "structv3fit__params_1_1param__recon__class" ],
-      [ "param_write_step_data", "interfacev3fit__params_1_1param__write__step__data.html", "interfacev3fit__params_1_1param__write__step__data" ]
+      [ "param_recon_pointer", "structv3fit__params_1_1param__recon__pointer.html", "structv3fit__params_1_1param__recon__pointer" ]
     ] ],
     [ "v3post_rfun", null, [
       [ "signals", "structv3post__rfun_1_1signals.html", null ]

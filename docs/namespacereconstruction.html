@@ -175,6 +175,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a8592936bc0d810a89a8119dd0fcb4304" id="r_a8592936bc0d810a89a8119dd0fcb4304"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacereconstruction.html#a8592936bc0d810a89a8119dd0fcb4304">reconstruction_normalize_correlations</a> (params)</td></tr>
 <tr class="memdesc:a8592936bc0d810a89a8119dd0fcb4304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize a correlation matrix.  <br /></td></tr>
 <tr class="separator:a8592936bc0d810a89a8119dd0fcb4304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5d74efe566b9dce2925ff7bf6aa547" id="r_a3e5d74efe566b9dce2925ff7bf6aa547"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacereconstruction.html#a3e5d74efe566b9dce2925ff7bf6aa547">reconstruction_normalize_recon_correlations</a> (params)</td></tr>
+<tr class="memdesc:a3e5d74efe566b9dce2925ff7bf6aa547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize a recon correlation matrix.  <br /></td></tr>
+<tr class="separator:a3e5d74efe566b9dce2925ff7bf6aa547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a304df94be496fd98208fd6572ea3c513" id="r_a304df94be496fd98208fd6572ea3c513"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacereconstruction.html#a304df94be496fd98208fd6572ea3c513">reconstruction_write</a> (this, iou)</td></tr>
 <tr class="memdesc:a304df94be496fd98208fd6572ea3c513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write out a reconstruction.  <br /></td></tr>
 <tr class="separator:a304df94be496fd98208fd6572ea3c513"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -518,7 +521,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -536,7 +539,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -605,7 +608,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -669,7 +672,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -687,7 +690,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1188,6 +1191,33 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
 
 </div>
 </div>
+<a id="a3e5d74efe566b9dce2925ff7bf6aa547" name="a3e5d74efe566b9dce2925ff7bf6aa547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5d74efe566b9dce2925ff7bf6aa547">&#9670;&#160;</a></span>reconstruction_normalize_recon_correlations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine reconstruction::reconstruction_normalize_recon_correlations </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramname"><em>params</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Normalize a recon correlation matrix. </p>
+<p>Normalizes a correlation matrix by dividing by the sigmas for that element. This method is static so it doesn't require a this parameter.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of parameter to normalize the correlations of. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a373ad3d2bfa182a7e382c78037eb6e25" name="a373ad3d2bfa182a7e382c78037eb6e25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a373ad3d2bfa182a7e382c78037eb6e25">&#9670;&#160;</a></span>reconstruction_restart()</h2>
 
@@ -1385,7 +1415,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -1403,7 +1433,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1474,7 +1504,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1520,6 +1550,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structreconstruction_1_1reconstruction__class.html">reconstruction_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of param_recon_class objects. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">num_params</td><td>Number of reconstruction parameters. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">num_signal</td><td>Number of signals. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">num_derived_params</td><td>Number of derived parameters. </td></tr>
@@ -1635,7 +1666,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -1653,7 +1684,7 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1700,9 +1731,9 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>reconst
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structreconstruction_1_1reconstruction__class.html">reconstruction_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">signals</td><td>Array of <a class="el" href="namespacesignal.html">signal</a> objects. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">locks</td><td>Array of lock objects. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">locks</td><td>Array of param_locking_class objects. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of parameter objects. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of param_recon_class objects. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">eq_steps</td><td>Number of steps for the equilibrium to take. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">max_step</td><td>Upper limit of the step size to attemp. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">iou</td><td>Input/output file to write log messages to. </td></tr>

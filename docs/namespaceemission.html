@@ -110,9 +110,9 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:af91115875d353acc004f2005fa23e18e" id="r_af91115875d353acc004f2005fa23e18e"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structemission_1_1emission__class.html">emission_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceemission.html#af91115875d353acc004f2005fa23e18e">emission_construct_netcdf</a> (filename)</td></tr>
-<tr class="memdesc:af91115875d353acc004f2005fa23e18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structemission_1_1emission__class.html">emission_class</a> object.  <br /></td></tr>
-<tr class="separator:af91115875d353acc004f2005fa23e18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a5f72fdbba30c6aa1229c6d63b16a7" id="r_ab3a5f72fdbba30c6aa1229c6d63b16a7"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structemission_1_1emission__class.html">emission_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceemission.html#ab3a5f72fdbba30c6aa1229c6d63b16a7">emission_construct_netcdf</a> (filename)</td></tr>
+<tr class="memdesc:ab3a5f72fdbba30c6aa1229c6d63b16a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structemission_1_1emission__class.html">emission_class</a> object.  <br /></td></tr>
+<tr class="separator:ab3a5f72fdbba30c6aa1229c6d63b16a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c9bf4b2afee77d7a3d9eb7eb569571" id="r_ae6c9bf4b2afee77d7a3d9eb7eb569571"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceemission.html#ae6c9bf4b2afee77d7a3d9eb7eb569571">emission_destruct</a> (this)</td></tr>
 <tr class="memdesc:ae6c9bf4b2afee77d7a3d9eb7eb569571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structemission_1_1emission__class.html">emission_class</a> object.  <br /></td></tr>
 <tr class="separator:ae6c9bf4b2afee77d7a3d9eb7eb569571"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,14 +123,14 @@ Functions/Subroutines</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the base class of the type <a class="el" href="structemission_1_1emission__class.html">emission_class</a>. This contains the X-Ray emission as function of temperature and energy. This needs to still be multiplied by ne^2. </p>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a id="af91115875d353acc004f2005fa23e18e" name="af91115875d353acc004f2005fa23e18e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af91115875d353acc004f2005fa23e18e">&#9670;&#160;</a></span>emission_construct_netcdf()</h2>
+<a id="ab3a5f72fdbba30c6aa1229c6d63b16a7" name="ab3a5f72fdbba30c6aa1229c6d63b16a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a5f72fdbba30c6aa1229c6d63b16a7">&#9670;&#160;</a></span>emission_construct_netcdf()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>) function, pointer emission::emission_construct_netcdf </td>
+          <td class="memname">class (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>) function, pointer emission::emission_construct_netcdf </td>
           <td>(</td>
           <td class="paramtype">character (len=*), intent(in)&#160;</td>
           <td class="paramname"><em>filename</em></td><td>)</td>
@@ -160,7 +160,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine emission::emission_destruct </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>), pointer&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -187,7 +187,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">real (rprec) function emission::emission_get_emission </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>), intent(in)&#160;</td>
+          <td class="paramtype">class (<a class="el" href="structemission_1_1emission__class.html">emission_class</a>), intent(in)&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>

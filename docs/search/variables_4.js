@@ -5,7 +5,7 @@ var searchData=
   ['ece_5fdot_5ffilename_2',['ece_dot_filename',['../namespacev3fit__input.html#af786af93e310aa065e95b891ae9cb5ab',1,'v3fit_input']]],
   ['ece_5findex_3',['ece_index',['../structv3fit__context_1_1v3fit__context__class.html#a0e1f79b55351e20dd41e81c6953f42c1',1,'v3fit_context::v3fit_context_class']]],
   ['ece_5fresonance_5frange_4',['ece_resonance_range',['../namespacev3fit__input.html#a5ea57408967601f98371a8a2f9985895',1,'v3fit_input']]],
-  ['emission_5',['emission',['../structmodel_1_1model__class.html#a03571a903979cbc36d95764dda7df74e',1,'model::model_class']]],
+  ['emission_5',['emission',['../structmodel_1_1model__class.html#ace43b2c5ccd776099161801fea1e3c0b',1,'model::model_class']]],
   ['emission_5ffile_6',['emission_file',['../namespacev3fit__input.html#a9b6bbdb8aafa7343b19b4ddba3c02512',1,'v3fit_input']]],
   ['emissivity_7',['emissivity',['../structemission_1_1emission__class.html#ab69b2f9144b9f8eb6eba8e97cad15a6e',1,'emission::emission_class']]],
   ['endglobrow_8',['endglobrow',['../namespaceblocktridiagonalsolver.html#a9b48b3405a818cd9c683c5ed9915446a',1,'blocktridiagonalsolver']]],

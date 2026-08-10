@@ -18,12 +18,13 @@ var searchData=
   ['on_5fedge_15',['on_edge',['../structlimiter_1_1limiter__class.html#acc47d59bce2c2ac652f7fe31a5188c1a',1,'limiter::limiter_class']]],
   ['one_16',['one',['../namespaceblocktridiagonalsolver.html#a1c6b25de5d124ba5ef3232b5a001753a',1,'blocktridiagonalsolver']]],
   ['op_5fnone_17',['op_none',['../namespaceblocktridiagonalsolver.html#a611facadffee21729b3ce8a9f6067ad5',1,'blocktridiagonalsolver']]],
-  ['orig_18',['orig',['../namespaceblocktridiagonalsolver.html#a03155391fb02ccf64eaadc36ff197d84',1,'blocktridiagonalsolver']]],
-  ['origdiagelement_19',['origdiagelement',['../namespaceblocktridiagonalsolver.html#a44ede286d7f1a7c1c2d73eed344c30d0',1,'blocktridiagonalsolver']]],
-  ['orthonorm_20',['orthonorm',['../structfourier_1_1fourier__class.html#a03b9fc569beac3def7b96b55a2507582',1,'fourier::fourier_class']]],
-  ['other_20objects_21',['Other Objects',['../architecture.html#architecture_class_objects_other',1,'']]],
-  ['other_20signals_20nli_20variables_22',['COOSIG - Combination Of Other SIGnals NLI Variables',['../namelist_sec.html#coosig_sec',1,'']]],
-  ['out_20xcdot_20control_23',['VMEC zero out xcdot control',['../namelist_sec.html#xcdot_sec',1,'']]],
-  ['out_5fhess_5fnfunct_24',['out_hess_nfunct',['../namespaceshared__data.html#a4a4aba0c35915ced4f6a3cbcb2d7c13f',1,'shared_data']]],
-  ['output_20grid_20sizes_25',['Output Grid Sizes',['../siesta_namelist_sec.html#siesta_grid_size_out_sec',1,'']]]
+  ['open_18',['open',['../structsignal__dot_1_1signal__dot__file.html#ac9674dc1852d5be4819228ef8cfd307f',1,'signal_dot::signal_dot_file']]],
+  ['orig_19',['orig',['../namespaceblocktridiagonalsolver.html#a03155391fb02ccf64eaadc36ff197d84',1,'blocktridiagonalsolver']]],
+  ['origdiagelement_20',['origdiagelement',['../namespaceblocktridiagonalsolver.html#a44ede286d7f1a7c1c2d73eed344c30d0',1,'blocktridiagonalsolver']]],
+  ['orthonorm_21',['orthonorm',['../structfourier_1_1fourier__class.html#a03b9fc569beac3def7b96b55a2507582',1,'fourier::fourier_class']]],
+  ['other_20objects_22',['Other Objects',['../architecture.html#architecture_class_objects_other',1,'']]],
+  ['other_20signals_20nli_20variables_23',['COOSIG - Combination Of Other SIGnals NLI Variables',['../namelist_sec.html#coosig_sec',1,'']]],
+  ['out_20xcdot_20control_24',['VMEC zero out xcdot control',['../namelist_sec.html#xcdot_sec',1,'']]],
+  ['out_5fhess_5fnfunct_25',['out_hess_nfunct',['../namespaceshared__data.html#a4a4aba0c35915ced4f6a3cbcb2d7c13f',1,'shared_data']]],
+  ['output_20grid_20sizes_26',['Output Grid Sizes',['../siesta_namelist_sec.html#siesta_grid_size_out_sec',1,'']]]
 ];

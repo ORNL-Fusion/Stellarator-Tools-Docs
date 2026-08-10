@@ -13,6 +13,7 @@ var namespacev3fit__context =
     [ "v3fit_context_resize", "namespacev3fit__context.html#a8b121cf215ff7e2539a8c8e250914185", null ],
     [ "v3fit_context_restart", "namespacev3fit__context.html#afc956ea722061536cdc2ecd478308f4d", null ],
     [ "v3fit_context_write", "namespacev3fit__context.html#a7c80eb112aab74644068ae04d407457d", null ],
-    [ "v3fit_context_write_param_header", "namespacev3fit__context.html#a1a18a7ea156e72da552e4bc6e6a2ca67", null ],
+    [ "v3fit_context_write_basic_param_header", "namespacev3fit__context.html#ae621d63b317f3471dc20afad8b4868c9", null ],
+    [ "v3fit_context_write_recon_param_header", "namespacev3fit__context.html#a02b27bbbf9d2c775cf4e2513a04a699e", null ],
     [ "v3fit_context_write_step_data", "namespacev3fit__context.html#ae603bd5c6255bc5ac0c713645184a2ba", null ]
 ];

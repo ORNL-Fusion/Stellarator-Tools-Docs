@@ -19,6 +19,7 @@ var reconstruction_8f =
     [ "reconstruction_lm_rootfind", "reconstruction_8f.html#a2d7ee6781b0183caa35e8a38c7a29d50", null ],
     [ "reconstruction_lm_step", "reconstruction_8f.html#a9fb4f742bf8db5975f91c4bc9285bf8a", null ],
     [ "reconstruction_normalize_correlations", "reconstruction_8f.html#a8592936bc0d810a89a8119dd0fcb4304", null ],
+    [ "reconstruction_normalize_recon_correlations", "reconstruction_8f.html#a3e5d74efe566b9dce2925ff7bf6aa547", null ],
     [ "reconstruction_restart", "reconstruction_8f.html#a373ad3d2bfa182a7e382c78037eb6e25", null ],
     [ "reconstruction_seg_step", "reconstruction_8f.html#a60bf72f758cf6286abaf39ef18cb533b", null ],
     [ "reconstruction_sl_step", "reconstruction_8f.html#a7cd22ee027910c53365e4320645a1798", null ],

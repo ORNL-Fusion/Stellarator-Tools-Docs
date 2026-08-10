@@ -58,7 +58,7 @@ var structmodel_1_1model__class =
     [ "write_init_data", "structmodel_1_1model__class.html#ad636c9379c9033ef785887e8c538ac92", null ],
     [ "write_step_data", "structmodel_1_1model__class.html#a83d70ca17cdea09a2cc32b41c509a759", null ],
     [ "coosig_wgts", "structmodel_1_1model__class.html#a631c6dc717db9be92f2a4054283e2627", null ],
-    [ "emission", "structmodel_1_1model__class.html#a03571a903979cbc36d95764dda7df74e", null ],
+    [ "emission", "structmodel_1_1model__class.html#ace43b2c5ccd776099161801fea1e3c0b", null ],
     [ "equilibrium", "structmodel_1_1model__class.html#ae63ac2a19f47c7d78fb0b3dfcb88fe10", null ],
     [ "grid_start", "structmodel_1_1model__class.html#a567f5c565127e6829ec5e04dbaad8826", null ],
     [ "grid_step", "structmodel_1_1model__class.html#a247edaa21ae9eaa5ea820ca976af1445", null ],

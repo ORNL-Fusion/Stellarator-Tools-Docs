@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('structguassian__process_1_1gaussp__cla
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structguassian__process_1_1gaussp__class-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">guassian_process::gaussp_class Type Reference</div></div>
@@ -100,6 +101,21 @@ $(document).ready(function(){initNavTree('structguassian__process_1_1gaussp__cla
 <p>Base class representing a gaussian process.  
  <a href="structguassian__process_1_1gaussp__class.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adff813e4d4eeb47bb469c5aeebefa7e1" id="r_adff813e4d4eeb47bb469c5aeebefa7e1"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structguassian__process_1_1gaussp__class.html#adff813e4d4eeb47bb469c5aeebefa7e1">set_signal</a> (this, signal, index)</td></tr>
+<tr class="memdesc:adff813e4d4eeb47bb469c5aeebefa7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the object and coefficient for an index.  <br /></td></tr>
+<tr class="separator:adff813e4d4eeb47bb469c5aeebefa7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad95233c0331a769c708f84e7eefe6586" id="r_ad95233c0331a769c708f84e7eefe6586"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structguassian__process_1_1gaussp__class.html#ad95233c0331a769c708f84e7eefe6586">set_profile</a> (this, a_model)</td></tr>
+<tr class="memdesc:ad95233c0331a769c708f84e7eefe6586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the object and coefficient for an index.  <br /></td></tr>
+<tr class="separator:ad95233c0331a769c708f84e7eefe6586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01913d34549b0ad1f495be8dc59c5937" id="r_a01913d34549b0ad1f495be8dc59c5937"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structguassian__process_1_1gaussp__class.html#a01913d34549b0ad1f495be8dc59c5937">get_evidence</a> (this, a_model)</td></tr>
+<tr class="memdesc:a01913d34549b0ad1f495be8dc59c5937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the evidence.  <br /></td></tr>
+<tr class="separator:a01913d34549b0ad1f495be8dc59c5937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b8ce1b7af4e2b24fa97e60a71cae28" id="r_a68b8ce1b7af4e2b24fa97e60a71cae28"><td class="memItemLeft" align="right" valign="top">FINAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structguassian__process_1_1gaussp__class.html#a68b8ce1b7af4e2b24fa97e60a71cae28">gaussp_destruct</a> (this)</td></tr>
+<tr class="memdesc:a68b8ce1b7af4e2b24fa97e60a71cae28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> object.  <br /></td></tr>
+<tr class="separator:a68b8ce1b7af4e2b24fa97e60a71cae28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:acf90c97ebf6aadee0e78c2b7aa2f974a" id="r_acf90c97ebf6aadee0e78c2b7aa2f974a"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structguassian__process_1_1gaussp__class.html#acf90c97ebf6aadee0e78c2b7aa2f974a">flags</a> = <a class="el" href="namespacemodel__state.html#ac26f74486eb854b9e8d57b0ab737f1a2">model_state_all_off</a></td></tr>
@@ -137,10 +153,10 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>profile_index</b> 
 real(rprec), dimension(:), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>fpoints</b> =&gt; null()</td></tr>
 <tr class="memdesc:afb79f1bba0c485e290c8d64c437c3913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the profile af array. <br /></td></tr>
 <tr class="separator:afb79f1bba0c485e290c8d64c437c3913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1458868dd7a8ba7a7b55478bb9f91d0" id="r_af1458868dd7a8ba7a7b55478bb9f91d0"><td class="memItemLeft" align="right" valign="top"><a id="af1458868dd7a8ba7a7b55478bb9f91d0" name="af1458868dd7a8ba7a7b55478bb9f91d0"></a>
-type(<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>params</b> =&gt; null()</td></tr>
-<tr class="memdesc:af1458868dd7a8ba7a7b55478bb9f91d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of hyper parameters. <br /></td></tr>
-<tr class="separator:af1458868dd7a8ba7a7b55478bb9f91d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ee6cb7b3bed16b86cc6fffbb92276e" id="r_a51ee6cb7b3bed16b86cc6fffbb92276e"><td class="memItemLeft" align="right" valign="top"><a id="a51ee6cb7b3bed16b86cc6fffbb92276e" name="a51ee6cb7b3bed16b86cc6fffbb92276e"></a>
+type(<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>params</b> =&gt; null()</td></tr>
+<tr class="memdesc:a51ee6cb7b3bed16b86cc6fffbb92276e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of hyper parameters. <br /></td></tr>
+<tr class="separator:a51ee6cb7b3bed16b86cc6fffbb92276e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a28d8ca9826251fe307cd3c7f549aac" id="r_a7a28d8ca9826251fe307cd3c7f549aac"><td class="memItemLeft" align="right" valign="top"><a id="a7a28d8ca9826251fe307cd3c7f549aac" name="a7a28d8ca9826251fe307cd3c7f549aac"></a>
 integer&#160;</td><td class="memItemRight" valign="bottom"><b>iou</b></td></tr>
 <tr class="memdesc:a7a28d8ca9826251fe307cd3c7f549aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log file input output unit. <br /></td></tr>
@@ -148,7 +164,167 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>iou</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class representing a gaussian process. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
+<a id="a68b8ce1b7af4e2b24fa97e60a71cae28" name="a68b8ce1b7af4e2b24fa97e60a71cae28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b8ce1b7af4e2b24fa97e60a71cae28">&#9670;&#160;</a></span>gaussp_destruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FINAL guassian_process::gaussp_class::gaussp_destruct </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deconstruct a <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> object. </p>
+<p>Deallocates memory and uninitializes a <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The destructors of the signals in the signal array are not called her because the gaussian process signals do not own the memory for those signals. </dd></dl>
+
+</div>
+</div>
+<a id="a01913d34549b0ad1f495be8dc59c5937" name="a01913d34549b0ad1f495be8dc59c5937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01913d34549b0ad1f495be8dc59c5937">&#9670;&#160;</a></span>get_evidence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure guassian_process::gaussp_class::get_evidence </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), pointer&#160;</td>
+          <td class="paramname"><em>a_model</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the evidence. </p>
+<p>This method finds a gaussian process evidence. The matrices computed can be later used to set the profile.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The log evidence for the current hyper parameters. </dd></dl>
+
+</div>
+</div>
+<a id="ad95233c0331a769c708f84e7eefe6586" name="ad95233c0331a769c708f84e7eefe6586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad95233c0331a769c708f84e7eefe6586">&#9670;&#160;</a></span>set_profile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure guassian_process::gaussp_class::set_profile </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class (<a class="el" href="structmodel_1_1model__class.html">model_class</a>), pointer&#160;</td>
+          <td class="paramname"><em>a_model</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the object and coefficient for an index. </p>
+<p>This method uses a gaussian process to set a model using the signals pointed in the <a class="el" href="structguassian__process_1_1gaussp__class.html#a46475eab59a1ddb4a728c12c28e1408f">gaussp_class::signals</a> array. Hyper parameters are determined by maximizing the evidence.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adff813e4d4eeb47bb469c5aeebefa7e1" name="adff813e4d4eeb47bb469c5aeebefa7e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adff813e4d4eeb47bb469c5aeebefa7e1">&#9670;&#160;</a></span>set_signal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure guassian_process::gaussp_class::set_signal </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class (<a class="el" href="structsignal_1_1signal__class.html">signal_class</a>), pointer&#160;</td>
+          <td class="paramname"><em>signal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the object and coefficient for an index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structguassian__process_1_1gaussp__class.html">gaussp_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">signal</td><td>A signal_class instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>A weight for the signal </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index to place the gaussp <a class="el" href="namespacesignal.html">signal</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Only signals that were created before this gaussian process can be added. Otherwise it will creat an infinitely recursive loop in gaussp_get_modeled_signal </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="acf90c97ebf6aadee0e78c2b7aa2f974a" name="acf90c97ebf6aadee0e78c2b7aa2f974a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf90c97ebf6aadee0e78c2b7aa2f974a">&#9670;&#160;</a></span>flags</h2>
 

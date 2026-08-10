@@ -443,7 +443,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -461,7 +461,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -530,7 +530,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -594,7 +594,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -612,7 +612,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1318,7 +1318,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -1336,7 +1336,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1407,7 +1407,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1453,6 +1453,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structreconstruction_1_1reconstruction__class.html">reconstruction_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of param_recon_class objects. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">num_params</td><td>Number of reconstruction parameters. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">num_signal</td><td>Number of signals. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">num_derived_params</td><td>Number of derived parameters. </td></tr>
@@ -1568,7 +1569,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__locking__pointer.html">param_locking_pointer</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>locks</em>, </td>
         </tr>
         <tr>
@@ -1586,7 +1587,7 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__pointer.html">param_pointer</a>), dimension(:), intent(inout)&#160;</td>
+          <td class="paramtype">type (<a class="el" href="structv3fit__params_1_1param__recon__pointer.html">param_recon_pointer</a>), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -1633,9 +1634,9 @@ real(rprec), dimension(:,:), pointer&#160;</td><td class="memItemRight" valign="
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structreconstruction_1_1reconstruction__class.html">reconstruction_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">signals</td><td>Array of <a class="el" href="namespacesignal.html">signal</a> objects. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">locks</td><td>Array of lock objects. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">locks</td><td>Array of param_locking_class objects. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">a_model</td><td>A <a class="el" href="namespacemodel.html">model</a> instance. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of parameter objects. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">params</td><td>Array of param_recon_class objects. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">eq_steps</td><td>Number of steps for the equilibrium to take. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">max_step</td><td>Upper limit of the step size to attemp. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">iou</td><td>Input/output file to write log messages to. </td></tr>

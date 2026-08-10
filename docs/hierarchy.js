@@ -260,12 +260,14 @@ var hierarchy =
     [ "netcdf_inc::nf_strerror", "interfacenetcdf__inc_1_1nf__strerror.html", null ],
     [ "netcdf_inc::nf_sync", "interfacenetcdf__inc_1_1nf__sync.html", null ],
     [ "pspline_calls::nspline", "interfacepspline__calls_1_1nspline.html", null ],
-    [ "v3fit_params::param_class", "structv3fit__params_1_1param__class.html", null ],
+    [ "v3fit_params::param_class", "structv3fit__params_1_1param__class.html", [
+      [ "v3fit_params::param_locking_class", "structv3fit__params_1_1param__locking__class.html", null ],
+      [ "v3fit_params::param_recon_class", "structv3fit__params_1_1param__recon__class.html", null ]
+    ] ],
     [ "v3fit_params::param_construct", "interfacev3fit__params_1_1param__construct.html", null ],
-    [ "v3fit_params::param_locking_class", "structv3fit__params_1_1param__locking__class.html", null ],
+    [ "v3fit_params::param_locking_pointer", "structv3fit__params_1_1param__locking__pointer.html", null ],
     [ "v3fit_params::param_pointer", "structv3fit__params_1_1param__pointer.html", null ],
-    [ "v3fit_params::param_recon_class", "structv3fit__params_1_1param__recon__class.html", null ],
-    [ "v3fit_params::param_write_step_data", "interfacev3fit__params_1_1param__write__step__data.html", null ],
+    [ "v3fit_params::param_recon_pointer", "structv3fit__params_1_1param__recon__pointer.html", null ],
     [ "parity", "classparity.html", [
       [ "cosine", "classcosine.html", null ],
       [ "sine", "classsine.html", null ]
