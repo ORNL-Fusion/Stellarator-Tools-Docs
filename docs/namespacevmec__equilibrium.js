@@ -80,6 +80,7 @@ var namespacevmec__equilibrium =
     [ "vmec_reset_boundary", "namespacevmec__equilibrium.html#a061ad2b9b7b412d4b7277cfabe513b64", null ],
     [ "vmec_reset_state", "namespacevmec__equilibrium.html#a57b943ab3a3657eb188595c753695219", null ],
     [ "vmec_restart", "namespacevmec__equilibrium.html#aff8a8dae3f1900d997af8f18d65c8ebd", null ],
+    [ "vmec_save_file", "namespacevmec__equilibrium.html#ad2647b38a7a550045622ac0deb93b561", null ],
     [ "vmec_save_state", "namespacevmec__equilibrium.html#aeced22814edb5c90369367fe8ab1fcb0", null ],
     [ "vmec_set_magnetic_cache_calc", "namespacevmec__equilibrium.html#a08c1386909dadbb57c3b8988a8c7206e", null ],
     [ "vmec_set_magnetic_cache_point", "namespacevmec__equilibrium.html#a355d774feafc69fda582d6fe0269b828", null ],

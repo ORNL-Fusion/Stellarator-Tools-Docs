@@ -70,6 +70,7 @@ var structvmec__equilibrium_1_1vmec__class =
     [ "read_vac_file", "structvmec__equilibrium_1_1vmec__class.html#ae665e06bc782610369cd6885534a036b", null ],
     [ "reset_state", "structvmec__equilibrium_1_1vmec__class.html#a3468f4d6e7fcb56c90fd99c5aa24b572", null ],
     [ "restart", "structvmec__equilibrium_1_1vmec__class.html#a2d1f98953ba4e7d896201a97069be2eb", null ],
+    [ "save_file", "structvmec__equilibrium_1_1vmec__class.html#a9fb5df18030b554664e8c258afef9dc3", null ],
     [ "save_state", "structvmec__equilibrium_1_1vmec__class.html#a60a415fe12711102e7506c6bc7d82257", null ],
     [ "set_magnetic_cache_calc", "structvmec__equilibrium_1_1vmec__class.html#a673ec654bd3cd2f38b5e940ef6f865ec", null ],
     [ "set_magnetic_cache_point", "structvmec__equilibrium_1_1vmec__class.html#a564df1cef322badf717d4fee4d2ebff4", null ],

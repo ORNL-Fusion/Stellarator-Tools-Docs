@@ -341,6 +341,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3bbf0036737c44a028c0d7526cbd3c92" id="r_a3bbf0036737c44a028c0d7526cbd3c92"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structvmec__equilibrium_1_1vmec__class.html#a3bbf0036737c44a028c0d7526cbd3c92">write_input</a> (this, current_step)</td></tr>
 <tr class="memdesc:a3bbf0036737c44a028c0d7526cbd3c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the current valid input.  <br /></td></tr>
 <tr class="separator:a3bbf0036737c44a028c0d7526cbd3c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb5df18030b554664e8c258afef9dc3" id="r_a9fb5df18030b554664e8c258afef9dc3"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structvmec__equilibrium_1_1vmec__class.html#a9fb5df18030b554664e8c258afef9dc3">save_file</a> (this, current_grid)</td></tr>
+<tr class="memdesc:a9fb5df18030b554664e8c258afef9dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the equilibrium file.  <br /></td></tr>
+<tr class="separator:a9fb5df18030b554664e8c258afef9dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fdd04a7b0c1121c6d2f936e95131bc" id="r_a42fdd04a7b0c1121c6d2f936e95131bc"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structvmec__equilibrium_1_1vmec__class.html#a42fdd04a7b0c1121c6d2f936e95131bc">def_result</a> (this, result_ncid, maxnsetps_dim_id)</td></tr>
 <tr class="memdesc:a42fdd04a7b0c1121c6d2f936e95131bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define NetCDF variables for the result file.  <br /></td></tr>
 <tr class="separator:a42fdd04a7b0c1121c6d2f936e95131bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -600,6 +603,9 @@ GENERIC&#160;</td><td class="memItemRight" valign="bottom"><b>get_p</b> <a class
 <tr class="memitem:a7245935ac5f405c990e170cce1734485 inherit pub_methods_structequilibrium_1_1equilibrium__class" id="r_a7245935ac5f405c990e170cce1734485"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#a7245935ac5f405c990e170cce1734485">write_input</a> (this, current_step)</td></tr>
 <tr class="memdesc:a7245935ac5f405c990e170cce1734485 inherit pub_methods_structequilibrium_1_1equilibrium__class"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write out the equilibrium to an output file.  <br /></td></tr>
 <tr class="separator:a7245935ac5f405c990e170cce1734485 inherit pub_methods_structequilibrium_1_1equilibrium__class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40804b3970b69279bf208f2cc45ef767 inherit pub_methods_structequilibrium_1_1equilibrium__class" id="r_a40804b3970b69279bf208f2cc45ef767"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#a40804b3970b69279bf208f2cc45ef767">save_file</a> (this, current_grid)</td></tr>
+<tr class="memdesc:a40804b3970b69279bf208f2cc45ef767 inherit pub_methods_structequilibrium_1_1equilibrium__class"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the equilibrium file.  <br /></td></tr>
+<tr class="separator:a40804b3970b69279bf208f2cc45ef767 inherit pub_methods_structequilibrium_1_1equilibrium__class"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2258acaa4201d2eefa39750d02c8d4c1 inherit pub_methods_structequilibrium_1_1equilibrium__class" id="r_a2258acaa4201d2eefa39750d02c8d4c1"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#a2258acaa4201d2eefa39750d02c8d4c1">def_result</a> (this, result_ncid, maxnsetps_dim_id)</td></tr>
 <tr class="memdesc:a2258acaa4201d2eefa39750d02c8d4c1 inherit pub_methods_structequilibrium_1_1equilibrium__class"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define NetCDF variables for the result file.  <br /></td></tr>
 <tr class="separator:a2258acaa4201d2eefa39750d02c8d4c1 inherit pub_methods_structequilibrium_1_1equilibrium__class"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3434,6 +3440,43 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b></td></tr
     <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structvmec__equilibrium_1_1vmec__class.html">vmec_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">result_ncid</td><td>NetCDF file id of the result file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">current_step</td><td>Step index to write variables to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9fb5df18030b554664e8c258afef9dc3" name="a9fb5df18030b554664e8c258afef9dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb5df18030b554664e8c258afef9dc3">&#9670;&#160;</a></span>save_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure vmec_equilibrium::vmec_class::save_file </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structvmec__equilibrium_1_1vmec__class.html">vmec_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>current_grid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save the equilibrium file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structvmec__equilibrium_1_1vmec__class.html">vmec_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">current_grid</td><td>Grid index to append to the file names. </td></tr>
   </table>
   </dd>
 </dl>

@@ -37,6 +37,7 @@ var namespacesiesta__equilibrium =
     [ "siesta_is_1d_array", "namespacesiesta__equilibrium.html#a73fb404a24d6dd1755f6847dd98ce0be", null ],
     [ "siesta_is_recon_param", "namespacesiesta__equilibrium.html#a513834604de744b1779b4dc803efc630", null ],
     [ "siesta_reset_state", "namespacesiesta__equilibrium.html#a0e5961578d443ce3e3e13ae34f41ae56", null ],
+    [ "siesta_save_file", "namespacesiesta__equilibrium.html#a497f6e88ccebe9eeef125ce8d7cba780", null ],
     [ "siesta_save_state", "namespacesiesta__equilibrium.html#a14a150afd6c526771bbde5237d53d72b", null ],
     [ "siesta_set_magnetic_cache_calc", "namespacesiesta__equilibrium.html#aeacc50357fd0c9adb56459a920dbd7b0", null ],
     [ "siesta_set_magnetic_cache_point", "namespacesiesta__equilibrium.html#ad8bcfb2af6ccfc495a8f6d13065ac2a2", null ],

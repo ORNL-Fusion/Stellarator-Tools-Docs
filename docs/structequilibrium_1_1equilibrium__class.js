@@ -65,6 +65,7 @@ var structequilibrium_1_1equilibrium__class =
     [ "read_vac_file", "structequilibrium_1_1equilibrium__class.html#a16fd24e3f6874ba1c334873398f996d0", null ],
     [ "reset_state", "structequilibrium_1_1equilibrium__class.html#a7441c6c16fc5e9a70fd08d286e110357", null ],
     [ "restart", "structequilibrium_1_1equilibrium__class.html#a84ae94eb31f43d1ccfb6e61266827c49", null ],
+    [ "save_file", "structequilibrium_1_1equilibrium__class.html#a40804b3970b69279bf208f2cc45ef767", null ],
     [ "save_state", "structequilibrium_1_1equilibrium__class.html#a26a01f80e478b65c127a49624c039f1c", null ],
     [ "set_magnetic_cache_point", "structequilibrium_1_1equilibrium__class.html#a4c75630730289b4a934fb18bb3e07680", null ],
     [ "set_magnetic_cache_response", "structequilibrium_1_1equilibrium__class.html#ae6d335134c0d059201aadc748817ae41", null ],

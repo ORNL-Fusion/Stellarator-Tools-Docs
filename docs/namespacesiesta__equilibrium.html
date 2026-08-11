@@ -238,6 +238,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a0551767a732b51891984375ed98b08d3" id="r_a0551767a732b51891984375ed98b08d3"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#a0551767a732b51891984375ed98b08d3">siesta_write_input</a> (this, current_step)</td></tr>
 <tr class="memdesc:a0551767a732b51891984375ed98b08d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the current valid input.  <br /></td></tr>
 <tr class="separator:a0551767a732b51891984375ed98b08d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497f6e88ccebe9eeef125ce8d7cba780" id="r_a497f6e88ccebe9eeef125ce8d7cba780"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#a497f6e88ccebe9eeef125ce8d7cba780">siesta_save_file</a> (this, current_grid)</td></tr>
+<tr class="memdesc:a497f6e88ccebe9eeef125ce8d7cba780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the equilibrium file.  <br /></td></tr>
+<tr class="separator:a497f6e88ccebe9eeef125ce8d7cba780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40383ec407420d91a3aed6c13c7bbe33" id="r_a40383ec407420d91a3aed6c13c7bbe33"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#a40383ec407420d91a3aed6c13c7bbe33">siesta_sync_state</a> (this, recon_comm)</td></tr>
 <tr class="memdesc:a40383ec407420d91a3aed6c13c7bbe33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncronize the siesta state to children.  <br /></td></tr>
 <tr class="separator:a40383ec407420d91a3aed6c13c7bbe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1900,6 +1903,43 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structsiesta__equilibrium_1_1siesta__class.html">siesta_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a497f6e88ccebe9eeef125ce8d7cba780" name="a497f6e88ccebe9eeef125ce8d7cba780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497f6e88ccebe9eeef125ce8d7cba780">&#9670;&#160;</a></span>siesta_save_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine siesta_equilibrium::siesta_save_file </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structsiesta__equilibrium_1_1siesta__class.html">siesta_class</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>current_grid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save the equilibrium file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structsiesta__equilibrium_1_1siesta__class.html">siesta_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">current_grid</td><td>Grid index to append to the file names. </td></tr>
   </table>
   </dd>
 </dl>

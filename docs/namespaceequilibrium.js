@@ -69,6 +69,7 @@ var namespaceequilibrium =
     [ "equilibrium_read_vac_file", "namespaceequilibrium.html#af19a9f34a7786fd3cb34acf466c50d5f", null ],
     [ "equilibrium_reset_state", "namespaceequilibrium.html#a032df1c41a8aa23eb9b8d7434118a472", null ],
     [ "equilibrium_restart", "namespaceequilibrium.html#a5d4f0e13ecadfc197de9c0c4efa47033", null ],
+    [ "equilibrium_save_file", "namespaceequilibrium.html#a132c04cbd4d5e510a9e9a977c89048f7", null ],
     [ "equilibrium_save_state", "namespaceequilibrium.html#a53216bd25b330737a77a7638a9e43303", null ],
     [ "equilibrium_set_magnetic_cache_point", "namespaceequilibrium.html#a071ab01f0bd3d33683db0e9f642e3d8a", null ],
     [ "equilibrium_set_magnetic_cache_response", "namespaceequilibrium.html#aa87a9dd2aa8a5b0efa749d566b57510b", null ],

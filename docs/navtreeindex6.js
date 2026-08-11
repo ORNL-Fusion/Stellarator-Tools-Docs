@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"metrics_8f90.html#ac0e222ca9191146641af708614a51254":[54,0,5,0,3,23],
 "metrics_8f90.html#ac555477718bc72564d6b45865235579b":[54,0,5,0,3,7],
 "metrics_8f90.html#ac8cac1820c5ff7ecff72e9527f577e9e":[54,0,5,0,3,9],
 "metrics_8f90.html#acc63bf315521c10905cbd3d7779c916e":[54,0,5,0,3,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "namespaceblocktridiagonalsolver.html#aa7fdbc9161a9106ad16523b3545c44ec":[52,0,2,72],
 "namespaceblocktridiagonalsolver.html#aaa1bf7577b6b839c5ca3bd53448e20c9":[52,0,2,43],
 "namespaceblocktridiagonalsolver.html#aaf061cfc5aee8605dbcdaf05f88aa730":[52,0,2,109],
-"namespaceblocktridiagonalsolver.html#aaf2b9d3353e158cf4db65f1b58777ca4":[52,0,2,119],
-"namespaceblocktridiagonalsolver.html#ab1d12824e909483f708b55e676ec6920":[52,0,2,22]
+"namespaceblocktridiagonalsolver.html#aaf2b9d3353e158cf4db65f1b58777ca4":[52,0,2,119]
 };

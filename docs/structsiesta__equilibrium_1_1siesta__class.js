@@ -34,6 +34,7 @@ var structsiesta__equilibrium_1_1siesta__class =
     [ "is_1d_array", "structsiesta__equilibrium_1_1siesta__class.html#a6eb16f0d86320794f0abdeb5d394e441", null ],
     [ "is_recon_param", "structsiesta__equilibrium_1_1siesta__class.html#a6be60e028111ff0b887c9b84370acc47", null ],
     [ "reset_state", "structsiesta__equilibrium_1_1siesta__class.html#a888d92ca8389f87669f829f1c742d3f6", null ],
+    [ "save_file", "structsiesta__equilibrium_1_1siesta__class.html#a6998a49e00a635b06b12f3f73ff163e9", null ],
     [ "save_state", "structsiesta__equilibrium_1_1siesta__class.html#a8f1d29c7ba42547ccaa62818a454e0ba", null ],
     [ "set_magnetic_cache_calc", "structsiesta__equilibrium_1_1siesta__class.html#adf472bc448f6b2ae2e0aa3f1a8844f01", null ],
     [ "set_magnetic_cache_point", "structsiesta__equilibrium_1_1siesta__class.html#a821b1f3ef8138e81f767bae1ca8aac2b", null ],

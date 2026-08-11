@@ -37,6 +37,7 @@ var siesta__equilibrium_8f =
     [ "siesta_is_1d_array", "siesta__equilibrium_8f.html#a73fb404a24d6dd1755f6847dd98ce0be", null ],
     [ "siesta_is_recon_param", "siesta__equilibrium_8f.html#a513834604de744b1779b4dc803efc630", null ],
     [ "siesta_reset_state", "siesta__equilibrium_8f.html#a0e5961578d443ce3e3e13ae34f41ae56", null ],
+    [ "siesta_save_file", "siesta__equilibrium_8f.html#a497f6e88ccebe9eeef125ce8d7cba780", null ],
     [ "siesta_save_state", "siesta__equilibrium_8f.html#a14a150afd6c526771bbde5237d53d72b", null ],
     [ "siesta_set_magnetic_cache_calc", "siesta__equilibrium_8f.html#aeacc50357fd0c9adb56459a920dbd7b0", null ],
     [ "siesta_set_magnetic_cache_point", "siesta__equilibrium_8f.html#ad8bcfb2af6ccfc495a8f6d13065ac2a2", null ],
