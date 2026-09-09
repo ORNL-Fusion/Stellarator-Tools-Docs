@@ -443,7 +443,7 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Querey if to use forward or backwards propagation. </p>
-<p>Only switch to backward when the forward spurious-mode growth (|r1 r2| = B/A) would actually exceed double precision over kL steps. Threshold: forward is considered stable as long as (B/A)^kL &lt; 1e10, i.e. spurious amplitude stays within ~1e10 of the particular solution. Near-degenerate kl (|r1|~|r2|~1) fall in the forward branch, where zero-seed Miller is known to misconverge (spurious modes never damp). Formula: kL * ln(B/A) &lt; ln(1e10) -&gt; B/A &lt; exp(ln(1e10)/kL).</p>
+<p>The homogeneous solutions of the recurrence are a complex pair of modulus sqrt(a/b), so a forward pass over the mf + nf steps amplifies the rounding of its inputs by sqrt(a/b)^(mf + nf). The forward pass is used while that growth stays below ten, otherwise the recurrence is run backward from a seed placed far enough above mf + nf. Formula: (mf + nf) * ln(a/b) &lt;= 2 ln(10).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td></td></tr>
@@ -451,7 +451,7 @@ Functions/Subroutines</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if log(a/b) &gt; ln(1E10) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if (mf + nf) * log(a/b) &gt; 2 ln(10) </dd></dl>
 
 </div>
 </div>
