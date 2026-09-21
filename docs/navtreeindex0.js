@@ -3,11 +3,10 @@ var NAVTREEINDEX0 =
 "SURFACE_2Sources_2surface_8f.html":[54,0,6,0,0],
 "SURFACE_2Sources_2surface_8f.html#a1dc1cf249f905954a0604973f38d1536":[54,0,6,0,0,0],
 "analyt_8f.html":[54,0,4,0,0,0],
-"analyt_8f.html#a10032bd93971262f76635a5ce5bf0f51":[54,0,4,0,0,0,4],
-"analyt_8f.html#a33fef9507ed918123d289bc7ad5d9cf5":[54,0,4,0,0,0,3],
 "analyt_8f.html#a4abac38343af0d2e72c47fac27bd3030":[54,0,4,0,0,0,0],
-"analyt_8f.html#ad502bfed82c8c2db9972577b3b3521f5":[54,0,4,0,0,0,2],
-"analyt_8f.html#adffd0d3473f938e8f8db7c0021d37fd0":[54,0,4,0,0,0,1],
+"analyt_8f.html#a4cbdc6276a275d7e538d90d318bd7d1a":[54,0,4,0,0,0,1],
+"analyt_8f.html#a5450597b87d4d8cd91718ff0ad3a024e":[54,0,4,0,0,0,3],
+"analyt_8f.html#ae79784385384a0cac0ef43c73c73de94":[54,0,4,0,0,0,2],
 "annotated.html":[53,0],
 "architecture.html":[7],
 "architecture.html#architecture_class_objects":[7,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "classvmec__quantities.html":[53,0,104],
 "classvmec__quantities.html#a0527c7c8184f5f795a7d60e1b6c89581":[53,0,104,1],
 "classvmec__quantities.html#a10f9e060f315f2ca59b8b32cc9927efe":[53,0,104,25],
-"classvmec__quantities.html#a15ccf364ed023200a9f343ed020393d3":[53,0,104,41]
+"classvmec__quantities.html#a15ccf364ed023200a9f343ed020393d3":[53,0,104,41],
+"classvmec__quantities.html#a1a8c20ca1c1a4f18de05712f2999e53b":[53,0,104,27]
 };

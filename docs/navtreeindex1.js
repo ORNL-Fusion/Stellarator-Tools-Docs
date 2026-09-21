@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classvmec__quantities.html#a1a8c20ca1c1a4f18de05712f2999e53b":[53,0,104,27],
 "classvmec__quantities.html#a23c6f9c201a2ac55d99aa509f70f7040":[53,0,104,11],
 "classvmec__quantities.html#a258c851db21a427a2cac6e0751425360":[53,0,104,43],
 "classvmec__quantities.html#a31d2690604dcfb331cbb9497c966f995":[53,0,104,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "equilibrium_8f.html#a5d4f0e13ecadfc197de9c0c4efa47033":[54,0,7,0,7,68],
 "equilibrium_8f.html#a5e269ab9a6543c2c2dd4900ae96c19b8":[54,0,7,0,7,30],
 "equilibrium_8f.html#a60b8c388b37c1b3d70e7b04e4bad489e":[54,0,7,0,7,40],
-"equilibrium_8f.html#a6761083f9efa93db8f53826785bce684":[54,0,7,0,7,47]
+"equilibrium_8f.html#a6761083f9efa93db8f53826785bce684":[54,0,7,0,7,47],
+"equilibrium_8f.html#a6b1e3e48ed232d3d681aa0bcd1077257":[54,0,7,0,7,15]
 };

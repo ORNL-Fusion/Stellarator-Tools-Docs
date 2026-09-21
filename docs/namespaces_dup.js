@@ -2,10 +2,9 @@ var namespaces_dup =
 [
     [ "analytic", "namespaceanalytic.html", [
       [ "analyt", "namespaceanalytic.html#a4abac38343af0d2e72c47fac27bd3030", null ],
-      [ "initialize", "namespaceanalytic.html#adffd0d3473f938e8f8db7c0021d37fd0", null ],
-      [ "recurrence", "namespaceanalytic.html#ad502bfed82c8c2db9972577b3b3521f5", null ],
-      [ "recurrence_sum", "namespaceanalytic.html#a33fef9507ed918123d289bc7ad5d9cf5", null ],
-      [ "usebackward", "namespaceanalytic.html#a10032bd93971262f76635a5ce5bf0f51", null ]
+      [ "chebyshev_moments", "namespaceanalytic.html#a4cbdc6276a275d7e538d90d318bd7d1a", null ],
+      [ "moment_factors", "namespaceanalytic.html#ae79784385384a0cac0ef43c73c73de94", null ],
+      [ "t0_integral", "namespaceanalytic.html#a5450597b87d4d8cd91718ff0ad3a024e", null ]
     ] ],
     [ "bivariate", "namespacebivariate.html", "namespacebivariate" ],
     [ "blocktridiagonalsolver", "namespaceblocktridiagonalsolver.html", "namespaceblocktridiagonalsolver" ],
