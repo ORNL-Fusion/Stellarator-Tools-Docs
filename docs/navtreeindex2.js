@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"equilibrium_8f.html#a6b1e3e48ed232d3d681aa0bcd1077257":[54,0,7,0,7,15],
 "equilibrium_8f.html#a6e162c86fa7e87cd3a96f79bfb3e7c3d":[54,0,7,0,7,48],
 "equilibrium_8f.html#a71a4692b96c812902e37409d40c48461":[54,0,7,0,7,2],
 "equilibrium_8f.html#a7549affbf460dbc78e762e99b6ce58de":[54,0,7,0,7,64],
@@ -104,8 +105,8 @@ var NAVTREEINDEX2 =
 "functions_d.html":[53,3,0,3],
 "functions_e.html":[53,3,0,4],
 "functions_f.html":[53,3,0,5],
-"functions_func.html":[53,3,1],
 "functions_func.html":[53,3,1,0],
+"functions_func.html":[53,3,1],
 "functions_func_b.html":[53,3,1,1],
 "functions_func_c.html":[53,3,1,2],
 "functions_func_d.html":[53,3,1,3],
@@ -216,6 +217,10 @@ var NAVTREEINDEX2 =
 "index.html#user_v3rfun":[1,2,0],
 "index.html#user_vacuum_equilibirum":[1,1,1],
 "index.html#user_vmec_equilibirum":[1,1,0],
+"init__geometry_8f90.html":[54,0,4,0,0,0],
+"init__geometry_8f90.html#a7d12af99d55a744b6f3f337774450a67":[54,0,4,0,0,0,1],
+"init__geometry_8f90.html#ac5cc4d314ff440a1c85b71881c1caaec":[54,0,4,0,0,0,2],
+"init__geometry_8f90.html#ad3784e6f2e18eccf17b12fa778830e79":[54,0,4,0,0,0,0],
 "integration__path_8f.html":[54,0,2,0,3,4],
 "integration__path_8f.html#a0116e5343b00d2f0d9e97296f5842941":[54,0,2,0,3,4,14],
 "integration__path_8f.html#a05378176ed62eebf5da06dbde4bc5c3b":[54,0,2,0,3,4,13],
@@ -243,11 +248,6 @@ var NAVTREEINDEX2 =
 "interfacebsc__t_1_1bsc__destroy.html":[53,0,8,6],
 "interfacebsc__t_1_1bsc__fluxba.html":[53,0,8,7],
 "interfacebsc__t_1_1bsc__rot__shift.html":[53,0,8,8],
-"interfacecompression_1_1compression__construct.html":[53,0,11,1],
 "interfacecompression_1_1compression__construct.html":[52,0,11,1],
-"interfacecompression_1_1compression__construct.html#a58461e3b568b600b5caa425b944acf2a":[52,0,11,1,0],
-"interfacecompression_1_1compression__construct.html#a58461e3b568b600b5caa425b944acf2a":[53,0,11,1,0],
-"interfacecompression_1_1compression__construct.html#a761cfee279aa8c0a332f3e37788c89dd":[53,0,11,1,1],
-"interfacecompression_1_1compression__construct.html#a761cfee279aa8c0a332f3e37788c89dd":[52,0,11,1,1],
-"interfacediagnostic__cdf_1_1diagnostic__cdf__define.html":[53,0,13,0]
+"interfacecompression_1_1compression__construct.html":[53,0,11,1]
 };

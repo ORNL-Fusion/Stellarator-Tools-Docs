@@ -114,6 +114,11 @@ var namespaces_dup =
     ] ],
     [ "gradient_descent", "namespacegradient__descent.html", "namespacegradient__descent" ],
     [ "guassian_process", "namespaceguassian__process.html", "namespaceguassian__process" ],
+    [ "init_geometry", "namespaceinit__geometry.html", [
+      [ "flip_theta", "namespaceinit__geometry.html#ad3784e6f2e18eccf17b12fa778830e79", null ],
+      [ "reset_boundary", "namespaceinit__geometry.html#a7d12af99d55a744b6f3f337774450a67", null ],
+      [ "lflip", "namespaceinit__geometry.html#ac5cc4d314ff440a1c85b71881c1caaec", null ]
+    ] ],
     [ "integration_path", "namespaceintegration__path.html", "namespaceintegration__path" ],
     [ "integration_path_context", "namespaceintegration__path__context.html", "namespaceintegration__path__context" ],
     [ "intpol", "namespaceintpol.html", "namespaceintpol" ],
