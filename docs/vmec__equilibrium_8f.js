@@ -77,7 +77,6 @@ var vmec__equilibrium_8f =
     [ "vmec_is_using_point", "vmec__equilibrium_8f.html#aed15211e86e828d27bd6fe2fb2b74ae2", null ],
     [ "vmec_limit_path_to_boundary", "vmec__equilibrium_8f.html#a7fc492f175fa76c03823b544bdf388f8", null ],
     [ "vmec_read_vac_file", "vmec__equilibrium_8f.html#af32bc9eb29e352de8b798cc60e2e7627", null ],
-    [ "vmec_reset_boundary", "vmec__equilibrium_8f.html#a061ad2b9b7b412d4b7277cfabe513b64", null ],
     [ "vmec_reset_state", "vmec__equilibrium_8f.html#a57b943ab3a3657eb188595c753695219", null ],
     [ "vmec_restart", "vmec__equilibrium_8f.html#aff8a8dae3f1900d997af8f18d65c8ebd", null ],
     [ "vmec_save_file", "vmec__equilibrium_8f.html#ad2647b38a7a550045622ac0deb93b561", null ],

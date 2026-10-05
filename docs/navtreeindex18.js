@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"structdiagnostic__dot_1_1diagnostic__dot__coil.html":[52,0,14,0],
 "structdiagnostic__dot_1_1diagnostic__dot__coil.html":[53,0,14,0],
 "structdiagnostic__dot_1_1diagnostic__dot__coil.html#a0862990ccb2637ae8f4400c1ef75d067":[52,0,14,0,5],
 "structdiagnostic__dot_1_1diagnostic__dot__coil.html#a0862990ccb2637ae8f4400c1ef75d067":[53,0,14,0,5],
@@ -244,10 +243,11 @@ var NAVTREEINDEX18 =
 "structezspline__type_1_1ezspline3__r8.html":[53,0,28,5],
 "structfourier_1_1fourier__class.html":[53,0,30,0],
 "structfourier_1_1fourier__class.html":[52,0,22,0],
-"structfourier_1_1fourier__class.html#a0323b3b4876c3ea2f39ab1a9f87a54e7":[53,0,30,0,25],
 "structfourier_1_1fourier__class.html#a0323b3b4876c3ea2f39ab1a9f87a54e7":[52,0,22,0,25],
-"structfourier_1_1fourier__class.html#a03b9fc569beac3def7b96b55a2507582":[53,0,30,0,19],
+"structfourier_1_1fourier__class.html#a0323b3b4876c3ea2f39ab1a9f87a54e7":[53,0,30,0,25],
 "structfourier_1_1fourier__class.html#a03b9fc569beac3def7b96b55a2507582":[52,0,22,0,19],
+"structfourier_1_1fourier__class.html#a03b9fc569beac3def7b96b55a2507582":[53,0,30,0,19],
 "structfourier_1_1fourier__class.html#a0d184fe9031824c11a0b5c031db6581f":[52,0,22,0,0],
-"structfourier_1_1fourier__class.html#a0d184fe9031824c11a0b5c031db6581f":[53,0,30,0,0]
+"structfourier_1_1fourier__class.html#a0d184fe9031824c11a0b5c031db6581f":[53,0,30,0,0],
+"structfourier_1_1fourier__class.html#a12b22782cdfe72bb43fd095bbe47f62c":[52,0,22,0,15]
 };

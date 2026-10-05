@@ -382,9 +382,6 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ae90a5479a5b49f344dd06bd649e1a18b" id="r_ae90a5479a5b49f344dd06bd649e1a18b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevmec__equilibrium.html#ae90a5479a5b49f344dd06bd649e1a18b">vmec_sync_child</a> (this, index, recon_comm)</td></tr>
 <tr class="memdesc:ae90a5479a5b49f344dd06bd649e1a18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncronize a child vmec state to the parent.  <br /></td></tr>
 <tr class="separator:ae90a5479a5b49f344dd06bd649e1a18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061ad2b9b7b412d4b7277cfabe513b64" id="r_a061ad2b9b7b412d4b7277cfabe513b64"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevmec__equilibrium.html#a061ad2b9b7b412d4b7277cfabe513b64">vmec_reset_boundary</a> (this)</td></tr>
-<tr class="memdesc:a061ad2b9b7b412d4b7277cfabe513b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the fixed boundary coefficients.  <br /></td></tr>
-<tr class="separator:a061ad2b9b7b412d4b7277cfabe513b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -3724,33 +3721,6 @@ real(rprec), parameter&#160;</td><td class="memItemRight" valign="bottom"><b>mag
     <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structvmec__equilibrium_1_1vmec__class.html">vmec_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Index of the changed current. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">eq_comm</td><td>MPI communicator pool for VMEC. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a061ad2b9b7b412d4b7277cfabe513b64" name="a061ad2b9b7b412d4b7277cfabe513b64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a061ad2b9b7b412d4b7277cfabe513b64">&#9670;&#160;</a></span>vmec_reset_boundary()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine vmec_equilibrium::vmec_reset_boundary </td>
-          <td>(</td>
-          <td class="paramtype">class (<a class="el" href="structvmec__equilibrium_1_1vmec__class.html">vmec_class</a>), intent(in)&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reset the fixed boundary coefficients. </p>
-<p>When changing the boundary coefficients, there is extra work that must be performed to set the VMEC state.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structvmec__equilibrium_1_1vmec__class.html">vmec_class</a> instance. </td></tr>
   </table>
   </dd>
 </dl>

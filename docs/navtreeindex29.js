@@ -1,7 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"vmec__input_8f.html":[54,0,2,0,3,9],
-"vmec__input_8f.html#a02b29863a947531e6c4e8d7c66c5a5e0":[54,0,2,0,3,9,0],
 "vmec__input_8f.html#a0543ff7c83bc6ccda2793399ce564847":[54,0,2,0,3,9,43],
 "vmec__input_8f.html#a0ab2f0253f28f30f4f5cfe4d96ac129a":[54,0,2,0,3,9,40],
 "vmec__input_8f.html#a10a6fb946588f8a10c060c4fa118b01a":[54,0,2,0,3,9,37],

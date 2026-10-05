@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"siesta_test_cl_parsing_sec.html#siesta_test_cl_pasring_prog_ref_sec":[23,3],
 "siesta_test_cl_parsing_sec.html#siesta_test_cl_test_names_sec":[23,2],
 "signal_8f.html":[54,0,7,0,25],
 "signal_8f.html#a014fe1928fcaf5de944ad3e7b2c3e9c9":[54,0,7,0,25,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "structcyl__flux_1_1cyl__flux__context.html#ab3e827ab98bdc77ef0e0569f14eb06db":[53,0,12,0,4],
 "structcyl__flux_1_1cyl__flux__context.html#ac5aa636b3228c1494a9bc65c2cc57ed5":[53,0,12,0,9],
 "structcyl__flux_1_1cyl__flux__context.html#ae0f82c64ab368b7acd3ddb2c9e36fad5":[53,0,12,0,7],
-"structcyl__flux_1_1cyl__flux__context.html#afd8e4f66162f4e9f699009f09a6ff23b":[53,0,12,0,8]
+"structcyl__flux_1_1cyl__flux__context.html#afd8e4f66162f4e9f699009f09a6ff23b":[53,0,12,0,8],
+"structdiagnostic__dot_1_1diagnostic__dot__coil.html":[52,0,14,0]
 };
