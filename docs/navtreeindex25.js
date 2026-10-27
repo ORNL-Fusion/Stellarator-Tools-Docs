@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"structv3rfun__context_1_1v3rfun__context__class.html#a3cbbd0c79ab60103eee5dabd5e3b64c7":[53,0,80,0,9],
 "structv3rfun__context_1_1v3rfun__context__class.html#a49304010cf9f5c76b60e8d5d329ec3f4":[53,0,80,0,12],
 "structv3rfun__context_1_1v3rfun__context__class.html#a49304010cf9f5c76b60e8d5d329ec3f4":[52,0,82,0,12],
 "structv3rfun__context_1_1v3rfun__context__class.html#a58d36844ceaf9b13b7d7654e30c15a9d":[53,0,80,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "structvmec__equilibrium_1_1vmec__class.html#aab131cab8499d196a6e921867fcec62b":[52,0,87,1,9],
 "structvmec__equilibrium_1_1vmec__class.html#aaebadc4d9229e4bdd9c58fd2f155c664":[53,0,85,1,61],
 "structvmec__equilibrium_1_1vmec__class.html#aaebadc4d9229e4bdd9c58fd2f155c664":[52,0,87,1,61],
-"structvmec__equilibrium_1_1vmec__class.html#ab044887c0fbbe837851d9b9d622459ed":[53,0,85,1,77],
-"structvmec__equilibrium_1_1vmec__class.html#ab044887c0fbbe837851d9b9d622459ed":[52,0,87,1,77]
+"structvmec__equilibrium_1_1vmec__class.html#ab044887c0fbbe837851d9b9d622459ed":[53,0,85,1,77]
 };

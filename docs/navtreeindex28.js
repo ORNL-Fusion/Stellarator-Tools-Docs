@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"v3rfun__input_8f.html#a39b6271151f09f127bb5a2f119fe128a":[54,0,8,0,3,6],
 "v3rfun__input_8f.html#a3c3ac6f60c8df3f80a7581dd81d94830":[54,0,8,0,3,27],
 "v3rfun__input_8f.html#a4a0fc45aabfc55f4d16ca4c62350873c":[54,0,8,0,3,18],
 "v3rfun__input_8f.html#a4c82aee1344b1a29a1546a5f55334783":[54,0,8,0,3,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "vmec__file_8f.html":[54,0,0,0,9],
 "vmec__file_8f.html#a2a134b867ea82ff10671fb3d656966f8":[54,0,0,0,9,1],
 "vmec__file_8f.html#a80c64481e8fa94dbe54b34b7315f11bc":[54,0,0,0,9,2],
-"vmec__input_8f.html":[54,0,2,0,3,9],
-"vmec__input_8f.html#a02b29863a947531e6c4e8d7c66c5a5e0":[54,0,2,0,3,9,0]
+"vmec__input_8f.html":[54,0,2,0,3,9]
 };

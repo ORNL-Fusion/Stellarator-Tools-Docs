@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structvmec__equilibrium_1_1vmec__class.html#ab044887c0fbbe837851d9b9d622459ed":[52,0,87,1,77],
 "structvmec__equilibrium_1_1vmec__class.html#ab17bffb77f6f8c7ca8ac3fe001bf9e42":[52,0,87,1,25],
 "structvmec__equilibrium_1_1vmec__class.html#ab17bffb77f6f8c7ca8ac3fe001bf9e42":[53,0,85,1,25],
 "structvmec__equilibrium_1_1vmec__class.html#ab71de0e10bc1c1f43bb26c77cb4b5f2c":[52,0,87,1,55],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "v3fit__input_8f.html#a05b713619b24abf58fab562950bd24c8":[54,0,7,0,34,123],
 "v3fit__input_8f.html#a084d31503aaa6c68d046a1d41a9eaf63":[54,0,7,0,34,152],
 "v3fit__input_8f.html#a0b959b12e237e9d4266f269f4b67ca86":[54,0,7,0,34,81],
-"v3fit__input_8f.html#a0bdf78d71e73b2d005852228e5a11bd8":[54,0,7,0,34,124],
-"v3fit__input_8f.html#a0c9e757dd5e7fc3203b6da6363cbd31b":[54,0,7,0,34,139]
+"v3fit__input_8f.html#a0bdf78d71e73b2d005852228e5a11bd8":[54,0,7,0,34,124]
 };
