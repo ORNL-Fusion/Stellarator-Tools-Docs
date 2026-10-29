@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"structsiesta__run_1_1siesta__run__class.html#a486ef5eb33c8225df6d9b7663325f052":[53,0,65,0,3],
 "structsiesta__run_1_1siesta__run__class.html#a4e07df457d6bad5326078c17f12e0d00":[54,0,63,0,7],
 "structsiesta__run_1_1siesta__run__class.html#a4e07df457d6bad5326078c17f12e0d00":[53,0,65,0,7],
 "structsiesta__run_1_1siesta__run__class.html#a81af6a398e7e503b2dda2c6bb798c6a4":[54,0,63,0,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "structsxrem__ratio_1_1sxrem__ratio__class.html#a3b8fa02b7b5228cc651ee01410104825":[53,0,73,0,0],
 "structsxrem__ratio_1_1sxrem__ratio__class.html#a3b8fa02b7b5228cc651ee01410104825":[54,0,70,0,0],
 "structsxrem__ratio_1_1sxrem__ratio__class.html#a5ba07514dd8fb7203c7b3db59bbbddd6":[53,0,73,0,7],
-"structsxrem__ratio_1_1sxrem__ratio__class.html#a5ba07514dd8fb7203c7b3db59bbbddd6":[54,0,70,0,7]
+"structsxrem__ratio_1_1sxrem__ratio__class.html#a5ba07514dd8fb7203c7b3db59bbbddd6":[54,0,70,0,7],
+"structsxrem__ratio_1_1sxrem__ratio__class.html#aa627980da653db3f9a045b0873c4a630":[53,0,73,0,6]
 };

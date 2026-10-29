@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"v3rfun__input_8f.html#a2b6391cd287060ef0230ca7aeea3c8fc":[55,0,8,0,3,7],
 "v3rfun__input_8f.html#a39b6271151f09f127bb5a2f119fe128a":[55,0,8,0,3,6],
 "v3rfun__input_8f.html#a3c3ac6f60c8df3f80a7581dd81d94830":[55,0,8,0,3,27],
 "v3rfun__input_8f.html#a4a0fc45aabfc55f4d16ca4c62350873c":[55,0,8,0,3,18],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "vmec__equilibrium_8f.html#aff8a8dae3f1900d997af8f18d65c8ebd":[55,0,7,0,40,78],
 "vmec__file_8f.html":[55,0,0,0,9],
 "vmec__file_8f.html#a2a134b867ea82ff10671fb3d656966f8":[55,0,0,0,9,1],
-"vmec__file_8f.html#a80c64481e8fa94dbe54b34b7315f11bc":[55,0,0,0,9,2]
+"vmec__file_8f.html#a80c64481e8fa94dbe54b34b7315f11bc":[55,0,0,0,9,2],
+"vmec__input_8f.html":[55,0,2,0,3,9]
 };

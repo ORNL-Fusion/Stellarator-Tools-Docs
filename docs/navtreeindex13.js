@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"namespacev3fit__input.html#ac44e39737eeaa08518fcc237d4db83ff":[53,0,80,101],
 "namespacev3fit__input.html#ac4eb570001e79b214e4edcb24d5e971e":[53,0,80,157],
 "namespacev3fit__input.html#ac89fb702d3a90ee7b9b20159ed912d82":[53,0,80,155],
 "namespacev3fit__input.html#acb9417098adb81002267eb6a99f64562":[53,0,80,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "namespacevmec__equilibrium.html#a8995179b2033cbddfa164b805aaeb406":[53,0,87,70],
 "namespacevmec__equilibrium.html#a8e3ebee28b1fc903e4ee00dd84dc6b6d":[53,0,87,117],
 "namespacevmec__equilibrium.html#a8fd9cef3fc180dadb977b7a797b2b698":[53,0,87,87],
-"namespacevmec__equilibrium.html#a96e24113a75f37fbf54fd62109a9d18f":[53,0,87,12]
+"namespacevmec__equilibrium.html#a96e24113a75f37fbf54fd62109a9d18f":[53,0,87,12],
+"namespacevmec__equilibrium.html#a985aa5ddf6d2efb83c79b18bdfe46596":[53,0,87,110]
 };

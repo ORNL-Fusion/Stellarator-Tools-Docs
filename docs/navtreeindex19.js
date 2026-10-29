@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"structfourier_1_1fourier__class.html#a0d184fe9031824c11a0b5c031db6581f":[53,0,22,0,0],
 "structfourier_1_1fourier__class.html#a12b22782cdfe72bb43fd095bbe47f62c":[54,0,30,0,15],
 "structfourier_1_1fourier__class.html#a12b22782cdfe72bb43fd095bbe47f62c":[53,0,22,0,15],
 "structfourier_1_1fourier__class.html#a147a41c3e9b7e775ec765521f389d53b":[53,0,22,0,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "structintpol_1_1intpol__pol__class.html#a538476d4a89c345d4cf9a9267c34e36c":[53,0,29,8,7],
 "structintpol_1_1intpol__pol__class.html#a538476d4a89c345d4cf9a9267c34e36c":[54,0,37,8,7],
 "structintpol_1_1intpol__pol__class.html#a6a6096a4a2bc06078a5700b16ff98d2e":[54,0,37,8,4],
-"structintpol_1_1intpol__pol__class.html#a6a6096a4a2bc06078a5700b16ff98d2e":[53,0,29,8,4]
+"structintpol_1_1intpol__pol__class.html#a6a6096a4a2bc06078a5700b16ff98d2e":[53,0,29,8,4],
+"structintpol_1_1intpol__pol__class.html#a87be4b5f1d7ddfdc75e4090efc795712":[53,0,29,8,0]
 };

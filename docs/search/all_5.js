@@ -136,9 +136,8 @@ var searchData=
   ['build_20directory_133',['Build Directory',['../build_system.html#build_system_build_directory',1,'']]],
   ['build_20system_134',['Stellarator-Tools Build System',['../build_system.html',1,'']]],
   ['build_5fpath_135',['build_path',['../namespacefile__opts.html#a47fe58c2184957c931c19f1e979abac2',1,'file_opts']]],
-  ['building_136',['Building',['../md_BMW_2README.html#autotoc_md1',1,'']]],
-  ['built_20in_20variables_137',['Built In Variables',['../build_system.html#build_system_cmake_variables_builtin',1,'']]],
-  ['buv_5fres_138',['buv_res',['../namespaceshared__data.html#a836da8f25468546ad58fd57d97f185c3',1,'shared_data']]],
-  ['by_20the_20extcurz_20diagnostic_20signal_139',['These two are used by the extcurz diagnostic signal.',['../namelist_sec.html#extcurz_sec',1,'']]],
-  ['bz_5faxis_140',['bz_axis',['../check__fields_8f.html#a57f68c4ea560a893232410040ccb91d7',1,'check_fields.f']]]
+  ['built_20in_20variables_136',['Built In Variables',['../build_system.html#build_system_cmake_variables_builtin',1,'']]],
+  ['buv_5fres_137',['buv_res',['../namespaceshared__data.html#a836da8f25468546ad58fd57d97f185c3',1,'shared_data']]],
+  ['by_20the_20extcurz_20diagnostic_20signal_138',['These two are used by the extcurz diagnostic signal.',['../namelist_sec.html#extcurz_sec',1,'']]],
+  ['bz_5faxis_139',['bz_axis',['../check__fields_8f.html#a57f68c4ea560a893232410040ccb91d7',1,'check_fields.f']]]
 ];

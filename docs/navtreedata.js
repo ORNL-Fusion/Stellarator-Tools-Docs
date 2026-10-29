@@ -39,9 +39,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Programmer Manuals", "index.html#programmer", null ],
-    [ "BMW", "md_BMW_2README.html", [
-      [ "Building", "md_BMW_2README.html#autotoc_md1", null ]
-    ] ],
+    [ "BMW", "md_BMW_2README.html", null ],
     [ "Command Line Arguments", "bmw_cl_parsing_sec.html", [
       [ "Introduction", "bmw_cl_parsing_sec.html#bmw_cl_parsing_intro", null ],
       [ "Command Line Arguments", "bmw_cl_parsing_sec.html#bmw_cl_parsing_arg_sec", null ],
@@ -176,12 +174,12 @@ var NAVTREE =
       [ "Programmers Reference", "wout_diff_cl_parsing_sec.html#wout_diff_cl_pasring_prog_ref_sec", null ]
     ] ],
     [ "Stellarator-Tools", "md_README.html", [
-      [ "Documentation", "md_README.html#autotoc_md9", null ],
-      [ "Testing", "md_README.html#autotoc_md10", null ],
-      [ "Compiling", "md_README.html#autotoc_md11", [
-        [ "Notes for macOS and cmake version >= 4", "md_README.html#autotoc_md12", null ],
-        [ "Installation", "md_README.html#autotoc_md13", null ],
-        [ "Touble Shooting", "md_README.html#autotoc_md14", null ]
+      [ "Documentation", "md_README.html#autotoc_md8", null ],
+      [ "Testing", "md_README.html#autotoc_md9", null ],
+      [ "Compiling", "md_README.html#autotoc_md10", [
+        [ "Notes for macOS and cmake version >= 4", "md_README.html#autotoc_md11", null ],
+        [ "Installation", "md_README.html#autotoc_md12", null ],
+        [ "Touble Shooting", "md_README.html#autotoc_md13", null ]
       ] ]
     ] ],
     [ "SIESTA", "md_SIESTA_2README.html", null ],
@@ -486,30 +484,30 @@ var NAVTREEINDEX =
 "interfacecompression_1_1compression__construct.html#a58461e3b568b600b5caa425b944acf2a",
 "interfacepspline__calls_1_1bpspline.html",
 "interfacesignal_1_1signal__construct.html#a5b551ab7337b59cf88803d93ca26f2dc",
-"metrics_8f90.html#aa3a52d4d4ca34b10d283d03341f50708",
-"namespaceblocktridiagonalsolver.html#aa6293abeefb4b70eeed54aefe135aabd",
-"namespaceequilibrium.html#aa08ed3dcad1bc04184d27c8da3bb2431",
-"namespacemagnetic__response.html#ab440979ffdd567a11312502214d8953f",
-"namespacenetcdf__inc.html#a6441b456082afd0319997220f57d5e70",
-"namespacerestart__mod.html#af98cc2e59f0dfde95f34cbd6fcee7f13",
-"namespacesignal.html#a50e9ee1ee19308a6af369824194e64ac",
-"namespacev3fit__input.html#ac44e39737eeaa08518fcc237d4db83ff",
-"namespacevmec__equilibrium.html#a985aa5ddf6d2efb83c79b18bdfe46596",
-"pchelms_8f90.html#a6b8943c1709ac343912f095a522c2f40",
-"shared__data_8f90.html#a5064d1d6c5e7caede14985f8cd91a03f",
-"siesta_test_cl_parsing_sec.html#siesta_test_cl_parsing_intro",
-"structcyl__flux_1_1cyl__flux__context.html#afd8e4f66162f4e9f699009f09a6ff23b",
-"structfourier_1_1fourier__class.html#a0d184fe9031824c11a0b5c031db6581f",
+"metrics_8f90.html#aaa96e5d8d980c32f623cd484f995a1fe",
+"namespaceblocktridiagonalsolver.html#aa7fdbc9161a9106ad16523b3545c44ec",
+"namespaceequilibrium.html#aa19f91d7d7db0a845b59f5106dbe3778",
+"namespacemagnetic__response.html#ab85fa1592305f7e52be21ad25cb5d007",
+"namespacenetcdf__inc.html#a64b9db4d4daee4c6d4d53990300579a4",
+"namespacerestart__mod.html#afa553605a8288f2efc01efbf66f7d05f",
+"namespacesignal.html#a7f1f415c888be6c78d87d88a48ff0679",
+"namespacev3fit__input.html#ac4eb570001e79b214e4edcb24d5e971e",
+"namespacevmec__equilibrium.html#aa3384d00d86f074fa5d6b278fa405d3c",
+"pchelms_8f90.html#a835b9933774c798db9d3af83abd8f811",
+"shared__data_8f90.html#a5313ff897194d604ad7cac62ac45a9d9",
+"siesta_test_cl_parsing_sec.html#siesta_test_cl_pasring_prog_ref_sec",
+"structdiagnostic__dot_1_1diagnostic__dot__coil.html",
+"structfourier_1_1fourier__class.html#a12b22782cdfe72bb43fd095bbe47f62c",
 "structintpol_1_1intpol__pol__class.html#a87be4b5f1d7ddfdc75e4090efc795712",
-"structmodel_1_1model__class.html#a745b17ac16118ff1672e392a479b70bf",
-"structreconstruction_1_1reconstruction__class.html#a60b14f81d51786c5029d91bfb118c730",
-"structsiesta__run_1_1siesta__run__class.html#a486ef5eb33c8225df6d9b7663325f052",
+"structmodel_1_1model__class.html#a76be857ab3ec48c22037bf4efc2c1dc7",
+"structreconstruction_1_1reconstruction__class.html#a662e90b4d5dd547a953bb0a9d28e2e5a",
+"structsiesta__run_1_1siesta__run__class.html#a4e07df457d6bad5326078c17f12e0d00",
 "structsxrem__ratio_1_1sxrem__ratio__class.html#aa627980da653db3f9a045b0873c4a630",
 "structv3rfun__context_1_1v3rfun__context__class.html#a3cbbd0c79ab60103eee5dabd5e3b64c7",
 "structvmec__equilibrium_1_1vmec__class.html#ab044887c0fbbe837851d9b9d622459ed",
-"v3fit__input_8f.html#a0bdf78d71e73b2d005852228e5a11bd8",
-"v3rfun__input_8f.html#a2b6391cd287060ef0230ca7aeea3c8fc",
-"vmec__input_8f.html"
+"v3fit__input_8f.html#a0c9e757dd5e7fc3203b6da6363cbd31b",
+"v3rfun__input_8f.html#a39b6271151f09f127bb5a2f119fe128a",
+"vmec__input_8f.html#a02b29863a947531e6c4e8d7c66c5a5e0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

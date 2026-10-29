@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"structintpol_1_1intpol__pol__class.html#a87be4b5f1d7ddfdc75e4090efc795712":[53,0,29,8,0],
 "structintpol_1_1intpol__pol__class.html#a87be4b5f1d7ddfdc75e4090efc795712":[54,0,37,8,0],
 "structintpol_1_1intpol__pol__class.html#a89baf6811c6071518dfba2767dfe6a3e":[54,0,37,8,6],
 "structintpol_1_1intpol__pol__class.html#a89baf6811c6071518dfba2767dfe6a3e":[53,0,29,8,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "structmodel_1_1model__class.html#a70939a3182e5fc2f790c7d6bede1ccce":[54,0,48,0,53],
 "structmodel_1_1model__class.html#a715d1ad6b03c007ac42fac2246459d8d":[54,0,48,0,27],
 "structmodel_1_1model__class.html#a715d1ad6b03c007ac42fac2246459d8d":[53,0,40,0,27],
-"structmodel_1_1model__class.html#a745b17ac16118ff1672e392a479b70bf":[53,0,40,0,6]
+"structmodel_1_1model__class.html#a745b17ac16118ff1672e392a479b70bf":[53,0,40,0,6],
+"structmodel_1_1model__class.html#a745b17ac16118ff1672e392a479b70bf":[54,0,48,0,6]
 };
