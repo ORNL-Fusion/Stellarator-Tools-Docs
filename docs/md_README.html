@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('md_README.html',''); initResizable(); 
   <div class="headertitle"><div class="title">Stellarator-Tools</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md7"></a>This is an umbrella project for the stellarator community tools. Currently available subprojects are.</p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md8"></a>This is an umbrella project for the stellarator community tools. Currently available subprojects are.</p>
 <ul>
 <li><a href="https://github.com/ORNL-Fusion/LIBSTELL">LIBSTELL</a> Base library for tools.</li>
 <li><a href="https://github.com/ORNL-Fusion/MAKEGRID">MAKEGRID</a> Generate vacuum fields from coil models.</li>
@@ -107,16 +107,16 @@ $(document).ready(function(){initNavTree('md_README.html',''); initResizable(); 
 <li><a href="https://github.com/cianciosa/V3FIT">V3FIT</a> 3D Equilibrium Reconstruction</li>
 <li><a href="https://github.com/ORNL-Fusion/BOOZ_XFORM.git">BOOZ_XFORM</a> Convert VMEC coordinates to Boozer coordinates.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 Documentation</h1>
 <ul>
 <li><a href="https://ornl-fusion.github.io/Stellarator-Tools-Docs/">Stellarator-Tools-Docs</a> Documentation for the Stellarator Tools suite of codes.</li>
 <li><a href="https://github.com/jonathanschilling/vmec-internals">VMEC-internals</a> Some VMEC-internal documentation</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 Testing</h1>
 <p><a href="https://github.com/ORNL-Fusion/Stellarator-Tools/actions/workflows/ci_test.yaml"><img src="https://github.com/ORNL-Fusion/Stellarator-Tools/actions/workflows/ci_test.yaml/badge.svg" alt="Continuous Integration Test" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md11"></a>
 Compiling</h1>
 <p>To compile the code, first clone this repository.</p>
 <div class="fragment"><div class="line">git clone https://github.com/ORNL-Fusion/Stellarator-Tools.git</div>
@@ -142,16 +142,16 @@ Inital Screen</div></div>
 <div class="caption">
 Inital Screen</div></div>
     <p>After hitting <code>g</code> option <code>ccmake</code> will exit and a <code>Makefile</code> will be generated. The codes can be built using the <code>make</code> command.</p>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Notes for macOS and cmake version &gt;= 4</h2>
 <p>The gfortran version 16 has a incompatability with the macOS 27 SDK. In order to get the correct <code>sysroot</code> you will need to configure <code>cmake</code> or <code>ccmake</code> with</p>
 <div class="fragment"><div class="line">cmake -DCMAKE_OSX_SYSROOT=macosx ../</div>
 </div><!-- fragment --><p>or</p>
 <div class="fragment"><div class="line">ccmake -DCMAKE_OSX_SYSROOT=macosx ../</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md13"></a>
 Installation</h2>
 <p>After building the codes, they can be installed via the <code>make install</code> command. The tools and libraries will be installed in the location determined by <code>CMAKE_INSTALL_PREFIX</code>.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Touble Shooting</h2>
 <p>If <code>cmake</code> fails to find the correct libraries, you may need to set the <code>CMAKE_PREFIX_PATH</code> variable to help locate them. </p>
 </div></div><!-- contents -->
