@@ -261,9 +261,9 @@ GENERIC&#160;</td><td class="memItemRight" valign="bottom"><b>get_p</b> <a class
 <tr class="memitem:ace73dcb16bbba2e78462a32cc1a03507" id="r_ace73dcb16bbba2e78462a32cc1a03507"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#ace73dcb16bbba2e78462a32cc1a03507">get_int_b_dphi</a> (this, s, theta)</td></tr>
 <tr class="memdesc:ace73dcb16bbba2e78462a32cc1a03507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the loop integrated magnetic field at a position.  <br /></td></tr>
 <tr class="separator:ace73dcb16bbba2e78462a32cc1a03507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cff68568b76561b78408ed98521082f" id="r_a7cff68568b76561b78408ed98521082f"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#a7cff68568b76561b78408ed98521082f">get_plasma_edge</a> (this, phi, r, z)</td></tr>
-<tr class="memdesc:a7cff68568b76561b78408ed98521082f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the r and z positions of the outer surface at a toroidal angle.  <br /></td></tr>
-<tr class="separator:a7cff68568b76561b78408ed98521082f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0f184b3bebae54b67b61201fb69a71d" id="r_af0f184b3bebae54b67b61201fb69a71d"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#af0f184b3bebae54b67b61201fb69a71d">get_plasma_edge</a> (this, phi, num_theta, r, z)</td></tr>
+<tr class="memdesc:af0f184b3bebae54b67b61201fb69a71d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the r and z positions of the outer surface at a toroidal angle.  <br /></td></tr>
+<tr class="separator:af0f184b3bebae54b67b61201fb69a71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc51fc33614c1909214745b93cc0135a" id="r_adc51fc33614c1909214745b93cc0135a"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structequilibrium_1_1equilibrium__class.html#adc51fc33614c1909214745b93cc0135a">get_magnetic_volume_rgrid</a> (this)</td></tr>
 <tr class="memdesc:adc51fc33614c1909214745b93cc0135a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get volume magnetic volume integration radial grid points.  <br /></td></tr>
 <tr class="separator:adc51fc33614c1909214745b93cc0135a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2185,8 +2185,8 @@ siesta_equilibrium::siesta_get_p</dd></dl>
 
 </div>
 </div>
-<a id="a7cff68568b76561b78408ed98521082f" name="a7cff68568b76561b78408ed98521082f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cff68568b76561b78408ed98521082f">&#9670;&#160;</a></span>get_plasma_edge()</h2>
+<a id="af0f184b3bebae54b67b61201fb69a71d" name="af0f184b3bebae54b67b61201fb69a71d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0f184b3bebae54b67b61201fb69a71d">&#9670;&#160;</a></span>get_plasma_edge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2202,6 +2202,12 @@ siesta_equilibrium::siesta_get_p</dd></dl>
           <td></td>
           <td class="paramtype">real (rprec), intent(in)&#160;</td>
           <td class="paramname"><em>phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>num_theta</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2224,13 +2230,14 @@ siesta_equilibrium::siesta_get_p</dd></dl>
 </div><div class="memdoc">
 
 <p>Gets the r and z positions of the outer surface at a toroidal angle. </p>
-<p>This method is virtual. The actual getting of the magnetic field vector should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#a32f4955dc924eecc897cc2a0a8183d79" title="Gets the r and z positions of the outer surface at a toroidal angle.">vmec_equilibrium::vmec_get_plasma_edge</a> </dd>
+<p>This method is virtual. The actual getting of the magnetic field vector should be handled by a subclass method. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacevmec__equilibrium.html#a8c364e94121fb73522f104e23573ef7a" title="Gets the r and z positions of the outer surface at a toroidal angle.">vmec_equilibrium::vmec_get_plasma_edge</a> </dd>
 <dd>
-<a class="el" href="namespacesiesta__equilibrium.html#a5c60ae6d4eb59e160c920f2da2f605d8" title="Gets the r and z positions of the outer surface at a toroidal angle.">siesta_equilibrium::siesta_get_plasma_edge</a></dd></dl>
+<a class="el" href="namespacesiesta__equilibrium.html#a0b2044a50dbc6d5c83912d9c9b1994b1" title="Gets the r and z positions of the outer surface at a toroidal angle.">siesta_equilibrium::siesta_get_plasma_edge</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structequilibrium_1_1equilibrium__class.html">equilibrium_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td>Toroidal angle to determine the outer surface at. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_theta</td><td>Number of poloidal test points. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">r</td><td>The radial postions of the other surface in a single toroidal angle. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">z</td><td>The Z postions of the other surface in a single toroidal angle. </td></tr>
   </table>

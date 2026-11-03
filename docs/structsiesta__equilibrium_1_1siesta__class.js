@@ -22,7 +22,7 @@ var structsiesta__equilibrium_1_1siesta__class =
     [ "get_param_id", "structsiesta__equilibrium_1_1siesta__class.html#a1f046ad024890a1670f9058ca9d1cca3", null ],
     [ "get_param_name", "structsiesta__equilibrium_1_1siesta__class.html#ad23d7e23a6cf4ddc4d0f29e4e5af876e", null ],
     [ "get_param_value", "structsiesta__equilibrium_1_1siesta__class.html#a23cd6917e821060ac7c2931b9ca69f79", null ],
-    [ "get_plasma_edge", "structsiesta__equilibrium_1_1siesta__class.html#a04bbe3b8a32d208b6e9c57c0345f07cf", null ],
+    [ "get_plasma_edge", "structsiesta__equilibrium_1_1siesta__class.html#a7426e6dddcb40f2922556fa70a628bcb", null ],
     [ "get_suv", "structsiesta__equilibrium_1_1siesta__class.html#a9bfa25c81cd1e13b0ddee41d15ea4aa9", null ],
     [ "get_sxrem_cart", "structsiesta__equilibrium_1_1siesta__class.html#a343e4213d81c758982ac3dd54680629a", null ],
     [ "get_sxrem_radial", "structsiesta__equilibrium_1_1siesta__class.html#a5be48056a7852f6df22559bdabe11ff6", null ],

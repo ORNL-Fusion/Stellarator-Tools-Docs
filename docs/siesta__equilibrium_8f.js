@@ -25,7 +25,7 @@ var siesta__equilibrium_8f =
     [ "siesta_get_param_id", "siesta__equilibrium_8f.html#a54de6feb8b13ad7c925dc68bb9c1a4f3", null ],
     [ "siesta_get_param_name", "siesta__equilibrium_8f.html#a9db07a52ad3c5ffdc311e9fb976cf29d", null ],
     [ "siesta_get_param_value", "siesta__equilibrium_8f.html#aff380751c52f470e900fb99bde7d5e60", null ],
-    [ "siesta_get_plasma_edge", "siesta__equilibrium_8f.html#a5c60ae6d4eb59e160c920f2da2f605d8", null ],
+    [ "siesta_get_plasma_edge", "siesta__equilibrium_8f.html#a0b2044a50dbc6d5c83912d9c9b1994b1", null ],
     [ "siesta_get_suv", "siesta__equilibrium_8f.html#ac0b30d0214b96e71293af9af5094de36", null ],
     [ "siesta_get_sxrem_cart", "siesta__equilibrium_8f.html#aa10053169557919b41ae9bd542d668d1", null ],
     [ "siesta_get_sxrem_radial", "siesta__equilibrium_8f.html#a001556a88f398acce1ee5e78aa76de7b", null ],

@@ -159,7 +159,7 @@ var searchData=
   ['siesta_5fget_5fparam_5fid_156',['siesta_get_param_id',['../namespacesiesta__equilibrium.html#a54de6feb8b13ad7c925dc68bb9c1a4f3',1,'siesta_equilibrium']]],
   ['siesta_5fget_5fparam_5fname_157',['siesta_get_param_name',['../namespacesiesta__equilibrium.html#a9db07a52ad3c5ffdc311e9fb976cf29d',1,'siesta_equilibrium']]],
   ['siesta_5fget_5fparam_5fvalue_158',['siesta_get_param_value',['../namespacesiesta__equilibrium.html#aff380751c52f470e900fb99bde7d5e60',1,'siesta_equilibrium']]],
-  ['siesta_5fget_5fplasma_5fedge_159',['siesta_get_plasma_edge',['../namespacesiesta__equilibrium.html#a5c60ae6d4eb59e160c920f2da2f605d8',1,'siesta_equilibrium']]],
+  ['siesta_5fget_5fplasma_5fedge_159',['siesta_get_plasma_edge',['../namespacesiesta__equilibrium.html#a0b2044a50dbc6d5c83912d9c9b1994b1',1,'siesta_equilibrium']]],
   ['siesta_5fget_5fsuv_160',['siesta_get_suv',['../namespacesiesta__equilibrium.html#ac0b30d0214b96e71293af9af5094de36',1,'siesta_equilibrium']]],
   ['siesta_5fget_5fsxrem_5fcart_161',['siesta_get_sxrem_cart',['../namespacesiesta__equilibrium.html#aa10053169557919b41ae9bd542d668d1',1,'siesta_equilibrium']]],
   ['siesta_5fget_5fsxrem_5fradial_162',['siesta_get_sxrem_radial',['../namespacesiesta__equilibrium.html#a001556a88f398acce1ee5e78aa76de7b',1,'siesta_equilibrium']]],

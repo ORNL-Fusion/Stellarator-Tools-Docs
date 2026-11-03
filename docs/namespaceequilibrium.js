@@ -47,7 +47,7 @@ var namespaceequilibrium =
     [ "equilibrium_get_param_id", "namespaceequilibrium.html#a1ba4b1fcc75d9c108010f5d4d2ac841f", null ],
     [ "equilibrium_get_param_name", "namespaceequilibrium.html#a53677debed221aa3ab4a836e965e9a41", null ],
     [ "equilibrium_get_param_value", "namespaceequilibrium.html#a9f245806e056deef11873271976af9eb", null ],
-    [ "equilibrium_get_plasma_edge", "namespaceequilibrium.html#a6761083f9efa93db8f53826785bce684", null ],
+    [ "equilibrium_get_plasma_edge", "namespaceequilibrium.html#a46f2554f67ce9cc78514618fbae60b09", null ],
     [ "equilibrium_get_sxrem_af", "namespaceequilibrium.html#a6e162c86fa7e87cd3a96f79bfb3e7c3d", null ],
     [ "equilibrium_get_sxrem_cart", "namespaceequilibrium.html#a4f0300c0005dac19977a8e5577cdb3d4", null ],
     [ "equilibrium_get_sxrem_radial", "namespaceequilibrium.html#ab11a58272050c4781b094ac7dd37fa57", null ],

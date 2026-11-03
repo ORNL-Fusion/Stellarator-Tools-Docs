@@ -205,9 +205,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ac0b30d0214b96e71293af9af5094de36" id="r_ac0b30d0214b96e71293af9af5094de36"><td class="memItemLeft" align="right" valign="top">real(rprec) function, dimension(3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#ac0b30d0214b96e71293af9af5094de36">siesta_get_suv</a> (this, x_cart)</td></tr>
 <tr class="memdesc:ac0b30d0214b96e71293af9af5094de36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets siesta s value at position.  <br /></td></tr>
 <tr class="separator:ac0b30d0214b96e71293af9af5094de36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c60ae6d4eb59e160c920f2da2f605d8" id="r_a5c60ae6d4eb59e160c920f2da2f605d8"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#a5c60ae6d4eb59e160c920f2da2f605d8">siesta_get_plasma_edge</a> (this, phi, r, z)</td></tr>
-<tr class="memdesc:a5c60ae6d4eb59e160c920f2da2f605d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the r and z positions of the outer surface at a toroidal angle.  <br /></td></tr>
-<tr class="separator:a5c60ae6d4eb59e160c920f2da2f605d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2044a50dbc6d5c83912d9c9b1994b1" id="r_a0b2044a50dbc6d5c83912d9c9b1994b1"><td class="memItemLeft" align="right" valign="top">integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#a0b2044a50dbc6d5c83912d9c9b1994b1">siesta_get_plasma_edge</a> (this, phi, num_theta, r, z)</td></tr>
+<tr class="memdesc:a0b2044a50dbc6d5c83912d9c9b1994b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the r and z positions of the outer surface at a toroidal angle.  <br /></td></tr>
+<tr class="separator:a0b2044a50dbc6d5c83912d9c9b1994b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac12ae30f9bfa1641d5e4d31e559c0b49" id="r_ac12ae30f9bfa1641d5e4d31e559c0b49"><td class="memItemLeft" align="right" valign="top">real(rprec) function, dimension(3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesiesta__equilibrium.html#ac12ae30f9bfa1641d5e4d31e559c0b49">siesta_get_ext_b_plasma</a> (this, position, axi_only)</td></tr>
 <tr class="memdesc:ac12ae30f9bfa1641d5e4d31e559c0b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get external plasma magnetic field.  <br /></td></tr>
 <tr class="separator:ac12ae30f9bfa1641d5e4d31e559c0b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1436,8 +1436,8 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_
 
 </div>
 </div>
-<a id="a5c60ae6d4eb59e160c920f2da2f605d8" name="a5c60ae6d4eb59e160c920f2da2f605d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c60ae6d4eb59e160c920f2da2f605d8">&#9670;&#160;</a></span>siesta_get_plasma_edge()</h2>
+<a id="a0b2044a50dbc6d5c83912d9c9b1994b1" name="a0b2044a50dbc6d5c83912d9c9b1994b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2044a50dbc6d5c83912d9c9b1994b1">&#9670;&#160;</a></span>siesta_get_plasma_edge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1453,6 +1453,12 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_
           <td></td>
           <td class="paramtype">real (rprec), intent(in)&#160;</td>
           <td class="paramname"><em>phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>num_theta</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1475,12 +1481,13 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>siesta_
 </div><div class="memdoc">
 
 <p>Gets the r and z positions of the outer surface at a toroidal angle. </p>
-<p>This method overrides <a class="el" href="namespaceequilibrium.html#a6761083f9efa93db8f53826785bce684">equilibrium::equilibrium_get_plasma_edge</a>.</p>
+<p>This method overrides <a class="el" href="namespaceequilibrium.html#a46f2554f67ce9cc78514618fbae60b09">equilibrium::equilibrium_get_plasma_edge</a>.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>FIXME: The vmec boundary won't be the case for Free boundary siesta.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">this</td><td>A <a class="el" href="structsiesta__equilibrium_1_1siesta__class.html">siesta_class</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td>Toroidal angle to determine the outer surface at. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_theta</td><td>Number of poloidal test points. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">r</td><td>The radial postions of the other surface in a single toroidal angle. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">z</td><td>The Z postions of the other surface in a single toroidal angle. </td></tr>
   </table>

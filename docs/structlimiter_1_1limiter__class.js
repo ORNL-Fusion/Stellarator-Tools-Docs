@@ -5,6 +5,7 @@ var structlimiter_1_1limiter__class =
     [ "get_modeled_signal_last", "structlimiter_1_1limiter__class.html#a46cf0ebcccd8b966d9ccd8094a4745e0", null ],
     [ "get_type", "structlimiter_1_1limiter__class.html#aca73b41545eeb3cd96fe9659b78d5b81", null ],
     [ "limiter_destruct", "structlimiter_1_1limiter__class.html#a0b498c406f84bb3212f372437e2e5196", null ],
+    [ "num_theta", "structlimiter_1_1limiter__class.html#a45f749d808706941231ff7f6e19e47e8", null ],
     [ "on_edge", "structlimiter_1_1limiter__class.html#acc47d59bce2c2ac652f7fe31a5188c1a", null ],
     [ "phi", "structlimiter_1_1limiter__class.html#a48065b0f7ac2fcb165698c38c1915fa0", null ]
 ];

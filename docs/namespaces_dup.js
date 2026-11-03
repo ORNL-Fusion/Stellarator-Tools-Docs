@@ -595,6 +595,7 @@ var namespaces_dup =
       [ "iw_sdo_verbose", "namespacev3fit__input.html#aea70aa9d8ac8fbac3e2aac8813ba649a", null ],
       [ "l_zero_xcdot", "namespacev3fit__input.html#a3516a594cb5e51020f4aa30ef8e20aa4", null ],
       [ "lif_arz", "namespacev3fit__input.html#a3cdeac24ffe859cc7d02ce89e50cbb0b", null ],
+      [ "lif_num_theta", "namespacev3fit__input.html#a10e88f612af0e8330672adefc89c167b", null ],
       [ "lif_on_edge", "namespacev3fit__input.html#ad059df5d621362dfaec5d6a863fe7fce", null ],
       [ "lif_phi_degree", "namespacev3fit__input.html#a37c539b1ed29562125f0931762de7835", null ],
       [ "lif_rc", "namespacev3fit__input.html#a4c7b9c1bb980f6d66aa1e7114aca0a2c", null ],

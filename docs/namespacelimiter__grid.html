@@ -108,9 +108,9 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a1fe0dca7e422c5a64aa5e535fd0f845c" id="r_a1fe0dca7e422c5a64aa5e535fd0f845c"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structlimiter__grid_1_1limiter__grid__class.html">limiter_grid_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelimiter__grid.html#a1fe0dca7e422c5a64aa5e535fd0f845c">limiter_grid_construct</a> (lgrid_file, on_edge)</td></tr>
-<tr class="memdesc:a1fe0dca7e422c5a64aa5e535fd0f845c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structlimiter__grid_1_1limiter__grid__class.html" title="Base class representing a limiter signal.">limiter_grid_class</a>.  <br /></td></tr>
-<tr class="separator:a1fe0dca7e422c5a64aa5e535fd0f845c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a1a16deac7ba935d6214eaad2de4e4" id="r_a63a1a16deac7ba935d6214eaad2de4e4"><td class="memItemLeft" align="right" valign="top">class(<a class="el" href="structlimiter__grid_1_1limiter__grid__class.html">limiter_grid_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelimiter__grid.html#a63a1a16deac7ba935d6214eaad2de4e4">limiter_grid_construct</a> (lgrid_file, on_edge, num_theta)</td></tr>
+<tr class="memdesc:a63a1a16deac7ba935d6214eaad2de4e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structlimiter__grid_1_1limiter__grid__class.html" title="Base class representing a limiter signal.">limiter_grid_class</a>.  <br /></td></tr>
+<tr class="separator:a63a1a16deac7ba935d6214eaad2de4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e2650f5959b58e6feb3e0c324969aea" id="r_a9e2650f5959b58e6feb3e0c324969aea"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelimiter__grid.html#a9e2650f5959b58e6feb3e0c324969aea">limiter_grid_destruct</a> (this)</td></tr>
 <tr class="memdesc:a9e2650f5959b58e6feb3e0c324969aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structlimiter__grid_1_1limiter__grid__class.html">limiter_grid_class</a> object.  <br /></td></tr>
 <tr class="separator:a9e2650f5959b58e6feb3e0c324969aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,8 +125,8 @@ Functions/Subroutines</h2></td></tr>
 <div class="textblock"><p>Defines the base class of the type <a class="el" href="structlimiter__grid_1_1limiter__grid__class.html">limiter_grid_class</a>. </p>
 <dl class="section user"><dt>Super Class:</dt><dd>geometric </dd></dl>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a id="a1fe0dca7e422c5a64aa5e535fd0f845c" name="a1fe0dca7e422c5a64aa5e535fd0f845c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fe0dca7e422c5a64aa5e535fd0f845c">&#9670;&#160;</a></span>limiter_grid_construct()</h2>
+<a id="a63a1a16deac7ba935d6214eaad2de4e4" name="a63a1a16deac7ba935d6214eaad2de4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63a1a16deac7ba935d6214eaad2de4e4">&#9670;&#160;</a></span>limiter_grid_construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -141,7 +141,13 @@ Functions/Subroutines</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">logical, intent(in)&#160;</td>
-          <td class="paramname"><em>on_edge</em>&#160;</td>
+          <td class="paramname"><em>on_edge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>num_theta</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -157,6 +163,7 @@ Functions/Subroutines</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">lgrid_file</td><td>Filename for the limiter grid netcdf file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">on_edge</td><td>Specifies if the edge should touch the limiter or not. If true, the reconstruction tries to have the limiter touch the limiter. If false, the edge will only just fall inside the limiter. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_theta</td><td>Number of poloidal test points. </td></tr>
   </table>
   </dd>
 </dl>

@@ -43,7 +43,7 @@ var structequilibrium_1_1equilibrium__class =
     [ "get_param_id", "structequilibrium_1_1equilibrium__class.html#ae8021f2f3a3a544c5b3f45134788cd51", null ],
     [ "get_param_name", "structequilibrium_1_1equilibrium__class.html#a5b1a5a67da4fc665bf7ca6759699fa27", null ],
     [ "get_param_value", "structequilibrium_1_1equilibrium__class.html#ad58cd349c3c67f9d510fbce5c906812d", null ],
-    [ "get_plasma_edge", "structequilibrium_1_1equilibrium__class.html#a7cff68568b76561b78408ed98521082f", null ],
+    [ "get_plasma_edge", "structequilibrium_1_1equilibrium__class.html#af0f184b3bebae54b67b61201fb69a71d", null ],
     [ "get_sxrem_af", "structequilibrium_1_1equilibrium__class.html#a5c656bca81adb373be020af427806e0c", null ],
     [ "get_sxrem_cart", "structequilibrium_1_1equilibrium__class.html#a1edf0b974db21035efc42fcc46ae3281", null ],
     [ "get_sxrem_radial", "structequilibrium_1_1equilibrium__class.html#a83da09fe3a4beb0c8f60a024451b18cc", null ],

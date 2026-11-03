@@ -42,6 +42,7 @@ var v3fit__input_8f =
     [ "iw_sdo_verbose", "v3fit__input_8f.html#aea70aa9d8ac8fbac3e2aac8813ba649a", null ],
     [ "l_zero_xcdot", "v3fit__input_8f.html#a3516a594cb5e51020f4aa30ef8e20aa4", null ],
     [ "lif_arz", "v3fit__input_8f.html#a3cdeac24ffe859cc7d02ce89e50cbb0b", null ],
+    [ "lif_num_theta", "v3fit__input_8f.html#a10e88f612af0e8330672adefc89c167b", null ],
     [ "lif_on_edge", "v3fit__input_8f.html#ad059df5d621362dfaec5d6a863fe7fce", null ],
     [ "lif_phi_degree", "v3fit__input_8f.html#a37c539b1ed29562125f0931762de7835", null ],
     [ "lif_rc", "v3fit__input_8f.html#a4c7b9c1bb980f6d66aa1e7114aca0a2c", null ],

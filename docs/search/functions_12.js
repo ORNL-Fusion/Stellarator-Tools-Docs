@@ -107,7 +107,7 @@ var searchData=
   ['vmec_5fget_5fparam_5fid_104',['vmec_get_param_id',['../namespacevmec__equilibrium.html#ad99dfb81ec8b7b93feb015307f54da24',1,'vmec_equilibrium']]],
   ['vmec_5fget_5fparam_5fname_105',['vmec_get_param_name',['../namespacevmec__equilibrium.html#abb8ca11d6f8a608eacd9b1bb6a807332',1,'vmec_equilibrium']]],
   ['vmec_5fget_5fparam_5fvalue_106',['vmec_get_param_value',['../namespacevmec__equilibrium.html#a2e7e72b5b8ee7491814a08c3d401cc73',1,'vmec_equilibrium']]],
-  ['vmec_5fget_5fplasma_5fedge_107',['vmec_get_plasma_edge',['../namespacevmec__equilibrium.html#a32f4955dc924eecc897cc2a0a8183d79',1,'vmec_equilibrium']]],
+  ['vmec_5fget_5fplasma_5fedge_107',['vmec_get_plasma_edge',['../namespacevmec__equilibrium.html#a8c364e94121fb73522f104e23573ef7a',1,'vmec_equilibrium']]],
   ['vmec_5fget_5fs_108',['vmec_get_s',['../namespacevmec__equilibrium.html#ab972cec76da4119a8904190c6ef1c625',1,'vmec_equilibrium']]],
   ['vmec_5fget_5fsuv_109',['vmec_get_suv',['../namespacevmec__equilibrium.html#ab7b4ef3ae9bb37c5dbdac077d64a7f36',1,'vmec_equilibrium']]],
   ['vmec_5fget_5fsxrem_5faf_110',['vmec_get_sxrem_af',['../namespacevmec__equilibrium.html#a7532757e09dfbc0ca78c3d163febc265',1,'vmec_equilibrium']]],

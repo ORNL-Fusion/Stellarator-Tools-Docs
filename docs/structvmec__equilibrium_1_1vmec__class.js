@@ -44,7 +44,7 @@ var structvmec__equilibrium_1_1vmec__class =
     [ "get_param_id", "structvmec__equilibrium_1_1vmec__class.html#adacfe93078685b409d28aa55982fe766", null ],
     [ "get_param_name", "structvmec__equilibrium_1_1vmec__class.html#a644da13f59b9775ad22bd99096aa4ced", null ],
     [ "get_param_value", "structvmec__equilibrium_1_1vmec__class.html#a9f0fddebf7de15ed3a1c1aabcfbad2f4", null ],
-    [ "get_plasma_edge", "structvmec__equilibrium_1_1vmec__class.html#abf70c724710d253dcc493189888029c0", null ],
+    [ "get_plasma_edge", "structvmec__equilibrium_1_1vmec__class.html#a9332333e1c7a1ed471fd4b5e38a64b15", null ],
     [ "get_s", "structvmec__equilibrium_1_1vmec__class.html#ad7f72c40208f612fb6a7b6c4cfdcbbd5", null ],
     [ "get_suv", "structvmec__equilibrium_1_1vmec__class.html#ad624f6942695ba25845f71da3d2d99b8", null ],
     [ "get_sxrem_af", "structvmec__equilibrium_1_1vmec__class.html#a24b00ca1b7ca5d553430a38d94aff2f2", null ],
