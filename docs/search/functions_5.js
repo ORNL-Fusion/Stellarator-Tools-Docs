@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f_0',['f',['../classsine.html#a2818fd670e5ce57f621a186cac090599',1,'sine::f()'],['../classcosine.html#a0a9de1f3855b1106d20ae61e2e8762c2',1,'cosine::f()'],['../classparity.html#a31ced53fee77e3f40dcfb16d4ecf4011',1,'parity::f()']]],
+  ['f_0',['f',['../classparity.html#a31ced53fee77e3f40dcfb16d4ecf4011',1,'parity::f()'],['../classsine.html#a2818fd670e5ce57f621a186cac090599',1,'sine::f()'],['../classcosine.html#a0a9de1f3855b1106d20ae61e2e8762c2',1,'cosine::f()']]],
   ['f1dim_1',['f1dim',['../namespacef1dim__mod.html#a32677951f93f78c96afde793fe8f9072',1,'f1dim_mod']]],
   ['faraday_2',['faraday',['../namespacesiesta__bfield.html#ac0677342d8babf563e008e6604c5f2db',1,'siesta_bfield']]],
   ['file_5fopts_5ftester_3',['file_opts_tester',['../file__opts__tester_8f.html#adaa65f183e5cef64677445ac5791e41f',1,'file_opts_tester.f']]],
@@ -10,7 +10,7 @@ var searchData=
   ['flag_5frequires_5fvalue_7',['flag_requires_value',['../structbmw__commandline__parser_1_1bmw__commandline__parser__class.html#aeb122846ed49fd07d6b82a2b0d1a6aae',1,'bmw_commandline_parser::bmw_commandline_parser_class::flag_requires_value()'],['../structsurface__commandline__parser_1_1surface__commandline__parser__class.html#aba2ba840977b923d8e2f5ee45082b992',1,'surface_commandline_parser::surface_commandline_parser_class::flag_requires_value()']]],
   ['fletcher_5freeves_8',['fletcher_reeves',['../namespacef1dim__mod.html#a2a65481cee519ad72674cee95c616865',1,'f1dim_mod']]],
   ['flip_5ftheta_9',['flip_theta',['../namespaceinit__geometry.html#ad3784e6f2e18eccf17b12fa778830e79',1,'init_geometry']]],
-  ['forwardsolve_10',['forwardsolve',['../namespaceblocktridiagonalsolver__s.html#a6af7ba06cb1dd0dd3343ac1bf5d70425',1,'blocktridiagonalsolver_s::forwardsolve()'],['../namespaceblocktridiagonalsolver.html#a71c7cd77b88f69d66d1f8530da364d37',1,'blocktridiagonalsolver::forwardsolve']]],
+  ['forwardsolve_10',['forwardsolve',['../namespaceblocktridiagonalsolver.html#a71c7cd77b88f69d66d1f8530da364d37',1,'blocktridiagonalsolver::forwardsolve()'],['../namespaceblocktridiagonalsolver__s.html#a6af7ba06cb1dd0dd3343ac1bf5d70425',1,'blocktridiagonalsolver_s::forwardsolve()']]],
   ['forwardupdateb_11',['forwardupdateb',['../namespaceblocktridiagonalsolver.html#ae6f08183c5553e738dee3cffa5210dd5',1,'blocktridiagonalsolver']]],
   ['fourier_5fconstruct_12',['fourier_construct',['../structfourier_1_1fourier__class.html#a0d184fe9031824c11a0b5c031db6581f',1,'fourier::fourier_class::fourier_construct()'],['../namespacefourier.html#ae8eaa592cc2946be1c464738f6d41b59',1,'fourier::fourier_construct()']]],
   ['fourier_5fdestruct_13',['fourier_destruct',['../structfourier_1_1fourier__class.html#a40ec23624a6f81b8ba9e2ee7d508c957',1,'fourier::fourier_class::fourier_destruct()'],['../namespacefourier.html#a35c0f441cadb0006a1d10031283535a8',1,'fourier::fourier_destruct(this)']]],

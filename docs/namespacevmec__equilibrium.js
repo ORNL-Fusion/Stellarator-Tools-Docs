@@ -1,9 +1,9 @@
 var namespacevmec__equilibrium =
 [
-    [ "runvmec", "interfacevmec__equilibrium_1_1runvmec.html", null ],
+    [ "vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ],
     [ "vmec_class", "structvmec__equilibrium_1_1vmec__class.html", "structvmec__equilibrium_1_1vmec__class" ],
     [ "vmec_descent_class", "structvmec__equilibrium_1_1vmec__descent__class.html", "structvmec__equilibrium_1_1vmec__descent__class" ],
-    [ "vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ],
+    [ "runvmec", "interfacevmec__equilibrium_1_1runvmec.html", null ],
     [ "vmec_construct", "namespacevmec__equilibrium.html#a3698795faf0024a046d0c89a2ee84e4d", null ],
     [ "vmec_construct_sub", "namespacevmec__equilibrium.html#ab2aedb4b919e973a902163d8da0a7109", null ],
     [ "vmec_converge", "namespacevmec__equilibrium.html#a8960e1424ec05154a2ab95bc3ea74237", null ],

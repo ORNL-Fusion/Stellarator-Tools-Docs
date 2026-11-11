@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['ece_20diagnostic_20dot_20file_0',['ECE Diagnostic Dot File',['../ece_dot_sec.html',1,'']]],
-  ['effect_20diagnostic_20dot_20file_1',['Motional Stark Effect Diagnostic Dot File',['../mse_dot_sec.html',1,'']]],
-  ['emission_20file_20manual_2',['Soft X-Ray Emission File Manual',['../emission_file_sec.html',1,'']]],
-  ['emissivity_20ratio_20dot_20file_3',['Soft X-ray Emissivity Ratio Dot File',['../sxrem_ratio_dot_sec.html',1,'']]],
-  ['equilibrium_20manual_4',['equilibrium manual',['../siesta_equilibrium_sec.html',1,'SIESTA Equilibrium Manual'],['../vacuum_equilibrium_sec.html',1,'Vacuum Equilibrium Manual'],['../vmec_equilibrium_sec.html',1,'VMEC Equilibrium Manual']]]
+  ['akima_5fspline_0',['akima_spline',['../profile_sec.html#profile_akima_spline',1,'']]],
+  ['algrothim_20control_20variables_1',['Algrothim Control Variables',['../siesta_namelist_sec.html#siesta_algrothim_sec',1,'']]],
+  ['aliases_2',['Aliases',['../doxygen.html#doxygen_markup_aliases',1,'Aliases'],['../doxygen.html#doxygen_config_aliases',1,'Defining Aliases'],['../doxygen.html#doxygen_markup_v3fit_aliases',1,'V3FIT Defined Aliases']]],
+  ['allocate_3',['Array allocation sizes, numbers to allocate',['../namelist_sec.html#size_sec',1,'']]],
+  ['allocation_20sizes_4',['Array allocation sizes.',['../vacuum_namelist_sec.html#vacuum_size_sec',1,'']]],
+  ['allocation_20sizes_20numbers_20to_20allocate_5',['Array allocation sizes, numbers to allocate',['../namelist_sec.html#size_sec',1,'']]],
+  ['anatomy_6',['Class Anatomy',['../class_anatomy.html',1,'']]],
+  ['and_20cmake_20version_204_7',['Notes for macOS and cmake version &amp;gt;= 4',['../md_README.html#autotoc_md11',1,'']]],
+  ['and_20rotations_20of_20external_20coils_8',['Shifts and rotations of external coils.',['../vacuum_namelist_sec.html#vacuum_sr_var_sec',1,'']]],
+  ['and_20shift_20variables_9',['Tilt and Shift Variables',['../v3rfun_namelist_sec.html#v3rfun_shift_sec',1,'']]],
+  ['anisotropy_20parameters_10',['Anisotropy parameters.',['../vmec_namelist_sec.html#vmec_anisotropy_parameters_sec',1,'']]],
+  ['architecture_11',['V3FIT Architecture',['../architecture.html',1,'']]],
+  ['are_20used_20by_20the_20extcurz_20diagnostic_20signal_12',['These two are used by the extcurz diagnostic signal.',['../namelist_sec.html#extcurz_sec',1,'']]],
+  ['arguments_13',['Arguments',['../bmw_cl_parsing_sec.html',1,'Command Line Arguments'],['../netcdf_diff_cl_parsing_sec.html',1,'Command Line Arguments'],['../wout_diff_cl_parsing_sec.html',1,'Command Line Arguments'],['../siesta_test_cl_parsing_sec.html',1,'Command Line Arguments'],['../surface_cl_parsing_sec.html',1,'Command Line Arguments'],['../cl_parsing_sec.html',1,'Command Line Arguments'],['../v3rfun_cl_parsing_sec.html',1,'Command Line Arguments'],['../bmw_cl_parsing_sec.html#bmw_cl_parsing_arg_sec',1,'Command Line Arguments'],['../lgrid_sec.html#lgrid_command_line_sec',1,'Command Line Arguments'],['../netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_parsing_arg_sec',1,'Command Line Arguments'],['../wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_arg_sec',1,'Command Line Arguments'],['../siesta_test_cl_parsing_sec.html#siesta_test_cl_parsing_arg_sec',1,'Command Line Arguments'],['../surface_cl_parsing_sec.html#surface_cl_parsing_arg_sec',1,'Command Line Arguments'],['../cl_parsing_sec.html#cl_parsing_arg_sec',1,'Command Line Arguments'],['../v3rfun_cl_parsing_sec.html#v3rfun_cl_parsing_arg_sec',1,'Command Line Arguments']]],
+  ['array_20allocation_20sizes_14',['Array allocation sizes.',['../vacuum_namelist_sec.html#vacuum_size_sec',1,'']]],
+  ['array_20allocation_20sizes_20numbers_20to_20allocate_15',['Array allocation sizes, numbers to allocate',['../namelist_sec.html#size_sec',1,'']]],
+  ['arrays_16',['arrays',['../siesta_restart_sec.html#siesta_restart_2D_arrays_sec',1,'2D arrays.'],['../siesta_restart_sec.html#siesta_restart_3D_arrays_sec',1,'3D arrays.'],['../siesta_restart_sec.html#siesta_restart_grid_arrays_sec',1,'Grid arrays'],['../siesta_restart_sec.html#siesta_restart_internal_arrays_sec',1,'Internal arrays'],['../siesta_restart_sec.html#siesta_restart_jac_arrays_sec',1,'Jacobian arrays.'],['../siesta_restart_sec.html#siesta_restart_freeboundary_arrays_sec',1,'Vector potential arrays'],['../siesta_restart_sec.html#siesta_restart_freeboundary_arrays_asym_sec',1,'Vector potential asymmetric arrays'],['../siesta_restart_sec.html#siesta_restart_vmec_arrays_sec',1,'VMEC arrays.']]],
+  ['arrays_20asym_17',['arrays asym',['../siesta_restart_sec.html#siesta_restart_grid_arrays_asym_sec',1,'Gird arrays asym.'],['../siesta_restart_sec.html#siesta_restart_internal_arrays_asym_sec',1,'Internal arrays asym.'],['../siesta_restart_sec.html#siesta_restart_jac_arrays_asym_sec',1,'Jacobian arrays asym.'],['../siesta_restart_sec.html#siesta_restart_vmec_arrays_asym_sec',1,'VMEC arrays asym.']]],
+  ['asym_18',['asym',['../siesta_restart_sec.html#siesta_restart_grid_arrays_asym_sec',1,'Gird arrays asym.'],['../siesta_restart_sec.html#siesta_restart_internal_arrays_asym_sec',1,'Internal arrays asym.'],['../siesta_restart_sec.html#siesta_restart_jac_arrays_asym_sec',1,'Jacobian arrays asym.'],['../siesta_restart_sec.html#siesta_restart_vmec_arrays_asym_sec',1,'VMEC arrays asym.']]],
+  ['asymmetric_19',['asymmetric',['../siesta_restart_sec.html#siesta_restart_force_arrays_asym_sec',1,'Forces asymmetric.'],['../siesta_restart_sec.html#siesta_restart_mag_arrays_asym_sec',1,'Magnetic fields asymmetric.'],['../siesta_restart_sec.html#siesta_restart_pres_arrays_asym_sec',1,'Pressure fields asymmetric.']]],
+  ['asymmetric_20arrays_20',['Vector potential asymmetric arrays',['../siesta_restart_sec.html#siesta_restart_freeboundary_arrays_asym_sec',1,'']]],
+  ['auxiliary_20reconstruction_20parameters_21',['Auxiliary Reconstruction Parameters',['../siesta_equilibrium_sec.html#siesta_equilibrium_aux_recon_param_sec',1,'SIESTA Auxiliary Reconstruction Parameters'],['../vmec_equilibrium_sec.html#vmec_equilibrium_aux_recon_param_sec',1,'VMEC Auxiliary Reconstruction Parameters']]],
+  ['axis_20guess_22',['Inital magnetic axis guess.',['../vmec_namelist_sec.html#vmec_axis_parameters_sec',1,'']]]
 ];

@@ -1,12 +1,12 @@
 var namespacev3fit__params =
 [
     [ "param_class", "structv3fit__params_1_1param__class.html", "structv3fit__params_1_1param__class" ],
-    [ "param_construct", "interfacev3fit__params_1_1param__construct.html", "interfacev3fit__params_1_1param__construct" ],
-    [ "param_locking_class", "structv3fit__params_1_1param__locking__class.html", "structv3fit__params_1_1param__locking__class" ],
-    [ "param_locking_pointer", "structv3fit__params_1_1param__locking__pointer.html", "structv3fit__params_1_1param__locking__pointer" ],
     [ "param_pointer", "structv3fit__params_1_1param__pointer.html", "structv3fit__params_1_1param__pointer" ],
     [ "param_recon_class", "structv3fit__params_1_1param__recon__class.html", "structv3fit__params_1_1param__recon__class" ],
     [ "param_recon_pointer", "structv3fit__params_1_1param__recon__pointer.html", "structv3fit__params_1_1param__recon__pointer" ],
+    [ "param_locking_class", "structv3fit__params_1_1param__locking__class.html", "structv3fit__params_1_1param__locking__class" ],
+    [ "param_locking_pointer", "structv3fit__params_1_1param__locking__pointer.html", "structv3fit__params_1_1param__locking__pointer" ],
+    [ "param_construct", "interfacev3fit__params_1_1param__construct.html", "interfacev3fit__params_1_1param__construct" ],
     [ "param_construct_basic", "namespacev3fit__params.html#a68ad19e2b8cec17a3bf676172b580ff6", null ],
     [ "param_construct_locking", "namespacev3fit__params.html#a8a32faae6eff755eebaf548c6332e615", null ],
     [ "param_construct_recon", "namespacev3fit__params.html#a62cc5a23c447ad1c70a0e5a22e3f75d0", null ],

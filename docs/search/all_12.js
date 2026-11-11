@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['objects_0',['objects',['../architecture.html#architecture_class_objects',1,'Class Objects'],['../architecture.html#architecture_class_objects_other',1,'Other Objects']]],
+  ['objects_0',['Objects',['../architecture.html#architecture_class_objects',1,'Class Objects'],['../architecture.html#architecture_class_objects_other',1,'Other Objects']]],
   ['observed_1',['observed',['../structsignal_1_1signal__class.html#aa5950221a08dd382a96b139e4ddafb32',1,'signal::signal_class']]],
   ['observed_5fsigma_2',['observed_sigma',['../structsignal_1_1signal__class.html#a10a2ce7dcc4fa80ba85d732c2b41336f',1,'signal::signal_class']]],
   ['obtaining_20the_20code_3',['Obtaining the code.',['../build_system.html#build_system_clone',1,'']]],

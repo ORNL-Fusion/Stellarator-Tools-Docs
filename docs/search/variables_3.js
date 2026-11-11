@@ -11,7 +11,7 @@ var searchData=
   ['date_8',['date',['../structmagnetic__response_1_1magnetic__response__class.html#a84475b9a7542047eb875fc2d9b82697c',1,'magnetic_response::magnetic_response_class']]],
   ['date_5frun_9',['date_run',['../structv3rfun__context_1_1v3rfun__context__class.html#a296a1873e7fc760754f856c9890983ae',1,'v3rfun_context::v3rfun_context_class']]],
   ['delt_10',['delt',['../namespacevmec__input.html#acfe484dfe2745965f6ea403fc093211d',1,'vmec_input']]],
-  ['delta_11',['delta',['../structv3fit__params_1_1param__recon__class.html#a93821e8af38014b0811a32439d4dcb5e',1,'v3fit_params::param_recon_class::delta'],['../structmse_1_1mse__class.html#affb538ce284b7f22a5984e21c0f07c40',1,'mse::mse_class::delta']]],
+  ['delta_11',['delta',['../structmse_1_1mse__class.html#affb538ce284b7f22a5984e21c0f07c40',1,'mse::mse_class::delta'],['../structv3fit__params_1_1param__recon__class.html#a93821e8af38014b0811a32439d4dcb5e',1,'v3fit_params::param_recon_class::delta']]],
   ['delta_5fa_12',['delta_a',['../structreconstruction_1_1reconstruction__class.html#afbe7ce18fb032e24926921851b080151',1,'reconstruction::reconstruction_class']]],
   ['delta_5fa_5flen_13',['delta_a_len',['../structreconstruction_1_1reconstruction__class.html#a74f95c80e96eca00622fde2df3eb3323',1,'reconstruction::reconstruction_class']]],
   ['delta_5ft_14',['delta_t',['../namespaceshared__data.html#a0a8d5133c94698b30e9aca6f4a7296e1',1,'shared_data']]],
@@ -22,9 +22,9 @@ var searchData=
   ['diagnostic_5fdot_5fline_5flen_19',['diagnostic_dot_line_len',['../namespacediagnostic__dot.html#ad8071bcb818b93b68608e8275d0a3017',1,'diagnostic_dot']]],
   ['dir_5fprefix_20',['dir_prefix',['../namespacedata__parameters.html#a91e48f0116225ae57dabdeb3a685cd00',1,'data_parameters']]],
   ['dir_5fprefix_5flen_21',['dir_prefix_len',['../namespacedata__parameters.html#ae24bedff295bd1e0c16046e00dabe5af',1,'data_parameters']]],
-  ['direction_22',['direction',['../structdiagnostic__dot_1_1diagnostic__dot__coil.html#af4890440475d1475fbaa35e6b42f18fc',1,'diagnostic_dot::diagnostic_dot_coil::direction'],['../structmagnetic__response_1_1magnetic__response__class.html#a2e76ba9d607518b9f7df3056f84330bf',1,'magnetic_response::magnetic_response_class::direction']]],
+  ['direction_22',['direction',['../structmagnetic__response_1_1magnetic__response__class.html#a2e76ba9d607518b9f7df3056f84330bf',1,'magnetic_response::magnetic_response_class::direction'],['../structdiagnostic__dot_1_1diagnostic__dot__coil.html#af4890440475d1475fbaa35e6b42f18fc',1,'diagnostic_dot::diagnostic_dot_coil::direction']]],
   ['djbsupsds_23',['djbsupsds',['../classsiesta__quantities.html#a247d54db419403cab2d04e88a50ec82e',1,'siesta_quantities']]],
-  ['dmin_5ftri_24',['dmin_tri',['../namespaceblocktridiagonalsolver__s.html#ab81d74d04a455786be84ab38a5919d9d',1,'blocktridiagonalsolver_s::dmin_tri'],['../namespaceblocktridiagonalsolver.html#a38f4e6dc3340ee94c910f2b702780ef0',1,'blocktridiagonalsolver::dmin_tri']]],
+  ['dmin_5ftri_24',['dmin_tri',['../namespaceblocktridiagonalsolver.html#a38f4e6dc3340ee94c910f2b702780ef0',1,'blocktridiagonalsolver::dmin_tri'],['../namespaceblocktridiagonalsolver__s.html#ab81d74d04a455786be84ab38a5919d9d',1,'blocktridiagonalsolver_s::dmin_tri']]],
   ['dnorm_5fi_25',['dnorm_i',['../namespaceisland__params.html#add7e907a6b7eb11626b1b8f35f0a2586',1,'island_params']]],
   ['doblasonly_26',['doblasonly',['../namespaceblocktridiagonalsolver.html#a68b669a4a4910a47ae24195397aacf3f',1,'blocktridiagonalsolver']]],
   ['dp_5findex_27',['dp_index',['../namespacev3fit__input.html#a5a5beb5e288bc2e2601a6d553ddfbcce',1,'v3fit_input']]],
@@ -42,5 +42,5 @@ var searchData=
   ['dvol_39',['dvol',['../structprimed__grid_1_1primed__grid__class.html#a322d3ed6f0cc2886813d36482786dfb6',1,'primed_grid::primed_grid_class']]],
   ['dx_40',['dx',['../structintegration__path_1_1integration__path__class.html#a5066803e7db7a9d75c3552f6ebe74f76',1,'integration_path::integration_path_class']]],
   ['dz_41',['dz',['../structm__grid_1_1m__grid__class.html#a5c1eff0d2c7e5f482bcd24d882e71214',1,'m_grid::m_grid_class']]],
-  ['dzds_42',['dzds',['../classvmec__quantities.html#adbd10a1287f2750bd901df3cb5713c0f',1,'vmec_quantities::dzds'],['../classsiesta__quantities.html#a884adc0a6de033e5cb0c85a06e92658c',1,'siesta_quantities::dzds']]]
+  ['dzds_42',['dzds',['../classsiesta__quantities.html#a884adc0a6de033e5cb0c85a06e92658c',1,'siesta_quantities::dzds'],['../classvmec__quantities.html#adbd10a1287f2750bd901df3cb5713c0f',1,'vmec_quantities::dzds']]]
 ];

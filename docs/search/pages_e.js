@@ -1,17 +1,13 @@
 var searchData=
 [
-  ['scattering_20diagnostic_20dot_20file_0',['Thomson Scattering Diagnostic Dot File',['../thomson_dot_sec.html',1,'']]],
-  ['siesta_1',['SIESTA',['../md_SIESTA_2README.html',1,'']]],
-  ['siesta_20equilibrium_20manual_2',['SIESTA Equilibrium Manual',['../siesta_equilibrium_sec.html',1,'']]],
-  ['siesta_20restart_20file_3',['Discription of the SIESTA restart file.',['../siesta_restart_sec.html',1,'']]],
-  ['siesta_20result_20file_4',['SIESTA Result File',['../result_file_siesta.html',1,'']]],
-  ['siesta_5fmain_5fnli_20definition_5',['Namelist siesta_main_nli definition',['../siesta_namelist_sec.html',1,'']]],
-  ['soft_20x_20ray_20diagnostic_20dot_20file_6',['Soft X-Ray Diagnostic Dot File',['../sxrem_dot_sec.html',1,'']]],
-  ['soft_20x_20ray_20emission_20file_20manual_7',['Soft X-Ray Emission File Manual',['../emission_file_sec.html',1,'']]],
-  ['soft_20x_20ray_20emissivity_20ratio_20dot_20file_8',['Soft X-ray Emissivity Ratio Dot File',['../sxrem_ratio_dot_sec.html',1,'']]],
-  ['stark_20effect_20diagnostic_20dot_20file_9',['Motional Stark Effect Diagnostic Dot File',['../mse_dot_sec.html',1,'']]],
-  ['stellarator_20tools_10',['stellarator tools',['../md_README.html',1,'Stellarator-Tools'],['../index.html',1,'Stellarator-Tools']]],
-  ['stellarator_20tools_20build_20system_11',['Stellarator-Tools Build System',['../build_system.html',1,'']]],
-  ['surface_12',['SURFACE',['../md_SURFACE_2README.html',1,'']]],
-  ['system_13',['Stellarator-Tools Build System',['../build_system.html',1,'']]]
+  ['lgird_20manual_0',['LGIRD manual.',['../index.html#user_lgrid',1,'']]],
+  ['lgrid_1',['LGRID',['../dir_83dd5ea8014eb52bfcac99a4f21f68ee.html#autotoc_md3',1,'']]],
+  ['libraries_2',['Libraries',['../build_system.html#build_system_libraries',1,'']]],
+  ['libstell_3',['LIBSTELL',['../dir_da50cc7e61dcaa1cc9d55e2c45a760f1.html#autotoc_md4',1,'']]],
+  ['limiter_20gird_20file_4',['Limiter Gird File',['../lgrid_sec.html',1,'']]],
+  ['limiter_5fiso_20function_5',['Limiter_Iso Function.',['../namelist_sec.html#lif_sec',1,'']]],
+  ['line_20arguments_6',['Line Arguments',['../bmw_cl_parsing_sec.html',1,'Command Line Arguments'],['../netcdf_diff_cl_parsing_sec.html',1,'Command Line Arguments'],['../wout_diff_cl_parsing_sec.html',1,'Command Line Arguments'],['../siesta_test_cl_parsing_sec.html',1,'Command Line Arguments'],['../surface_cl_parsing_sec.html',1,'Command Line Arguments'],['../cl_parsing_sec.html',1,'Command Line Arguments'],['../v3rfun_cl_parsing_sec.html',1,'Command Line Arguments'],['../bmw_cl_parsing_sec.html#bmw_cl_parsing_arg_sec',1,'Command Line Arguments'],['../lgrid_sec.html#lgrid_command_line_sec',1,'Command Line Arguments'],['../netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_parsing_arg_sec',1,'Command Line Arguments'],['../wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_arg_sec',1,'Command Line Arguments'],['../siesta_test_cl_parsing_sec.html#siesta_test_cl_parsing_arg_sec',1,'Command Line Arguments'],['../surface_cl_parsing_sec.html#surface_cl_parsing_arg_sec',1,'Command Line Arguments'],['../cl_parsing_sec.html#cl_parsing_arg_sec',1,'Command Line Arguments'],['../v3rfun_cl_parsing_sec.html#v3rfun_cl_parsing_arg_sec',1,'Command Line Arguments']]],
+  ['line_5fsegment_7',['line_segment',['../profile_sec.html#profile_line_segment',1,'']]],
+  ['list_8',['List',['../deprecated.html',1,'Deprecated List'],['../todo.html',1,'Todo List']]],
+  ['locking_20parameter_20specification_9',['Locking parameter specification',['../namelist_sec.html#lock_param_sec',1,'']]]
 ];

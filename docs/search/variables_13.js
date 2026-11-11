@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['t2_0',['t2',['../structblocktridiagonalsolver__bst_1_1timecount.html#a86085e83044a5543608188e4ca2037a8',1,'blocktridiagonalsolver_bst::timecount::t2'],['../structblocktridiagonalsolver_1_1timecount.html#a3543ff5f48ece66ce21b95b7db617044',1,'blocktridiagonalsolver::timecount::t2']]],
+  ['t2_0',['t2',['../structblocktridiagonalsolver_1_1timecount.html#a3543ff5f48ece66ce21b95b7db617044',1,'blocktridiagonalsolver::timecount::t2'],['../structblocktridiagonalsolver__bst_1_1timecount.html#a86085e83044a5543608188e4ca2037a8',1,'blocktridiagonalsolver_bst::timecount::t2']]],
   ['tcon0_1',['tcon0',['../namespacevmec__input.html#a4708b300fea260a159648ca47c59ffdc',1,'vmec_input']]],
   ['te_2',['te',['../structvmec__equilibrium_1_1vmec__class.html#a0dfd08d4f237fae503c7b27513cfee02',1,'vmec_equilibrium::vmec_class']]],
   ['te_5fgrid_3',['te_grid',['../structmodel_1_1model__class.html#a9aeefdd06df09cf6343f105c02e13556',1,'model::model_class']]],
-  ['te_5fmin_4',['te_min',['../namespacev3fit__input.html#a084d31503aaa6c68d046a1d41a9eaf63',1,'v3fit_input::te_min'],['../structmodel_1_1model__class.html#ae4e71bd5e8b60924c3c289b7dcbd3410',1,'model::model_class::te_min']]],
+  ['te_5fmin_4',['te_min',['../structmodel_1_1model__class.html#ae4e71bd5e8b60924c3c289b7dcbd3410',1,'model::model_class::te_min'],['../namespacev3fit__input.html#a084d31503aaa6c68d046a1d41a9eaf63',1,'v3fit_input::te_min']]],
   ['te_5fstart_5',['te_start',['../structemission_1_1emission__class.html#a8c9e94a46561f055181fe240ba242f4a',1,'emission::emission_class']]],
   ['te_5fstep_6',['te_step',['../structemission_1_1emission__class.html#aad3b87d7c9017ca5fe4316c9c4eb936e',1,'emission::emission_class']]],
   ['te_5ftype_7',['te_type',['../structmodel_1_1model__class.html#a643ab844758277b242ebde4524cbf2a6',1,'model::model_class']]],
@@ -22,7 +22,7 @@ var searchData=
   ['timerfreq_19',['timerfreq',['../namespaceblocktridiagonalsolver.html#a8c1adc3f48b4fadf933a0a97da461f42',1,'blocktridiagonalsolver']]],
   ['tolarance_20',['tolarance',['../structgradient__descent_1_1gradient__descent__class.html#a8ab2937173b456ea90cf19658048f886',1,'gradient_descent::gradient_descent_class']]],
   ['tolerance_21',['tolerance',['../structguassian__process_1_1gaussp__class.html#abbc1968221ec576c536a062a48f910f1',1,'guassian_process::gaussp_class']]],
-  ['tor_5fmodes_22',['tor_modes',['../classsiesta__fourier.html#ab67ad0d1ebacc612d1c8e31c37d742d9',1,'siesta_fourier::tor_modes'],['../structsiesta__context_1_1siesta__context__class.html#a01b27f02cbaba1e45c1e09b6d598ed57',1,'siesta_context::siesta_context_class::tor_modes'],['../structfourier_1_1fourier__class.html#a0323b3b4876c3ea2f39ab1a9f87a54e7',1,'fourier::fourier_class::tor_modes']]],
+  ['tor_5fmodes_22',['tor_modes',['../structfourier_1_1fourier__class.html#a0323b3b4876c3ea2f39ab1a9f87a54e7',1,'fourier::fourier_class::tor_modes'],['../classsiesta__fourier.html#ab67ad0d1ebacc612d1c8e31c37d742d9',1,'siesta_fourier::tor_modes'],['../structsiesta__context_1_1siesta__context__class.html#a01b27f02cbaba1e45c1e09b6d598ed57',1,'siesta_context::siesta_context_class::tor_modes']]],
   ['total_5ftime_23',['total_time',['../structprofiler_1_1profiler__bucket.html#a9a4179653921753eb11485425a8530d8',1,'profiler::profiler_bucket']]],
   ['totcommcount_24',['totcommcount',['../namespaceblocktridiagonalsolver.html#aaf061cfc5aee8605dbcdaf05f88aa730',1,'blocktridiagonalsolver']]],
   ['totcommtime_25',['totcommtime',['../namespaceblocktridiagonalsolver.html#a488e4edc560bbe9cda0467bd4792f2ca',1,'blocktridiagonalsolver']]],

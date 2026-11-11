@@ -1,6 +1,14 @@
 var searchData=
 [
-  ['file_0',['file',['../result_file_bmw.html',1,'BMW Result File'],['../siesta_restart_sec.html',1,'Discription of the SIESTA restart file.'],['../ece_dot_sec.html',1,'ECE Diagnostic Dot File'],['../intpol_dot_sec.html',1,'Inteferometry/Polarimetry Diagnostic Dot File'],['../lgrid_sec.html',1,'Limiter Gird File'],['../diagnostic_dot_sec.html',1,'Magnetic Diagnostic Dot File'],['../result_file_model.html',1,'Model Result File'],['../mse_dot_sec.html',1,'Motional Stark Effect Diagnostic Dot File'],['../result_file_main.html',1,'Result File'],['../result_file_siesta.html',1,'SIESTA Result File'],['../sxrem_dot_sec.html',1,'Soft X-Ray Diagnostic Dot File'],['../sxrem_ratio_dot_sec.html',1,'Soft X-ray Emissivity Ratio Dot File'],['../thomson_dot_sec.html',1,'Thomson Scattering Diagnostic Dot File'],['../result_file_vmec.html',1,'VMEC Result File']]],
-  ['file_20manual_1',['Soft X-Ray Emission File Manual',['../emission_file_sec.html',1,'']]],
-  ['framework_20documentation_2',['Testing Framework Documentation',['../testing.html',1,'']]]
+  ['bmw_0',['BMW',['../dir_8ed529f48803a12e5dec000026aedf10.html#autotoc_md0',1,'']]],
+  ['bmw_20result_20file_1',['BMW Result File',['../result_file_bmw.html',1,'']]],
+  ['booz_5fxform_2',['BOOZ_XFORM',['../dir_8aee19e463c003d570068ac0166f5fcc.html#autotoc_md1',1,'']]],
+  ['boundary_3',['Boundary',['../siesta_namelist_sec.html#siesta_namelist_exam_fixed_sec',1,'Fixed Boundary'],['../siesta_namelist_sec.html#siesta_namelist_exam_free_sec',1,'Free Boundary']]],
+  ['boundary_20parameters_4',['Edge Boundary parameters.',['../vmec_namelist_sec.html#vmec_edge_parameters_sec',1,'']]],
+  ['boundary_20sparse_20modes_5',['Fixed Boundary Sparse modes',['../siesta_namelist_sec.html#siesta_namelist_exam_sparse_sec',1,'']]],
+  ['build_6',['Configuring Build',['../build_system.html#build_system_config',1,'']]],
+  ['build_20directory_7',['Build Directory',['../build_system.html#build_system_build_directory',1,'']]],
+  ['build_20system_8',['Stellarator-Tools Build System',['../build_system.html',1,'']]],
+  ['built_20in_20variables_9',['Built In Variables',['../build_system.html#build_system_cmake_variables_builtin',1,'']]],
+  ['by_20the_20extcurz_20diagnostic_20signal_10',['These two are used by the extcurz diagnostic signal.',['../namelist_sec.html#extcurz_sec',1,'']]]
 ];

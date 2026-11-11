@@ -17,7 +17,7 @@ var searchData=
   ['gp_5fsignal_5findices_14',['gp_signal_indices',['../namespacev3fit__input.html#adc9e27c054bb4c604e2ca5dddfa6e136',1,'v3fit_input']]],
   ['gp_5ftolerance_15',['gp_tolerance',['../namespacev3fit__input.html#afa61fd490a6502b6ea4cca7996b87b14',1,'v3fit_input']]],
   ['gradient_16',['gradient',['../structreconstruction_1_1reconstruction__class.html#ae77f2ddb1c385fd13fd5e9f39325e448',1,'reconstruction::reconstruction_class']]],
-  ['grid_17',['grid',['../structlimiter__grid_1_1limiter__grid__class.html#a5ee65429553e091986e3a9ad07306ddc',1,'limiter_grid::limiter_grid_class::grid'],['../classsiesta__grid.html#a16344fde1af4f4869533d2201f2d5be5',1,'siesta_grid::grid'],['../classvmec__grid.html#a19befcdc8986f9b31895463b945fbdd1',1,'vmec_grid::grid']]],
+  ['grid_17',['grid',['../classvmec__grid.html#a19befcdc8986f9b31895463b945fbdd1',1,'vmec_grid::grid'],['../classsiesta__grid.html#a16344fde1af4f4869533d2201f2d5be5',1,'siesta_grid::grid'],['../structlimiter__grid_1_1limiter__grid__class.html#a5ee65429553e091986e3a9ad07306ddc',1,'limiter_grid::limiter_grid_class::grid']]],
   ['grid_5fstart_18',['grid_start',['../structmodel_1_1model__class.html#a567f5c565127e6829ec5e04dbaad8826',1,'model::model_class']]],
   ['grid_5fstep_19',['grid_step',['../structmodel_1_1model__class.html#a247edaa21ae9eaa5ea820ca976af1445',1,'model::model_class']]],
   ['gss_20',['gss',['../namespacemetrics.html#a6045a5bf2cc1e03266006dbe0c07591f',1,'metrics']]],

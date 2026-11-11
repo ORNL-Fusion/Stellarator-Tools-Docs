@@ -39,7 +39,6 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Programmer Manuals", "index.html#programmer", null ],
-    [ "BMW", "md_BMW_2README.html", null ],
     [ "Command Line Arguments", "bmw_cl_parsing_sec.html", [
       [ "Introduction", "bmw_cl_parsing_sec.html#bmw_cl_parsing_intro", null ],
       [ "Command Line Arguments", "bmw_cl_parsing_sec.html#bmw_cl_parsing_arg_sec", null ],
@@ -49,8 +48,6 @@ var NAVTREE =
       [ "Introduction", "result_file_bmw.html#result_file_bmw_intro_sec", null ],
       [ "Variables", "result_file_bmw.html#result_file_bmw_var_sec", null ]
     ] ],
-    [ "BOOZ_XFORM", "md_BOOZ__XFORM_2README.html", null ],
-    [ "DESCUR", "md_DESCUR_2README.html", null ],
     [ "V3FIT Architecture", "architecture.html", [
       [ "Introducion", "architecture.html#architecture_intro", null ],
       [ "Class Objects", "architecture.html#architecture_class_objects", [
@@ -131,7 +128,6 @@ var NAVTREE =
         [ "Test Results", "testing.html#testing_cmake_results", null ]
       ] ]
     ] ],
-    [ "LGRID", "md_LGRID_2README.html", null ],
     [ "Limiter Gird File", "lgrid_sec.html", [
       [ "Introduction", "lgrid_sec.html#lgrid_intro_sec", null ],
       [ "Input Configuation", "lgrid_sec.html#lgrid_input_sec", [
@@ -140,7 +136,6 @@ var NAVTREE =
       ] ],
       [ "Command Line Arguments", "lgrid_sec.html#lgrid_command_line_sec", null ]
     ] ],
-    [ "LIBSTELL", "md_LIBSTELL_2README.html", null ],
     [ "VMEC Namelist indata definition", "vmec_namelist_sec.html", [
       [ "Introduction", "vmec_namelist_sec.html#vmec_namelist_intro_sec", null ],
       [ "Namelist Variables", "vmec_namelist_sec.html#vmec_namelist_var_sec", [
@@ -171,8 +166,6 @@ var NAVTREE =
       [ "Command Line Arguments", "netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_parsing_arg_sec", null ],
       [ "Programmers Reference", "netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_pasring_prog_ref_sec", null ]
     ] ],
-    [ "MAKEGRID", "md_MAKEGRID_2README.html", null ],
-    [ "VMEC", "md_PARVMEC_2README.html", null ],
     [ "Command Line Arguments", "wout_diff_cl_parsing_sec.html", [
       [ "Introduction", "wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_intro", null ],
       [ "Command Line Arguments", "wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_arg_sec", null ],
@@ -182,12 +175,11 @@ var NAVTREE =
       [ "Documentation", "md_README.html#autotoc_md8", null ],
       [ "Testing", "md_README.html#autotoc_md9", null ],
       [ "Compiling", "md_README.html#autotoc_md10", [
-        [ "Notes for macOS and cmake version >= 4", "md_README.html#autotoc_md11", null ],
+        [ "Notes for macOS and cmake version &gt;= 4", "md_README.html#autotoc_md11", null ],
         [ "Installation", "md_README.html#autotoc_md12", null ],
         [ "Touble Shooting", "md_README.html#autotoc_md13", null ]
       ] ]
     ] ],
-    [ "SIESTA", "md_SIESTA_2README.html", null ],
     [ "Discription of the SIESTA restart file.", "siesta_restart_sec.html", [
       [ "Introduction", "siesta_restart_sec.html#siesta_restart_intro_sec", null ],
       [ "Namelist Variables", "siesta_restart_sec.html#siesta_restart_var_sec", [
@@ -243,13 +235,11 @@ var NAVTREE =
       [ "Test names.", "siesta_test_cl_parsing_sec.html#siesta_test_cl_test_names_sec", null ],
       [ "Programmers Reference", "siesta_test_cl_parsing_sec.html#siesta_test_cl_pasring_prog_ref_sec", null ]
     ] ],
-    [ "SURFACE", "md_SURFACE_2README.html", null ],
     [ "Command Line Arguments", "surface_cl_parsing_sec.html", [
       [ "Introduction", "surface_cl_parsing_sec.html#surface_cl_parsing_intro", null ],
       [ "Command Line Arguments", "surface_cl_parsing_sec.html#surface_cl_parsing_arg_sec", null ],
       [ "Programmers Reference", "surface_cl_parsing_sec.html#surface_cl_pasring_prog_ref_sec", null ]
     ] ],
-    [ "V3FIT", "md_V3FIT_2README.html", null ],
     [ "Command Line Arguments", "cl_parsing_sec.html", [
       [ "Introduction", "cl_parsing_sec.html#cl_parsing_intro", null ],
       [ "Command Line Arguments", "cl_parsing_sec.html#cl_parsing_arg_sec", null ],
@@ -423,7 +413,6 @@ var NAVTREE =
       [ "Dimensions", "result_file_vmec.html#result_file_vmec_dim_sec", null ],
       [ "Variables", "result_file_vmec.html#result_file_vmec_var_sec", null ]
     ] ],
-    [ "V3RFUN", "md_V3RFUN_2README.html", null ],
     [ "Magnetic Diagnostic Dot File", "diagnostic_dot_sec.html", [
       [ "Introduction", "diagnostic_dot_sec.html#diagnostic_dot_intro_sec", null ],
       [ "Diagnostic Coil Specification", "diagnostic_dot_sec.html#diagnostic_dot_coil_spec_sec", null ],
@@ -484,36 +473,30 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "SURFACE_2Sources_2surface_8f.html",
-"classvmec__grid.html#af7be56bf72f6b28202a4d48b35e4bfeb",
-"equilibrium_8f.html#a53677debed221aa3ab4a836e965e9a41",
-"interfacebsc__t_1_1bsc__construct.html",
-"interfacepspline__calls_1_1bcspevfn.html",
-"interfacepspline__calls_1_1zonfind.html",
-"metrics_8f90.html#a6045a5bf2cc1e03266006dbe0c07591f",
-"namespaceblocktridiagonalsolver.html#a9b59087555957c0d0cfcf56c6aa62a43",
-"namespaceequilibrium.html#a9122ee41d8ac4a6c3358ce3d10dca3b5",
-"namespacemagnetic__response.html#a8a3c69caf524992b84c1c81f875e3d02",
-"namespacenetcdf__inc.html#a51b78548eb0b4ca64d07eeccb56b4969",
-"namespacerestart__mod.html#ae9b5ba36f1c10b2352882f7edd7bf0fa",
-"namespacesiesta__state.html#aeb1a2c68bb299701c31b8cdbf599d37e",
-"namespacev3fit__input.html#abb1616830d26e0ab66f3b46d59f81831",
-"namespacevmec__equilibrium.html#a8960e1424ec05154a2ab95bc3ea74237",
-"netcdf_diff_cl_parsing_sec.html",
-"shared__data_8f90.html#a194b5aff743f47131f8c3646adc35a2b",
-"siesta_restart_sec.html#siesta_restart_internal_arrays_sec",
-"structcompression_1_1compression__class.html#afb77f6bbf0003016e1b2040f844e1fec",
-"structextcurz_1_1extcurz__class.html#a8623a808caf3bf7797d3371ef9192a9e",
-"structintpol_1_1intpol__gp__pol__context__x.html#af96ea48e83a3ab627ed44705131050af",
-"structmodel_1_1model__class.html#a5d72e3e1a827cab21024183cbb34453c",
-"structreconstruction_1_1reconstruction__class.html#a43e91819957043ab33d39c54cc269f8b",
-"structsiesta__equilibrium_1_1siesta__class.html#ae19c1b20b25402d8bc6ccee2a71cc487",
-"structsxrem_1_1sxrem__ti__class.html#add10086bc82e6f49a3e703ff2e37a94c",
-"structv3fit__params_1_1param__recon__class.html#ae19d84d82333c2cfa66e1532f000f44e",
-"structvmec__equilibrium_1_1vmec__class.html#a981979a85ea2c42e108e2077a6f517ff",
-"v3fit__context_8f.html#a7c80eb112aab74644068ae04d407457d",
-"v3rfun_8f.html",
-"vmec__equilibrium_8f.html#ae78a669c86f61b357cee909d7720cd02"
+"classvmec__test_1_1commandline__parser.html#a0b3a34923bb1e7aa6edbb2d6d7dc4a20",
+"interfaceezspline_1_1ezspline__isindomain.html",
+"interfacepspline__calls_1_1herm2fcnx.html",
+"interfacev3fit__params_1_1param__construct.html",
+"namespacebmw__commandline__parser.html#a30d7722729f6c998607735e30b38f994",
+"namespacefourier.html#a27f5162fff4e2bd12c4a1130eb4aac3e",
+"namespacemembers_vars.html",
+"namespacepchelms.html#a055dc5013104e1119dcfd6c8b99b65c6",
+"namespaceshared__data.html#a8b7d4357fbc8cc9cc02c43e556bdeb35",
+"namespacesxrem__ratio.html#a8bd12c0a8d0c7f290f978e4059f7dd28",
+"namespacev3fit__params.html#a58a43e136623f6eb084ad9672124eeda",
+"namespacevmec__equilibrium.html#aed97e7590d9e09a6723baa6993a794d1",
+"structbivariate_1_1bivariate__class.html#acebd48608294c44104686781e53a8697",
+"structemission_1_1emission__class.html#a2327d893d056e2f56b300f8c2863955c",
+"structgmres__lib_1_1gmres__info.html",
+"structlimiter__iso__t_1_1limiter__iso__class.html#a63c76d2db05c5ec05fde37eab9ce1651",
+"structmodel_1_1model__class.html#ac9d69e256ee599f34bb63152647976f9",
+"structreconstruction_1_1reconstruction__class.html#ad70fbd5904aa21c850839d844b4422d5",
+"structsignal_1_1signal__class.html#aba562f600ec0ad60d38b0d446a3b599e",
+"structunprimed__grid_1_1unprimed__grid__class.html#a917ddf0092d925e7f1363987adb6f0e2",
+"structvacuum__equilibrium_1_1vacuum__class.html#ad225c6a24e78bbe13e3c7cdd21fda033",
+"structvmec__equilibrium_1_1vmec__magnetic__cache.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

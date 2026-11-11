@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['radial_20parameters_0',['Radial parameters.',['../vmec_namelist_sec.html#vmec_radial_parameters_sec',1,'']]],
+  ['ratio_20dot_20file_1',['Soft X-ray Emissivity Ratio Dot File',['../sxrem_ratio_dot_sec.html',1,'']]],
+  ['ray_20diagnostic_20dot_20file_2',['Soft X-Ray Diagnostic Dot File',['../sxrem_dot_sec.html',1,'']]],
+  ['ray_20emission_20file_20manual_3',['Soft X-Ray Emission File Manual',['../emission_file_sec.html',1,'']]],
+  ['ray_20emissivity_4',['Model Soft X-ray Emissivity',['../model_sec.html#model_sxrem_sec',1,'']]],
+  ['ray_20emissivity_20ratio_20dot_20file_5',['Soft X-ray Emissivity Ratio Dot File',['../sxrem_ratio_dot_sec.html',1,'']]],
+  ['real_20space_20grid_20sizes_6',['Real space grid sizes.',['../vmec_namelist_sec.html#vmec_realspace_sizes_sec',1,'']]],
+  ['reconstruction_7',['Reconstruction',['../architecture.html#architecture_class_objects_reconstruction',1,'']]],
+  ['reconstruction_20constraints_20deprecated_8',['Reconstruction constraints (DEPRECATED)',['../namelist_sec.html#recon_con_sec',1,'']]],
+  ['reconstruction_20example_9',['Reconstruction Example',['../namelist_sec.html#namelist_exam_reconstruction_sec',1,'']]],
+  ['reconstruction_20parameter_20specification_10',['Reconstruction parameter specification',['../namelist_sec.html#recon_param_sec',1,'']]],
+  ['reconstruction_20parameter_20variables_11',['Reconstruction Parameter Variables',['../result_file_main.html#result_file_main_param_var_sec',1,'']]],
+  ['reconstruction_20parameters_12',['Reconstruction Parameters',['../model_sec.html#model_recon_param_sec',1,'Model Reconstruction Parameters'],['../siesta_equilibrium_sec.html#siesta_equilibrium_aux_recon_param_sec',1,'SIESTA Auxiliary Reconstruction Parameters'],['../siesta_equilibrium_sec.html#siesta_equilibrium_vmec_recon_param_sec',1,'SIESTA Equilibrium Reconstruction Parameters'],['../siesta_equilibrium_sec.html#siesta_equilibrium_recon_param_sec',1,'SIESTA Reconstruction Parameters'],['../vacuum_equilibrium_sec.html#vacuum_equilibrium_recon_param_sec',1,'Vacuum Reconstruction Parameters'],['../vmec_equilibrium_sec.html#vmec_equilibrium_aux_recon_param_sec',1,'VMEC Auxiliary Reconstruction Parameters'],['../vmec_equilibrium_sec.html#vmec_equilibrium_vmec_recon_param_sec',1,'VMEC Equilibrium Reconstruction Parameters'],['../vmec_equilibrium_sec.html#vmec_equilibrium_recon_param_sec',1,'VMEC Reconstruction Parameters']]],
+  ['reconstruction_20step_20control_20nli_20variables_13',['Reconstruction step control NLI variables',['../namelist_sec.html#recon_sec',1,'']]],
+  ['reference_14',['Reference',['../bmw_cl_parsing_sec.html#bmw_cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../vmec_namelist_sec.html#vmec_namelist_prog_ref_sec',1,'Programmers Reference'],['../netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../wout_diff_cl_parsing_sec.html#wout_diff_cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../siesta_restart_sec.html#siesta_restart_prog_ref_sec',1,'Programmers Reference'],['../siesta_namelist_sec.html#siesta_namelist_prog_ref_sec',1,'Programmers Reference'],['../siesta_test_cl_parsing_sec.html#siesta_test_cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../surface_cl_parsing_sec.html#surface_cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../cl_parsing_sec.html#cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../ece_dot_sec.html#ece_dot_prog_ref_sec',1,'Programmers Reference'],['../intpol_dot_sec.html#intpol_dot_prog_ref_sec',1,'Programmers Reference'],['../mse_dot_sec.html#mse_dot_prog_ref_sec',1,'Programmers Reference'],['../sxrem_dot_sec.html#sxrem_dot_prog_ref_sec',1,'Programmers Reference'],['../sxrem_ratio_dot_sec.html#sxrem_ratio_dot_prog_ref_sec',1,'Programmers Reference'],['../thomson_dot_sec.html#thomson_dot_prog_ref_sec',1,'Programmers Reference'],['../namelist_sec.html#namelist_prog_ref_sec',1,'Programmers Reference'],['../vacuum_namelist_sec.html#vacuum_namelist_prog_ref_sec',1,'Programmers Reference'],['../diagnostic_dot_sec.html#diagnostic_dot_prog_ref_sec',1,'Programmers Reference'],['../v3rfun_cl_parsing_sec.html#v3rfun_cl_pasring_prog_ref_sec',1,'Programmers Reference'],['../v3rfun_namelist_sec.html#v3rfun_namelist_prog_ref_sec',1,'Programmers Reference']]],
+  ['regression_20tests_15',['Regression Tests',['../testing.html#testing_regression_tests',1,'']]],
+  ['response_20grid_20variables_16',['Response Grid Variables',['../v3rfun_namelist_sec.html#v3rfun_grid_sec',1,'']]],
+  ['restart_20file_17',['Discription of the SIESTA restart file.',['../siesta_restart_sec.html',1,'']]],
+  ['result_20file_18',['Result File',['../result_file_bmw.html',1,'BMW Result File'],['../result_file_model.html',1,'Model Result File'],['../result_file_main.html',1,'Result File'],['../result_file_siesta.html',1,'SIESTA Result File'],['../result_file_vmec.html',1,'VMEC Result File']]],
+  ['results_19',['Test Results',['../testing.html#testing_cmake_results',1,'']]],
+  ['rotational_20transform_20profile_20parameters_20',['Rotational transform profile parameters.',['../vmec_namelist_sec.html#vmec_iota_profile_param_sec',1,'']]],
+  ['rotations_20of_20external_20coils_21',['Shifts and rotations of external coils.',['../vacuum_namelist_sec.html#vacuum_sr_var_sec',1,'']]],
+  ['running_20cmake_22',['Running Cmake',['../build_system.html#build_system_running',1,'']]],
+  ['running_20tests_23',['Running Tests',['../testing.html#testing_cmake_running',1,'']]]
+];

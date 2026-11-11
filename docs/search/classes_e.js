@@ -24,7 +24,7 @@ var searchData=
   ['signal_5fpointer_21',['signal_pointer',['../structsignal_1_1signal__pointer.html',1,'signal']]],
   ['signals_22',['signals',['../structv3post__rfun_1_1signals.html',1,'v3post_rfun']]],
   ['sine_23',['sine',['../classsine.html',1,'']]],
-  ['solutionelement_24',['solutionelement',['../structblocktridiagonalsolver__bst_1_1solutionelement.html',1,'blocktridiagonalsolver_bst::solutionelement'],['../structblocktridiagonalsolver_1_1solutionelement.html',1,'blocktridiagonalsolver::solutionelement']]],
+  ['solutionelement_24',['solutionelement',['../structblocktridiagonalsolver_1_1solutionelement.html',1,'blocktridiagonalsolver::solutionelement'],['../structblocktridiagonalsolver__bst_1_1solutionelement.html',1,'blocktridiagonalsolver_bst::solutionelement']]],
   ['speval_25',['speval',['../interfacepspline__calls_1_1speval.html',1,'pspline_calls']]],
   ['spgrid_26',['spgrid',['../interfacepspline__calls_1_1spgrid.html',1,'pspline_calls']]],
   ['splaan_27',['splaan',['../interfacepspline__calls_1_1splaan.html',1,'pspline_calls']]],

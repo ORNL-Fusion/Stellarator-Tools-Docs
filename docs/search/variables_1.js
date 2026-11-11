@@ -25,7 +25,7 @@ var searchData=
   ['bs0_22',['bs0',['../namespaceshared__data.html#a32b30a1868d788df49ddf6ceb676fad8',1,'shared_data']]],
   ['bsbu_5fratio_5fa_23',['bsbu_ratio_a',['../namespaceshared__data.html#a48b33ca731e8daf55ba6805e1fe9bf1d',1,'shared_data']]],
   ['bsbu_5fratio_5fs_24',['bsbu_ratio_s',['../namespaceshared__data.html#a5313ff897194d604ad7cac62ac45a9d9',1,'shared_data']]],
-  ['bsubs_25',['bsubs',['../classvmec__quantities.html#a49f4c225ed57b741b2770272d4b03593',1,'vmec_quantities::bsubs'],['../classsiesta__quantities.html#abab0a02a7435a0b074787dee97c08806',1,'siesta_quantities::bsubs']]],
+  ['bsubs_25',['bsubs',['../classsiesta__quantities.html#abab0a02a7435a0b074787dee97c08806',1,'siesta_quantities::bsubs'],['../classvmec__quantities.html#a49f4c225ed57b741b2770272d4b03593',1,'vmec_quantities::bsubs']]],
   ['bsubsmnch_26',['bsubsmnch',['../structsiesta__context_1_1siesta__context__class.html#a95488ca8cd9626acb9cebe23a296a4a5',1,'siesta_context::siesta_context_class']]],
   ['bsubsmnsh_27',['bsubsmnsh',['../structsiesta__context_1_1siesta__context__class.html#ac8bd9355afda55a7e2e6b8ae75ede821',1,'siesta_context::siesta_context_class']]],
   ['bsubu_28',['bsubu',['../classsiesta__quantities.html#a776d9546f9f8e164506ba47bf41a9f7a',1,'siesta_quantities::bsubu'],['../classvmec__quantities.html#af9dc78eca368368eb5b4971669e2eb2a',1,'vmec_quantities::bsubu']]],

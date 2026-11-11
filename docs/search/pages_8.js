@@ -1,8 +1,25 @@
 var searchData=
 [
-  ['lgrid_0',['LGRID',['../md_LGRID_2README.html',1,'']]],
-  ['libstell_1',['LIBSTELL',['../md_LIBSTELL_2README.html',1,'']]],
-  ['limiter_20gird_20file_2',['Limiter Gird File',['../lgrid_sec.html',1,'']]],
-  ['line_20arguments_3',['line arguments',['../bmw_cl_parsing_sec.html',1,'Command Line Arguments'],['../netcdf_diff_cl_parsing_sec.html',1,'Command Line Arguments'],['../wout_diff_cl_parsing_sec.html',1,'Command Line Arguments'],['../siesta_test_cl_parsing_sec.html',1,'Command Line Arguments'],['../surface_cl_parsing_sec.html',1,'Command Line Arguments'],['../cl_parsing_sec.html',1,'Command Line Arguments'],['../v3rfun_cl_parsing_sec.html',1,'Command Line Arguments']]],
-  ['list_4',['list',['../deprecated.html',1,'Deprecated List'],['../todo.html',1,'Todo List']]]
+  ['early_20termination_20control_20parameters_0',['Early termination control parameters.',['../vmec_namelist_sec.html#vmec_giveup_control_param_sec',1,'']]],
+  ['ece_20diagnostic_20dot_20file_1',['ECE Diagnostic Dot File',['../ece_dot_sec.html',1,'']]],
+  ['edge_20boundary_20parameters_2',['Edge Boundary parameters.',['../vmec_namelist_sec.html#vmec_edge_parameters_sec',1,'']]],
+  ['effect_20diagnostic_20dot_20file_3',['Motional Stark Effect Diagnostic Dot File',['../mse_dot_sec.html',1,'']]],
+  ['emission_20file_20manual_4',['Soft X-Ray Emission File Manual',['../emission_file_sec.html',1,'']]],
+  ['emissivity_5',['Model Soft X-ray Emissivity',['../model_sec.html#model_sxrem_sec',1,'']]],
+  ['emissivity_20ratio_20dot_20file_6',['Soft X-ray Emissivity Ratio Dot File',['../sxrem_ratio_dot_sec.html',1,'']]],
+  ['equilibrium_7',['Equilibrium',['../architecture.html#architecture_class_objects_equilibrium',1,'']]],
+  ['equilibrium_20dimensions_8',['Equilibrium Dimensions',['../result_file_main.html#result_file_main_eq_dim_sec',1,'']]],
+  ['equilibrium_20filename_20variables_9',['Equilibrium Filename variables',['../namelist_sec.html#eq_filename_sec',1,'']]],
+  ['equilibrium_20manual_10',['Equilibrium Manual',['../siesta_equilibrium_sec.html',1,'SIESTA Equilibrium Manual'],['../vacuum_equilibrium_sec.html',1,'Vacuum Equilibrium Manual'],['../vmec_equilibrium_sec.html',1,'VMEC Equilibrium Manual']]],
+  ['equilibrium_20manuals_11',['Equilibrium manuals',['../index.html#user_equilibirum',1,'Equilibrium manuals.'],['../index.html#user_siesta_equilibirum',1,'SIESTA Equilibrium manuals.'],['../index.html#user_vacuum_equilibirum',1,'Vacuum Equilibrium manuals.'],['../index.html#user_vmec_equilibirum',1,'VMEC Equilibrium manuals.']]],
+  ['equilibrium_20reconstruction_20parameters_12',['Equilibrium Reconstruction Parameters',['../siesta_equilibrium_sec.html#siesta_equilibrium_vmec_recon_param_sec',1,'SIESTA Equilibrium Reconstruction Parameters'],['../vmec_equilibrium_sec.html#vmec_equilibrium_vmec_recon_param_sec',1,'VMEC Equilibrium Reconstruction Parameters']]],
+  ['equilibrium_20variables_13',['Equilibrium Variables',['../result_file_main.html#result_file_main_eq_var_sec',1,'']]],
+  ['equilibrium_20variables_14',['Equilibrium variables',['../vacuum_namelist_sec.html#vacuum_eq_var_sec',1,'']]],
+  ['example_15',['Example',['../namelist_sec.html#namelist_exam_reconstruction_sec',1,'Reconstruction Example'],['../namelist_sec.html#namelist_exam_v3post_sec',1,'V3POST Example']]],
+  ['example_20file_16',['Example File',['../lgrid_sec.html#lgrid_input_exam_sec',1,'Example File'],['../ece_dot_sec.html#ece_dot_exam_sec',1,'Example File'],['../intpol_dot_sec.html#intpol_dot_exam_sec',1,'Example File'],['../mse_dot_sec.html#mse_dot_exam_sec',1,'Example File'],['../sxrem_dot_sec.html#sxrem_dot_exam_sec',1,'Example File'],['../sxrem_ratio_dot_sec.html#sxrem_ratio_dot_exam_sec',1,'Example File'],['../thomson_dot_sec.html#thomson_dot_exam_sec',1,'Example File'],['../v3rfun_namelist_sec.html#v3r_coils',1,'Example File'],['../vmec_namelist_sec.html#vmec_namelist_example_sec',1,'Example File.'],['../sxrem_dot_sec.html#sxrem_dot_exam_two_color_sec',1,'Two Color Example File']]],
+  ['example_20files_17',['Example Files',['../siesta_namelist_sec.html#siesta_namelist_exam_sec',1,'Example Files'],['../namelist_sec.html#namelist_exam_sec',1,'Example Files'],['../vacuum_namelist_sec.html#vacuum_namelist_exam_sec',1,'Example Files']]],
+  ['extcurz_20diagnostic_20signal_18',['These two are used by the extcurz diagnostic signal.',['../namelist_sec.html#extcurz_sec',1,'']]],
+  ['external_20coils_19',['Shifts and rotations of external coils.',['../vacuum_namelist_sec.html#vacuum_sr_var_sec',1,'']]],
+  ['external_20current_20parameters_20',['External current parameters.',['../vmec_namelist_sec.html#vmec_extcur_param_sec',1,'']]],
+  ['external_20pages_21',['External Pages',['../doxygen.html#doxygen_external_pages',1,'']]]
 ];

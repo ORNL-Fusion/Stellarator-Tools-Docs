@@ -7,26 +7,26 @@ var annotated_dup =
       [ "bivariate_class", "structbivariate_1_1bivariate__class.html", "structbivariate_1_1bivariate__class" ]
     ] ],
     [ "blocktridiagonalsolver", "namespaceblocktridiagonalsolver.html", [
-      [ "blacsparameters", "structblocktridiagonalsolver_1_1blacsparameters.html", "structblocktridiagonalsolver_1_1blacsparameters" ],
-      [ "blacsprocessgrid", "structblocktridiagonalsolver_1_1blacsprocessgrid.html", "structblocktridiagonalsolver_1_1blacsprocessgrid" ],
       [ "levelelement", "structblocktridiagonalsolver_1_1levelelement.html", null ],
+      [ "solutionelement", "structblocktridiagonalsolver_1_1solutionelement.html", null ],
+      [ "blacsprocessgrid", "structblocktridiagonalsolver_1_1blacsprocessgrid.html", "structblocktridiagonalsolver_1_1blacsprocessgrid" ],
+      [ "blacsparameters", "structblocktridiagonalsolver_1_1blacsparameters.html", "structblocktridiagonalsolver_1_1blacsparameters" ],
       [ "mastertoslavemapping", "structblocktridiagonalsolver_1_1mastertoslavemapping.html", null ],
       [ "pblaslevelparameters", "structblocktridiagonalsolver_1_1pblaslevelparameters.html", null ],
+      [ "timecount", "structblocktridiagonalsolver_1_1timecount.html", "structblocktridiagonalsolver_1_1timecount" ],
       [ "pblasstats", "structblocktridiagonalsolver_1_1pblasstats.html", null ],
-      [ "pblastemparray", "structblocktridiagonalsolver_1_1pblastemparray.html", null ],
-      [ "solutionelement", "structblocktridiagonalsolver_1_1solutionelement.html", null ],
-      [ "timecount", "structblocktridiagonalsolver_1_1timecount.html", "structblocktridiagonalsolver_1_1timecount" ]
+      [ "pblastemparray", "structblocktridiagonalsolver_1_1pblastemparray.html", null ]
     ] ],
     [ "blocktridiagonalsolver_bst", null, [
-      [ "blacsparameters", "structblocktridiagonalsolver__bst_1_1blacsparameters.html", "structblocktridiagonalsolver__bst_1_1blacsparameters" ],
-      [ "blacsprocessgrid", "structblocktridiagonalsolver__bst_1_1blacsprocessgrid.html", "structblocktridiagonalsolver__bst_1_1blacsprocessgrid" ],
       [ "levelelement", "structblocktridiagonalsolver__bst_1_1levelelement.html", null ],
+      [ "solutionelement", "structblocktridiagonalsolver__bst_1_1solutionelement.html", null ],
+      [ "blacsprocessgrid", "structblocktridiagonalsolver__bst_1_1blacsprocessgrid.html", "structblocktridiagonalsolver__bst_1_1blacsprocessgrid" ],
+      [ "blacsparameters", "structblocktridiagonalsolver__bst_1_1blacsparameters.html", "structblocktridiagonalsolver__bst_1_1blacsparameters" ],
       [ "mastertoslavemapping", "structblocktridiagonalsolver__bst_1_1mastertoslavemapping.html", null ],
       [ "pblaslevelparameters", "structblocktridiagonalsolver__bst_1_1pblaslevelparameters.html", null ],
+      [ "timecount", "structblocktridiagonalsolver__bst_1_1timecount.html", "structblocktridiagonalsolver__bst_1_1timecount" ],
       [ "pblasstats", "structblocktridiagonalsolver__bst_1_1pblasstats.html", null ],
-      [ "pblastemparray", "structblocktridiagonalsolver__bst_1_1pblastemparray.html", null ],
-      [ "solutionelement", "structblocktridiagonalsolver__bst_1_1solutionelement.html", null ],
-      [ "timecount", "structblocktridiagonalsolver__bst_1_1timecount.html", "structblocktridiagonalsolver__bst_1_1timecount" ]
+      [ "pblastemparray", "structblocktridiagonalsolver__bst_1_1pblastemparray.html", null ]
     ] ],
     [ "bmw_commandline_parser", "namespacebmw__commandline__parser.html", [
       [ "bmw_commandline_parser_class", "structbmw__commandline__parser_1_1bmw__commandline__parser__class.html", "structbmw__commandline__parser_1_1bmw__commandline__parser__class" ]
@@ -41,16 +41,16 @@ var annotated_dup =
       [ "boundary_desc", "structboundary__t_1_1boundary__desc.html", null ]
     ] ],
     [ "bsc_t", null, [
-      [ "assignment(=)", "interfacebsc__t_1_1assignment_07_0a_08.html", null ],
-      [ "bsc_a", "interfacebsc__t_1_1bsc__a.html", null ],
-      [ "bsc_b", "interfacebsc__t_1_1bsc__b.html", null ],
       [ "bsc_coil", "structbsc__t_1_1bsc__coil.html", null ],
       [ "bsc_coilcoll", "structbsc__t_1_1bsc__coilcoll.html", null ],
+      [ "bsc_rs", "structbsc__t_1_1bsc__rs.html", null ],
+      [ "assignment(=)", "interfacebsc__t_1_1assignment_07_0a_08.html", null ],
       [ "bsc_construct", "interfacebsc__t_1_1bsc__construct.html", null ],
       [ "bsc_destroy", "interfacebsc__t_1_1bsc__destroy.html", null ],
-      [ "bsc_fluxba", "interfacebsc__t_1_1bsc__fluxba.html", null ],
       [ "bsc_rot_shift", "interfacebsc__t_1_1bsc__rot__shift.html", null ],
-      [ "bsc_rs", "structbsc__t_1_1bsc__rs.html", null ]
+      [ "bsc_a", "interfacebsc__t_1_1bsc__a.html", null ],
+      [ "bsc_b", "interfacebsc__t_1_1bsc__b.html", null ],
+      [ "bsc_fluxba", "interfacebsc__t_1_1bsc__fluxba.html", null ]
     ] ],
     [ "combination", "namespacecombination.html", [
       [ "combination_class", "structcombination_1_1combination__class.html", "structcombination_1_1combination__class" ]
@@ -60,24 +60,24 @@ var annotated_dup =
     ] ],
     [ "compression", "namespacecompression.html", [
       [ "compression_class", "structcompression_1_1compression__class.html", "structcompression_1_1compression__class" ],
-      [ "compression_construct", "interfacecompression_1_1compression__construct.html", "interfacecompression_1_1compression__construct" ],
-      [ "compression_pointer", "structcompression_1_1compression__pointer.html", "structcompression_1_1compression__pointer" ]
+      [ "compression_pointer", "structcompression_1_1compression__pointer.html", "structcompression_1_1compression__pointer" ],
+      [ "compression_construct", "interfacecompression_1_1compression__construct.html", "interfacecompression_1_1compression__construct" ]
     ] ],
     [ "cyl_flux", null, [
       [ "cyl_flux_context", "structcyl__flux_1_1cyl__flux__context.html", "structcyl__flux_1_1cyl__flux__context" ]
     ] ],
     [ "diagnostic_cdf", null, [
       [ "diagnostic_cdf_define", "interfacediagnostic__cdf_1_1diagnostic__cdf__define.html", null ],
-      [ "diagnostic_cdf_read", "interfacediagnostic__cdf_1_1diagnostic__cdf__read.html", null ],
-      [ "diagnostic_cdf_write", "interfacediagnostic__cdf_1_1diagnostic__cdf__write.html", null ]
+      [ "diagnostic_cdf_write", "interfacediagnostic__cdf_1_1diagnostic__cdf__write.html", null ],
+      [ "diagnostic_cdf_read", "interfacediagnostic__cdf_1_1diagnostic__cdf__read.html", null ]
     ] ],
     [ "diagnostic_dot", "namespacediagnostic__dot.html", [
       [ "diagnostic_dot_coil", "structdiagnostic__dot_1_1diagnostic__dot__coil.html", "structdiagnostic__dot_1_1diagnostic__dot__coil" ]
     ] ],
     [ "diagnostic_t", null, [
+      [ "diagnostic_desc", "structdiagnostic__t_1_1diagnostic__desc.html", null ],
       [ "assignment(=)", "interfacediagnostic__t_1_1assignment_07_0a_08.html", null ],
       [ "diagnostic_construct", "interfacediagnostic__t_1_1diagnostic__construct.html", null ],
-      [ "diagnostic_desc", "structdiagnostic__t_1_1diagnostic__desc.html", null ],
       [ "diagnostic_destroy", "interfacediagnostic__t_1_1diagnostic__destroy.html", null ],
       [ "diagnostic_write", "interfacediagnostic__t_1_1diagnostic__write.html", null ]
     ] ],
@@ -100,54 +100,54 @@ var annotated_dup =
       [ "extcurz_desc", "structextcurz__t_1_1extcurz__desc.html", null ]
     ] ],
     [ "ezcdf_attrib", null, [
-      [ "cdf_getatt", "interfaceezcdf__attrib_1_1cdf__getatt.html", null ],
-      [ "cdf_setatt", "interfaceezcdf__attrib_1_1cdf__setatt.html", null ]
+      [ "cdf_setatt", "interfaceezcdf__attrib_1_1cdf__setatt.html", null ],
+      [ "cdf_getatt", "interfaceezcdf__attrib_1_1cdf__getatt.html", null ]
     ] ],
     [ "ezcdf_genget", null, [
       [ "cdf_read", "interfaceezcdf__genget_1_1cdf__read.html", null ],
       [ "cdfgetvar", "interfaceezcdf__genget_1_1cdfgetvar.html", null ]
     ] ],
     [ "ezcdf_genput", null, [
-      [ "cdf_define", "interfaceezcdf__genput_1_1cdf__define.html", null ],
       [ "cdf_write", "interfaceezcdf__genput_1_1cdf__write.html", null ],
-      [ "cdfputvar", "interfaceezcdf__genput_1_1cdfputvar.html", null ]
+      [ "cdfputvar", "interfaceezcdf__genput_1_1cdfputvar.html", null ],
+      [ "cdf_define", "interfaceezcdf__genput_1_1cdf__define.html", null ]
     ] ],
     [ "ezcdf_inqvar", null, [
       [ "cdfinqvardim", "interfaceezcdf__inqvar_1_1cdfinqvardim.html", null ]
     ] ],
     [ "ezcdf_opncls", null, [
-      [ "cdf_close", "interfaceezcdf__opncls_1_1cdf__close.html", null ],
+      [ "cdfopn", "interfaceezcdf__opncls_1_1cdfopn.html", null ],
       [ "cdf_open", "interfaceezcdf__opncls_1_1cdf__open.html", null ],
       [ "cdfcls", "interfaceezcdf__opncls_1_1cdfcls.html", null ],
-      [ "cdfopn", "interfaceezcdf__opncls_1_1cdfopn.html", null ]
+      [ "cdf_close", "interfaceezcdf__opncls_1_1cdf__close.html", null ]
     ] ],
     [ "ezspline", null, [
-      [ "ezhybrid_init", "interfaceezspline_1_1ezhybrid__init.html", null ],
-      [ "ezlinear_init", "interfaceezspline_1_1ezlinear__init.html", null ],
-      [ "ezspline_2netcdf", "interfaceezspline_1_1ezspline__2netcdf.html", null ],
-      [ "ezspline_derivative", "interfaceezspline_1_1ezspline__derivative.html", null ],
-      [ "ezspline_free", "interfaceezspline_1_1ezspline__free.html", null ],
-      [ "ezspline_gradient", "interfaceezspline_1_1ezspline__gradient.html", null ],
       [ "ezspline_init", "interfaceezspline_1_1ezspline__init.html", null ],
+      [ "ezlinear_init", "interfaceezspline_1_1ezlinear__init.html", null ],
+      [ "ezhybrid_init", "interfaceezspline_1_1ezhybrid__init.html", null ],
+      [ "ezspline_free", "interfaceezspline_1_1ezspline__free.html", null ],
+      [ "ezspline_setup", "interfaceezspline_1_1ezspline__setup.html", null ],
       [ "ezspline_interp", "interfaceezspline_1_1ezspline__interp.html", null ],
-      [ "ezspline_isgridregular", "interfaceezspline_1_1ezspline__isgridregular.html", null ],
+      [ "ezspline_derivative", "interfaceezspline_1_1ezspline__derivative.html", null ],
+      [ "ezspline_gradient", "interfaceezspline_1_1ezspline__gradient.html", null ],
       [ "ezspline_isindomain", "interfaceezspline_1_1ezspline__isindomain.html", null ],
+      [ "ezspline_isgridregular", "interfaceezspline_1_1ezspline__isgridregular.html", null ],
+      [ "ezspline_save", "interfaceezspline_1_1ezspline__save.html", null ],
       [ "ezspline_load", "interfaceezspline_1_1ezspline__load.html", null ],
       [ "ezspline_modulo", "interfaceezspline_1_1ezspline__modulo.html", null ],
-      [ "ezspline_save", "interfaceezspline_1_1ezspline__save.html", null ],
-      [ "ezspline_setup", "interfaceezspline_1_1ezspline__setup.html", null ]
+      [ "ezspline_2netcdf", "interfaceezspline_1_1ezspline__2netcdf.html", null ]
     ] ],
     [ "ezspline_obj", null, [
-      [ "ezspline_allocated", "interfaceezspline__obj_1_1ezspline__allocated.html", null ],
-      [ "ezspline_preinit", "interfaceezspline__obj_1_1ezspline__preinit.html", null ]
+      [ "ezspline_preinit", "interfaceezspline__obj_1_1ezspline__preinit.html", null ],
+      [ "ezspline_allocated", "interfaceezspline__obj_1_1ezspline__allocated.html", null ]
     ] ],
     [ "ezspline_type", null, [
-      [ "ezspline1_r4", "structezspline__type_1_1ezspline1__r4.html", null ],
-      [ "ezspline1_r8", "structezspline__type_1_1ezspline1__r8.html", null ],
-      [ "ezspline2_r4", "structezspline__type_1_1ezspline2__r4.html", null ],
+      [ "ezspline3_r8", "structezspline__type_1_1ezspline3__r8.html", null ],
       [ "ezspline2_r8", "structezspline__type_1_1ezspline2__r8.html", null ],
+      [ "ezspline1_r8", "structezspline__type_1_1ezspline1__r8.html", null ],
       [ "ezspline3_r4", "structezspline__type_1_1ezspline3__r4.html", null ],
-      [ "ezspline3_r8", "structezspline__type_1_1ezspline3__r8.html", null ]
+      [ "ezspline2_r4", "structezspline__type_1_1ezspline2__r4.html", null ],
+      [ "ezspline1_r4", "structezspline__type_1_1ezspline1__r4.html", null ]
     ] ],
     [ "fftpack", null, [
       [ "cftfax", "interfacefftpack_1_1cftfax.html", null ],
@@ -177,29 +177,29 @@ var annotated_dup =
       [ "integration_path_class", "structintegration__path_1_1integration__path__class.html", "structintegration__path_1_1integration__path__class" ],
       [ "integration_path_gleg_class", "structintegration__path_1_1integration__path__gleg__class.html", "structintegration__path_1_1integration__path__gleg__class" ],
       [ "integration_path_hp_glep_class", "structintegration__path_1_1integration__path__hp__glep__class.html", "structintegration__path_1_1integration__path__hp__glep__class" ],
-      [ "path_construct", "interfaceintegration__path_1_1path__construct.html", "interfaceintegration__path_1_1path__construct" ],
-      [ "path_destruct", "interfaceintegration__path_1_1path__destruct.html", "interfaceintegration__path_1_1path__destruct" ],
+      [ "vertex", "structintegration__path_1_1vertex.html", "structintegration__path_1_1vertex" ],
       [ "test_context", "structintegration__path_1_1test__context.html", "structintegration__path_1_1test__context" ],
       [ "test_search_context", "structintegration__path_1_1test__search__context.html", "structintegration__path_1_1test__search__context" ],
-      [ "vertex", "structintegration__path_1_1vertex.html", "structintegration__path_1_1vertex" ]
+      [ "path_construct", "interfaceintegration__path_1_1path__construct.html", "interfaceintegration__path_1_1path__construct" ],
+      [ "path_destruct", "interfaceintegration__path_1_1path__destruct.html", "interfaceintegration__path_1_1path__destruct" ]
     ] ],
     [ "integration_path_context", "namespaceintegration__path__context.html", [
-      [ "integration_function", "interfaceintegration__path__context_1_1integration__function.html", null ],
       [ "integration_path_context_class", "structintegration__path__context_1_1integration__path__context__class.html", null ],
-      [ "search_function", "interfaceintegration__path__context_1_1search__function.html", null ],
-      [ "search_path_context_class", "structintegration__path__context_1_1search__path__context__class.html", null ]
+      [ "search_path_context_class", "structintegration__path__context_1_1search__path__context__class.html", null ],
+      [ "integration_function", "interfaceintegration__path__context_1_1integration__function.html", null ],
+      [ "search_function", "interfaceintegration__path__context_1_1search__function.html", null ]
     ] ],
     [ "intpol", "namespaceintpol.html", [
       [ "intpol_class", "structintpol_1_1intpol__class.html", "structintpol_1_1intpol__class" ],
-      [ "intpol_gp_int_context_i", "structintpol_1_1intpol__gp__int__context__i.html", "structintpol_1_1intpol__gp__int__context__i" ],
-      [ "intpol_gp_int_context_s", "structintpol_1_1intpol__gp__int__context__s.html", "structintpol_1_1intpol__gp__int__context__s" ],
-      [ "intpol_gp_int_context_x", "structintpol_1_1intpol__gp__int__context__x.html", "structintpol_1_1intpol__gp__int__context__x" ],
-      [ "intpol_gp_pol_context_i", "structintpol_1_1intpol__gp__pol__context__i.html", "structintpol_1_1intpol__gp__pol__context__i" ],
-      [ "intpol_gp_pol_context_s", "structintpol_1_1intpol__gp__pol__context__s.html", "structintpol_1_1intpol__gp__pol__context__s" ],
-      [ "intpol_gp_pol_context_x", "structintpol_1_1intpol__gp__pol__context__x.html", "structintpol_1_1intpol__gp__pol__context__x" ],
-      [ "intpol_int_context", "structintpol_1_1intpol__int__context.html", "structintpol_1_1intpol__int__context" ],
       [ "intpol_pol_class", "structintpol_1_1intpol__pol__class.html", "structintpol_1_1intpol__pol__class" ],
-      [ "intpol_pol_context", "structintpol_1_1intpol__pol__context.html", "structintpol_1_1intpol__pol__context" ]
+      [ "intpol_int_context", "structintpol_1_1intpol__int__context.html", "structintpol_1_1intpol__int__context" ],
+      [ "intpol_pol_context", "structintpol_1_1intpol__pol__context.html", "structintpol_1_1intpol__pol__context" ],
+      [ "intpol_gp_int_context_i", "structintpol_1_1intpol__gp__int__context__i.html", "structintpol_1_1intpol__gp__int__context__i" ],
+      [ "intpol_gp_pol_context_i", "structintpol_1_1intpol__gp__pol__context__i.html", "structintpol_1_1intpol__gp__pol__context__i" ],
+      [ "intpol_gp_int_context_s", "structintpol_1_1intpol__gp__int__context__s.html", "structintpol_1_1intpol__gp__int__context__s" ],
+      [ "intpol_gp_pol_context_s", "structintpol_1_1intpol__gp__pol__context__s.html", "structintpol_1_1intpol__gp__pol__context__s" ],
+      [ "intpol_gp_int_context_x", "structintpol_1_1intpol__gp__int__context__x.html", "structintpol_1_1intpol__gp__int__context__x" ],
+      [ "intpol_gp_pol_context_x", "structintpol_1_1intpol__gp__pol__context__x.html", "structintpol_1_1intpol__gp__pol__context__x" ]
     ] ],
     [ "ipch_t", null, [
       [ "ipch_desc", "structipch__t_1_1ipch__desc.html", null ]
@@ -231,15 +231,15 @@ var annotated_dup =
     ] ],
     [ "mddc_cdf", null, [
       [ "mddc_cdf_define", "interfacemddc__cdf_1_1mddc__cdf__define.html", null ],
-      [ "mddc_cdf_read", "interfacemddc__cdf_1_1mddc__cdf__read.html", null ],
-      [ "mddc_cdf_write", "interfacemddc__cdf_1_1mddc__cdf__write.html", null ]
+      [ "mddc_cdf_write", "interfacemddc__cdf_1_1mddc__cdf__write.html", null ],
+      [ "mddc_cdf_read", "interfacemddc__cdf_1_1mddc__cdf__read.html", null ]
     ] ],
     [ "mddc_t", null, [
+      [ "mddc_mrf", "structmddc__t_1_1mddc__mrf.html", null ],
+      [ "mddc_desc", "structmddc__t_1_1mddc__desc.html", null ],
       [ "assignment(=)", "interfacemddc__t_1_1assignment_07_0a_08.html", null ],
       [ "mddc_construct", "interfacemddc__t_1_1mddc__construct.html", null ],
-      [ "mddc_desc", "structmddc__t_1_1mddc__desc.html", null ],
       [ "mddc_destroy", "interfacemddc__t_1_1mddc__destroy.html", null ],
-      [ "mddc_mrf", "structmddc__t_1_1mddc__mrf.html", null ],
       [ "mddc_write", "interfacemddc__t_1_1mddc__write.html", null ]
     ] ],
     [ "model", "namespacemodel.html", [
@@ -249,23 +249,23 @@ var annotated_dup =
       [ "mse_class", "structmse_1_1mse__class.html", "structmse_1_1mse__class" ]
     ] ],
     [ "netcdf_inc", "namespacenetcdf__inc.html", [
-      [ "nf_close", "interfacenetcdf__inc_1_1nf__close.html", null ],
-      [ "nf_create", "interfacenetcdf__inc_1_1nf__create.html", null ],
-      [ "nf_def_dim", "interfacenetcdf__inc_1_1nf__def__dim.html", null ],
-      [ "nf_enddef", "interfacenetcdf__inc_1_1nf__enddef.html", null ],
-      [ "nf_get_var_double", "interfacenetcdf__inc_1_1nf__get__var__double.html", "interfacenetcdf__inc_1_1nf__get__var__double" ],
-      [ "nf_get_var_int", "interfacenetcdf__inc_1_1nf__get__var__int.html", "interfacenetcdf__inc_1_1nf__get__var__int" ],
-      [ "nf_get_var_real", "interfacenetcdf__inc_1_1nf__get__var__real.html", "interfacenetcdf__inc_1_1nf__get__var__real" ],
-      [ "nf_inq_dimid", "interfacenetcdf__inc_1_1nf__inq__dimid.html", null ],
-      [ "nf_inq_varid", "interfacenetcdf__inc_1_1nf__inq__varid.html", null ],
       [ "nf_open", "interfacenetcdf__inc_1_1nf__open.html", null ],
-      [ "nf_put_var_double", "interfacenetcdf__inc_1_1nf__put__var__double.html", "interfacenetcdf__inc_1_1nf__put__var__double" ],
-      [ "nf_put_var_int", "interfacenetcdf__inc_1_1nf__put__var__int.html", "interfacenetcdf__inc_1_1nf__put__var__int" ],
-      [ "nf_put_var_real", "interfacenetcdf__inc_1_1nf__put__var__real.html", "interfacenetcdf__inc_1_1nf__put__var__real" ],
-      [ "nf_put_vara_double", "interfacenetcdf__inc_1_1nf__put__vara__double.html", "interfacenetcdf__inc_1_1nf__put__vara__double" ],
-      [ "nf_put_vara_int", "interfacenetcdf__inc_1_1nf__put__vara__int.html", "interfacenetcdf__inc_1_1nf__put__vara__int" ],
-      [ "nf_put_vara_real", "interfacenetcdf__inc_1_1nf__put__vara__real.html", "interfacenetcdf__inc_1_1nf__put__vara__real" ],
+      [ "nf_create", "interfacenetcdf__inc_1_1nf__create.html", null ],
+      [ "nf_close", "interfacenetcdf__inc_1_1nf__close.html", null ],
+      [ "nf_enddef", "interfacenetcdf__inc_1_1nf__enddef.html", null ],
       [ "nf_strerror", "interfacenetcdf__inc_1_1nf__strerror.html", null ],
+      [ "nf_inq_dimid", "interfacenetcdf__inc_1_1nf__inq__dimid.html", null ],
+      [ "nf_def_dim", "interfacenetcdf__inc_1_1nf__def__dim.html", null ],
+      [ "nf_inq_varid", "interfacenetcdf__inc_1_1nf__inq__varid.html", null ],
+      [ "nf_get_var_int", "interfacenetcdf__inc_1_1nf__get__var__int.html", "interfacenetcdf__inc_1_1nf__get__var__int" ],
+      [ "nf_put_var_int", "interfacenetcdf__inc_1_1nf__put__var__int.html", "interfacenetcdf__inc_1_1nf__put__var__int" ],
+      [ "nf_put_vara_int", "interfacenetcdf__inc_1_1nf__put__vara__int.html", "interfacenetcdf__inc_1_1nf__put__vara__int" ],
+      [ "nf_get_var_real", "interfacenetcdf__inc_1_1nf__get__var__real.html", "interfacenetcdf__inc_1_1nf__get__var__real" ],
+      [ "nf_put_vara_real", "interfacenetcdf__inc_1_1nf__put__vara__real.html", "interfacenetcdf__inc_1_1nf__put__vara__real" ],
+      [ "nf_put_var_real", "interfacenetcdf__inc_1_1nf__put__var__real.html", "interfacenetcdf__inc_1_1nf__put__var__real" ],
+      [ "nf_get_var_double", "interfacenetcdf__inc_1_1nf__get__var__double.html", "interfacenetcdf__inc_1_1nf__get__var__double" ],
+      [ "nf_put_vara_double", "interfacenetcdf__inc_1_1nf__put__vara__double.html", "interfacenetcdf__inc_1_1nf__put__vara__double" ],
+      [ "nf_put_var_double", "interfacenetcdf__inc_1_1nf__put__var__double.html", "interfacenetcdf__inc_1_1nf__put__var__double" ],
       [ "nf_sync", "interfacenetcdf__inc_1_1nf__sync.html", null ]
     ] ],
     [ "netcdf_test", null, [
@@ -288,43 +288,43 @@ var annotated_dup =
       [ "profiler_bucket", "structprofiler_1_1profiler__bucket.html", "structprofiler_1_1profiler__bucket" ]
     ] ],
     [ "pspline_calls", null, [
-      [ "akherm0", "interfacepspline__calls_1_1akherm0.html", null ],
       [ "akherm1", "interfacepspline__calls_1_1akherm1.html", null ],
       [ "akherm1p", "interfacepspline__calls_1_1akherm1p.html", null ],
+      [ "akherm0", "interfacepspline__calls_1_1akherm0.html", null ],
       [ "akherm2", "interfacepspline__calls_1_1akherm2.html", null ],
       [ "akherm2p", "interfacepspline__calls_1_1akherm2p.html", null ],
       [ "akherm3", "interfacepspline__calls_1_1akherm3.html", null ],
       [ "akherm3p", "interfacepspline__calls_1_1akherm3p.html", null ],
       [ "bcspeval", "interfacepspline__calls_1_1bcspeval.html", null ],
-      [ "bcspevfn", "interfacepspline__calls_1_1bcspevfn.html", null ],
       [ "bcspevxy", "interfacepspline__calls_1_1bcspevxy.html", null ],
+      [ "bcspevfn", "interfacepspline__calls_1_1bcspevfn.html", null ],
       [ "bcspgrid", "interfacepspline__calls_1_1bcspgrid.html", null ],
       [ "bcspline", "interfacepspline__calls_1_1bcspline.html", null ],
       [ "bcspvec", "interfacepspline__calls_1_1bcspvec.html", null ],
       [ "bpsplinb", "interfacepspline__calls_1_1bpsplinb.html", null ],
       [ "bpspline", "interfacepspline__calls_1_1bpspline.html", null ],
       [ "cspeval", "interfacepspline__calls_1_1cspeval.html", null ],
-      [ "cspevfn", "interfacepspline__calls_1_1cspevfn.html", null ],
       [ "cspevx", "interfacepspline__calls_1_1cspevx.html", null ],
+      [ "cspevfn", "interfacepspline__calls_1_1cspevfn.html", null ],
       [ "cspline", "interfacepspline__calls_1_1cspline.html", null ],
       [ "cubsplb", "interfacepspline__calls_1_1cubsplb.html", null ],
       [ "dnherm1", "interfacepspline__calls_1_1dnherm1.html", null ],
       [ "dnherm2", "interfacepspline__calls_1_1dnherm2.html", null ],
       [ "dnherm3", "interfacepspline__calls_1_1dnherm3.html", null ],
       [ "evbicub", "interfacepspline__calls_1_1evbicub.html", null ],
-      [ "evintrp2d", "interfacepspline__calls_1_1evintrp2d.html", null ],
-      [ "evintrp3d", "interfacepspline__calls_1_1evintrp3d.html", null ],
-      [ "evspline", "interfacepspline__calls_1_1evspline.html", null ],
-      [ "evtricub", "interfacepspline__calls_1_1evtricub.html", null ],
-      [ "f2test", "interfacepspline__calls_1_1f2test.html", null ],
-      [ "f3test", "interfacepspline__calls_1_1f3test.html", null ],
       [ "fvbicub", "interfacepspline__calls_1_1fvbicub.html", null ],
       [ "fvbicubx", "interfacepspline__calls_1_1fvbicubx.html", null ],
+      [ "evintrp2d", "interfacepspline__calls_1_1evintrp2d.html", null ],
       [ "fvintrp2d", "interfacepspline__calls_1_1fvintrp2d.html", null ],
+      [ "evintrp3d", "interfacepspline__calls_1_1evintrp3d.html", null ],
       [ "fvintrp3d", "interfacepspline__calls_1_1fvintrp3d.html", null ],
+      [ "evspline", "interfacepspline__calls_1_1evspline.html", null ],
       [ "fvspline", "interfacepspline__calls_1_1fvspline.html", null ],
+      [ "evtricub", "interfacepspline__calls_1_1evtricub.html", null ],
       [ "fvtricub", "interfacepspline__calls_1_1fvtricub.html", null ],
       [ "fvtricubx", "interfacepspline__calls_1_1fvtricubx.html", null ],
+      [ "f2test", "interfacepspline__calls_1_1f2test.html", null ],
+      [ "f3test", "interfacepspline__calls_1_1f3test.html", null ],
       [ "genxpkg", "interfacepspline__calls_1_1genxpkg.html", null ],
       [ "gridbicub", "interfacepspline__calls_1_1gridbicub.html", null ],
       [ "gridherm1", "interfacepspline__calls_1_1gridherm1.html", null ],
@@ -338,37 +338,37 @@ var annotated_dup =
       [ "gridspline", "interfacepspline__calls_1_1gridspline.html", null ],
       [ "gridtricub", "interfacepspline__calls_1_1gridtricub.html", null ],
       [ "herm1ev", "interfacepspline__calls_1_1herm1ev.html", null ],
-      [ "herm1fcn", "interfacepspline__calls_1_1herm1fcn.html", null ],
       [ "herm1x", "interfacepspline__calls_1_1herm1x.html", null ],
+      [ "herm1fcn", "interfacepspline__calls_1_1herm1fcn.html", null ],
       [ "herm2ev", "interfacepspline__calls_1_1herm2ev.html", null ],
+      [ "herm2xy", "interfacepspline__calls_1_1herm2xy.html", null ],
       [ "herm2fcn", "interfacepspline__calls_1_1herm2fcn.html", null ],
       [ "herm2fcnx", "interfacepspline__calls_1_1herm2fcnx.html", null ],
-      [ "herm2xy", "interfacepspline__calls_1_1herm2xy.html", null ],
       [ "herm3ev", "interfacepspline__calls_1_1herm3ev.html", null ],
+      [ "herm3xyz", "interfacepspline__calls_1_1herm3xyz.html", null ],
       [ "herm3fcn", "interfacepspline__calls_1_1herm3fcn.html", null ],
       [ "herm3fcnx", "interfacepspline__calls_1_1herm3fcnx.html", null ],
-      [ "herm3xyz", "interfacepspline__calls_1_1herm3xyz.html", null ],
       [ "ibc_ck", "interfacepspline__calls_1_1ibc__ck.html", null ],
-      [ "mkbicon", "interfacepspline__calls_1_1mkbicon.html", null ],
-      [ "mkbicop", "interfacepspline__calls_1_1mkbicop.html", null ],
       [ "mkbicub", "interfacepspline__calls_1_1mkbicub.html", null ],
       [ "mkbicubw", "interfacepspline__calls_1_1mkbicubw.html", null ],
+      [ "mkbicop", "interfacepspline__calls_1_1mkbicop.html", null ],
+      [ "mkbicon", "interfacepspline__calls_1_1mkbicon.html", null ],
       [ "mkherm1", "interfacepspline__calls_1_1mkherm1.html", null ],
       [ "mkherm2", "interfacepspline__calls_1_1mkherm2.html", null ],
       [ "mkherm3", "interfacepspline__calls_1_1mkherm3.html", null ],
       [ "mkintrp2d", "interfacepspline__calls_1_1mkintrp2d.html", null ],
       [ "mkintrp3d", "interfacepspline__calls_1_1mkintrp3d.html", null ],
-      [ "mkspl2p", "interfacepspline__calls_1_1mkspl2p.html", null ],
       [ "mkspl2pb", "interfacepspline__calls_1_1mkspl2pb.html", null ],
-      [ "mkspl2z", "interfacepspline__calls_1_1mkspl2z.html", null ],
+      [ "mkspl2p", "interfacepspline__calls_1_1mkspl2p.html", null ],
       [ "mkspl2zb", "interfacepspline__calls_1_1mkspl2zb.html", null ],
+      [ "mkspl2z", "interfacepspline__calls_1_1mkspl2z.html", null ],
       [ "mkspl3pb", "interfacepspline__calls_1_1mkspl3pb.html", null ],
       [ "mkspl3zb", "interfacepspline__calls_1_1mkspl3zb.html", null ],
       [ "mkspline", "interfacepspline__calls_1_1mkspline.html", null ],
-      [ "mktricon", "interfacepspline__calls_1_1mktricon.html", null ],
-      [ "mktricop", "interfacepspline__calls_1_1mktricop.html", null ],
       [ "mktricub", "interfacepspline__calls_1_1mktricub.html", null ],
       [ "mktricubw", "interfacepspline__calls_1_1mktricubw.html", null ],
+      [ "mktricop", "interfacepspline__calls_1_1mktricop.html", null ],
+      [ "mktricon", "interfacepspline__calls_1_1mktricon.html", null ],
       [ "nspline", "interfacepspline__calls_1_1nspline.html", null ],
       [ "pc1ev", "interfacepspline__calls_1_1pc1ev.html", null ],
       [ "pc1fcn", "interfacepspline__calls_1_1pc1fcn.html", null ],
@@ -379,43 +379,43 @@ var annotated_dup =
       [ "pc3fcn", "interfacepspline__calls_1_1pc3fcn.html", null ],
       [ "pc3fcnx", "interfacepspline__calls_1_1pc3fcnx.html", null ],
       [ "pspline", "interfacepspline__calls_1_1pspline.html", null ],
-      [ "r8akherm0", "interfacepspline__calls_1_1r8akherm0.html", null ],
       [ "r8akherm1", "interfacepspline__calls_1_1r8akherm1.html", null ],
       [ "r8akherm1p", "interfacepspline__calls_1_1r8akherm1p.html", null ],
+      [ "r8akherm0", "interfacepspline__calls_1_1r8akherm0.html", null ],
       [ "r8akherm2", "interfacepspline__calls_1_1r8akherm2.html", null ],
       [ "r8akherm2p", "interfacepspline__calls_1_1r8akherm2p.html", null ],
       [ "r8akherm3", "interfacepspline__calls_1_1r8akherm3.html", null ],
       [ "r8akherm3p", "interfacepspline__calls_1_1r8akherm3p.html", null ],
       [ "r8bcspeval", "interfacepspline__calls_1_1r8bcspeval.html", null ],
-      [ "r8bcspevfn", "interfacepspline__calls_1_1r8bcspevfn.html", null ],
       [ "r8bcspevxy", "interfacepspline__calls_1_1r8bcspevxy.html", null ],
+      [ "r8bcspevfn", "interfacepspline__calls_1_1r8bcspevfn.html", null ],
       [ "r8bcspgrid", "interfacepspline__calls_1_1r8bcspgrid.html", null ],
       [ "r8bcspline", "interfacepspline__calls_1_1r8bcspline.html", null ],
       [ "r8bcspvec", "interfacepspline__calls_1_1r8bcspvec.html", null ],
       [ "r8bpsplinb", "interfacepspline__calls_1_1r8bpsplinb.html", null ],
       [ "r8bpspline", "interfacepspline__calls_1_1r8bpspline.html", null ],
       [ "r8cspeval", "interfacepspline__calls_1_1r8cspeval.html", null ],
-      [ "r8cspevfn", "interfacepspline__calls_1_1r8cspevfn.html", null ],
       [ "r8cspevx", "interfacepspline__calls_1_1r8cspevx.html", null ],
+      [ "r8cspevfn", "interfacepspline__calls_1_1r8cspevfn.html", null ],
       [ "r8cspline", "interfacepspline__calls_1_1r8cspline.html", null ],
       [ "r8cubsplb", "interfacepspline__calls_1_1r8cubsplb.html", null ],
       [ "r8dnherm1", "interfacepspline__calls_1_1r8dnherm1.html", null ],
       [ "r8dnherm2", "interfacepspline__calls_1_1r8dnherm2.html", null ],
       [ "r8dnherm3", "interfacepspline__calls_1_1r8dnherm3.html", null ],
       [ "r8evbicub", "interfacepspline__calls_1_1r8evbicub.html", null ],
-      [ "r8evintrp2d", "interfacepspline__calls_1_1r8evintrp2d.html", null ],
-      [ "r8evintrp3d", "interfacepspline__calls_1_1r8evintrp3d.html", null ],
-      [ "r8evspline", "interfacepspline__calls_1_1r8evspline.html", null ],
-      [ "r8evtricub", "interfacepspline__calls_1_1r8evtricub.html", null ],
-      [ "r8f2test", "interfacepspline__calls_1_1r8f2test.html", null ],
-      [ "r8f3test", "interfacepspline__calls_1_1r8f3test.html", null ],
       [ "r8fvbicub", "interfacepspline__calls_1_1r8fvbicub.html", null ],
       [ "r8fvbicubx", "interfacepspline__calls_1_1r8fvbicubx.html", null ],
+      [ "r8evintrp2d", "interfacepspline__calls_1_1r8evintrp2d.html", null ],
       [ "r8fvintrp2d", "interfacepspline__calls_1_1r8fvintrp2d.html", null ],
+      [ "r8evintrp3d", "interfacepspline__calls_1_1r8evintrp3d.html", null ],
       [ "r8fvintrp3d", "interfacepspline__calls_1_1r8fvintrp3d.html", null ],
+      [ "r8evspline", "interfacepspline__calls_1_1r8evspline.html", null ],
       [ "r8fvspline", "interfacepspline__calls_1_1r8fvspline.html", null ],
+      [ "r8evtricub", "interfacepspline__calls_1_1r8evtricub.html", null ],
       [ "r8fvtricub", "interfacepspline__calls_1_1r8fvtricub.html", null ],
       [ "r8fvtricubx", "interfacepspline__calls_1_1r8fvtricubx.html", null ],
+      [ "r8f2test", "interfacepspline__calls_1_1r8f2test.html", null ],
+      [ "r8f3test", "interfacepspline__calls_1_1r8f3test.html", null ],
       [ "r8genxpkg", "interfacepspline__calls_1_1r8genxpkg.html", null ],
       [ "r8gridbicub", "interfacepspline__calls_1_1r8gridbicub.html", null ],
       [ "r8gridherm1", "interfacepspline__calls_1_1r8gridherm1.html", null ],
@@ -429,36 +429,36 @@ var annotated_dup =
       [ "r8gridspline", "interfacepspline__calls_1_1r8gridspline.html", null ],
       [ "r8gridtricub", "interfacepspline__calls_1_1r8gridtricub.html", null ],
       [ "r8herm1ev", "interfacepspline__calls_1_1r8herm1ev.html", null ],
-      [ "r8herm1fcn", "interfacepspline__calls_1_1r8herm1fcn.html", null ],
       [ "r8herm1x", "interfacepspline__calls_1_1r8herm1x.html", null ],
+      [ "r8herm1fcn", "interfacepspline__calls_1_1r8herm1fcn.html", null ],
       [ "r8herm2ev", "interfacepspline__calls_1_1r8herm2ev.html", null ],
+      [ "r8herm2xy", "interfacepspline__calls_1_1r8herm2xy.html", null ],
       [ "r8herm2fcn", "interfacepspline__calls_1_1r8herm2fcn.html", null ],
       [ "r8herm2fcnx", "interfacepspline__calls_1_1r8herm2fcnx.html", null ],
-      [ "r8herm2xy", "interfacepspline__calls_1_1r8herm2xy.html", null ],
       [ "r8herm3ev", "interfacepspline__calls_1_1r8herm3ev.html", null ],
+      [ "r8herm3xyz", "interfacepspline__calls_1_1r8herm3xyz.html", null ],
       [ "r8herm3fcn", "interfacepspline__calls_1_1r8herm3fcn.html", null ],
       [ "r8herm3fcnx", "interfacepspline__calls_1_1r8herm3fcnx.html", null ],
-      [ "r8herm3xyz", "interfacepspline__calls_1_1r8herm3xyz.html", null ],
-      [ "r8mkbicon", "interfacepspline__calls_1_1r8mkbicon.html", null ],
-      [ "r8mkbicop", "interfacepspline__calls_1_1r8mkbicop.html", null ],
       [ "r8mkbicub", "interfacepspline__calls_1_1r8mkbicub.html", null ],
       [ "r8mkbicubw", "interfacepspline__calls_1_1r8mkbicubw.html", null ],
+      [ "r8mkbicop", "interfacepspline__calls_1_1r8mkbicop.html", null ],
+      [ "r8mkbicon", "interfacepspline__calls_1_1r8mkbicon.html", null ],
       [ "r8mkherm1", "interfacepspline__calls_1_1r8mkherm1.html", null ],
       [ "r8mkherm2", "interfacepspline__calls_1_1r8mkherm2.html", null ],
       [ "r8mkherm3", "interfacepspline__calls_1_1r8mkherm3.html", null ],
       [ "r8mkintrp2d", "interfacepspline__calls_1_1r8mkintrp2d.html", null ],
       [ "r8mkintrp3d", "interfacepspline__calls_1_1r8mkintrp3d.html", null ],
-      [ "r8mkspl2p", "interfacepspline__calls_1_1r8mkspl2p.html", null ],
       [ "r8mkspl2pb", "interfacepspline__calls_1_1r8mkspl2pb.html", null ],
-      [ "r8mkspl2z", "interfacepspline__calls_1_1r8mkspl2z.html", null ],
+      [ "r8mkspl2p", "interfacepspline__calls_1_1r8mkspl2p.html", null ],
       [ "r8mkspl2zb", "interfacepspline__calls_1_1r8mkspl2zb.html", null ],
+      [ "r8mkspl2z", "interfacepspline__calls_1_1r8mkspl2z.html", null ],
       [ "r8mkspl3pb", "interfacepspline__calls_1_1r8mkspl3pb.html", null ],
       [ "r8mkspl3zb", "interfacepspline__calls_1_1r8mkspl3zb.html", null ],
       [ "r8mkspline", "interfacepspline__calls_1_1r8mkspline.html", null ],
-      [ "r8mktricon", "interfacepspline__calls_1_1r8mktricon.html", null ],
-      [ "r8mktricop", "interfacepspline__calls_1_1r8mktricop.html", null ],
       [ "r8mktricub", "interfacepspline__calls_1_1r8mktricub.html", null ],
       [ "r8mktricubw", "interfacepspline__calls_1_1r8mktricubw.html", null ],
+      [ "r8mktricop", "interfacepspline__calls_1_1r8mktricop.html", null ],
+      [ "r8mktricon", "interfacepspline__calls_1_1r8mktricon.html", null ],
       [ "r8nspline", "interfacepspline__calls_1_1r8nspline.html", null ],
       [ "r8pc1ev", "interfacepspline__calls_1_1r8pc1ev.html", null ],
       [ "r8pc1fcn", "interfacepspline__calls_1_1r8pc1fcn.html", null ],
@@ -469,9 +469,9 @@ var annotated_dup =
       [ "r8pc3fcn", "interfacepspline__calls_1_1r8pc3fcn.html", null ],
       [ "r8pc3fcnx", "interfacepspline__calls_1_1r8pc3fcnx.html", null ],
       [ "r8pspline", "interfacepspline__calls_1_1r8pspline.html", null ],
-      [ "r8seval", "interfacepspline__calls_1_1r8seval.html", null ],
       [ "r8seval2", "interfacepspline__calls_1_1r8seval2.html", null ],
       [ "r8seval3", "interfacepspline__calls_1_1r8seval3.html", null ],
+      [ "r8seval", "interfacepspline__calls_1_1r8seval.html", null ],
       [ "r8speval", "interfacepspline__calls_1_1r8speval.html", null ],
       [ "r8spgrid", "interfacepspline__calls_1_1r8spgrid.html", null ],
       [ "r8splaan", "interfacepspline__calls_1_1r8splaan.html", null ],
@@ -480,20 +480,19 @@ var annotated_dup =
       [ "r8splinck", "interfacepspline__calls_1_1r8splinck.html", null ],
       [ "r8spline", "interfacepspline__calls_1_1r8spline.html", null ],
       [ "r8spvec", "interfacepspline__calls_1_1r8spvec.html", null ],
-      [ "r8tcsp23", "interfacepspline__calls_1_1r8tcsp23.html", null ],
-      [ "r8tcspcorr", "interfacepspline__calls_1_1r8tcspcorr.html", null ],
       [ "r8tcspeval", "interfacepspline__calls_1_1r8tcspeval.html", null ],
-      [ "r8tcspevfn", "interfacepspline__calls_1_1r8tcspevfn.html", null ],
       [ "r8tcspevxyz", "interfacepspline__calls_1_1r8tcspevxyz.html", null ],
+      [ "r8tcspevfn", "interfacepspline__calls_1_1r8tcspevfn.html", null ],
       [ "r8tcspgrid", "interfacepspline__calls_1_1r8tcspgrid.html", null ],
       [ "r8tcspline", "interfacepspline__calls_1_1r8tcspline.html", null ],
+      [ "r8tcspcorr", "interfacepspline__calls_1_1r8tcspcorr.html", null ],
+      [ "r8tcsp23", "interfacepspline__calls_1_1r8tcsp23.html", null ],
       [ "r8tcspvec", "interfacepspline__calls_1_1r8tcspvec.html", null ],
       [ "r8tpsplinb", "interfacepspline__calls_1_1r8tpsplinb.html", null ],
       [ "r8tpspline", "interfacepspline__calls_1_1r8tpspline.html", null ],
       [ "r8util_bcherm1", "interfacepspline__calls_1_1r8util__bcherm1.html", null ],
       [ "r8util_bcherm2", "interfacepspline__calls_1_1r8util__bcherm2.html", null ],
       [ "r8util_bcherm3", "interfacepspline__calls_1_1r8util__bcherm3.html", null ],
-      [ "r8v_spline", "interfacepspline__calls_1_1r8v__spline.html", null ],
       [ "r8vecbicub", "interfacepspline__calls_1_1r8vecbicub.html", null ],
       [ "r8vecherm1", "interfacepspline__calls_1_1r8vecherm1.html", null ],
       [ "r8vecherm2", "interfacepspline__calls_1_1r8vecherm2.html", null ],
@@ -505,11 +504,12 @@ var annotated_dup =
       [ "r8vecpc3", "interfacepspline__calls_1_1r8vecpc3.html", null ],
       [ "r8vecspline", "interfacepspline__calls_1_1r8vecspline.html", null ],
       [ "r8vectricub", "interfacepspline__calls_1_1r8vectricub.html", null ],
+      [ "r8v_spline", "interfacepspline__calls_1_1r8v__spline.html", null ],
       [ "r8xlookup", "interfacepspline__calls_1_1r8xlookup.html", null ],
       [ "r8zonfind", "interfacepspline__calls_1_1r8zonfind.html", null ],
-      [ "seval", "interfacepspline__calls_1_1seval.html", null ],
       [ "seval2", "interfacepspline__calls_1_1seval2.html", null ],
       [ "seval3", "interfacepspline__calls_1_1seval3.html", null ],
+      [ "seval", "interfacepspline__calls_1_1seval.html", null ],
       [ "speval", "interfacepspline__calls_1_1speval.html", null ],
       [ "spgrid", "interfacepspline__calls_1_1spgrid.html", null ],
       [ "splaan", "interfacepspline__calls_1_1splaan.html", null ],
@@ -518,20 +518,19 @@ var annotated_dup =
       [ "splinck", "interfacepspline__calls_1_1splinck.html", null ],
       [ "spline", "interfacepspline__calls_1_1spline.html", null ],
       [ "spvec", "interfacepspline__calls_1_1spvec.html", null ],
-      [ "tcsp23", "interfacepspline__calls_1_1tcsp23.html", null ],
-      [ "tcspcorr", "interfacepspline__calls_1_1tcspcorr.html", null ],
       [ "tcspeval", "interfacepspline__calls_1_1tcspeval.html", null ],
-      [ "tcspevfn", "interfacepspline__calls_1_1tcspevfn.html", null ],
       [ "tcspevxyz", "interfacepspline__calls_1_1tcspevxyz.html", null ],
+      [ "tcspevfn", "interfacepspline__calls_1_1tcspevfn.html", null ],
       [ "tcspgrid", "interfacepspline__calls_1_1tcspgrid.html", null ],
       [ "tcspline", "interfacepspline__calls_1_1tcspline.html", null ],
+      [ "tcspcorr", "interfacepspline__calls_1_1tcspcorr.html", null ],
+      [ "tcsp23", "interfacepspline__calls_1_1tcsp23.html", null ],
       [ "tcspvec", "interfacepspline__calls_1_1tcspvec.html", null ],
       [ "tpsplinb", "interfacepspline__calls_1_1tpsplinb.html", null ],
       [ "tpspline", "interfacepspline__calls_1_1tpspline.html", null ],
       [ "util_bcherm1", "interfacepspline__calls_1_1util__bcherm1.html", null ],
       [ "util_bcherm2", "interfacepspline__calls_1_1util__bcherm2.html", null ],
       [ "util_bcherm3", "interfacepspline__calls_1_1util__bcherm3.html", null ],
-      [ "v_spline", "interfacepspline__calls_1_1v__spline.html", null ],
       [ "vecbicub", "interfacepspline__calls_1_1vecbicub.html", null ],
       [ "vecherm1", "interfacepspline__calls_1_1vecherm1.html", null ],
       [ "vecherm2", "interfacepspline__calls_1_1vecherm2.html", null ],
@@ -545,6 +544,7 @@ var annotated_dup =
       [ "vecpc3", "interfacepspline__calls_1_1vecpc3.html", null ],
       [ "vecspline", "interfacepspline__calls_1_1vecspline.html", null ],
       [ "vectricub", "interfacepspline__calls_1_1vectricub.html", null ],
+      [ "v_spline", "interfacepspline__calls_1_1v__spline.html", null ],
       [ "xlookup", "interfacepspline__calls_1_1xlookup.html", null ],
       [ "zonfind", "interfacepspline__calls_1_1zonfind.html", null ]
     ] ],
@@ -573,8 +573,8 @@ var annotated_dup =
     ] ],
     [ "signal", "namespacesignal.html", [
       [ "signal_class", "structsignal_1_1signal__class.html", "structsignal_1_1signal__class" ],
-      [ "signal_construct", "interfacesignal_1_1signal__construct.html", "interfacesignal_1_1signal__construct" ],
-      [ "signal_pointer", "structsignal_1_1signal__pointer.html", "structsignal_1_1signal__pointer" ]
+      [ "signal_pointer", "structsignal_1_1signal__pointer.html", "structsignal_1_1signal__pointer" ],
+      [ "signal_construct", "interfacesignal_1_1signal__construct.html", "interfacesignal_1_1signal__construct" ]
     ] ],
     [ "signal_dot", "namespacesignal__dot.html", [
       [ "signal_dot_file", "structsignal__dot_1_1signal__dot__file.html", "structsignal__dot_1_1signal__dot__file" ]
@@ -590,34 +590,34 @@ var annotated_dup =
     ] ],
     [ "sxrem", "namespacesxrem.html", [
       [ "sxrem_class", "structsxrem_1_1sxrem__class.html", "structsxrem_1_1sxrem__class" ],
-      [ "sxrem_context", "structsxrem_1_1sxrem__context.html", "structsxrem_1_1sxrem__context" ],
       [ "sxrem_emiss_class", "structsxrem_1_1sxrem__emiss__class.html", "structsxrem_1_1sxrem__emiss__class" ],
-      [ "sxrem_gp_context_i", "structsxrem_1_1sxrem__gp__context__i.html", "structsxrem_1_1sxrem__gp__context__i" ],
-      [ "sxrem_gp_context_s", "structsxrem_1_1sxrem__gp__context__s.html", "structsxrem_1_1sxrem__gp__context__s" ],
-      [ "sxrem_gp_context_x", "structsxrem_1_1sxrem__gp__context__x.html", "structsxrem_1_1sxrem__gp__context__x" ],
-      [ "sxrem_gp_ti_context_i", "structsxrem_1_1sxrem__gp__ti__context__i.html", "structsxrem_1_1sxrem__gp__ti__context__i" ],
-      [ "sxrem_gp_ti_context_s", "structsxrem_1_1sxrem__gp__ti__context__s.html", "structsxrem_1_1sxrem__gp__ti__context__s" ],
-      [ "sxrem_gp_ti_context_x", "structsxrem_1_1sxrem__gp__ti__context__x.html", "structsxrem_1_1sxrem__gp__ti__context__x" ],
       [ "sxrem_ti_class", "structsxrem_1_1sxrem__ti__class.html", "structsxrem_1_1sxrem__ti__class" ],
-      [ "sxrem_ti_context", "structsxrem_1_1sxrem__ti__context.html", "structsxrem_1_1sxrem__ti__context" ]
+      [ "sxrem_context", "structsxrem_1_1sxrem__context.html", "structsxrem_1_1sxrem__context" ],
+      [ "sxrem_ti_context", "structsxrem_1_1sxrem__ti__context.html", "structsxrem_1_1sxrem__ti__context" ],
+      [ "sxrem_gp_context_i", "structsxrem_1_1sxrem__gp__context__i.html", "structsxrem_1_1sxrem__gp__context__i" ],
+      [ "sxrem_gp_ti_context_i", "structsxrem_1_1sxrem__gp__ti__context__i.html", "structsxrem_1_1sxrem__gp__ti__context__i" ],
+      [ "sxrem_gp_context_s", "structsxrem_1_1sxrem__gp__context__s.html", "structsxrem_1_1sxrem__gp__context__s" ],
+      [ "sxrem_gp_ti_context_s", "structsxrem_1_1sxrem__gp__ti__context__s.html", "structsxrem_1_1sxrem__gp__ti__context__s" ],
+      [ "sxrem_gp_context_x", "structsxrem_1_1sxrem__gp__context__x.html", "structsxrem_1_1sxrem__gp__context__x" ],
+      [ "sxrem_gp_ti_context_x", "structsxrem_1_1sxrem__gp__ti__context__x.html", "structsxrem_1_1sxrem__gp__ti__context__x" ]
     ] ],
     [ "sxrem_ratio", "namespacesxrem__ratio.html", [
       [ "sxrem_ratio_class", "structsxrem__ratio_1_1sxrem__ratio__class.html", "structsxrem__ratio_1_1sxrem__ratio__class" ]
     ] ],
     [ "system_mod", null, [
+      [ "system", "interfacesystem__mod_1_1system.html", null ],
       [ "chdir", "interfacesystem__mod_1_1chdir.html", null ],
       [ "getenv", "interfacesystem__mod_1_1getenv.html", null ],
-      [ "getpid", "interfacesystem__mod_1_1getpid.html", null ],
       [ "putenv", "interfacesystem__mod_1_1putenv.html", null ],
       [ "pxffork", "interfacesystem__mod_1_1pxffork.html", null ],
-      [ "pxfwait", "interfacesystem__mod_1_1pxfwait.html", null ],
-      [ "system", "interfacesystem__mod_1_1system.html", null ]
+      [ "getpid", "interfacesystem__mod_1_1getpid.html", null ],
+      [ "pxfwait", "interfacesystem__mod_1_1pxfwait.html", null ]
     ] ],
     [ "thomson", "namespacethomson.html", [
       [ "thomson_class", "structthomson_1_1thomson__class.html", "structthomson_1_1thomson__class" ],
+      [ "thomson_te_class", "structthomson_1_1thomson__te__class.html", "structthomson_1_1thomson__te__class" ],
       [ "thomson_ne_class", "structthomson_1_1thomson__ne__class.html", "structthomson_1_1thomson__ne__class" ],
-      [ "thomson_p_class", "structthomson_1_1thomson__p__class.html", "structthomson_1_1thomson__p__class" ],
-      [ "thomson_te_class", "structthomson_1_1thomson__te__class.html", "structthomson_1_1thomson__te__class" ]
+      [ "thomson_p_class", "structthomson_1_1thomson__p__class.html", "structthomson_1_1thomson__p__class" ]
     ] ],
     [ "thscte_t", null, [
       [ "thscte_desc", "structthscte__t_1_1thscte__desc.html", null ]
@@ -626,11 +626,11 @@ var annotated_dup =
       [ "unprimed_grid_class", "structunprimed__grid_1_1unprimed__grid__class.html", "structunprimed__grid_1_1unprimed__grid__class" ]
     ] ],
     [ "utilities", "namespaceutilities.html", [
-      [ "curl_htof", "interfaceutilities_1_1curl__htof.html", "interfaceutilities_1_1curl__htof" ],
-      [ "gradienthalf", "interfaceutilities_1_1gradienthalf.html", "interfaceutilities_1_1gradienthalf" ],
-      [ "set_bndy_fouier_m0", "interfaceutilities_1_1set__bndy__fouier__m0.html", "interfaceutilities_1_1set__bndy__fouier__m0" ],
       [ "to_full_mesh", "interfaceutilities_1_1to__full__mesh.html", "interfaceutilities_1_1to__full__mesh" ],
-      [ "to_half_mesh", "interfaceutilities_1_1to__half__mesh.html", "interfaceutilities_1_1to__half__mesh" ]
+      [ "to_half_mesh", "interfaceutilities_1_1to__half__mesh.html", "interfaceutilities_1_1to__half__mesh" ],
+      [ "gradienthalf", "interfaceutilities_1_1gradienthalf.html", "interfaceutilities_1_1gradienthalf" ],
+      [ "curl_htof", "interfaceutilities_1_1curl__htof.html", "interfaceutilities_1_1curl__htof" ],
+      [ "set_bndy_fouier_m0", "interfaceutilities_1_1set__bndy__fouier__m0.html", "interfaceutilities_1_1set__bndy__fouier__m0" ]
     ] ],
     [ "v3_utilities", null, [
       [ "assert", "interfacev3__utilities_1_1assert.html", null ],
@@ -641,12 +641,12 @@ var annotated_dup =
     ] ],
     [ "v3fit_params", "namespacev3fit__params.html", [
       [ "param_class", "structv3fit__params_1_1param__class.html", "structv3fit__params_1_1param__class" ],
-      [ "param_construct", "interfacev3fit__params_1_1param__construct.html", "interfacev3fit__params_1_1param__construct" ],
-      [ "param_locking_class", "structv3fit__params_1_1param__locking__class.html", "structv3fit__params_1_1param__locking__class" ],
-      [ "param_locking_pointer", "structv3fit__params_1_1param__locking__pointer.html", "structv3fit__params_1_1param__locking__pointer" ],
       [ "param_pointer", "structv3fit__params_1_1param__pointer.html", "structv3fit__params_1_1param__pointer" ],
       [ "param_recon_class", "structv3fit__params_1_1param__recon__class.html", "structv3fit__params_1_1param__recon__class" ],
-      [ "param_recon_pointer", "structv3fit__params_1_1param__recon__pointer.html", "structv3fit__params_1_1param__recon__pointer" ]
+      [ "param_recon_pointer", "structv3fit__params_1_1param__recon__pointer.html", "structv3fit__params_1_1param__recon__pointer" ],
+      [ "param_locking_class", "structv3fit__params_1_1param__locking__class.html", "structv3fit__params_1_1param__locking__class" ],
+      [ "param_locking_pointer", "structv3fit__params_1_1param__locking__pointer.html", "structv3fit__params_1_1param__locking__pointer" ],
+      [ "param_construct", "interfacev3fit__params_1_1param__construct.html", "interfacev3fit__params_1_1param__construct" ]
     ] ],
     [ "v3post_rfun", null, [
       [ "signals", "structv3post__rfun_1_1signals.html", null ]
@@ -662,20 +662,20 @@ var annotated_dup =
       [ "vacuum_class", "structvacuum__equilibrium_1_1vacuum__class.html", "structvacuum__equilibrium_1_1vacuum__class" ]
     ] ],
     [ "vertex_list", null, [
+      [ "point", "structvertex__list_1_1point.html", null ],
       [ "magfield", "structvertex__list_1_1magfield.html", null ],
       [ "pbfield", "structvertex__list_1_1pbfield.html", null ],
-      [ "point", "structvertex__list_1_1point.html", null ],
-      [ "pvertex", "structvertex__list_1_1pvertex.html", null ],
-      [ "vertex", "structvertex__list_1_1vertex.html", null ]
+      [ "vertex", "structvertex__list_1_1vertex.html", null ],
+      [ "pvertex", "structvertex__list_1_1pvertex.html", null ]
     ] ],
     [ "vmec_context", "namespacevmec__context.html", [
       [ "vmec_context_class", "structvmec__context_1_1vmec__context__class.html", "structvmec__context_1_1vmec__context__class" ]
     ] ],
     [ "vmec_equilibrium", "namespacevmec__equilibrium.html", [
-      [ "runvmec", "interfacevmec__equilibrium_1_1runvmec.html", null ],
+      [ "vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ],
       [ "vmec_class", "structvmec__equilibrium_1_1vmec__class.html", "structvmec__equilibrium_1_1vmec__class" ],
       [ "vmec_descent_class", "structvmec__equilibrium_1_1vmec__descent__class.html", "structvmec__equilibrium_1_1vmec__descent__class" ],
-      [ "vmec_magnetic_cache", "structvmec__equilibrium_1_1vmec__magnetic__cache.html", "structvmec__equilibrium_1_1vmec__magnetic__cache" ]
+      [ "runvmec", "interfacevmec__equilibrium_1_1runvmec.html", null ]
     ] ],
     [ "vmec_file", "namespacevmec__file.html", [
       [ "vmec_file_class", "structvmec__file_1_1vmec__file__class.html", "structvmec__file_1_1vmec__file__class" ]

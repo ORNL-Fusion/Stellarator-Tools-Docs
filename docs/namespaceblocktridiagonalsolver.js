@@ -1,14 +1,14 @@
 var namespaceblocktridiagonalsolver =
 [
-    [ "blacsparameters", "structblocktridiagonalsolver_1_1blacsparameters.html", "structblocktridiagonalsolver_1_1blacsparameters" ],
-    [ "blacsprocessgrid", "structblocktridiagonalsolver_1_1blacsprocessgrid.html", "structblocktridiagonalsolver_1_1blacsprocessgrid" ],
     [ "levelelement", "structblocktridiagonalsolver_1_1levelelement.html", null ],
+    [ "solutionelement", "structblocktridiagonalsolver_1_1solutionelement.html", null ],
+    [ "blacsprocessgrid", "structblocktridiagonalsolver_1_1blacsprocessgrid.html", "structblocktridiagonalsolver_1_1blacsprocessgrid" ],
+    [ "blacsparameters", "structblocktridiagonalsolver_1_1blacsparameters.html", "structblocktridiagonalsolver_1_1blacsparameters" ],
     [ "mastertoslavemapping", "structblocktridiagonalsolver_1_1mastertoslavemapping.html", null ],
     [ "pblaslevelparameters", "structblocktridiagonalsolver_1_1pblaslevelparameters.html", null ],
+    [ "timecount", "structblocktridiagonalsolver_1_1timecount.html", "structblocktridiagonalsolver_1_1timecount" ],
     [ "pblasstats", "structblocktridiagonalsolver_1_1pblasstats.html", null ],
     [ "pblastemparray", "structblocktridiagonalsolver_1_1pblastemparray.html", null ],
-    [ "solutionelement", "structblocktridiagonalsolver_1_1solutionelement.html", null ],
-    [ "timecount", "structblocktridiagonalsolver_1_1timecount.html", "structblocktridiagonalsolver_1_1timecount" ],
     [ "backwardsolve", "namespaceblocktridiagonalsolver.html#ae8df562dbec1f4da773f18a24beb63e4", null ],
     [ "bclockinit", "namespaceblocktridiagonalsolver.html#a14a13522456670c350261d6794295719", null ],
     [ "bsystemclock", "namespaceblocktridiagonalsolver.html#a19ca39bad842087e9250d7fb892f6edf", null ],
