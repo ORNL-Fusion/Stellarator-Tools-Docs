@@ -70,7 +70,7 @@ var searchData=
   ['coil_20specification_67',['Diagnostic Coil Specification',['../diagnostic_dot_sec.html#diagnostic_dot_coil_spec_sec',1,'']]],
   ['coil_5fid_68',['coil_id',['../structmagnetic__response_1_1magnetic__response__class.html#ac10939aa80389743b103a0c3d936d1b7',1,'magnetic_response::magnetic_response_class']]],
   ['coils_69',['Super Conducting Coils',['../v3rfun_namelist_sec.html#v3rfun_super_sec',1,'']]],
-  ['coils_70',['coils',['../structv3rfun__context_1_1v3rfun__context__class.html#a2561e8489114eb288a999818c258e56b',1,'v3rfun_context::v3rfun_context_class::coils'],['../vacuum_namelist_sec.html#vacuum_sr_var_sec',1,'Shifts and rotations of external coils.']]],
+  ['coils_70',['coils',['../structv3rfun__context_1_1v3rfun__context__class.html#a5ff147aeaa07345eb8a9f36f8fcb0f2b',1,'v3rfun_context::v3rfun_context_class::coils'],['../vacuum_namelist_sec.html#vacuum_sr_var_sec',1,'Shifts and rotations of external coils.']]],
   ['coils_5fdot_5ffile_71',['coils_dot_file',['../namespacevacuum__input.html#a2bb9564b99591f62f4d9f59a81f806e8',1,'vacuum_input']]],
   ['col_5fscale_72',['col_scale',['../namespaceshared__data.html#ae1ff7bcb6fd97f19a43689b0b5d0f193',1,'shared_data']]],
   ['color_20example_20file_73',['Two Color Example File',['../sxrem_dot_sec.html#sxrem_dot_exam_two_color_sec',1,'']]],

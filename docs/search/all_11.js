@@ -75,7 +75,7 @@ var searchData=
   ['netcdf_5ftest_5fcommandline_5fparser_2ehpp_72',['netcdf_test_commandline_parser.hpp',['../netcdf__test__commandline__parser_8hpp.html',1,'']]],
   ['new_5flimiter_5fdeg_73',['new_limiter_deg',['../main_8cpp.html#af3754bbe3139e87ca36a767358686e67',1,'main.cpp']]],
   ['new_5flimiter_5frad_74',['new_limiter_rad',['../main_8cpp.html#a421ab65ef9b71171d848eed5609f16d4',1,'main.cpp']]],
-  ['next_75',['next',['../structintegration__path_1_1vertex.html#a1cb5944e9b79331eb391fb06644e070b',1,'integration_path::vertex::next'],['../structdiagnostic__dot_1_1diagnostic__dot__coil.html#a0862990ccb2637ae8f4400c1ef75d067',1,'diagnostic_dot::diagnostic_dot_coil::next']]],
+  ['next_75',['next',['../structintegration__path_1_1vertex.html#a1cb5944e9b79331eb391fb06644e070b',1,'integration_path::vertex::next'],['../structdiagnostic__dot_1_1diagnostic__dot__coil.html#afca0f340a5fd2cbf3dcd96e3f170c829',1,'diagnostic_dot::diagnostic_dot_coil::next']]],
   ['nf_5f64bit_5foffset_76',['nf_64bit_offset',['../namespacenetcdf__inc.html#a517c2bfd3d513d1b8089a068946312b4',1,'netcdf_inc']]],
   ['nf_5fbyte_77',['nf_byte',['../namespacenetcdf__inc.html#a777000399d1084e2aa26dea39e0b76ef',1,'netcdf_inc']]],
   ['nf_5fchar_78',['nf_char',['../namespacenetcdf__inc.html#ad4dbbbc5ceacee0888c7177a2a13238b',1,'netcdf_inc']]],

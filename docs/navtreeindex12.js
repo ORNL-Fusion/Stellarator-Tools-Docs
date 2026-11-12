@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"namespacevmec__equilibrium.html#aeced22814edb5c90369367fe8ab1fcb0":[43,0,87,80],
+"namespacevmec__equilibrium.html#aed15211e86e828d27bd6fe2fb2b74ae2":[43,0,87,74],
 "namespacevmec__equilibrium.html#aed97e7590d9e09a6723baa6993a794d1":[43,0,87,158],
 "namespacevmec__equilibrium.html#aefb1dc6ad97f59a8d75d60f2737f688c":[43,0,87,63],
 "namespacevmec__equilibrium.html#af0a3f5865980531986dd169bfd423bd0":[43,0,87,112],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "structbivariate_1_1bivariate__class.html#a9ceda3378b840a41129dc885566fb248":[44,0,1,0,2],
 "structbivariate_1_1bivariate__class.html#abb665a2441c996f11d7e95f6759c4f7b":[43,0,1,0,5],
 "structbivariate_1_1bivariate__class.html#abb665a2441c996f11d7e95f6759c4f7b":[44,0,1,0,5],
-"structbivariate_1_1bivariate__class.html#ac69f99a812172c2cede1f1b6e22fc933":[43,0,1,0,1],
-"structbivariate_1_1bivariate__class.html#ac69f99a812172c2cede1f1b6e22fc933":[44,0,1,0,1],
-"structbivariate_1_1bivariate__class.html#acebd48608294c44104686781e53a8697":[43,0,1,0,13]
+"structbivariate_1_1bivariate__class.html#ac69f99a812172c2cede1f1b6e22fc933":[43,0,1,0,1]
 };

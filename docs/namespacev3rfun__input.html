@@ -109,6 +109,9 @@ integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>v3rfun_
 <tr class="memitem:a875248278c3b3caf9b1879c6fc0762e6" id="r_a875248278c3b3caf9b1879c6fc0762e6"><td class="memItemLeft" align="right" valign="top"><a id="a875248278c3b3caf9b1879c6fc0762e6" name="a875248278c3b3caf9b1879c6fc0762e6"></a>
 integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>v3rfun_name_length</b> = 25</td></tr>
 <tr class="memdesc:a875248278c3b3caf9b1879c6fc0762e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name length. <br /></td></tr>
+<tr class="memitem:aca519256659788315d6bb2089fa2c467" id="r_aca519256659788315d6bb2089fa2c467"><td class="memItemLeft" align="right" valign="top"><a id="aca519256659788315d6bb2089fa2c467" name="aca519256659788315d6bb2089fa2c467"></a>
+integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><b>v3rfun_min_total_phi</b> = 180</td></tr>
+<tr class="memdesc:aca519256659788315d6bb2089fa2c467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min total phi planes. <br /></td></tr>
 <tr class="memitem:a047193d239d2e559848e8d665e00b641" id="r_a047193d239d2e559848e8d665e00b641"><td class="memItemLeft" align="right" valign="top"><a id="a047193d239d2e559848e8d665e00b641" name="a047193d239d2e559848e8d665e00b641"></a>
 character(len=<a class="el" href="#a60e375c3542d0b218bcbab0fde40b9b3">v3rfun_file_length</a>)&#160;</td><td class="memItemRight" valign="bottom"><b>name_coils_dot</b> = ''</td></tr>
 <tr class="memdesc:a047193d239d2e559848e8d665e00b641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filename for the field coils. <br /></td></tr>
@@ -140,7 +143,7 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>kp</b> = 1</td></t
 integer&#160;</td><td class="memItemRight" valign="bottom"><b>kp_shell</b> = 1</td></tr>
 <tr class="memdesc:a09fbd44c38b097fc453fd6bfc8437950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of shell toroidal grid points. <br /></td></tr>
 <tr class="memitem:a9d6a7fd431a58959219d3c402da5e407" id="r_a9d6a7fd431a58959219d3c402da5e407"><td class="memItemLeft" align="right" valign="top"><a id="a9d6a7fd431a58959219d3c402da5e407" name="a9d6a7fd431a58959219d3c402da5e407"></a>
-integer&#160;</td><td class="memItemRight" valign="bottom"><b>n_field_periods_nli</b> = 0</td></tr>
+integer&#160;</td><td class="memItemRight" valign="bottom"><b>n_field_periods_nli</b> = 1</td></tr>
 <tr class="memdesc:a9d6a7fd431a58959219d3c402da5e407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of field periods. <br /></td></tr>
 <tr class="memitem:a833769e85f24a3e9a428481c0d59a83b" id="r_a833769e85f24a3e9a428481c0d59a83b"><td class="memItemLeft" align="right" valign="top"><a id="a833769e85f24a3e9a428481c0d59a83b" name="a833769e85f24a3e9a428481c0d59a83b"></a>
 real(rprec)&#160;</td><td class="memItemRight" valign="bottom"><b>rmin</b> = 0.0</td></tr>
@@ -215,6 +218,7 @@ real(rprec), dimension(nigroup)&#160;</td><td class="memItemRight" valign="botto
   </table>
   </dd>
 </dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo</a></b></dt><dd>FIXME: When kp and kp_shell = 1 it doesn't take into account the full 3D torodial angle. There should be a way to consider the 3D response on a single phi plane but for now set a minimum responce grid. </dd></dl>
 
 </div>
 </div>

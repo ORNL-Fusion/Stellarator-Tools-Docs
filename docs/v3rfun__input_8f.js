@@ -26,6 +26,7 @@ var v3rfun__input_8f =
     [ "v3rfun_input::rmin", "namespacev3rfun__input.html#a833769e85f24a3e9a428481c0d59a83b", null ],
     [ "v3rfun_input::use_con_shell", "namespacev3rfun__input.html#a2567927008a56ee62126846802c411af", null ],
     [ "v3rfun_input::v3rfun_file_length", "namespacev3rfun__input.html#a60e375c3542d0b218bcbab0fde40b9b3", null ],
+    [ "v3rfun_input::v3rfun_min_total_phi", "namespacev3rfun__input.html#aca519256659788315d6bb2089fa2c467", null ],
     [ "v3rfun_input::v3rfun_name_length", "namespacev3rfun__input.html#a875248278c3b3caf9b1879c6fc0762e6", null ],
     [ "v3rfun_input::zmax", "namespacev3rfun__input.html#a3c3ac6f60c8df3f80a7581dd81d94830", null ],
     [ "v3rfun_input::zmin", "namespacev3rfun__input.html#a6b66ba823dbe6b9c71dc8dda789ae463", null ]

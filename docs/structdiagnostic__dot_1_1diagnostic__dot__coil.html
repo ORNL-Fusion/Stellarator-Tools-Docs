@@ -96,6 +96,11 @@ $(function(){initNavTree('structdiagnostic__dot_1_1diagnostic__dot__coil.html','
 <p>A single coil. A coil set is structured as a singly linked list.  
  <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa92305ad2c8f508b3acc99b18103328d" id="r_aa92305ad2c8f508b3acc99b18103328d"><td class="memItemLeft" align="right" valign="top">FINAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa92305ad2c8f508b3acc99b18103328d">diagnostic_dot_destruct</a> (this)</td></tr>
+<tr class="memdesc:aa92305ad2c8f508b3acc99b18103328d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a> list.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac875660f2e290426d465b9527291d092" id="r_ac875660f2e290426d465b9527291d092"><td class="memItemLeft" align="right" valign="top"><a id="ac875660f2e290426d465b9527291d092" name="ac875660f2e290426d465b9527291d092"></a>
@@ -119,13 +124,48 @@ real(rprec), dimension(3)&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a40216e71c71d4ef88445e6b6d23e56d0" id="r_a40216e71c71d4ef88445e6b6d23e56d0"><td class="memItemLeft" align="right" valign="top"><a id="a40216e71c71d4ef88445e6b6d23e56d0" name="a40216e71c71d4ef88445e6b6d23e56d0"></a>
 type(<a class="el" href="structbsc__t_1_1bsc__coil.html">bsc_coil</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>coil</b> =&gt; null()</td></tr>
 <tr class="memdesc:a40216e71c71d4ef88445e6b6d23e56d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Biotsavart Coil object. <br /></td></tr>
-<tr class="memitem:a0862990ccb2637ae8f4400c1ef75d067" id="r_a0862990ccb2637ae8f4400c1ef75d067"><td class="memItemLeft" align="right" valign="top"><a id="a0862990ccb2637ae8f4400c1ef75d067" name="a0862990ccb2637ae8f4400c1ef75d067"></a>
-type(<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>next</b> =&gt; null()</td></tr>
-<tr class="memdesc:a0862990ccb2637ae8f4400c1ef75d067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the next vertex. <br /></td></tr>
+<tr class="memitem:afca0f340a5fd2cbf3dcd96e3f170c829" id="r_afca0f340a5fd2cbf3dcd96e3f170c829"><td class="memItemLeft" align="right" valign="top"><a id="afca0f340a5fd2cbf3dcd96e3f170c829" name="afca0f340a5fd2cbf3dcd96e3f170c829"></a>
+class(<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>next</b> =&gt; null()</td></tr>
+<tr class="memdesc:afca0f340a5fd2cbf3dcd96e3f170c829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the next vertex. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A single coil. A coil set is structured as a singly linked list. </p>
-</div><hr/>The documentation for this type was generated from the following file:<ul>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function/Subroutine Documentation</h2>
+<a id="aa92305ad2c8f508b3acc99b18103328d" name="aa92305ad2c8f508b3acc99b18103328d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92305ad2c8f508b3acc99b18103328d">&#9670;&#160;</a></span>diagnostic_dot_destruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FINAL diagnostic_dot::diagnostic_dot_coil::diagnostic_dot_destruct </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deconstruct a <a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a> list. </p>
+<p>Deallocates memory and uninitializes a <a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a> list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a> list. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this type was generated from the following file:<ul>
 <li>V3RFUN/Sources/<a class="el" href="diagnostic__dot_8f.html">diagnostic_dot.f</a></li>
 </ul>
 </div><!-- contents -->

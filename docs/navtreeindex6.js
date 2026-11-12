@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"namespacefourier.html#a1624922e688e9d0d4dc3817e96dd75ae":[43,0,22,8],
 "namespacefourier.html#a27f5162fff4e2bd12c4a1130eb4aac3e":[43,0,22,6],
 "namespacefourier.html#a2dcc2c6b7198cc965d4873adc6611102":[43,0,22,35],
 "namespacefourier.html#a316da76b114c9060804aff5499b981a5":[43,0,22,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "namespacemembers_r.html":[43,1,0,16],
 "namespacemembers_s.html":[43,1,0,17],
 "namespacemembers_t.html":[43,1,0,18],
-"namespacemembers_u.html":[43,1,0,19],
-"namespacemembers_v.html":[43,1,0,20]
+"namespacemembers_u.html":[43,1,0,19]
 };

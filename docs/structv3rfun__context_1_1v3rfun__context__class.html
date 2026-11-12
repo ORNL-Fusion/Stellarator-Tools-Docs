@@ -96,6 +96,19 @@ $(function(){initNavTree('structv3rfun__context_1_1v3rfun__context__class.html',
 <p>Base class representing a v3rfun context. This contains all memory needed to operate v3rfun.  
  <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aee82defd83f6779598cab73f5747ade1" id="r_aee82defd83f6779598cab73f5747ade1"><td class="memItemLeft" align="right" valign="top">FINAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee82defd83f6779598cab73f5747ade1">v3rfun_context_destruct</a> (this)</td></tr>
+<tr class="memdesc:aee82defd83f6779598cab73f5747ade1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> object.  <br /></td></tr>
+<tr class="memitem:a43ad9e3fc8db60dae7314eadc583b8a4" id="r_a43ad9e3fc8db60dae7314eadc583b8a4"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43ad9e3fc8db60dae7314eadc583b8a4">write_mrf</a> (this, d_coil, id_num)</td></tr>
+<tr class="memdesc:a43ad9e3fc8db60dae7314eadc583b8a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write out a magnetic coil response function.  <br /></td></tr>
+<tr class="memitem:a222d2be498d05f851f87c25d00912baf" id="r_a222d2be498d05f851f87c25d00912baf"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a222d2be498d05f851f87c25d00912baf">write_point</a> (this, d_coil, id_num)</td></tr>
+<tr class="memdesc:a222d2be498d05f851f87c25d00912baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write out a point probe response.  <br /></td></tr>
+<tr class="memitem:aac8c44069a83f0b7f5527deafee8ffdb" id="r_aac8c44069a83f0b7f5527deafee8ffdb"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac8c44069a83f0b7f5527deafee8ffdb">init_field_coils</a> (this)</td></tr>
+<tr class="memdesc:aac8c44069a83f0b7f5527deafee8ffdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct and initialize the field coil objects.  <br /></td></tr>
+<tr class="memitem:a35ee42f78cd4b971697285cdc97589fa" id="r_a35ee42f78cd4b971697285cdc97589fa"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ee42f78cd4b971697285cdc97589fa">init_responce_grids</a> (this)</td></tr>
+<tr class="memdesc:a35ee42f78cd4b971697285cdc97589fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and initialize the response function arrays.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a296a1873e7fc760754f856c9890983ae" id="r_a296a1873e7fc760754f856c9890983ae"><td class="memItemLeft" align="right" valign="top"><a id="a296a1873e7fc760754f856c9890983ae" name="a296a1873e7fc760754f856c9890983ae"></a>
@@ -113,9 +126,9 @@ integer&#160;</td><td class="memItemRight" valign="bottom"><b>mdsig_list_iou</b>
 <tr class="memitem:a1f1edc2b2d80b6500dd84d609fb99b98" id="r_a1f1edc2b2d80b6500dd84d609fb99b98"><td class="memItemLeft" align="right" valign="top"><a id="a1f1edc2b2d80b6500dd84d609fb99b98" name="a1f1edc2b2d80b6500dd84d609fb99b98"></a>
 integer&#160;</td><td class="memItemRight" valign="bottom"><b>mi_iou</b></td></tr>
 <tr class="memdesc:a1f1edc2b2d80b6500dd84d609fb99b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutual inductance list input/output file. <br /></td></tr>
-<tr class="memitem:a2561e8489114eb288a999818c258e56b" id="r_a2561e8489114eb288a999818c258e56b"><td class="memItemLeft" align="right" valign="top"><a id="a2561e8489114eb288a999818c258e56b" name="a2561e8489114eb288a999818c258e56b"></a>
-type(<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>coils</b> =&gt; null()</td></tr>
-<tr class="memdesc:a2561e8489114eb288a999818c258e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linked list containing all the diagnostic coils. <br /></td></tr>
+<tr class="memitem:a5ff147aeaa07345eb8a9f36f8fcb0f2b" id="r_a5ff147aeaa07345eb8a9f36f8fcb0f2b"><td class="memItemLeft" align="right" valign="top"><a id="a5ff147aeaa07345eb8a9f36f8fcb0f2b" name="a5ff147aeaa07345eb8a9f36f8fcb0f2b"></a>
+class(<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>coils</b> =&gt; null()</td></tr>
+<tr class="memdesc:a5ff147aeaa07345eb8a9f36f8fcb0f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linked list containing all the diagnostic coils. <br /></td></tr>
 <tr class="memitem:a58d36844ceaf9b13b7d7654e30c15a9d" id="r_a58d36844ceaf9b13b7d7654e30c15a9d"><td class="memItemLeft" align="right" valign="top"><a id="a58d36844ceaf9b13b7d7654e30c15a9d" name="a58d36844ceaf9b13b7d7654e30c15a9d"></a>
 real(rprec), dimension(:), pointer&#160;</td><td class="memItemRight" valign="bottom"><b>extcur</b> =&gt; null()</td></tr>
 <tr class="memdesc:a58d36844ceaf9b13b7d7654e30c15a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of external field coil currents. <br /></td></tr>
@@ -149,7 +162,158 @@ real(rprec), dimension(:,:,:), pointer&#160;</td><td class="memItemRight" valign
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class representing a v3rfun context. This contains all memory needed to operate v3rfun. </p>
-</div><hr/>The documentation for this type was generated from the following file:<ul>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function/Subroutine Documentation</h2>
+<a id="aac8c44069a83f0b7f5527deafee8ffdb" name="aac8c44069a83f0b7f5527deafee8ffdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac8c44069a83f0b7f5527deafee8ffdb">&#9670;&#160;</a></span>init_field_coils()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure v3rfun_context::v3rfun_context_class::init_field_coils </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct and initialize the field coil objects. </p>
+<p>Allocates memory and the field coil objects then apply the rotations and shits as defined in the namelist inout file.</p>
+<p>@params[in] this An instance of a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>. </p>
+
+</div>
+</div>
+<a id="a35ee42f78cd4b971697285cdc97589fa" name="a35ee42f78cd4b971697285cdc97589fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ee42f78cd4b971697285cdc97589fa">&#9670;&#160;</a></span>init_responce_grids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure v3rfun_context::v3rfun_context_class::init_responce_grids </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate and initialize the response function arrays. </p>
+<p>Allocates memory and for the plasma and conducting shell response function arrays. This does not compute the actual response yet.</p>
+<p>@params[in] this An instance of a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>. </p>
+
+</div>
+</div>
+<a id="aee82defd83f6779598cab73f5747ade1" name="aee82defd83f6779598cab73f5747ade1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee82defd83f6779598cab73f5747ade1">&#9670;&#160;</a></span>v3rfun_context_destruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FINAL v3rfun_context::v3rfun_context_class::v3rfun_context_destruct </td>
+          <td>(</td>
+          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel final">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deconstruct a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> object. </p>
+<p>Deallocates memory and uninitializes a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> object. This all the v3rfun constructed objects are destroyed here.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a43ad9e3fc8db60dae7314eadc583b8a4" name="a43ad9e3fc8db60dae7314eadc583b8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ad9e3fc8db60dae7314eadc583b8a4">&#9670;&#160;</a></span>write_mrf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure v3rfun_context::v3rfun_context_class::write_mrf </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(in)</td>          <td class="paramname"><span class="paramname"><em>d_coil</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)</td>          <td class="paramname"><span class="paramname"><em>id_num</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write out a magnetic coil response function. </p>
+<p>Computes the magnetic response function for each a coil and writes the results to an mdsig file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">d_coil</td><td>A <a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot::diagnostic_dot_coil</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">id_num</td><td>Diagnostic coil number. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a222d2be498d05f851f87c25d00912baf" name="a222d2be498d05f851f87c25d00912baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222d2be498d05f851f87c25d00912baf">&#9670;&#160;</a></span>write_point()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure v3rfun_context::v3rfun_context_class::write_point </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(in)</td>          <td class="paramname"><span class="paramname"><em>d_coil</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)</td>          <td class="paramname"><span class="paramname"><em>id_num</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write out a point probe response. </p>
+<p>Computes the response function for the vacuum field at the point measurement. Point probes are assumed to be outside of the plasma.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">this</td><td>A <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">d_coil</td><td>A <a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot::diagnostic_dot_coil</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">id_num</td><td>Diagnostic coil number. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this type was generated from the following file:<ul>
 <li>V3RFUN/Sources/<a class="el" href="v3rfun__context_8f.html">v3rfun_context.f</a></li>
 </ul>
 </div><!-- contents -->

@@ -18,7 +18,7 @@ var searchData=
   ['code_5fname_15',['code_name',['../namespacev3rfun__context.html#afcdfcb1b978cb3580751e317073f1094',1,'v3rfun_context']]],
   ['coil_16',['coil',['../structdiagnostic__dot_1_1diagnostic__dot__coil.html#a40216e71c71d4ef88445e6b6d23e56d0',1,'diagnostic_dot::diagnostic_dot_coil']]],
   ['coil_5fid_17',['coil_id',['../structmagnetic__response_1_1magnetic__response__class.html#ac10939aa80389743b103a0c3d936d1b7',1,'magnetic_response::magnetic_response_class']]],
-  ['coils_18',['coils',['../structv3rfun__context_1_1v3rfun__context__class.html#a2561e8489114eb288a999818c258e56b',1,'v3rfun_context::v3rfun_context_class']]],
+  ['coils_18',['coils',['../structv3rfun__context_1_1v3rfun__context__class.html#a5ff147aeaa07345eb8a9f36f8fcb0f2b',1,'v3rfun_context::v3rfun_context_class']]],
   ['coils_5fdot_5ffile_19',['coils_dot_file',['../namespacevacuum__input.html#a2bb9564b99591f62f4d9f59a81f806e8',1,'vacuum_input']]],
   ['col_5fscale_20',['col_scale',['../namespaceshared__data.html#ae1ff7bcb6fd97f19a43689b0b5d0f193',1,'shared_data']]],
   ['combination_5findex_21',['combination_index',['../structv3fit__context_1_1v3fit__context__class.html#a4fb0a7b012d440fff14da7e1662a5b0d',1,'v3fit_context::v3fit_context_class']]],

@@ -105,10 +105,10 @@ Data Types</h2></td></tr>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a074343447ea2edf0cf2c83aec5638661" id="r_a074343447ea2edf0cf2c83aec5638661"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>) function, pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a074343447ea2edf0cf2c83aec5638661">v3rfun_context_construct</a> (filename)</td></tr>
 <tr class="memdesc:a074343447ea2edf0cf2c83aec5638661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> object.  <br /></td></tr>
-<tr class="memitem:a3387d554df545c671c05fd9de2d3e18f" id="r_a3387d554df545c671c05fd9de2d3e18f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3387d554df545c671c05fd9de2d3e18f">v3rfun_context_construct_field_coils</a> (this)</td></tr>
-<tr class="memdesc:a3387d554df545c671c05fd9de2d3e18f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct and initialize the field coil objects.  <br /></td></tr>
-<tr class="memitem:a962cecd3372971387cdd6d07910a7965" id="r_a962cecd3372971387cdd6d07910a7965"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a962cecd3372971387cdd6d07910a7965">v3rfun_context_construct_responce_grids</a> (this)</td></tr>
-<tr class="memdesc:a962cecd3372971387cdd6d07910a7965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and initialize the response function arrays.  <br /></td></tr>
+<tr class="memitem:a1a8babfb8f11b39a324c2aff1c190bdd" id="r_a1a8babfb8f11b39a324c2aff1c190bdd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a8babfb8f11b39a324c2aff1c190bdd">v3rfun_context_init_field_coils</a> (this)</td></tr>
+<tr class="memdesc:a1a8babfb8f11b39a324c2aff1c190bdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct and initialize the field coil objects.  <br /></td></tr>
+<tr class="memitem:a9a3c6f52c175e7a151dc47ff684fd917" id="r_a9a3c6f52c175e7a151dc47ff684fd917"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a3c6f52c175e7a151dc47ff684fd917">v3rfun_context_init_responce_grids</a> (this)</td></tr>
+<tr class="memdesc:a9a3c6f52c175e7a151dc47ff684fd917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and initialize the response function arrays.  <br /></td></tr>
 <tr class="memitem:a8615f6e374740ffdbb56e523b2663245" id="r_a8615f6e374740ffdbb56e523b2663245"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8615f6e374740ffdbb56e523b2663245">v3rfun_context_destruct</a> (this)</td></tr>
 <tr class="memdesc:a8615f6e374740ffdbb56e523b2663245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a> object.  <br /></td></tr>
 <tr class="memitem:a634e3b89637eae47ed2a32b9b92d6a19" id="r_a634e3b89637eae47ed2a32b9b92d6a19"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634e3b89637eae47ed2a32b9b92d6a19">v3rfun_context_write_mrf</a> (this, d_coil, id_num)</td></tr>
@@ -146,48 +146,6 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
 
 </div>
 </div>
-<a id="a3387d554df545c671c05fd9de2d3e18f" name="a3387d554df545c671c05fd9de2d3e18f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3387d554df545c671c05fd9de2d3e18f">&#9670;&#160;</a></span>v3rfun_context_construct_field_coils()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine v3rfun_context::v3rfun_context_construct_field_coils </td>
-          <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), pointer</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct and initialize the field coil objects. </p>
-<p>Allocates memory and the field coil objects then apply the rotations and shits as defined in the namelist inout file.</p>
-<p>@params[in] this An instance of a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>. </p>
-
-</div>
-</div>
-<a id="a962cecd3372971387cdd6d07910a7965" name="a962cecd3372971387cdd6d07910a7965"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a962cecd3372971387cdd6d07910a7965">&#9670;&#160;</a></span>v3rfun_context_construct_responce_grids()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine v3rfun_context::v3rfun_context_construct_responce_grids </td>
-          <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), pointer</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocate and initialize the response function arrays. </p>
-<p>Allocates memory and for the plasma and conducting shell response function arrays. This does not compute the actual response yet.</p>
-<p>@params[in] this An instance of a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>. </p>
-
-</div>
-</div>
 <a id="a8615f6e374740ffdbb56e523b2663245" name="a8615f6e374740ffdbb56e523b2663245"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8615f6e374740ffdbb56e523b2663245">&#9670;&#160;</a></span>v3rfun_context_destruct()</h2>
 
@@ -197,7 +155,7 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="memname">subroutine v3rfun_context::v3rfun_context_destruct </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), pointer</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -214,6 +172,48 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
 
 </div>
 </div>
+<a id="a1a8babfb8f11b39a324c2aff1c190bdd" name="a1a8babfb8f11b39a324c2aff1c190bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a8babfb8f11b39a324c2aff1c190bdd">&#9670;&#160;</a></span>v3rfun_context_init_field_coils()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine v3rfun_context::v3rfun_context_init_field_coils </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct and initialize the field coil objects. </p>
+<p>Allocates memory and the field coil objects then apply the rotations and shits as defined in the namelist inout file.</p>
+<p>@params[in] this An instance of a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>. </p>
+
+</div>
+</div>
+<a id="a9a3c6f52c175e7a151dc47ff684fd917" name="a9a3c6f52c175e7a151dc47ff684fd917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3c6f52c175e7a151dc47ff684fd917">&#9670;&#160;</a></span>v3rfun_context_init_responce_grids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine v3rfun_context::v3rfun_context_init_responce_grids </td>
+          <td>(</td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate and initialize the response function arrays. </p>
+<p>Allocates memory and for the plasma and conducting shell response function arrays. This does not compute the actual response yet.</p>
+<p>@params[in] this An instance of a <a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>. </p>
+
+</div>
+</div>
 <a id="a634e3b89637eae47ed2a32b9b92d6a19" name="a634e3b89637eae47ed2a32b9b92d6a19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a634e3b89637eae47ed2a32b9b92d6a19">&#9670;&#160;</a></span>v3rfun_context_write_mrf()</h2>
 
@@ -223,12 +223,12 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="memname">subroutine v3rfun_context::v3rfun_context_write_mrf </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span>, </td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(in)</td>          <td class="paramname"><span class="paramname"><em>d_coil</em></span>, </td>
+          <td class="paramtype">class (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(in)</td>          <td class="paramname"><span class="paramname"><em>d_coil</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -260,12 +260,12 @@ character(len= *), parameter&#160;</td><td class="memItemRight" valign="bottom">
         <tr>
           <td class="memname">subroutine v3rfun_context::v3rfun_context_write_point </td>
           <td>(</td>
-          <td class="paramtype">type (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span>, </td>
+          <td class="paramtype">class (<a class="el" href="structv3rfun__context_1_1v3rfun__context__class.html">v3rfun_context_class</a>), intent(inout)</td>          <td class="paramname"><span class="paramname"><em>this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(in)</td>          <td class="paramname"><span class="paramname"><em>d_coil</em></span>, </td>
+          <td class="paramtype">class (<a class="el" href="structdiagnostic__dot_1_1diagnostic__dot__coil.html">diagnostic_dot_coil</a>), intent(in)</td>          <td class="paramname"><span class="paramname"><em>d_coil</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

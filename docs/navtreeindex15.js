@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"structfourier_1_1fourier__class.html#afc8fcb24934f959eacdfebf3c8417067":[43,0,22,0,4],
+"structfourier_1_1fourier__class.html#afc8fcb24934f959eacdfebf3c8417067":[44,0,30,0,4],
+"structfourier_1_1fourier__class.html#afd8b494c9ad0f7bf08a7c83d1446e0c0":[43,0,22,0,6],
+"structfourier_1_1fourier__class.html#afd8b494c9ad0f7bf08a7c83d1446e0c0":[44,0,30,0,6],
 "structgmres__lib_1_1gmres__info.html":[44,0,31,0],
 "structgradient__descent_1_1gradient__descent__class.html":[43,0,24,0],
 "structgradient__descent_1_1gradient__descent__class.html":[44,0,32,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "structlimiter__grid_1_1limiter__grid__class.html#aed27471708ded593bc742d095844eb6e":[43,0,33,0,6],
 "structlimiter__grid_1_1limiter__grid__class.html#aed27471708ded593bc742d095844eb6e":[44,0,40,0,6],
 "structlimiter__iso__t_1_1limiter__iso__class.html":[43,0,34,0],
-"structlimiter__iso__t_1_1limiter__iso__class.html":[44,0,41,0],
-"structlimiter__iso__t_1_1limiter__iso__class.html#a3fb25f17bf3df01b891be4cab3783f51":[43,0,34,0,3],
-"structlimiter__iso__t_1_1limiter__iso__class.html#a3fb25f17bf3df01b891be4cab3783f51":[44,0,41,0,3],
-"structlimiter__iso__t_1_1limiter__iso__class.html#a4d83152f3514c11540fc4faff6cd812d":[43,0,34,0,4],
-"structlimiter__iso__t_1_1limiter__iso__class.html#a4d83152f3514c11540fc4faff6cd812d":[44,0,41,0,4]
+"structlimiter__iso__t_1_1limiter__iso__class.html":[44,0,41,0]
 };
