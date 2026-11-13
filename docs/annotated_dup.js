@@ -680,9 +680,6 @@ var annotated_dup =
     [ "vmec_file", "namespacevmec__file.html", [
       [ "vmec_file_class", "structvmec__file_1_1vmec__file__class.html", "structvmec__file_1_1vmec__file__class" ]
     ] ],
-    [ "vmec_test", null, [
-      [ "commandline_parser", "classvmec__test_1_1commandline__parser.html", "classvmec__test_1_1commandline__parser" ]
-    ] ],
     [ "vmec_utils", null, [
       [ "getbcyl", "interfacevmec__utils_1_1getbcyl.html", null ],
       [ "getjcyl", "interfacevmec__utils_1_1getjcyl.html", null ],

@@ -59,7 +59,6 @@ var hierarchy =
     [ "read_response_nompi::clresfun", "structread__response__nompi_1_1clresfun.html", null ],
     [ "commandline_parser", "classcommandline__parser.html", null ],
     [ "netcdf_test::commandline_parser", "classnetcdf__test_1_1commandline__parser.html", null ],
-    [ "vmec_test::commandline_parser", "classvmec__test_1_1commandline__parser.html", null ],
     [ "commandline_parser::commandline_parser_class", "structcommandline__parser_1_1commandline__parser__class.html", null ],
     [ "compression::compression_class", "structcompression_1_1compression__class.html", null ],
     [ "compression::compression_construct", "interfacecompression_1_1compression__construct.html", null ],

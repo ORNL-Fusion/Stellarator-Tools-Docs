@@ -67,7 +67,7 @@ var searchData=
   ['magnetic_5fresponse_5fuse_5fshell_64',['magnetic_response_use_shell',['../namespacemagnetic__response.html#a618b82f71541810b185f0b2eea7cd63a',1,'magnetic_response']]],
   ['magnetic_5fresponse_5fuse_5fshell_5fflag_65',['magnetic_response_use_shell_flag',['../namespacemagnetic__response.html#ade73142d3199ee5c7e944e4bed988ea3',1,'magnetic_response']]],
   ['magnetic_5fresponse_5fwrite_66',['magnetic_response_write',['../namespacemagnetic__response.html#ab440979ffdd567a11312502214d8953f',1,'magnetic_response']]],
-  ['main_67',['main',['../main_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;main.cpp'],['../netcdf__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;netcdf_diff.cpp'],['../wout__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;wout_diff.cpp']]],
+  ['main_67',['main',['../main_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;main.cpp'],['../netcdf__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;netcdf_diff.cpp']]],
   ['main_2ecpp_68',['main.cpp',['../main_8cpp.html',1,'']]],
   ['main_5fnli_5ffilename_69',['main_nli_filename',['../namespacev3fit__input.html#ad1c31938a79add9637c1d186dfccd1ff',1,'v3fit_input']]],
   ['major_5fradius_70',['major_radius',['../namespacev3rfun__input.html#a041ad6c614faa5ff51f599f9357ef18f',1,'v3rfun_input']]],

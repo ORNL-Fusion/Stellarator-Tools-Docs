@@ -13,6 +13,5 @@ var searchData=
   ['vmec_5fequilibrium_2ef_10',['vmec_equilibrium.f',['../vmec__equilibrium_8f.html',1,'']]],
   ['vmec_5ffile_2ef_11',['vmec_file.f',['../vmec__file_8f.html',1,'']]],
   ['vmec_5finput_2ef_12',['vmec_input.f',['../vmec__input_8f.html',1,'']]],
-  ['vmec_5fquantities_2ehpp_13',['vmec_quantities.hpp',['../vmec__quantities_8hpp.html',1,'']]],
-  ['vmec_5ftest_5fcommandline_5fparser_2ehpp_14',['vmec_test_commandline_parser.hpp',['../vmec__test__commandline__parser_8hpp.html',1,'']]]
+  ['vmec_5fquantities_2ehpp_13',['vmec_quantities.hpp',['../vmec__quantities_8hpp.html',1,'']]]
 ];

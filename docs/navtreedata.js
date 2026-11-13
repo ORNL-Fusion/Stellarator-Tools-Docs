@@ -166,11 +166,6 @@ var NAVTREE =
       [ "Command Line Arguments", "netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_parsing_arg_sec", null ],
       [ "Programmers Reference", "netcdf_diff_cl_parsing_sec.html#netcdf_diff_cl_pasring_prog_ref_sec", null ]
     ] ],
-    [ "Command Line Arguments", "wout_diff_cl_parsing_sec.html", [
-      [ "Introduction", "wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_intro", null ],
-      [ "Command Line Arguments", "wout_diff_cl_parsing_sec.html#wout_diff_cl_parsing_arg_sec", null ],
-      [ "Programmers Reference", "wout_diff_cl_parsing_sec.html#wout_diff_cl_pasring_prog_ref_sec", null ]
-    ] ],
     [ "Stellarator-Tools", "md_README.html", [
       [ "Documentation", "md_README.html#autotoc_md8", null ],
       [ "Testing", "md_README.html#autotoc_md9", null ],
@@ -473,28 +468,28 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "SURFACE_2Sources_2surface_8f.html",
-"classvmec__test_1_1commandline__parser.html#a0b3a34923bb1e7aa6edbb2d6d7dc4a20",
-"interfaceezspline_1_1ezspline__isindomain.html",
-"interfacepspline__calls_1_1herm2fcnx.html",
-"interfacev3fit__params_1_1param__construct.html",
-"namespacebmw__commandline__parser.html#a30d7722729f6c998607735e30b38f994",
-"namespacefourier.html#a1624922e688e9d0d4dc3817e96dd75ae",
-"namespacemembers_v.html",
-"namespacepchelms.html#a03bada0ad4661ef892054eddba4279c5",
-"namespaceshared__data.html#a8b243dd08c54fb79e1aa91bb0b6fb87e",
-"namespacesxrem__ratio.html#a6a7803b872fb585e2d54e6308e481938",
-"namespacev3fit__params.html#a4f0815c66516006aa28a94e06b322d05",
-"namespacevmec__equilibrium.html#aeced22814edb5c90369367fe8ab1fcb0",
-"structbivariate_1_1bivariate__class.html#ac69f99a812172c2cede1f1b6e22fc933",
-"structece_1_1ece__context.html#aff745f74779d97975f083b10b9e8a372",
-"structfourier_1_1fourier__class.html#afc8fcb24934f959eacdfebf3c8417067",
-"structlimiter__iso__t_1_1limiter__iso__class.html#a3fb25f17bf3df01b891be4cab3783f51",
-"structmodel_1_1model__class.html#ac57fd490ad6b39b0c6397dd00a284f42",
-"structreconstruction_1_1reconstruction__class.html#acca6fb41e9b6e7255e8217d573c04525",
-"structsignal_1_1signal__class.html#aaf4c6dde94c8708cd1679616ec49aa77",
-"structunprimed__grid_1_1unprimed__grid__class.html#a56682ef18522a761c80cc85604bdc53d",
-"structvacuum__equilibrium_1_1vacuum__class.html#a6f4d1d1ca3be0fb900f9f1406529920f",
-"structvmec__equilibrium_1_1vmec__class.html#ae665e06bc782610369cd6885534a036b"
+"commandline__parser_8cpp.html",
+"interfacefftpack_1_1cftrig.html",
+"interfacepspline__calls_1_1mkbicop.html",
+"interfacevacfield__mod_1_1write__invac.html",
+"namespacebmw__commandline__parser.html#acd4277b174db8cc4f89ef2a8572a1edb",
+"namespacefourier.html#a41e6c5528ec17d73f36345622667c8ae",
+"namespacemembers_vars_g.html",
+"namespacepchelms.html#a5c588539b11ef597d1f30c6397af78a6",
+"namespaceshared__data.html#ab4e75e1fc1ed72aef88d3d5fe0d80b2d",
+"namespacethomson.html",
+"namespacev3fit__params.html#a73dff4d4c5afd66a0af37c4720f7390a",
+"namespacevmec__equilibrium.html#af4f2edd1d01924f02f6f034c98ccacfb",
+"structblocktridiagonalsolver_1_1blacsparameters.html",
+"structemission_1_1emission__class.html#aad3b87d7c9017ca5fe4316c9c4eb936e",
+"structgradient__descent_1_1gradient__descent__class.html#a3ebbc855b9f285663ba168d89adaab6e",
+"structlimiter__iso__t_1_1limiter__iso__class.html#a90674089924e8daed74f65eb61e408bc",
+"structmodel_1_1model__class.html#ace2ede44f1e935e64dc731326d85b009",
+"structreconstruction_1_1reconstruction__class.html#adf8ec6e8f3a2d20fed9ff8f9b0e8e790",
+"structsignal_1_1signal__class.html#ac8c29f7c1ffb2980dae3dc06bce53b0e",
+"structunprimed__grid_1_1unprimed__grid__class.html#abe7dc5b1f7ff3b0e5578350c2291ee99",
+"structvacuum__equilibrium_1_1vacuum__class.html#a9b536a1e7b73a3f6f786498858ae593a",
+"structvmec__equilibrium_1_1vmec__descent__class.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -25,7 +25,7 @@ var searchData=
   ['magnetic_5fresponse_5fuse_5fplasma_22',['magnetic_response_use_plasma',['../namespacemagnetic__response.html#a093388178841979640266142545c52ec',1,'magnetic_response']]],
   ['magnetic_5fresponse_5fuse_5fshell_23',['magnetic_response_use_shell',['../namespacemagnetic__response.html#a618b82f71541810b185f0b2eea7cd63a',1,'magnetic_response']]],
   ['magnetic_5fresponse_5fwrite_24',['magnetic_response_write',['../namespacemagnetic__response.html#ab440979ffdd567a11312502214d8953f',1,'magnetic_response']]],
-  ['main_25',['main',['../main_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;main.cpp'],['../netcdf__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;netcdf_diff.cpp'],['../wout__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;wout_diff.cpp']]],
+  ['main_25',['main',['../main_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;main.cpp'],['../netcdf__diff_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;netcdf_diff.cpp']]],
   ['make_5ffull_26',['make_full',['../classsiesta__quantities.html#a8909e221fd56bb5dd2b243786ab88eb0',1,'siesta_quantities::make_full()'],['../classvmec__quantities.html#ab7b0cad0bb993b3fc1d6345cfc8f10c0',1,'vmec_quantities::make_full()']]],
   ['make_5fintegrator_27',['make_integrator',['../namespaceintegration__path.html#a1d15ff606c331a4dd73796f054a6dcc8',1,'integration_path']]],
   ['masterbcastnextop_28',['masterbcastnextop',['../namespaceblocktridiagonalsolver.html#a55f846fad1393c6907320839f6ac58d8',1,'blocktridiagonalsolver']]],
