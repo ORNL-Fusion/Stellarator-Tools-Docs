@@ -104,6 +104,11 @@ var namespaces_dup =
       [ "move_file", "namespacefile__opts.html#a8bc5fac5ddd491f227e5707d4aad9c31", null ],
       [ "path_length", "namespacefile__opts.html#a6d4bd296141c4d14535260607950dae4", null ]
     ] ],
+    [ "fouri_mod", "namespacefouri__mod.html", [
+      [ "fouri", "namespacefouri__mod.html#aa455c466c98fb62310c0adb5460a0470", null ],
+      [ "fouri_asym", "namespacefouri__mod.html#a067a12dad380f0971fedb6bcc38438e4", null ],
+      [ "fouri_sym", "namespacefouri__mod.html#af3a50c6e3484a2cd45ca20578a0ba6db", null ]
+    ] ],
     [ "fourier", "namespacefourier.html", "namespacefourier" ],
     [ "functions", "namespacefunctions.html", [
       [ "function_test", "namespacefunctions.html#a4b77cadc047047e5d4ad957eef187b7d", null ],
